@@ -1,0 +1,122 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: App module for eMule eMuleNVDASupport 2.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-17 12:13+0100\n"
+"PO-Revision-Date: 2012-09-17 12:14+0100\n"
+"Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
+"Language-Team: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
+"X-Poedit-Basepath: C:\\Documents and Settings\\User\\Mis documentos\\Personal\\traducir\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: C:\\Users\\User\\AppData\\Roaming\\nvda\\addons\\eMuleNVDASupport\\appModules\n"
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:115
+msgid "Documentation folder not found."
+msgstr "Carpeta de documentación no encontrada."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:122
+msgid "Opens the documentation folder for this application module."
+msgstr "Abre la carpeta de documentación para el módulo de aplicación actual."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:136
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "Lleva el foco y el ratón a la barra de herramientas principal."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:146
+msgid "Reports the current window."
+msgstr "Indica la ventana actual."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:157
+msgid "Moves the system focus to Name field into Search window."
+msgstr "Lleva el foco al campo Nombre en la ventana Buscar."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:174
+msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, into Search window."
+msgstr "Lleva el foco y el ratón a la lista de parámetros de búsqueda, o al campo de edición de las distintas opciones, dentro de la ventanaBuscar."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:192
+#, fuzzy
+msgid "Moves the system focus to the results list on Search window."
+msgstr "Lleva el foco a la lista de resultados en la ventana Buscar."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:210
+msgid "Moves the system focus and mouse to the Context Tool Bar, so you can move using Tab key."
+msgstr "Lleva el foco y el ratón a la barra de herramientas contextual para poder desplazarse con el tabulador."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:225
+msgid "Moves the system focus to IRC received messages."
+msgstr "Lleva el foco a los mensajes recibidos en IRC."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:238
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr "Lleva el foco y el ratón a los encabezados de la lista actual."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:257
+msgid "Reports the first object of Status Bar."
+msgstr "Lee el primer objeto de la barra de estado."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:265
+msgid "Reports the second object of Status Bar."
+msgstr "Lee el segundo objeto de la barra de estado."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:273
+msgid "Reports the third object of Status Bar."
+msgstr "Lee el tercer objeto de la barra de estado."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:281
+msgid "Reports the fourth object of Status Bar."
+msgstr "Lee el cuarto objeto de la barra de estado."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:299
+#, python-format
+msgid "text \"%s\" not found"
+msgstr "Texto %s no encontrado"
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:299
+msgid "Find Error"
+msgstr "Error de búsqueda"
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:303
+msgid "Type the text you wish to find"
+msgstr "Teclea el texto que quieres buscar"
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:303
+msgid "eMule search"
+msgstr "Búsqueda en eMule"
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:317
+msgid "find a text string from the current cursor position."
+msgstr "Encontrar un fragmento de texto desde la posición actual del cursor."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:330
+msgid "find the next occurrence of the previously entered text string from the current cursor's position."
+msgstr "Encontrar el texto correspondiente a la última búsqueda, posterior a la posición actual del cursor."
+
+#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:343
+msgid "find the previous occurrence of the previously entered text string from the current cursor's position."
+msgstr "Encontrar el texto correspondiente a la última búsqueda, anterior a la posición actual del cursor."
+
+#~ msgid "Reports the first column of the current list item."
+#~ msgstr "Lee la primera columna del elemento de lista actual."
+
+#~ msgid "Copied to clipboard %s"
+#~ msgstr "Copiado al portapapeles %s"
+
+#~ msgid ""
+#~ "Reports the selected column of the current list item. Pressed two times, "
+#~ "copies the column text to clipboard."
+#~ msgstr ""
+#~ "Lee la columna seleccionada del elemento de lista actual. Si se pulsa dos "
+#~ "veces, copia el texto en el portapapeles."
+
+#~ msgid "Reports the next column of the current list item."
+#~ msgstr "Lee la columna siguiente del elemento de lista actual."
+
+#~ msgid "Reports the prior column of the current list item."
+#~ msgstr "Lee la columna anterior del elemento de lista actual."
