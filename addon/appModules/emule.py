@@ -1,6 +1,9 @@
 ﻿# -*- coding: UTF-8 -*-
 
 # eMuleNVDASupport: An app module for eMule
+# Version: 1.1-dev
+# Added support for managing columns
+# Date: 12/05/2013
 # Version: 2.2
 # Now doc file is opened when pressing NVDA+h
 # Date: 23/04/2013
@@ -33,10 +36,9 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	def initOverlayClass(self):
 		for n in xrange(10):
+			self.bindGesture("kb:NVDA+control+%d" % (n), "readColumn")
 			self.bindGesture("kb:NVDA+shift+%d" % (n), "readColumn")
-			self.bindGesture("kb:NVDA+control+shift+%d" % (n), "readColumn")
 		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
-		self.column = ""
 
 	def script_readColumn(self, gesture):
 		try:
@@ -45,21 +47,25 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			col = int(gesture.mainKeyName[-1])
 		if col == 0:
 			col += 10
-		if "control" in gesture.modifierNames:
+		if "shift" in gesture.modifierNames:
 			col += 10
 		self._moveToColumnNumber(col)
-		try:
-			header = self._getColumnHeader(col)
-			subitem = self._getColumnContent(col)
-			self.column = ": ".join([header, subitem])
-		except:
-			pass
 	script_readColumn.__doc__ = _("Reads the specified column for the current item.")
 
 	def script_copyColumn(self, gesture):
-		if api.copyToClip(self.column):
-			ui.message("copied to clipboard %s" % self.column)
-	script_copyColumn.__doc__ = _("Copies the last column selected by using its corresponding number on the current list item.")
+		try:
+			col = api.getNavigatorObject().columnNumber
+		except NotImplementedError:
+			pass
+		try:
+			header = self._getColumnHeader(col)
+			subitem = self._getColumnContent(col)
+			column = ": ".join([header, subitem])
+		except:
+			return
+		if api.copyToClip(column):
+			ui.message("copied to clipboard %s" % column)
+	script_copyColumn.__doc__ = _("Copies the last column selected on the current list item.")
 
 class AppModule(appModuleHandler.AppModule):
 
