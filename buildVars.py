@@ -10,7 +10,7 @@ addon_info = {
 	"addon-name" : "eMule",
 	# Add-on description
 	# TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-	"addon-summary" : _("eMule app module"),
+	"addon-summary" : _("eMule"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
 	"addon-description" : _("""Improves eMule's accessibility with NVDA."""),
