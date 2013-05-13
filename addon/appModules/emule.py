@@ -2,6 +2,8 @@
 
 # eMuleNVDASupport: An app module for eMule
 # Version: 1.1-dev
+# Added comments for translators
+# Date: 13/05/2012
 # Added support for managing columns
 # Date: 12/05/2013
 # Version: 2.2
@@ -50,6 +52,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		if "shift" in gesture.modifierNames:
 			col += 10
 		self._moveToColumnNumber(col)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_readColumn.__doc__ = _("Reads the specified column for the current item.")
 
 	def script_copyColumn(self, gesture):
@@ -64,7 +67,9 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		except:
 			return
 		if api.copyToClip(column):
+			# Translators: Message presented when an item column of the current list is copied to clipboard.
 			ui.message("copied to clipboard %s" % column)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_copyColumn.__doc__ = _("Copies the last column selected on the current list item.")
 
 class AppModule(appModuleHandler.AppModule):
@@ -152,6 +157,7 @@ class AppModule(appModuleHandler.AppModule):
 		if not controlTypes.STATE_FOCUSED in obj.states:
 			obj.setFocus()
 		speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_toolBar.__doc__=_("Moves the system focus and mouse to the main Tool Bar.")
 
 	def script_where(self, gesture):
@@ -159,6 +165,7 @@ class AppModule(appModuleHandler.AppModule):
 		if name is None:
 			return
 		ui.message("%s" % name)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_where.__doc__=_("Reports the current window.")
 
 	def script_name(self, gesture):
@@ -167,6 +174,7 @@ class AppModule(appModuleHandler.AppModule):
 			return
 		obj = self.getToolBar().simpleNext.simpleNext.lastChild
 		obj.setFocus()
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_name.__doc__=_("Moves the system focus to Name field into Search window.")
 
 	def script_searchList(self, gesture):
@@ -181,6 +189,7 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_searchList.__doc__=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, into Search window.")
 
 	def script_results(self, gesture):
@@ -196,6 +205,7 @@ class AppModule(appModuleHandler.AppModule):
 		api.setMouseObject(obj)
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_results.__doc__=_("Moves the system focus to the results list on Search window.")
 
 	def script_mainWindow(self, gesture):
@@ -211,6 +221,7 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_mainWindow.__doc__=_("Moves the system focus and mouse to the Context Tool Bar, so you can move using Tab key.")
 
 	def script_mainIRC(self, gesture):
@@ -223,6 +234,7 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.setFocusObject(obj)
 		speech.speakObject(obj)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_mainIRC.__doc__=_("Moves the system focus to IRC received messages.")
 
 	def script_header(self, gesture):
@@ -233,33 +245,36 @@ class AppModule(appModuleHandler.AppModule):
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
 		speech.speakObject(obj)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_header.__doc__=_("Moves the navigator object and mouse to the current list headers.")
 
 	def script_statusBarFirstChild(self, gesture):
 		if self.statusBarObj(0) is None:
 			return
 		ui.message(self.statusBarObj(0))
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_statusBarFirstChild.__doc__=_("Reports the first object of Status Bar.")
 
 	def script_statusBarSecondChild(self, gesture):
 		if self.statusBarObj(1) is None:
 			return
 		ui.message(self.statusBarObj(1))
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_statusBarSecondChild.__doc__=_("Reports the second object of Status Bar.")
 
 	def script_statusBarThirdChild(self, gesture):
 		if self.statusBarObj(2) is None:
 			return
 		ui.message(self.statusBarObj(2))
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_statusBarThirdChild.__doc__=_("Reports the third object of Status Bar.")
 
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is None:
 			return
 		ui.message(self.statusBarObj(3))
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_statusBarForthChild.__doc__=_("Reports the fourth object of Status Bar.")
-
-
 
 	def getDocFolder(self):
 		langs = [languageHandler.getLanguage(), "en"]
@@ -291,6 +306,7 @@ class AppModule(appModuleHandler.AppModule):
 			os.startfile(self.getDocPath("readme.html"))
 		except WindowsError:
 			pass
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_about.__doc__ = _("Opens documentation for current NVDA's language.")
 
 	def doFindText(self,text,reverse=False):
@@ -308,12 +324,22 @@ class AppModule(appModuleHandler.AppModule):
 			info.move(textInfos.UNIT_LINE,1,endPoint="end")
 			speech.speakTextInfo(info,reason=controlTypes.REASON_CARET)
 		else:
-			wx.CallAfter(gui.messageBox,_('text "%s" not found')%text,_("Find Error"),wx.OK|wx.ICON_ERROR)
+			wx.CallAfter(gui.messageBox,
+			# Translators: Label of a dialog presented when the specified string of text is not found.
+			_('text "%s" not found')%text,
+			# Translators: Title of a dialog presented when the specified string of text is not found.
+			_("Find Error"),
+			wx.OK|wx.ICON_ERROR)
 		global _lastFindText
 		_lastFindText = text
 
 	def doFindTextDialog(self):
-		d = wx.TextEntryDialog(gui.mainFrame, _("Type the text you wish to find"), _("eMule search"), defaultValue=_lastFindText)
+		d = wx.TextEntryDialog(gui.mainFrame,
+		# Translators: Label of a dialog for searching a specified string of text.
+		_("Type the text you wish to find"),
+		# Translators: Title of a dialog for searching a specified string of text.
+		_("eMule search"),
+		defaultValue=_lastFindText)
 		def callback(result):
 			if result == wx.ID_OK:
 				# Make sure this happens after focus returns to the document.
@@ -321,8 +347,8 @@ class AppModule(appModuleHandler.AppModule):
 		gui.runScriptModalDialog(d, callback)
 
 	def script_find(self,gesture):
-
 		self.doFindTextDialog()
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_find.__doc__ = _("find a text string from the current cursor position.")
 
 	def script_findNext(self,gesture):
@@ -335,6 +361,7 @@ class AppModule(appModuleHandler.AppModule):
 			self.doFindTextDialog()
 			return
 		self.doFindText(_lastFindText)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_findNext.__doc__ = _("find the next occurrence of the previously entered text string from the current cursor's position.")
 
 	def script_findPrevious(self,gesture):
@@ -347,6 +374,7 @@ class AppModule(appModuleHandler.AppModule):
 			self.doFindTextDialog()
 			return
 		self.doFindText(_lastFindText,reverse=True)
+	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_findPrevious.__doc__ = _("find the previous occurrence of the previously entered text string from the current cursor's position.")
 
 	__gestures = {

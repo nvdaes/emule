@@ -4,4 +4,3 @@
 *.pyc
 *.nvda-addon
 .sconsign.dblite
-*.exe
