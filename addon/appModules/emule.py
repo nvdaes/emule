@@ -1,4 +1,4 @@
-﻿# -*- coding: UTF-8 -*-
+# -*- coding: UTF-8 -*-
 
 # eMuleNVDASupport: An app module for eMule
 # Version: 1.1-dev
