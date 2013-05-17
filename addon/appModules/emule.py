@@ -2,6 +2,8 @@
 
 # eMuleNVDASupport: An app module for eMule
 # Version: 1.1-dev
+# Fixed bug in script_find: Now works just on readonly edit controls
+# Date: 17/05/2013
 # Added comments for translators
 # Date: 13/05/2012
 # Added support for managing columns
@@ -347,6 +349,11 @@ class AppModule(appModuleHandler.AppModule):
 		gui.runScriptModalDialog(d, callback)
 
 	def script_find(self,gesture):
+		obj = api.getFocusObject()
+		if obj is None:
+			return
+		if not (obj.role == controlTypes.ROLE_EDITABLETEXT and controlTypes.STATE_READONLY in obj.states):
+			return
 		self.doFindTextDialog()
 	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_find.__doc__ = _("find a text string from the current cursor position.")
