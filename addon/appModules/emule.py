@@ -303,7 +303,7 @@ class AppModule(appModuleHandler.AppModule):
 				docPath = docFile
 		return docPath
 
-	def script_about(self, evt):
+	def script_about(self, gesture):
 		try:
 			os.startfile(self.getDocPath("readme.html"))
 		except WindowsError:
