@@ -37,7 +37,7 @@ To explore all the different commands of this Add-on you can to turn on input he
 
 ## managing columns. ##
 
-When within a lists you can move the caret between the rows and columns using alt+control+ Arrows.
+When within a list you can move the caret between the rows and columns using alt+control+ Arrows.
 
 In this Add-on the following key commands are also available:
 
@@ -47,6 +47,6 @@ In this Add-on the following key commands are also available:
 
 ##References: ##
 
-*	More information [from nvda-project.org[(Http://community.nvda-project.org/ticket/1434)
+*	More information [from nvda-project.org](Http://community.nvda-project.org/ticket/1434)
 *	[Download from Wuala](www.wuala.com/programas para ciegos/Complementos para NVDA/add-ons/)
 *	[EMule Official Website](http://www.emule-project.net)
