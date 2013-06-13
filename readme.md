@@ -1,8 +1,10 @@
 [[!meta title="Addon for eMule0.50A"]]
 
-#eMule Add-on user guide#
+* Authors: Noelia, Chris.
 
-##Utility: ##
+# eMule Add-on user guide #
+
+## Utility: ##
 
 Add-on for increasing eMule accessibility with NVDA.
 
@@ -14,7 +16,7 @@ Tested on eMule 0.50a.
 
 To install the module use the Addon Manager, as indicated in paragraph 9.3 in User's Guide of NVDA, from the Help menu NVDA+n.
 
-##Key Commands: ##
+## Key Commands: ##
 
 *	control+shift+h: Movess focus and mouse to main toolbar.
 *	control+shift+t: Reads the current window.
@@ -45,8 +47,11 @@ In this Add-on the following key commands are also available:
 *    nvda+shift+1-0: Allows to read the correspondent column, from 11th to 20th. 
 *    nvda+shift+C: Copies to clipboard the contents of the last column read.
 
-##References: ##
+## References: ##
 
 *	More information [from nvda-project.org](Http://community.nvda-project.org/ticket/1434)
 *	[Download from Wuala](www.wuala.com/programas para ciegos/Complementos para NVDA/add-ons/)
 *	[EMule Official Website](http://www.emule-project.net)
+
+## Changes for 1.0 ##
+* Initial version.
