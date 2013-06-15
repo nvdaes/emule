@@ -55,7 +55,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			col += 10
 		self._moveToColumnNumber(col)
 	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_readColumn.__doc__ = _("Reads the specified column for the current item.")
+	script_readColumn.__doc__ = _("Reads the specified column for the current list item.")
 
 	def script_copyColumn(self, gesture):
 		try:

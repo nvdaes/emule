@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: App module for eMule eMuleNVDASupport 2.1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2012-09-17 12:13+0100\n"
-"PO-Revision-Date: 2012-09-17 12:14+0100\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
+"POT-Creation-Date: 2013-06-14 21:20+0200\n"
+"PO-Revision-Date: 2013-06-15 12:48+0100\n"
 "Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "Language-Team: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -16,94 +16,134 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 "X-Poedit-SearchPath-0: C:\\Users\\User\\AppData\\Roaming\\nvda\\addons\\eMuleNVDASupport\\appModules\n"
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:115
-msgid "Documentation folder not found."
-msgstr "Carpeta de documentación no encontrada."
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:58
+msgid "Reads the specified column for the current list item."
+msgstr "Lee la primera columna del elemento de lista actual."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:122
-msgid "Opens the documentation folder for this application module."
-msgstr "Abre la carpeta de documentación para el módulo de aplicación actual."
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:75
+msgid "Copies the last column selected on the current list item."
+msgstr "Copia la última columna seleccionada en el elemento de lista actual."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:136
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:163
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "Lleva el foco y el ratón a la barra de herramientas principal."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:146
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:171
 msgid "Reports the current window."
 msgstr "Indica la ventana actual."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:157
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:180
 msgid "Moves the system focus to Name field into Search window."
 msgstr "Lleva el foco al campo Nombre en la ventana Buscar."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:174
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:195
 msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, into Search window."
 msgstr "Lleva el foco y el ratón a la lista de parámetros de búsqueda, o al campo de edición de las distintas opciones, dentro de la ventanaBuscar."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:192
-#, fuzzy
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:211
 msgid "Moves the system focus to the results list on Search window."
 msgstr "Lleva el foco a la lista de resultados en la ventana Buscar."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:210
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:227
 msgid "Moves the system focus and mouse to the Context Tool Bar, so you can move using Tab key."
 msgstr "Lleva el foco y el ratón a la barra de herramientas contextual para poder desplazarse con el tabulador."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:225
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:240
 msgid "Moves the system focus to IRC received messages."
 msgstr "Lleva el foco a los mensajes recibidos en IRC."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:238
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:251
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr "Lleva el foco y el ratón a los encabezados de la lista actual."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:257
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:258
 msgid "Reports the first object of Status Bar."
 msgstr "Lee el primer objeto de la barra de estado."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:265
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:265
 msgid "Reports the second object of Status Bar."
 msgstr "Lee el segundo objeto de la barra de estado."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:273
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:272
 msgid "Reports the third object of Status Bar."
 msgstr "Lee el tercer objeto de la barra de estado."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:281
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:279
 msgid "Reports the fourth object of Status Bar."
 msgstr "Lee el cuarto objeto de la barra de estado."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:299
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:312
+msgid "Opens documentation for current NVDA's language."
+msgstr "Abre la documentación para el idioma actual de NVDA."
+
+#. Translators: Label of a dialog presented when the specified string of text is not found.
+#: addon\appModules\emule.py:331
 #, python-format
 msgid "text \"%s\" not found"
 msgstr "Texto %s no encontrado"
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:299
+#. Translators: Title of a dialog presented when the specified string of text is not found.
+#: addon\appModules\emule.py:333
 msgid "Find Error"
 msgstr "Error de búsqueda"
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:303
+#. Translators: Label of a dialog for searching a specified string of text.
+#: addon\appModules\emule.py:341
 msgid "Type the text you wish to find"
 msgstr "Teclea el texto que quieres buscar"
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:303
+#. Translators: Title of a dialog for searching a specified string of text.
+#: addon\appModules\emule.py:343
 msgid "eMule search"
 msgstr "Búsqueda en eMule"
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:317
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:359
 msgid "find a text string from the current cursor position."
 msgstr "Encontrar un fragmento de texto desde la posición actual del cursor."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:330
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:372
 msgid "find the next occurrence of the previously entered text string from the current cursor's position."
 msgstr "Encontrar el texto correspondiente a la última búsqueda, posterior a la posición actual del cursor."
 
-#: C:\Users\User\AppData\Roaming\nvda\addons\eMuleNVDASupport\appModules/emule.py:343
+#. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+#: addon\appModules\emule.py:385
 msgid "find the previous occurrence of the previously entered text string from the current cursor's position."
 msgstr "Encontrar el texto correspondiente a la última búsqueda, anterior a la posición actual del cursor."
 
-#~ msgid "Reports the first column of the current list item."
-#~ msgstr "Lee la primera columna del elemento de lista actual."
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:13
+msgid "eMule"
+msgstr "eMule"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid "Improves eMule's accessibility with NVDA."
+msgstr "Mejora la accesibilidad de eMule con NVDA."
+
+#. Translators: Tooltip for an addon menu item.
+#: docHandler.py:60
+#, python-format
+msgid "Opens documentation for %s"
+msgstr "Abre la documentación para %s"
 
 #~ msgid "Copied to clipboard %s"
 #~ msgstr "Copiado al portapapeles %s"
