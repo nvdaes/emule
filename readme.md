@@ -43,9 +43,9 @@ When within a list you can move the caret between the rows and columns using alt
 
 In this Add-on the following key commands are also available:
 
-*    nvda+control+1-0: Allows to Read the first 10 columns. 
-*    nvda+shift+1-0: Allows to read the correspondent column, from 11th to 20th. 
-*    nvda+shift+C: Copies to clipboard the contents of the last column read.
+*Â Â Â  nvda+control+1-0: Allows to Read the first 10 columns. 
+*Â Â Â  nvda+shift+1-0: Allows to read the correspondent column, from 11th to 20th. 
+*Â Â Â  nvda+shift+C: Copies to clipboard the contents of the last column read.
 
 ## References: ##
 

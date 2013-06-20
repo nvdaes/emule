@@ -13,7 +13,11 @@ addon_info = {
 	"addon-summary" : _("eMule"),
 	# Add-on description
 	# Translators: Long description to be shown for this add-on on installation and add-on information
-	"addon-description" : _("""Improves eMule's accessibility with NVDA."""),
+	"addon-description" : _("""Improves eMule's accessibility with NVDA.
+	eMule is a P2P program to search and share files.
+	You can get more information about eMule at
+	http://www.emule-project.net
+	"""),
 	# version
 	"addon-version" : "1.0-dev",
 	# Author(s)
