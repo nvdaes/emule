@@ -109,13 +109,7 @@ def createAddonHelp(dir):
 	docPath = os.path.join(plugindir, docFilename)
 	if not os.path.isdir(plugindir):
 		os.makedirs(plugindir)
-	shutil.copy("docHandler.py", plugindir)
-	curdir = os.getcwd()
-	if os.path.isfile(docPath):
-		os.unlink(docPath)
-	os.chdir(plugindir)
-	os.rename("docHandler.py", docFilename)
-	os.chdir(curdir)
+	shutil.copyfile("docHandler.py", docPath)
 
 def createAddonBundleFromPath(path, dest):
 	""" Creates a bundle from a directory that contains an addon manifest file."""
