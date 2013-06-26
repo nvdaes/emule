@@ -70,7 +70,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			return
 		if api.copyToClip(column):
 			# Translators: Message presented when an item column of the current list is copied to clipboard.
-			ui.message("copied to clipboard %s" % column)
+			ui.message(_("%s copied to clipboard") % column)
 	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 	script_copyColumn.__doc__ = _("Copies the last column selected on the current list item.")
 
