@@ -2,25 +2,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eMule\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-06-20 23:28+0200\n"
-"PO-Revision-Date: 2013-06-24 23:45+0100\n"
-"Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
+"POT-Creation-Date: 2013-06-26 07:31+0200\n"
+"PO-Revision-Date: 2013-06-26 22:24+0100\n"
+"Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "Language-Team: \n"
-"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Language: fr_FR\n"
 "X-Poedit-KeywordsList: _;gettext;gettext_noop\n"
-"X-Poedit-Basepath: C:\\Documents and Settings\\User\\Mis documentos\\Personal"
-"\\traducir\n"
+"X-Poedit-Basepath: C:\\Documents and Settings\\User\\Mis documentos\\Personal\\traducir\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Poedit-SearchPath-0: C:\\Users\\User\\AppData\\Roaming\\nvda\\addons"
-"\\eMuleNVDASupport\\appModules\n"
+"X-Poedit-SearchPath-0: C:\\Users\\User\\AppData\\Roaming\\nvda\\addons\\eMuleNVDASupport\\appModules\n"
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:58
 msgid "Reads the specified column for the current list item."
 msgstr "Lit la première colonne de l'élément de liste actuel."
+
+#. Translators: Message presented when an item column of the current list is copied to clipboard.
+#: addon\appModules\emule.py:73
+#, python-format
+msgid "%s copied to clipboard"
+msgstr "%s copié dans le presse-papiers"
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:75
@@ -30,8 +34,7 @@ msgstr "Copie la dernière colonne sélectionnée dans l'élément de liste actu
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:163
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr ""
-"Déplace le focus et le pointeur de la souris à la barre d'outils principale."
+msgstr "Déplace le focus et le pointeur de la souris à la barre d'outils principale."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:171
@@ -45,12 +48,8 @@ msgstr "Déplace le focus au champ Nom dans la fenêtre Recherches."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:195
-msgid ""
-"Moves the system focus and mouse to the search parameters list or Edit field "
-"for each option, into Search window."
-msgstr ""
-"Déplace le focus et le pointeur de la souris sur les options de recherche "
-"avancée."
+msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, into Search window."
+msgstr "Déplace le focus et le pointeur de la souris sur les options de recherche avancée."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:211
@@ -59,12 +58,8 @@ msgstr "Déplace le curseur sur les résultats de la recherche."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:227
-msgid ""
-"Moves the system focus and mouse to the Context Tool Bar, so you can move "
-"using Tab key."
-msgstr ""
-"Déplace le pointeur de la souris et le Focus vers la barre de menus de la "
-"fenêtre principale, vous permettant de naviguer avec la touche TAB."
+msgid "Moves the system focus and mouse to the Context Tool Bar, so you can move using Tab key."
+msgstr "Déplace le pointeur de la souris et le Focus vers la barre de menus de la fenêtre principale, vous permettant de naviguer avec la touche TAB."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:240
@@ -74,9 +69,7 @@ msgstr "Déplace le focus sur la fenêtre des messages reçu dans le chat IRC."
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:251
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr ""
-"Déplace le Navigateur d'objets et le pointeur de la souris sur les en-têtes "
-"de la liste actuelle."
+msgstr "Déplace le Navigateur d'objets et le pointeur de la souris sur les en-têtes de la liste actuelle."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:258
@@ -131,21 +124,13 @@ msgstr "Rechercher une chaîne de texte depuis la position actuelle du curseur."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:372
-msgid ""
-"find the next occurrence of the previously entered text string from the "
-"current cursor's position."
-msgstr ""
-"Rechercher une chaîne de texte correspondant à la dernière recherche, "
-"postérieure à la position actuelle du curseur."
+msgid "find the next occurrence of the previously entered text string from the current cursor's position."
+msgstr "Rechercher une chaîne de texte correspondant à la dernière recherche, postérieure à la position actuelle du curseur."
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:385
-msgid ""
-"find the previous occurrence of the previously entered text string from the "
-"current cursor's position."
-msgstr ""
-"Rechercher une chaîne de texte correspondant à la dernière recherche, "
-"antérieure à la position actuelle du curseur."
+msgid "find the previous occurrence of the previously entered text string from the current cursor's position."
+msgstr "Rechercher une chaîne de texte correspondant à la dernière recherche, antérieure à la position actuelle du curseur."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -177,9 +162,6 @@ msgstr "Ouvre la documentation pour %s"
 
 #~ msgid "Improves eMule's accessibility with NVDA."
 #~ msgstr "Améliore l'accessibilité d'eMule avec NVDA."
-
-#~ msgid "Copied to clipboard %s"
-#~ msgstr "Copiado al portapapeles %s"
 
 #~ msgid ""
 #~ "Reports the selected column of the current list item. Pressed two times, "

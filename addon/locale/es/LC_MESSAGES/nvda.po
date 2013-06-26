@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: eMule\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
 "POT-Creation-Date: 2013-06-26 07:31+0200\n"
-"PO-Revision-Date: 2013-06-26 07:33+0100\n"
+"PO-Revision-Date: 2013-06-26 22:25+0100\n"
 "Last-Translator: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "Language-Team: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "Lee la primera columna del elemento de lista actual."
 #: addon\appModules\emule.py:73
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s Copiado al portapapeles"
+msgstr "%s copiado al portapapeles"
 
 #. Translators: message presented in input mode, when a keystroke of an addon script is pressed.
 #: addon\appModules\emule.py:75
