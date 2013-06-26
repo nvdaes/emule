@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eMule\n"
 "Report-Msgid-Bugs-To: 'nvda-translations@freelists.org'\n"
-"POT-Creation-Date: 2013-06-14 21:20+0200\n"
-"PO-Revision-Date: 2013-06-14 22:12+0100\n"
+"POT-Creation-Date: 2013-06-20 23:28+0200\n"
+"PO-Revision-Date: 2013-06-21 23:18+0100\n"
 "Last-Translator: Chris <llajta2012@hotmail.com>\n"
 "Language-Team: Noelia Ruiz Martínez <nrm1977@gmail.com>\n"
 "MIME-Version: 1.0\n"
@@ -136,14 +136,27 @@ msgstr "eMule"
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
 #: buildVars.py:16
-msgid "Improves eMule's accessibility with NVDA."
-msgstr "Migliora l'accessibilità di eMule con NVDA"
+msgid ""
+"Improves eMule's accessibility with NVDA.\n"
+"\teMule is a P2P program to search and share files.\n"
+"\tYou can get more information about eMule at\n"
+"\thttp://www.emule-project.net\n"
+"\t"
+msgstr ""
+"Facilita l'accessibilità di eMule con NVDA.\n"
+"\teMule è un programma P2P per ricercare e condividere file.\n"
+"\tÈ possibile ottenere ulteriori informazioni su eMule al link\n"
+"\thttp://www.emule-project.net/\n"
+"\t"
 
 #. Translators: Tooltip for an addon menu item.
 #: docHandler.py:60
 #, python-format
 msgid "Opens documentation for %s"
 msgstr "Apre la documentazione per %s"
+
+#~ msgid "Improves eMule's accessibility with NVDA."
+#~ msgstr "Migliora l'accessibilità di eMule con NVDA"
 
 #~ msgid "Documentation folder not found."
 #~ msgstr "nessuna documentazione per la lingua selezionata."

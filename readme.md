@@ -16,7 +16,7 @@ To install the module use the Addon Manager, as indicated in paragraph 9.3 in Us
 
 ## Key Commands: ##
 
-*	control+shift+h: Movess focus and mouse to main toolbar.
+*	control+shift+h: Moves focus and mouse to main toolbar.
 *	control+shift+t: Reads the current window.
 *	control+shift+n: Moves the focus to the Name field in the Find window.
 *	control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
@@ -48,8 +48,5 @@ In this Add-on the following key commands are also available:
 ## References: ##
 
 *	More information [from nvda-project.org](Http://community.nvda-project.org/ticket/1434)
-*	[Download from Wuala](www.wuala.com/programas para ciegos/Complementos para NVDA/add-ons/)
+*	[Download from Wuala](http://www.wuala.com/programas%20para%20ciegos/Complementos%20para%20NVDA/add-ons/)
 *	[EMule Official Website](http://www.emule-project.net)
-
-## Changes for 1.0 ##
-* Initial version.
