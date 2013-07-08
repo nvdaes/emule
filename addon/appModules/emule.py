@@ -54,7 +54,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		if "shift" in gesture.modifierNames:
 			col += 10
 		self._moveToColumnNumber(col)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+	# Translators: Message presented in input help mode.
 	script_readColumn.__doc__ = _("Reads the specified column for the current list item.")
 
 	def script_copyColumn(self, gesture):
@@ -69,10 +69,10 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		except:
 			return
 		if api.copyToClip(column):
-			# Translators: Message presented when an item column of the current list is copied to clipboard.
+			# Translators: Message presented when the current column of the list item is copied to clipboard. 
 			ui.message(_("%s copied to clipboard") % column)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_copyColumn.__doc__ = _("Copies the last column selected on the current list item.")
+	# Translators: Message presented in input help mode.
+	script_copyColumn.__doc__ = _("Copies the last read column of the selected list item to clipboard.")
 
 class AppModule(appModuleHandler.AppModule):
 
@@ -159,7 +159,7 @@ class AppModule(appModuleHandler.AppModule):
 		if not controlTypes.STATE_FOCUSED in obj.states:
 			obj.setFocus()
 		speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+	# Translators: Message presented in input help mode
 	script_toolBar.__doc__=_("Moves the system focus and mouse to the main Tool Bar.")
 
 	def script_where(self, gesture):
@@ -167,7 +167,7 @@ class AppModule(appModuleHandler.AppModule):
 		if name is None:
 			return
 		ui.message("%s" % name)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+	# Translators: Message presented in input help mode.
 	script_where.__doc__=_("Reports the current window.")
 
 	def script_name(self, gesture):
@@ -176,8 +176,8 @@ class AppModule(appModuleHandler.AppModule):
 			return
 		obj = self.getToolBar().simpleNext.simpleNext.lastChild
 		obj.setFocus()
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_name.__doc__=_("Moves the system focus to Name field into Search window.")
+	# Translators: Message presented in input help mode.
+	script_name.__doc__=_("Moves the system focus to the Name field of the Search window.")
 
 	def script_searchList(self, gesture):
 		where = self.getWhere()
@@ -191,8 +191,8 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_searchList.__doc__=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, into Search window.")
+	# Translators: Message presented in input help mode.
+	script_searchList.__doc__=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window.")
 
 	def script_results(self, gesture):
 		where = self.getWhere()
@@ -207,8 +207,8 @@ class AppModule(appModuleHandler.AppModule):
 		api.setMouseObject(obj)
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_results.__doc__=_("Moves the system focus to the results list on Search window.")
+	# Translators: Message presented in input help mode.
+	script_results.__doc__=_("Moves the system focus to the results list in the Search window.")
 
 	def script_mainWindow(self, gesture):
 		where = self.getWhere()
@@ -223,8 +223,8 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_mainWindow.__doc__=_("Moves the system focus and mouse to the Context Tool Bar, so you can move using Tab key.")
+	# Translators: Message presented in input help mode.
+	script_mainWindow.__doc__=_("Moves the system focus and mouse to the Context Tool Bar, where the Tab key can be used to move among the items.")
 
 	def script_mainIRC(self, gesture):
 		where = self.getWhere()
@@ -236,8 +236,8 @@ class AppModule(appModuleHandler.AppModule):
 		obj.setFocus()
 		api.setFocusObject(obj)
 		speech.speakObject(obj)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_mainIRC.__doc__=_("Moves the system focus to IRC received messages.")
+	# Translators: Message presented in input help mode.
+	script_mainIRC.__doc__=_("Moves the system focus to the IRC received messages.")
 
 	def script_header(self, gesture):
 		obj = self.getHeader()
@@ -247,36 +247,36 @@ class AppModule(appModuleHandler.AppModule):
 		api.moveMouseToNVDAObject(obj)
 		api.setMouseObject(obj)
 		speech.speakObject(obj)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
+	# Translators: Message presented in input help mode.
 	script_header.__doc__=_("Moves the navigator object and mouse to the current list headers.")
 
 	def script_statusBarFirstChild(self, gesture):
 		if self.statusBarObj(0) is None:
 			return
 		ui.message(self.statusBarObj(0))
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_statusBarFirstChild.__doc__=_("Reports the first object of Status Bar.")
+	# Translators: Message presented in input help mode.
+	script_statusBarFirstChild.__doc__=_("Reports first object of the Status Bar.")
 
 	def script_statusBarSecondChild(self, gesture):
 		if self.statusBarObj(1) is None:
 			return
 		ui.message(self.statusBarObj(1))
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_statusBarSecondChild.__doc__=_("Reports the second object of Status Bar.")
+	# Translators: Message presented in input help mode.
+	script_statusBarSecondChild.__doc__=_("Reports second object of the Status Bar.")
 
 	def script_statusBarThirdChild(self, gesture):
 		if self.statusBarObj(2) is None:
 			return
 		ui.message(self.statusBarObj(2))
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_statusBarThirdChild.__doc__=_("Reports the third object of Status Bar.")
+	# Translators: Message presented in input help mode.
+	script_statusBarThirdChild.__doc__=_("Reports third object of the Status Bar.")
 
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is None:
 			return
 		ui.message(self.statusBarObj(3))
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_statusBarForthChild.__doc__=_("Reports the fourth object of Status Bar.")
+	# Translators: Message presented in input help mode.
+	script_statusBarForthChild.__doc__=_("Reports fourth object of the Status Bar.")
 
 	def getDocFolder(self):
 		langs = [languageHandler.getLanguage(), "en"]
@@ -308,8 +308,8 @@ class AppModule(appModuleHandler.AppModule):
 			os.startfile(self.getDocPath("readme.html"))
 		except WindowsError:
 			pass
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_about.__doc__ = _("Opens documentation for current NVDA's language.")
+	# Translators: Message presented in input help mode.
+	script_about.__doc__ = _("Opens addon documentation.")
 
 	def doFindText(self,text,reverse=False):
 		if not text:
@@ -337,9 +337,9 @@ class AppModule(appModuleHandler.AppModule):
 
 	def doFindTextDialog(self):
 		d = wx.TextEntryDialog(gui.mainFrame,
-		# Translators: Label of a dialog for searching a specified string of text.
-		_("Type the text you wish to find"),
-		# Translators: Title of a dialog for searching a specified string of text.
+		# Translators: Label for a search box.
+        _("Search for:"),
+		# Translators: title for the search dialog.
 		_("eMule search"),
 		defaultValue=_lastFindText)
 		def callback(result):
@@ -355,8 +355,8 @@ class AppModule(appModuleHandler.AppModule):
 		if not (obj.role == controlTypes.ROLE_EDITABLETEXT and controlTypes.STATE_READONLY in obj.states):
 			return
 		self.doFindTextDialog()
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_find.__doc__ = _("find a text string from the current cursor position.")
+	# Translators: Message presented in input help mode
+	script_find.__doc__ = _("Opens the find dialog when in read only edit boxes.")
 
 	def script_findNext(self,gesture):
 		obj = api.getFocusObject()
@@ -368,8 +368,8 @@ class AppModule(appModuleHandler.AppModule):
 			self.doFindTextDialog()
 			return
 		self.doFindText(_lastFindText)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_findNext.__doc__ = _("find the next occurrence of the previously entered text string from the current cursor's position.")
+	# Translators: Message presented in input help mode.
+	script_findNext.__doc__ = _("Find next occurence.")
 
 	def script_findPrevious(self,gesture):
 		obj = api.getFocusObject()
@@ -381,8 +381,8 @@ class AppModule(appModuleHandler.AppModule):
 			self.doFindTextDialog()
 			return
 		self.doFindText(_lastFindText,reverse=True)
-	# Translators: message presented in input mode, when a keystroke of an addon script is pressed.
-	script_findPrevious.__doc__ = _("find the previous occurrence of the previously entered text string from the current cursor's position.")
+	# Translators: Message presented in input help mode.
+	script_findPrevious.__doc__ = _("Find previous occurrence.")
 
 	__gestures = {
 		"kb:control+shift+h": "toolBar",

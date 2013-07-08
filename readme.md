@@ -29,12 +29,12 @@ Tested on [eMule][2] 0.50a.
 
 ## Managing columns. ##
 
-When within a list you can move the caret between the rows and columns using alt+control+ Arrows.
+When within a list, you can move the caret between the rows and columns using alt+control+ Arrows.
 In this Add-on the following key commands are also available:
 
-*	nvda+control+1-0: Allows to Read the first 10 columns. 
-*	nvda+shift+1-0: Reads corresponding column, from 11th to 20th. 
-*	nvda+shift+C: Copies the contents of the last column read to the clipboard.
+*	nvda+control+1-0: Reads the first 10 columns. 
+*	nvda+shift+1-0: Reads columns 11 to 20. 
+*	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 [2]: http://www.emule-project.net
