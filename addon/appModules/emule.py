@@ -168,6 +168,7 @@ class AppModule(appModuleHandler.AppModule):
 			return
 		ui.message("%s" % name)
 	# Translators: Message presented in input help mode.
+	# For instance: reads the search window, Statistics, IRC, etc.
 	script_where.__doc__=_("Reports the current window.")
 
 	def script_name(self, gesture):
