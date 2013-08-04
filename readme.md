@@ -6,6 +6,8 @@
 This add-on helps to improve accessibility of eMule with nVDA.
 Also provides additional keyboard commands for moving in different windows and gives Useful information of eMule.
 
+It's based on eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.
+
 Tested on [eMule][2] 0.50a.
 
 ## Key Commands: ##
