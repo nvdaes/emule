@@ -1,4 +1,4 @@
-[[!meta title="Addon for eMule0.50A"]]
+[[!meta title="eMule 0.50A"]]
 
 * Authors: Noelia, Chris.
 * download [version 1.0-dev][1]
