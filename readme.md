@@ -17,7 +17,7 @@ Tested on [eMule][2] 0.50a.
 *	control+shift+n: Moves the focus to the Name field in the Find window.
 *	control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
 *	control+shift+b: Move the focus to the list of results in the Search window.
-*	control+shift+z: Moves focus and mouse to contextual toolbar. You can move within the toolbar using the Tab key.
+*	control+shift+z: Moves focus and mouse to contextual toolbar. You can move from the toolbar using the Tab key.
 *	control+shift+o: Moves the focus to the IRC received messages window.
 *	control+NVDA+f: If the caret is located in an read only edit box, opens a find dialog.
 *	control+f3: Finds the next occurrence of the text that you previously searched in read only edit boxes.
@@ -37,6 +37,9 @@ In this Add-on the following key commands are also available:
 *	nvda+control+1-0: Reads the first 10 columns. 
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
+
+## Changes for 1.0 ##
+*	 Initial version.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 [2]: http://www.emule-project.net
