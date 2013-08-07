@@ -42,4 +42,6 @@ In this Add-on the following key commands are also available:
 *	 Initial version.
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
+
 [2]: http://www.emule-project.net
+
