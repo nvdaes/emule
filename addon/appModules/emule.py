@@ -30,6 +30,8 @@ import textInfos
 import controlTypes
 import NVDAObjects.IAccessible
 from NVDAObjects.IAccessible import IAccessible
+from NVDAObjects.IAccessible.sysListView32 import List
+from ctypes import * # for c_int
 from NVDAObjects.behaviors import RowWithFakeNavigation
 
 _lastFindText = ""
@@ -74,11 +76,22 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	# Translators: Message presented in input help mode.
 	script_copyColumn.__doc__ = _("Copies the last read column of the selected list item to clipboard.")
 
+class FixedList(List):
+
+	def _get__columnOrderArray(self):
+		limit=super(FixedList, self).columnCount
+		myCoa = (c_int *limit)()
+		for n in range(0, limit):
+			myCoa[n] = n
+		return myCoa
+
 class AppModule(appModuleHandler.AppModule):
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == controlTypes.ROLE_LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
+		elif obj.role==controlTypes.ROLE_LIST:
+			clsList.insert(0, FixedList)
 
 	def getToolBar(self):
 		statusBar = api.getStatusBar()
