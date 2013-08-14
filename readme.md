@@ -1,7 +1,7 @@
-[[!meta title="eMule 0.50A"]]
+# eMule #
 
-* Authors: Noelia, Chris.
-* download [version 1.0-dev][1]
+*	Authors: Noelia, Chris, Alberto.
+*	download [version 1.0-dev][1]
 
 This add-on helps to improve accessibility of eMule with nVDA.
 Also provides additional keyboard commands for moving in different windows and gives Useful information of eMule.
