@@ -1,56 +1,69 @@
-#Guía de utilización del Complemento para eMule #
+# eMule 0.50A #
 
-*	Autores(as): Noelia, Chris.
+*	Autores: Noelia, Chris, Alberto.
+*	Descarga: [versión 1.0-dev][1]
 
-##Utilidad del módulo: ##
+Este complemento te ayuda a mejorar la accesibilidad de eMule con
+NVDA. También proporciona comandos de teclado adicionales para moverse en
+diferentes ventanas y da información útil de eMule.
 
-Complemento para acrecentar la accesibilidad de eMule con NVDA.
+Se basa en el complemento eMuleNVDASupport, desarrollado por el mismo
+autor. Debes desinstalar el viejo complemento para usar este, ya que ambos
+tienen los mismos atajos de teclado y características.
 
-Contiene órdenes de teclado para desplazarse en distintas ventanas de eMule y conocer información del programa.
+Probado en [eMule] [2] 0.50A.
 
-Probado en eMule versión 0.50a.
+## Órdenes de teclado: ##
 
-## Instalación: ##
+*	control+shift+h: mueve el foco y el ratón a la barra de herramientas
+  principal.
+*	control+shift+t: lee la ventana actual.
+*	control+shift+n: Mueve el foco al campo nombre en la ventana de Búsqueda.
+*	control+shift+p: En la ventana de Búsqueda, mueve el foco y el ratón a la
+  lista de parámetros de búscqueda, o al campo de edición de opciones .
+*	control+shift+b: Mueve el foco a la lista de resultados en la ventana de
+  búsqueda.
+*	control+shift+z: Mueve el foco y el ratón a la barra de herramientas
+  contextual. Puedes moverte por la barra de herramientas utilizando la
+  tecla Tab.
+*	control+shift+o: Mueve el foco a la ventana de mensajes recibidos del
+  IRC.
+*	control+NVDA+f: Si el cursor se pone en un cuadro de edición de sólo
+  lectura, abre un diálogo de búsqueda.
+*	control+f3: Encuentra la siguiente aparición del texto que hayas buscado
+  previamente en cuadros de edición de sólo lectura.
+*	control+shift+f3: Busca la anterior aparición del texto que hayas buscado
+  previamente en cuadros de edición de sólo lectura.
+*	control+shift+l: Mueve el navegador de objetos y el ratón a los
+  encabezados de la lista actual.
+*	control+shift+q: Lee el primer objeto en la barra de estado; proporciona
+  información acerca de la actividad reciente.
+*	control+shift+w: Lee el segundo objeto de la barra de estado; contiene
+  información acerca de ficheros y usuarios en el servidor actual.
+*	control+shift+e: Lee el tercer objeto de la barra de estado; útil para
+  saber la velocidad de subida y bajada.
+*	control+shift+r: Lee el cuarto objeto de la barra de estado; informa sobre
+  la conexión de las redes Kad y eD2K.
+*	NVDA+control+shift+h: Abre la documentación. Si no está disponible para tu
+  idioma predeterminado abre la documentación en inglés.
 
-Para instalar el módulo, utilizar el administrador de complementos de NVDA, como se indica en el apartado 9.3 de la guía del usuario, a la que puede accederse
-desde el submenú Ayuda del menú de NVDA (NVDA+n).
+## Administrando columnas. ##
 
-##Órdenes de teclado: ##
+Cuando estés dentro de una lista, puedes mover el cursor  entre las filas y
+las columnas utilizando alt+control+Flechas.  En este complemento también
+están disponibles las siguientes órdenes de teclado:
 
-*	control+shift+h: Lleva el foco y el ratón a la barra de herramientas principal.
-*	control+shift+t: indica la ventana actual.
-*	control+shift+n: Lleva el foco al campo Nombre en la ventana Buscar.
-*	control+shift+p: Lleva el foco y el ratón a la lista de parámetros de búsqueda, o al campo de edición de las distintas opciones, dentro de la ventana Buscar.
-*	control+shift+b: Lleva el foco a la lista de resultados en la ventana Buscar.
-*	control+shift+z: Lleva el foco y el ratón a la barra de herramientas contextual para poder desplazarse con el tabulador.
-*	control+shift+o: Lleva el foco a los mensajes recibidos en IRC.
-*	control+NVDA+f: Si el cursor del sistema está situado en un cuadro de edición de solo lectura, abre un diálogo para buscar el texto introducido.
-*	control+f3: En cuadros de edición de solo lectura, busca el último texto introducido, posterior a la posición actual del cursor.
-*	control+shift+f3: En cuadros de edición de solo lectura, busca el último texto indicado, anterior a la posición actual del cursor.
-*	control+shift+l: Lleva el Navegador de Objetos  y el ratón a los encabezados de la lista actual.
-*	control+shift+q: Lee el primer objeto de la barra de estado, que proporciona información sobre actividad reciente de la aplicación.
-*	control+shift+w: Lee el segundo objeto de la barra de estado, que contiene información sobre archivos y usuarios en el servidor actual.
-*	control+shift+e: Lee el tercer objeto de la barra de estado, útil para conocer la velocidad de eMule.
-*	control+shift+r: Lee el cuarto objeto de la barra de estado, que informa sobre la conexión a las dos redes utilizadas por el programa.
-*	NVDA+control+shift+h: Abre la   Guía del usuario, Si está disponible en 
-el idioma seleccionado, de lo contrario por defecto se abre la guía en Inglés.
+*	NVDA+control+1-0: Lee las primeras 10 columnas.
+*	NVDA+shift+1-0: Lee las columnas 11 a 20.
+*	NVDA+shift+C: Copia el contenido de la última columna leída al
+  portapapeles.
 
-Activando la ayuda de teclado de NVDA, NVDA+1, en la ventana de eMule, se puede consultar la información relativa a cada combinación de teclas. 
+## Cambios para 1.0 ##
+*	 Versión inicial.
 
-Los mensajes de ayuda se leerán en el idioma seleccionado para NVDA si existe la correspondiente traducción disponible.
+[[!tag dev]]
 
-## Gestionando las columnas: ##
+[1]: http://addons.nvda-project.org/files/get.php?file=em
 
-Cuando estas dentro de una lista puede mover el cursor entre las filas y columnas usando alt+control+ flechas direccionales.
+[2]: http://www.emule-project.net
 
-En este complemento también están disponibles las siguientes órdenes de teclas:
-
-*	nvda+control+1-0: Lee las primeras 10 columnas. 
-*	nvda+shift+1-0: Lee las columnas correspondientes, desde el undécimo al vigésimo. 
-*	nvda+shift+C: Copia al Portapapeles el contenido de la última columnaleída.
-
-##Referencias: ##
-
-*	Información sobre el módulo[página en inglés de NVDA](Http://community.nvda-project.org/ticket/1434)
-*	[Página de descarga en Wuala](http://www.wuala.com/programas%20para%20ciegos/Complementos%20para%20NVDA/add-ons/)
-*	[Página oficial de eMule](http://www.emule-project.net)

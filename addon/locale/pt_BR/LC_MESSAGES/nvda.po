@@ -8,149 +8,134 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-05 16:23+0100\n"
-"Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: es\n"
+"PO-Revision-Date: 2013-08-05 18:15-0300\n"
+"Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
+"Language-Team: Equipe de tradução do NVDA para Português do Brasil <clever92000@yahoo.com.br>\n"
+"Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: BRAZIL\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:58
 msgid "Reads the specified column for the current list item."
-msgstr "Lee la columna especificada para el elemento de lista actual."
+msgstr "Lê a respectiva coluna do item de lista atual."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #: addon/appModules/emule.py:73
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s copiado al portapapeles"
+msgstr "%s copiado para área de transferência"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:75
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr ""
-"Copia la última columna leída del elemento de lista seleccionado al "
-"portapapeles."
+msgstr "Copia a última coluna lida do item de lista selecionado para a área de transferência."
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:163
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr ""
-"Mueve el foco del sistema y el ratón a la barra de herramientas principal."
+msgstr "Move o foco do sistema e o mouse para a barra de ferramentas principal."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 #: addon/appModules/emule.py:172
 msgid "Reports the current window."
-msgstr "Anuncia la ventana actual."
+msgstr "Lê a janela atual."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:181
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr ""
-"Mueve el foco del sistema al campo de nombre de la ventana de búsqueda."
+msgstr "Move o foco do sistema para o campo nome da janela pesquisar."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:196
-msgid ""
-"Moves the system focus and mouse to the search parameters list or Edit field "
-"for each option, in the Search window."
-msgstr ""
-"Mueve el foco del sistema y el ratón a la lista de parámetros de búsqueda o "
-"campo de edición para cada opción, en la ventana de Búsqueda."
+msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
+msgstr "Move o foco do sistema e o mouse para a lista de parâmetros de pesquisa ou o campo de edição de cada opção, na janela pesquisar."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:212
 msgid "Moves the system focus to the results list in the Search window."
-msgstr ""
-"Mueve el foco del sistema a la lista de resultados en la ventana de Búsqueda."
+msgstr "Move o foco do sistema para a lista de resultados na janela pesquisar."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:228
-msgid ""
-"Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
-"can be used to move among the items."
-msgstr ""
-"Mueve el foco del sistema y el ratón a la barra de herramientas contextual, "
-"donde la tecla Tab se puede utilizar para desplazarse entre los elementos."
+msgid "Moves the system focus and mouse to the Context Tool Bar, where the Tab key can be used to move among the items."
+msgstr "Move o foco do sistema e o mouse para a barra de ferramentas de contexto, onde se pode usar a tecla tab para mover-se entre os itens."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:241
 msgid "Moves the system focus to the IRC received messages."
-msgstr "Mueve el foco del sistema a los mensajes recibidos del IRC."
+msgstr "Move o foco do sistema para as mensagens recebidas por IRC."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:252
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr ""
-"Mueve el navegador de objetos y el ratón a los encabezados de la lista "
-"actual."
+msgstr "Move o objeto de navegação e o mouse para os cabeçalhos da lista atual."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:259
 msgid "Reports first object of the Status Bar."
-msgstr "Informa sobre el primer objeto de la barra de estado."
+msgstr "Lê o primeiro objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:266
 msgid "Reports second object of the Status Bar."
-msgstr "Informa sobre el segundo objeto de la barra de estado."
+msgstr "Lê o segundo objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:273
 msgid "Reports third object of the Status Bar."
-msgstr "Informa sobre el tercer objeto de la barra de estado."
+msgstr "Lê o terceiro objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:280
 msgid "Reports fourth object of the Status Bar."
-msgstr "Informa sobre el cuarto objeto de la barra de estado."
+msgstr "Lê o quarto objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:313
 msgid "Opens addon documentation."
-msgstr "Abre la documentación del complemento."
+msgstr "Abre a documentação do complemento."
 
 #. Translators: Label of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:332
 #, python-format
 msgid "text \"%s\" not found"
-msgstr "texto \"%s\" no encontrado"
+msgstr "texto \"%s\" não achado"
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:334
 msgid "Find Error"
-msgstr "Error de Búsqeda"
+msgstr "Erro de busca"
 
 #. Translators: Label for a search box.
 #: addon/appModules/emule.py:342
 msgid "Search for:"
-msgstr "Buscar:"
+msgstr "Pesquisar por:"
 
 #. Translators: title for the search dialog.
 #: addon/appModules/emule.py:344
 msgid "eMule search"
-msgstr "Búsqueda de eMule"
+msgstr "Pesquisa do eMule"
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:360
 msgid "Opens the find dialog when in read only edit boxes."
-msgstr ""
-"Abre el diálogo de búsqueda, cuando se está en cuadros de edición de sólo "
-"lectura."
+msgstr "Abre o diálogo procurar quando em caixas de edição somente leitura."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:373
 msgid "Find next occurence."
-msgstr "Buscar la siguiente aparición."
+msgstr "Procura próxima ocorrência."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:386
 msgid "Find previous occurrence."
-msgstr "Buscar la aparición anterior."
+msgstr "Procura ocorrência anterior."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -168,8 +153,9 @@ msgid ""
 "\thttp://www.emule-project.net\n"
 "\t"
 msgstr ""
-"Mejora la accesibilidad de eMule con NVDA.\n"
-"\teMule es un programa P2P para buscar archivos y compartir.\n"
-"\tPuedes obtener más información acerca de eMule en\n"
+"Melhora a acessibilidade do eMule com o NVDA.\n"
+"\tO eMule é um programa P2P de busca e compartilhamento de arquivos.\n"
+"\tPode obter mais informações sobre o eMule em\n"
 "\thttp://www.emule-project.net\n"
 "\t"
+

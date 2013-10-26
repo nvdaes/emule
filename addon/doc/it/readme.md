@@ -1,50 +1,67 @@
-#Guida all'uso del componente aggiuntivo per eMule #
+# eMule 0.50A #
 
-*	Autori: Noelia, Chris.
+*	Autori: Noelia, Chris, Alberto.
+*	download [versione 1.0-dev][1]
 
-##Descrizione: ##
+Questo componente aggiuntivo migliora l'accessibilità di Emule con
+NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
+schede e fornisce informazioni utili su Emule.
 
-Facilita la navigazione in eMule 0.50a, con diversi comandi che spostano i cursori nelle principali aree dell'applicazione e vocalizzano alcuni parametri.
+Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
+autrice. è necessario disinstallare la vecchia versione, se presente, prima
+di installare questa versione.
 
-Testato con eMule versione 0.50a.
+Testato su [eMule][2] 0.50a.
 
-## Installazione: ##
+## Comandi rapidi: ##
 
-Per installare il componente aggiuntivo utilizzare il Gestore Componenti Aggiuntivi, Come indicato nel paragrafo  9.3 della guida Utente, Dal menù  NVDA+n.
+*	control+shift+h: sposta il focus e il mouse sulla barra degli strumenti
+  principale.
+*	control+shift+t: Legge la finestra corrente.
+*	Control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova .
+*	Control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse
+  nell'elenco dei parametri di ricerca 
+*	Control+shift+b: sposta il focus sull'elenco dei risultati nella finestra
+  di ricerca.
+*	control+shift+z: Sposta il puntatore Mouse e Focus alla barra dei menu
+  della finestra principale, consentendo di spostarsi con TAB.
+*	control+shift+o: Sposta il focus sulla finestra messaggi nella chat Irc.
+*	control+NVDA+f: Se il cursore si trova in un campo editazione di sola
+  lettura, apre una finestra di dialogo per la ricerca di testo.
+*	control+f3: Se il cursore si trova in un campo editazione di sola lettura,
+  trova il testo successivo alla posizione del cursore.
+*	control+shift+f3: Se il cursore si trova in un campo editazione di sola
+  lettura, trova il testo precedente alla posizione del cursore.
+*	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse
+  sull'intestazione di una colonna all'interno di un elenco.
+*	control+shift+q: Legge attività recenti, primo elemento della barra di
+  stato:
+*	control+shift+w: Legge utenti e files, secondo elemento della barra di
+  stato:
+*	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
+  elemento della barra di stato:
+*	control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento
+  della barra di stato:
+*	NVDA+control+shift+h: Apre la Documentazione, se non è disponibile per la
+  lingua selezionata verrà visualizzata la guida in inglese.
 
-##Comandi da tastiera: ##
+## Esplorazione degli elenchi: ##
 
-*	control+shift+h: sposta il puntatore mouse e il Focus nella barra degli strumenti.
-*	control+shift+t: Annuncia la finestra focalizzata.
-*	control+shift+n: Porta il cursore sul campo Nome, nella finestra di ricerca.
-*	control+shift+p: Sposta il focus e il puntatore mouse sulle opzioni di ricerca avanzate.
-*	control+shift+b: Sposta il cursore sui risultati di ricerca.
-*	control+shift+z: Sposta il puntatore Mouse e Focus alla barra dei menu della finestra principale, consentendo di spostarsi con TAB.
-*	control+shift+o: Sposta il focus sulla finestra messaggi nella IRC chat.
-*	control+NVDA+f: Se il cursore si trova in un campo editazione di sola lettura, apre una finestra di dialogo per la ricerca di testo.
-*	control+f3: Se il cursore si trova in un campo editazione di sola lettura, trova il testo successivo alla posizione del cursore.
-*	control+shift+f3: Se il cursore si trova in un campo editazione di sola lettura, trova il testo precedente alla posizione del cursore.
-*	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse sull'intestazione di una colonna all'interno di un elenco.
-*	control+shift+q: Vocalizza attività recenti, primo elemento della barra di stato:
-*	control+shift+w: Vocalizza utenti e files, secondo elemento della barra di stato:
-*	control+shift+e: vocalizza velocità di Download e Upload in eMule, terzo elemento della barra di stato:
-*	control+shift+r: vocalizza connettività alle reti eD2K e Kad, quarto elemento della barra di stato:
-*	NVDA+control+shift+h: Apre la cartella Documentazione, se è disponibile per la lingua selezionata.
+Negli elenchi di eMule è possibile navigare tra le colonne e le righe usando
+alt+control+ frecce direzionali. In questo componente aggiuntivo sono
+disponibili inoltre i seguenti comandi da tastiera:
 
-E' possibile attivare ImputHelp di NVDA, NVDA+1, per consultare le funzioni dei comandi da tastiera con la finestra di eMule in primo piano.
-
-## Gestione delle colonne: ##
-
-Negli elenchi di eMule è possibile navigare tra le colonne e le righe usando alt+control+ frecce direzionali.
-
-In questo componente aggiuntivo sono disponibili inoltre i seguenti comandi da tastiera:
-
-*	nvda+control+1-0: Consente di leggere le prime 10 colonne. 
-*	nvda+shift+1-0: Consente di leggere le colonne corrispondenti, dalla undicesima alla ventesima. 
+*	nvda+control+1-0: Consente di leggere le prime 10 colonne.
+*	nvda+shift+1-0: Consente di leggere le colonne corrispondenti, dalla
+  undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
-##Collegamenti utili: ##
+## Changes for 1.0 ##
+*	 Initial version.
 
-*	Maggiori informazioni [da nvda-project.org](Http://community.nvda-project.org/ticket/1434)
-*	[Download da  Wuala](http://www.wuala.com/programas%20para%20ciegos/Complementos%20para%20NVDA/add-ons/)
-*	[Sito ufficiale di EMule](http://www.emule-project.net)
+[[!tag dev]]
+
+[1]: http://addons.nvda-project.org/files/get.php?file=em
+
+[2]: http://www.emule-project.net
+
