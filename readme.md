@@ -38,10 +38,13 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
+## Changes for 1.1 ##
+*	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
+
 ## Changes for 1.0 ##
 *	 Initial version.
 
-[[!tag stable]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
