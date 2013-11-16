@@ -1,0 +1,166 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Zahari Yurukov <zahari.yurukov@gmail.com>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: eMule 1.0-dev\n"
+"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"POT-Creation-Date: 2013-08-04 11:33+0200\n"
+"PO-Revision-Date: 2013-11-16 19:06+0200\n"
+"Last-Translator: Zahari Yurukov <zahari.yurukov@gmail.com>\n"
+"Language-Team: Български <>\n"
+"Language: bg\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:58
+msgid "Reads the specified column for the current list item."
+msgstr "Прочита указаната колона за текущия елемент от списък"
+
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
+#: addon/appModules/emule.py:73
+msgid "%s copied to clipboard"
+msgstr "%s е копиран в клипборда"
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:75
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr ""
+"Копира последно прочетената колона за текущия елемент от списък в клипборда"
+
+#. Translators: Message presented in input help mode
+#: addon/appModules/emule.py:163
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "Премества фокуса и мишката до главната лента с менюта"
+
+#. Translators: Message presented in input help mode.
+#. For instance: reads the search window, Statistics, IRC, etc.
+#: addon/appModules/emule.py:172
+msgid "Reports the current window."
+msgstr "Докладва текущия прозорец"
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:181
+msgid "Moves the system focus to the Name field of the Search window."
+msgstr "Премества фокуса до полето Име на прозореца за търсене"
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:196
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"Премества фокуса и мишката до списъка с параметри на търсенето или полето за "
+"писане на всяка опция в прозореца за търсене."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:212
+msgid "Moves the system focus to the results list in the Search window."
+msgstr "Премества фокуса до списъка с резултати в прозореца за търсене."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:228
+msgid ""
+"Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
+"can be used to move among the items."
+msgstr ""
+"Премества фокуса и мишката до контекстната лента, където може да използвате "
+"клавиша Tab за да се придвижвате между елементите."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:241
+msgid "Moves the system focus to the IRC received messages."
+msgstr "Премества фокуса до списъка с получени съобщения в IRC."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:252
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr "Премества фокуса и мишката до заглавията на колоните в текущия списък."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:259
+msgid "Reports first object of the Status Bar."
+msgstr "Докладва първия обект в лентата на състоянието."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:266
+msgid "Reports second object of the Status Bar."
+msgstr "Докладва втория обект в лентата на състоянието."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:273
+msgid "Reports third object of the Status Bar."
+msgstr "Докладва третия обект в лентата на състоянието."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:280
+msgid "Reports fourth object of the Status Bar."
+msgstr "Докладва четвъртия обект в лентата на състоянието."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:313
+msgid "Opens addon documentation."
+msgstr "Отваря документацията за добавката"
+
+#. Translators: Label of a dialog presented when the specified string of text is not found.
+#: addon/appModules/emule.py:332
+msgid "text \"%s\" not found"
+msgstr "текстът \"%s\" не е намерен"
+
+#. Translators: Title of a dialog presented when the specified string of text is not found.
+#: addon/appModules/emule.py:334
+msgid "Find Error"
+msgstr "Грешка при търсене"
+
+#. Translators: Label for a search box.
+#: addon/appModules/emule.py:342
+msgid "Search for:"
+msgstr "Търсене за:"
+
+#. Translators: title for the search dialog.
+#: addon/appModules/emule.py:344
+msgid "eMule search"
+msgstr "Търсене на eMule"
+
+#. Translators: Message presented in input help mode
+#: addon/appModules/emule.py:360
+msgid "Opens the find dialog when in read only edit boxes."
+msgstr "Отваря диалога за търсене в полета за писане само за четене."
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:373
+msgid "Find next occurence."
+msgstr "Търсене на следваща поява на търсения низ"
+
+#. Translators: Message presented in input help mode.
+#: addon/appModules/emule.py:386
+msgid "Find previous occurrence."
+msgstr "Търсене на предишна поява на търсения низ"
+
+#. Add-on description
+#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#: buildVars.py:13
+msgid "eMule"
+msgstr "eMule"
+
+#. Add-on description
+#. Translators: Long description to be shown for this add-on on installation and add-on information
+#: buildVars.py:16
+msgid ""
+"Improves eMule's accessibility with NVDA.\n"
+"\teMule is a P2P program to search and share files.\n"
+"\tYou can get more information about eMule at\n"
+"\thttp://www.emule-project.net\n"
+"\t"
+msgstr ""
+"Подобрява достъпността на eMule при работа с NVDA.\n"
+"\teMule е P2P програма за търсене и споделяне на файлове.\n"
+"\tМоже да получите повече информация за eMule на адрес\n"
+"\thttp://www.emule-project.net\n"
+"\t"
