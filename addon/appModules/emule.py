@@ -38,7 +38,15 @@ _lastFindText = ""
 
 addonHandler.initTranslation()
 
+# The root of the addon folder
+_addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
+_curAddon = addonHandler.Addon(_addonDir)
+_addonSummary = _curAddon.manifest['summary']
+_scriptCategory = unicode(_addonSummary)
+
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
+
+	scriptCategory = _scriptCategory
 
 	def initOverlayClass(self):
 		for n in xrange(10):
@@ -86,6 +94,8 @@ class FixedList(List):
 		return myCoa
 
 class AppModule(appModuleHandler.AppModule):
+
+	scriptCategory = _scriptCategory
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == controlTypes.ROLE_LISTITEM:

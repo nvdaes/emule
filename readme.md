@@ -40,6 +40,7 @@ In this Add-on the following key commands are also available:
 
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
+*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
 
 ## Changes for 1.0 ##
 *	 Initial version.
