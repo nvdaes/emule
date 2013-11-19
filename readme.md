@@ -2,6 +2,7 @@
 
 *	Authors: Noelia, Chris, Alberto.
 *	download [stable version][1]
+*	download [development version][3]
 
 This add-on helps to improve accessibility of eMule with nVDA.
 Also provides additional keyboard commands for moving in different windows and gives Useful information of eMule.
@@ -50,4 +51,6 @@ In this Add-on the following key commands are also available:
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
+
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev
 
