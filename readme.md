@@ -46,8 +46,6 @@ In this Add-on the following key commands are also available:
 ## Changes for 1.0 ##
 *	 Initial version.
 
-[[!tag dev stable]]
-
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
