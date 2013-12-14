@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Descarga: [versión 1.0-dev][1]
+*	descarga [versión estable][1]
+*	Descargar [versión de desarrollo][3]
 
 Este complemento te ayuda a mejorar la accesibilidad de eMule con
 NVDA. También proporciona comandos de teclado adicionales para moverse en
@@ -58,12 +59,20 @@ están disponibles las siguientes órdenes de teclado:
 *	NVDA+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 1.1 ##
+*	 Solucionado un problema en el elemento eMule en el menú Ayuda de NVDA,
+   cuando el nombre de la carpeta de configuración de usuario contiene
+   caracteres no latinos.
+*	 Los atajos ahora pueden reasignarse utilizando el diálogo gestos de
+   entrada de NVDA.
+
 ## Cambios para 1.0 ##
 *	 Versión inicial.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

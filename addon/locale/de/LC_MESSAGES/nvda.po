@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-10-22 13:14+0100\n"
-"Last-Translator: david Parduhn <xkill85@gmx.net>\n"
+"PO-Revision-Date: 2013-10-31 03:20+0100\n"
+"Last-Translator: René Linke <rene.linke@hamburg.de>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
@@ -32,8 +32,7 @@ msgstr "%s in die Zwischenablage kopiert."
 #: addon/appModules/emule.py:75
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr ""
-"Kopiert die letzte ausgegebene Spalte des ausgewählten Listeneintrages in "
-"die Zwischenablage"
+"Kopiert die letzte ausgegebene Spalte des ausgewählten Listeneintrages in die Zwischenablage."
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:163
@@ -49,7 +48,7 @@ msgstr "Gibt das aktuelle Fenster aus."
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:181
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Bewegt den Systemfokus zum Feld Name im Suchen Fenster."
+msgstr "Bewegt den Systemfokus zum Feld Name im Suchfenster."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:196
@@ -62,7 +61,7 @@ msgstr "Verschiebt den Fokus und die Maus in die Liste der Suchparameter."
 #: addon/appModules/emule.py:212
 msgid "Moves the system focus to the results list in the Search window."
 msgstr ""
-"Bewegt den Systemfokus zur Liste der gefundenen Einträge im Suchen Fenster."
+"Bewegt den Systemfokus zur Liste der gefundenen Einträge im Suchfenster."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:228
@@ -113,7 +112,7 @@ msgstr "Öffnet die Dokumentation der Erweiterung."
 #: addon/appModules/emule.py:332
 #, python-format
 msgid "text \"%s\" not found"
-msgstr "Text \"%s\" konnte nicht gefunden werden"
+msgstr "Text \"%s\" konnte nicht gefunden werden."
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:334
@@ -123,29 +122,28 @@ msgstr "Fehler beim Suchen"
 #. Translators: Label for a search box.
 #: addon/appModules/emule.py:342
 msgid "Search for:"
-msgstr "Suche nach:"
+msgstr "Suchen nach:"
 
 #. Translators: title for the search dialog.
 #: addon/appModules/emule.py:344
 msgid "eMule search"
-msgstr "eMule suchen"
+msgstr "eMule-Suche"
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:360
 msgid "Opens the find dialog when in read only edit boxes."
 msgstr ""
-"Öffnet das Dialogfeld suchen, wenn Sie sich in Nur-Lesen-Eingabefeldern "
-"befinden."
+"Öffnet das Dialogfeld Suchen, wenn Sie sich in geschützten Eingabefeldern befinden."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:373
 msgid "Find next occurence."
-msgstr "nächstes Vorkommen suchen."
+msgstr "Nächstes Vorkommen suchen."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:386
 msgid "Find previous occurrence."
-msgstr "vorheriges Vorkommen suchen."
+msgstr "Vorheriges Vorkommen suchen."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -163,8 +161,7 @@ msgid ""
 "\thttp://www.emule-project.net\n"
 "\t"
 msgstr ""
-"Verbessert die Zugänglichkeit von Emule mit NVDA.\n"
-"\temule ist ein p2p-Programm, zum Suchen nach und Teilen von Dateien.\n"
-"\tWeitere Informationen zu Emule finden Sie unter \n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"Verbessert die Zugänglichkeit von eMule mit NVDA.\n"
+"\teMule ist ein P2P-Programm, zum Suchen nach und Teilen von Dateien.\n"
+"\tWeitere Informationen dazu finden Sie unter:\n"
+"\thttp://www.emule-project.net/\n\t"

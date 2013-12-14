@@ -8,131 +8,140 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-13 10:34+0100\n"
-"Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
+"PO-Revision-Date: 2013-11-18 21:24+0200\n"
+"Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: sk\n"
+"Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:58
 msgid "Reads the specified column for the current list item."
-msgstr "Prečíta vybratý stĺpec pre aktuálnu položku."
+msgstr "Mevcut liste öğesi için belirtilen sütunu okur."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #: addon/appModules/emule.py:73
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s skopírované do schránky"
+msgstr "%s panoya kopyalandı"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:75
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Skopíruje posledný prečítaný stĺpec pre aktuálnu položku do schránky."
+msgstr "Mevcut liste ögesiyle ilgili en son okunan sütunu panoya kopyalar."
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:163
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "presunie systémový fokus a myš na hlavný panel nástrojov."
+msgstr "Sistem odağı ve fareyi ana araç çubuğuna taşır."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 #: addon/appModules/emule.py:172
 msgid "Reports the current window."
-msgstr "prečíta názov aktuálneho okna."
+msgstr "Mevcut pencereyi okur."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:181
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "presunie systémový kurzor na pole názov v okne hľadania."
+msgstr "Sistem odağını arama penceresinde isim alanına taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:196
-msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
-msgstr "presunie systémový fokus a myš na zoznam parametrov hľadania alebo na editačné pole pre každý parameter v okne hľadania."
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"Sistem odağını ve fareyi arama penceresinde arama parametreleri veya "
+"düzenleme alanına taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:212
 msgid "Moves the system focus to the results list in the Search window."
-msgstr "presunie systémový fokus do zoznamu výsledkov v okne hľadania."
+msgstr "Sistem odağını arama penceresinde sonuç listesine taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:228
-msgid "Moves the system focus and mouse to the Context Tool Bar, where the Tab key can be used to move among the items."
-msgstr "presunie systémový fokus a myš na panel nástrojov. Tu môžete použiť kláves tab na pohyb po položkách."
+msgid ""
+"Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
+"can be used to move among the items."
+msgstr ""
+"Sistem odağı ve fareyi, ögeler arasında dolaşmak için tab tuşunun "
+"kullanılabileceği bağlam araç çubuğuna taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:241
 msgid "Moves the system focus to the IRC received messages."
-msgstr "Presunie systémový fokus na prijaté správy IRC."
+msgstr "Sistem odağını IRC alınan mesajlar alanına taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:252
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "presunie systémový kurzor a myš na hlavičky aktuálneho zoznamu."
+msgstr "Sistem odağı ve nesne sunucusunu mevcut listenin başlık alanına taşır."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:259
 msgid "Reports first object of the Status Bar."
-msgstr "prečíta prvý objekt na stavovom riadku."
+msgstr "Durum çubuğunda ilk nesneyi okur."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:266
 msgid "Reports second object of the Status Bar."
-msgstr "prečíta druhý objekt na stavovom riadku."
+msgstr "Durum çubuğunda ikinci nesneyi okur."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:273
 msgid "Reports third object of the Status Bar."
-msgstr "prečíta tretí objekt na stavovom riadku."
+msgstr "Durum çubuğunda üçüncü nesneyi okur."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:280
 msgid "Reports fourth object of the Status Bar."
-msgstr "prečíta štvrtý objekt na stavovom riadku."
+msgstr "Durum çubuğunda dördüncü nesneyi okur."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:313
 msgid "Opens addon documentation."
-msgstr "otvorí návod k doplnku emule."
+msgstr "Eklenti dokümantasyonunu açar."
 
 #. Translators: Label of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:332
 #, python-format
 msgid "text \"%s\" not found"
-msgstr "text \"%s\" nebol nájdený"
+msgstr "Metin \"%s\" bulunamadı"
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:334
 msgid "Find Error"
-msgstr "Chyba vyhľadávania"
+msgstr "Arama hatası"
 
 #. Translators: Label for a search box.
 #: addon/appModules/emule.py:342
 msgid "Search for:"
-msgstr "Hľadať:"
+msgstr "Ara:"
 
 #. Translators: title for the search dialog.
 #: addon/appModules/emule.py:344
 msgid "eMule search"
-msgstr "Hľadať"
+msgstr "eMule arama"
 
 #. Translators: Message presented in input help mode
 #: addon/appModules/emule.py:360
 msgid "Opens the find dialog when in read only edit boxes."
-msgstr "otvorí dialóg hľadania  v editačných poliach len na čítanie."
+msgstr "Salt okunur alanlarda bul iletişim kutusunu açar."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:373
 msgid "Find next occurence."
-msgstr "Hľadá ďalší výskyt reťazca."
+msgstr "Sonrakini bul."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:386
 msgid "Find previous occurrence."
-msgstr "Hľadá predchádzajúci výskyt reťazca."
+msgstr "Öncekini bul."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
@@ -150,9 +159,8 @@ msgid ""
 "\thttp://www.emule-project.net\n"
 "\t"
 msgstr ""
-"Zlepšuje prístupnosť programu eMule s NVDA.\n"
-"\teMule je P2P program na vyhľadávanie a zdieľanie súborov.\n"
-"\tViac Informácii o eMule nájdete na\n"
+"NVDA ile eMule'un erişilebilirliğini artırır.\n"
+"\teMule arama ve dosya paylaşımı için bir P2P programıdır.\n"
+"\teMule hakkında daha fazla bilgi için\n"
 "\thttp://www.emule-project.net\n"
 "\t"
-

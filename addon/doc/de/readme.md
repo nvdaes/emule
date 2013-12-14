@@ -3,7 +3,8 @@
 [[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
-*	download [version 1.0-dev][1]
+*	[stabile Version herunterladen][1]
+*	[Testversion herunterladen][1]
 
 Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  NVDA
 stellt außerdem Tastenkombinationen zum Navigieren in verschiedene Fenster
@@ -60,12 +61,19 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+c: kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Änderungen bis 1.1 ##
+*	 Fehler im Eintrag Emule im NVDA-Hilfe-Menü behoben, wenn der Namen des
+   Benutzerverzeichnises nicht-lateinische Zeichen enthällt.
+*	 Tastenkombinationen können nun mittels des Dialogs Eingaben neu
+   zugewiesen werden.
+
 ## Änderungen bis 1.0 ##
 *	 Ehrstveröffentlichung.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

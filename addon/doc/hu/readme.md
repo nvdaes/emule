@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Készítők: Noelia, Chris, Alberto.
-*	Letöltés [1.0-dev verzió][1]
+*	Letöltés [stabil verzió][1]
+*	Letöltés [fejlesztői verzió][3]
 
 Ez a kiegészítő hatékonyabb hozzáférést biztosít az eMule programhoz.
 
@@ -53,12 +54,18 @@ parancsok is elérhetőek:
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
 
+## Az 1.1 verzió változásai ##
+*	 Javítva az Emule elem a súgó menüben, hiba történt ha a felhasználói
+   konfigurációs fájl nem latin karaktereket tartalmazott.
+*	 A billentyűparancsok átállíthatóak a beviteli parancsok párbeszédablakán.
+
 ## Az 1.0 verzió változásai ##
 *	 Az első kiadás.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

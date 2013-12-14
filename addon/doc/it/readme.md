@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Autori: Noelia, Chris, Alberto.
-*	download [versione 1.0-dev][1]
+*	download [stable version][1]
+*	download [development version][3]
 
 Questo componente aggiuntivo migliora l'accessibilità di Emule con
 NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
@@ -56,12 +57,18 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
+## Changes for 1.1 ##
+*	 Fixed bug in eMule item under NVDA's help menu, when the user config
+   folder name contains non latin characters.
+*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
+
 ## Changes for 1.0 ##
 *	 Initial version.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

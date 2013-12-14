@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Descarga: [versión 1.0-dev][1]
+*	descarga [versión estable][1]
+*	Descargar [versión de desenvolvemento][3]
 
 Este complemento axuda a mellorar a accesivilidade do eMule co nVDA.  Tamén
 proporciona ordes de teclado adicionais para moverte en diferentes ventás e
@@ -56,12 +57,20 @@ dispoñibles as seguintes ordes de teclado:
 *	nvda+shift+1-0: Le as columnas 11 a 20.
 *	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
 
+## Cambios para 1.1 ##
+*	 Correxido un erro no elemento eMule no menú de axuda do NVDA, cando o
+   nome do cartafol da configuración de usuario contén caracteres non
+   latinos.
+*	 Os atallos agora poden se reasignar utilizando o diálogo de xestos de
+   entrada do NVDA.
+
 ## Cambios para 1.0 ##
 *	 Versión inicial.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

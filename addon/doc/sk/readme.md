@@ -1,16 +1,17 @@
 # eMule 0.50A #
 
 *	Autori: Noelia, Chris, Alberto.
-*	Stiahnuť [verzia 1.0-dev][1]
+*	Stiahnuť [stabilná verzia][1]
+*	Stiahnuť [Vývojová verzia][3]
 
-TEnto doplnok zlepšuje prístupnosť programu eMule s NVDA. Poskytuje užitočné
+Tento doplnok zlepšuje prístupnosť programu eMule s NVDA. Poskytuje užitočné
 klávesové skratky a informácie.
 
 Je postavený na staršom aplikačnom module pre eMule od toho istého
 autora. odporúčame vám starý aplikačný modul odstrániť, keďže majú spoločné
 klávesové skratky.
 
-TEstované s [eMule][2] 0.50a.
+Testované s [eMule][2] 0.50a.
 
 ## klávesové skratky: ##
 
@@ -48,12 +49,18 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
 
-## Zmeny pre verziu 1.0 ##
+## Zmeny vo verzii 1.1 ##
+*	 opravená chyba v pomocníkovy Emule, ktorá sa objavovala, ak názov
+   priečinka s používateľskými dátami obsahoval iné ako ascii znaky.
+*	 Skratky sa dajú meniť v dialógu klávesové skratky.
+
+## Zmeny vo verzii 1.0 ##
 *	 prvé vydanie.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Autores: Noelia, Chris, Alberto.
-*	baixe [versão 1.0-dev][1]
+*	baixe a [versão estável][1]
+*	baixe a [versão de desenvolvimento][3]
 
 Este complemento serve para melhorar a acessibilidade do eMule com o
 NVDA. Fornece também teclas adicionais de comando para mover-se nas
@@ -56,12 +57,19 @@ seguintes teclas de comando:
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
 
+## Mudanças na 1.1 ##
+*	 Corrigido erro no item eMule no menu de ajuda do NVDA quando o nome da
+   pasta de opções do usuário contém caracteres não-latinos.
+*	 Atalhos agora podem ser reatribuídos usando o diálogo de gestos para
+   entrada do NVDA.
+
 ## Mudanças na 1.0 ##
 *	 Versão inicial.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

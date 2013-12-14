@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Tekijät: Noelia, Chris, Alberto.
-*	Lataa [versio 1.0-dev][1]
+*	Lataa [vakaa versio][1]
+*	Lataa [kehitysversio][3]
 
 Tämä lisäosa auttaa parantamaan eMulen saavutettavuutta NVDA:lla
 käytettäessä.  Lisäksi se tarjoaa lisänäppäinkomentoja eri ikkunoissa
@@ -54,12 +55,19 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Shift+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Shift+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Muutokset versiossa 1.1 ##
+*	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa
+   käyttäjän asetuskansio sisältää muita kuin latinalaisia merkkejä.
+*	 Pikanäppäinten uudelleenmäärittely on nyt mahdollista NVDA:n
+   syöte-eleiden valintaikkunaa käyttäen.
+
 ## Muutokset versiossa 1.0 ##
 *	 Ensimmäinen versio.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev

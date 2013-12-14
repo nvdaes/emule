@@ -1,7 +1,8 @@
 # eMule 0.50A #
 
 *	Auteurs: Noelia, Chris, Alberto.
-*	download [versie 1.0-dev][1]
+*	download [stabiele versie][1]
+*	download [ontwikkelversie][3]
 
 Deze add-on helpt om de toegankelijkheid te verbeteren van eMule met nVDA.
 Biedt ook bijkomende sneltoetsen voor het bewegen in verschillende vensters
@@ -57,12 +58,18 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 1.1 ##
+*	 Fixed bug in eMule item under NVDA's help menu, when the user config
+   folder name contains non latin characters.
+*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
+
 ## Veranderingen voor 1.0 ##
 *	 Eerste versie.
 
-[[!tag dev]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
+[3]: http://addons.nvda-project.org/files/get.php?file=em-dev
