@@ -49,10 +49,11 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	scriptCategory = _scriptCategory
 
 	def initOverlayClass(self):
+		modifiers = ["control", "shift"]
 		for n in xrange(10):
-			self.bindGesture("kb:NVDA+control+%d" % (n), "readColumn")
-			self.bindGesture("kb:NVDA+shift+%d" % (n), "readColumn")
-		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
+			for modifier in modifiers:
+				gesture = "kb:NVDA+{mod}+{num}".format(mod=modifier, num=n)
+				self.bindGesture(gesture, "readColumn")
 
 	def script_readColumn(self, gesture):
 		try:
