@@ -39,6 +39,10 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
+## Changes for 1.2 ##
+*	 When moving to the IRC messages, the selected text is reported properly.
+*	 Minor changes to simplify the add-on source code.
+
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
 *	 Shortcuts can now be reassigned using the NVDA gesture input dialog.

@@ -1,6 +1,10 @@
 # -*- coding: UTF-8 -*-
 
 # eMuleNVDASupport: An app module for eMule
+# Version: 1.2-dev
+# Fixed bug in script mainIRC: now selected text is reported properly
+# Minor changes to clean code
+# Date: 25/01/2014
 # Version: 1.1-dev
 # Fixed bug in script_find: Now works just on readonly edit controls
 # Date: 17/05/2013
@@ -54,6 +58,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			for modifier in modifiers:
 				gesture = "kb:NVDA+{mod}+{num}".format(mod=modifier, num=n)
 				self.bindGesture(gesture, "readColumn")
+		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
 
 	def script_readColumn(self, gesture):
 		try:
@@ -108,8 +113,7 @@ class AppModule(appModuleHandler.AppModule):
 		statusBar = api.getStatusBar()
 		if statusBar is not None:
 			return api.getStatusBar().simpleNext
-		else:
-			return None
+		return None
 
 	def getWhere(self):
 		toolBar = self.getToolBar()
@@ -158,11 +162,9 @@ class AppModule(appModuleHandler.AppModule):
 		location=obj.location
 		if location and (len(location)==4):
 			(left,top,width,height)=location
-		else:
-			return None
-		obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
-		# obj=obj.parent.simpleFirstChild
-		return obj
+			obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
+			return obj
+		return None
 
 	def statusBarObj(self, pos):
 		statusBar = api.getStatusBar()
@@ -258,9 +260,10 @@ class AppModule(appModuleHandler.AppModule):
 		obj = self.getIRCToolBarWindow().simpleNext.simpleNext
 		if obj is None or obj.IAccessibleStates != 1048640:
 			return
-		obj.setFocus()
-		api.setFocusObject(obj)
-		speech.speakObject(obj)
+		api.moveMouseToNVDAObject(obj)
+		api.setMouseObject(obj)
+		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
 	script_mainIRC.__doc__=_("Moves the system focus to the IRC received messages.")
 
