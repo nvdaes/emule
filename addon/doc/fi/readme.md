@@ -8,9 +8,9 @@ Tämä lisäosa auttaa parantamaan eMulen saavutettavuutta NVDA:lla
 käytettäessä.  Lisäksi se tarjoaa lisänäppäinkomentoja eri ikkunoissa
 liikkumiseen sekä antaa hyödyllistä tietoa eMulesta.
 
-Tämä lisäosa perustuu saman tekijän kehittämään
-eMuleNVDASupport-lisäosaan. Se tulisi poistaa tämän version käyttämiseksi,
-sillä molemmissa on yhteisiä näppäinkomentoja ja ominaisuuksia.
+Perustuu saman tekijän kehittämään eMuleNVDASupport-lisäosaan. Sinun tulisi
+poistaa se tämän version käyttämiseksi, sillä molemmissa on yhteisiä
+näppäinkomentoja ja ominaisuuksia.
 
 Testattu [eMule][2]n 0.50a-versiossa.
 

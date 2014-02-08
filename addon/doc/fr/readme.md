@@ -2,7 +2,7 @@
 
 *	Autheurs : Noelia, Chris, Alberto.
 *	Télécharger [version stable][1]
-*	download [development version][3]
+*	Télécharger  [version de développement][3]
 
 Ce module complémentaire rend Emule plus accessible avec NVDA en ajoutant
 des raccourcis clavier pour avoir des informations ou activer des fenêtre
@@ -57,10 +57,12 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + Maj + C: Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
-## Changes for 1.1 ##
-*	 Fixed bug in eMule item under NVDA's help menu, when the user config
-   folder name contains non latin characters.
-*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
+## Changements pour la version 1.1 ##
+*	 Correction d'un bug dans l'élément eMule sous le menu d'aide de NVDA,
+   lorsque le nom du dossier configuration utilisateur contient des
+   caractères non latins.
+*	 Les raccourcis peuvent maintenant être réaffectées à l'aide de la boîte
+   de dialogue gestes d'entrée NVDA.
 
 ## Changements pour la version 1.0 ##
 *	 Première version.
