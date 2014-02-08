@@ -41,7 +41,6 @@ In this Add-on the following key commands are also available:
 
 ## Changes for 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
-*	 Minor changes to simplify the add-on source code.
 
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
