@@ -1,7 +1,7 @@
 # -*- coding: UTF-8 -*-
 
 # eMule
-# Removed control+shift+z. Used windowUtils to search the tool bar, lists an read-only edit boxes in different windows
+# Removed control+shift+z. Used windowUtils to search the toolbar, lists an read-only edit boxes in different windows
 # Date: 20/02/2014
 # Version: 1.2-dev
 # Fixed bug in script mainIRC: now selected text is reported properly
@@ -23,7 +23,6 @@
 
 import appModuleHandler
 import addonHandler
-import languageHandler
 import os
 import api
 import ui
@@ -231,7 +230,7 @@ class AppModule(appModuleHandler.AppModule):
 	def script_readOnlyEdit(self, gesture):
 		where = self.getWhere()
 		if hasattr(where, "IAccessibleChildID") and where.IAccessibleChildID == 9:
-			cID == -1
+			cID = -1
 		else:
 			cID = None
 		try:
@@ -286,39 +285,6 @@ class AppModule(appModuleHandler.AppModule):
 		ui.message(self.statusBarObj(3))
 	# Translators: Message presented in input help mode.
 	script_statusBarForthChild.__doc__=_("Reports fourth object of the Status Bar.")
-
-	def getDocFolder(self):
-		langs = [languageHandler.getLanguage(), "en"]
-		for lang in langs:
-			docFolder = os.path.join(os.path.dirname(__file__), "..", "doc", lang)
-			if os.path.isdir(docFolder):
-				return docFolder
-			if "_" in lang:
-				tryLang = lang.split("_")[0]
-				docFolder = os.path.join(os.path.dirname(__file__), "..", "doc", tryLang)
-				if os.path.isdir(docFolder):
-					return docFolder
-				if tryLang == "en":
-					break
-			if lang == "en":
-				break
-		return None
-
-	def getDocPath(self, docFileName):
-		docPath = self.getDocFolder()
-		if docPath is not None:
-			docFile = os.path.join(docPath, docFileName)
-			if os.path.isfile(docFile):
-				docPath = docFile
-		return docPath
-
-	def script_about(self, gesture):
-		try:
-			os.startfile(self.getDocPath("readme.html"))
-		except WindowsError:
-			pass
-	# Translators: Message presented in input help mode.
-	script_about.__doc__ = _("Opens addon documentation.")
 
 	def doFindText(self,text,reverse=False):
 		if not text:
@@ -408,5 +374,4 @@ class AppModule(appModuleHandler.AppModule):
 		"kb:control+NVDA+f": "find",
 		"kb:control+f3": "findNext",
 		"kb:control+shift+f3": "findPrevious",
-		"kb:NVDA+control+shift+h": "about",
 	}
