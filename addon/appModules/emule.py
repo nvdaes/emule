@@ -143,9 +143,9 @@ class AppModule(appModuleHandler.AppModule):
 
 	def getHeader(self):
 		obj=api.getFocusObject()
-		if obj.windowClassName == 'SysListView32' and obj.IAccessibleRole==oleacc.ROLE_SYSTEM_LISTITEM:
-			obj=obj.parent
-			location=obj.location
+		if not (obj and obj.windowClassName == 'SysListView32' and obj.IAccessibleRole==oleacc.ROLE_SYSTEM_LISTITEM): return
+		obj=obj.parent
+		location=obj.location
 		if location and (len(location)==4):
 			(left,top,width,height)=location
 			obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
