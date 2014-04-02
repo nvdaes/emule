@@ -165,8 +165,9 @@ class AppModule(appModuleHandler.AppModule):
 	def script_toolBar(self, gesture):
 		obj = self.getToolBar()
 		if obj is not None:
-			api.moveMouseToNVDAObject(obj)
-			api.setMouseObject(obj)
+			if obj != api.getMouseObject():
+				api.moveMouseToNVDAObject(obj)
+				api.setMouseObject(obj)
 			if not controlTypes.STATE_FOCUSED in obj.states:
 				obj.setFocus()
 			speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
@@ -208,7 +209,10 @@ class AppModule(appModuleHandler.AppModule):
 		except LookupError:
 			return
 		if obj != api.getFocusObject():
-			obj.setFocus()
+			api.moveMouseToNVDAObject(obj)
+			api.setMouseObject(obj)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
 	script_searchList.__doc__=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window.")
 
