@@ -17,8 +17,8 @@ Tested on [eMule][2] 0.50a.
 *	control+shift+t: Reads the current window.
 *	control+shift+n: Moves the focus to the Name field in the Find window.
 *	control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
-*	control+shift+b: Move the focus to the first list of different windows, as results in the Search window, downloads in Transfer, etc.
-*	control+shift+o: Moves the focus to the IRC received messages, and other read-only edit boxes in windows as Servers.
+*	control+shift+b: Move the focus to the list in the current window. For example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: If the caret is located in an read only edit box, opens a find dialog.
 *	control+f3: Finds the next occurrence of the text that you previously searched in read only edit boxes.
 *	control+shift+f3: Finds the previous occurrence of the text that you previously searched in read only edit boxes.
@@ -39,8 +39,8 @@ In this Add-on the following key commands are also available:
 
 ## Changes for 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
-*	 The keystroke used to find the results in the Search Window can move to other lists, in windows as Transfer, Servers, etc.
-*	 The command used to focus the IRC messages can move to the read-only edit box in the Servers windows, showing information about connections.
+*	 The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.
+*	 The command used to focus the IRC messages has been generalized to move to any read-only edit box, making it possible to review connection information in the Servers window. 
 
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.

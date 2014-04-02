@@ -87,7 +87,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		except:
 			return
 		if api.copyToClip(column):
-			# Translators: Message presented when the current column of the list item is copied to clipboard. 
+			# Translators: Message presented when the current column of the list item is copied to clipboard.
 			ui.message(_("%s copied to clipboard") % column)
 	# Translators: Message presented in input help mode.
 	script_copyColumn.__doc__ = _("Copies the last read column of the selected list item to clipboard.")
@@ -225,7 +225,7 @@ class AppModule(appModuleHandler.AppModule):
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
-	script_list.__doc__=_("Moves the system focus to the first list in different windows, for instance the results list in the Search window, or downloads in Transfer.")
+	script_list.__doc__=_("Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc.")
 
 	def script_readOnlyEdit(self, gesture):
 		where = self.getWhere()
@@ -245,7 +245,7 @@ class AppModule(appModuleHandler.AppModule):
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
 			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
-	script_readOnlyEdit.__doc__=_("Moves the system focus to the IRC received messages, or read-only edit boxes in other windows.")
+	script_readOnlyEdit.__doc__=_("Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages.")
 
 	def script_header(self, gesture):
 		obj = self.getHeader()
