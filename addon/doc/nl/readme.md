@@ -58,10 +58,11 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
-## Changes for 1.1 ##
-*	 Fixed bug in eMule item under NVDA's help menu, when the user config
-   folder name contains non latin characters.
-*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
+## Veranderingen voor 1.1 ##
+*	 Probleem opgelost in eMule item onder NVDA's help menu, als de naam van
+   de gebruikersconfiguratiemap niet-Latijnse karakters bevat.
+*	 Snelkoppelingen kunnen nu gewijzigd worden via het dialoogvenster
+   Invoerhandelingen koppelen van NVDA.
 
 ## Veranderingen voor 1.0 ##
 *	 Eerste versie.

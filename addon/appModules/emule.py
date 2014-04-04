@@ -1,6 +1,12 @@
 # -*- coding: UTF-8 -*-
 
-# eMuleNVDASupport: An app module for eMule
+# eMule
+# Removed control+shift+z. Used windowUtils to search the toolbar, lists an read-only edit boxes in different windows
+# Date: 20/02/2014
+# Version: 1.2-dev
+# Fixed bug in script mainIRC: now selected text is reported properly
+# Minor changes to clean code
+# Date: 25/01/2014
 # Version: 1.1-dev
 # Fixed bug in script_find: Now works just on readonly edit controls
 # Date: 17/05/2013
@@ -17,13 +23,13 @@
 
 import appModuleHandler
 import addonHandler
-import languageHandler
 import os
 import api
 import ui
 import speech
 import oleacc
 import winUser
+import windowUtils
 import wx
 import gui
 import textInfos
@@ -49,9 +55,11 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	scriptCategory = _scriptCategory
 
 	def initOverlayClass(self):
+		modifiers = ["control", "shift"]
 		for n in xrange(10):
-			self.bindGesture("kb:NVDA+control+%d" % (n), "readColumn")
-			self.bindGesture("kb:NVDA+shift+%d" % (n), "readColumn")
+			for modifier in modifiers:
+				gesture = "kb:NVDA+{mod}+{num}".format(mod=modifier, num=n)
+				self.bindGesture(gesture, "readColumn")
 		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
 
 	def script_readColumn(self, gesture):
@@ -79,7 +87,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		except:
 			return
 		if api.copyToClip(column):
-			# Translators: Message presented when the current column of the list item is copied to clipboard. 
+			# Translators: Message presented when the current column of the list item is copied to clipboard.
 			ui.message(_("%s copied to clipboard") % column)
 	# Translators: Message presented in input help mode.
 	script_copyColumn.__doc__ = _("Copies the last read column of the selected list item to clipboard.")
@@ -104,11 +112,13 @@ class AppModule(appModuleHandler.AppModule):
 			clsList.insert(0, FixedList)
 
 	def getToolBar(self):
-		statusBar = api.getStatusBar()
-		if statusBar is not None:
-			return api.getStatusBar().simpleNext
-		else:
+		try:
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
+			windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, controlID=16127),
+			winUser.OBJID_CLIENT, 0)
+		except LookupError:
 			return None
+		return obj
 
 	def getWhere(self):
 		toolBar = self.getToolBar()
@@ -121,47 +131,26 @@ class AppModule(appModuleHandler.AppModule):
 
 	def getName(self):
 		where = self.getWhere()
-		if where is not None:
-			return self.getWhere().name
+		if where is None:
+			return None
+		return self.getWhere().name
 
 	def getChildID(self):
 		where = self.getWhere
-		if where is not None:
-			return self.getWhere().IAccessibleChildID
-
-	def getToolBarWindow(self):
-		if self.getToolBar() is None:
+		if where is None:
 			return None
-		obj=self.getToolBar().simpleNext
-		children=obj.children
-		obj=None
-		for child in children:
-			if child.IAccessibleRole==oleacc.ROLE_SYSTEM_TOOLBAR:
-				obj=child
-		return obj
-
-	def getIRCToolBarWindow(self):
-		if self.getToolBar() is None:
-			return None
-		obj=self.getToolBar().simpleNext
-		while obj.IAccessibleRole!=oleacc.ROLE_SYSTEM_TOOLBAR:
-			obj=obj.simpleNext
-		return obj
+		return self.getWhere().IAccessibleChildID
 
 	def getHeader(self):
 		obj=api.getFocusObject()
-		if not obj.windowClassName==u'SysListView32':
-			return None
-		if obj.IAccessibleRole==oleacc.ROLE_SYSTEM_LISTITEM:
-			obj=obj.parent
+		if not (obj and obj.windowClassName == 'SysListView32' and obj.IAccessibleRole==oleacc.ROLE_SYSTEM_LISTITEM): return
+		obj=obj.parent
 		location=obj.location
 		if location and (len(location)==4):
 			(left,top,width,height)=location
-		else:
-			return None
-		obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
-		# obj=obj.parent.simpleFirstChild
-		return obj
+			obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
+			return obj
+		return None
 
 	def statusBarObj(self, pos):
 		statusBar = api.getStatusBar()
@@ -175,13 +164,13 @@ class AppModule(appModuleHandler.AppModule):
 
 	def script_toolBar(self, gesture):
 		obj = self.getToolBar()
-		if obj is None:
-			return
-		api.moveMouseToNVDAObject(obj)
-		api.setMouseObject(obj)
-		if not controlTypes.STATE_FOCUSED in obj.states:
-			obj.setFocus()
-		speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
+		if obj is not None:
+			if obj != api.getMouseObject():
+				api.moveMouseToNVDAObject(obj)
+				api.setMouseObject(obj)
+			if not controlTypes.STATE_FOCUSED in obj.states:
+				obj.setFocus()
+			speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
 	# Translators: Message presented in input help mode
 	script_toolBar.__doc__=_("Moves the system focus and mouse to the main Tool Bar.")
 
@@ -195,11 +184,17 @@ class AppModule(appModuleHandler.AppModule):
 	script_where.__doc__=_("Reports the current window.")
 
 	def script_name(self, gesture):
-		where = self.getWhere()
-		if not hasattr(where, "IAccessibleChildID") or where.IAccessibleChildID != 6:
+		try:
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
+			windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, controlID=2183),
+			winUser.OBJID_CLIENT, 0)
+		except LookupError:
 			return
-		obj = self.getToolBar().simpleNext.simpleNext.lastChild
-		obj.setFocus()
+		if obj != api.getFocusObject():
+			api.moveMouseToNVDAObject(obj)
+			api.setMouseObject(obj)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
 	script_name.__doc__=_("Moves the system focus to the Name field of the Search window.")
 
@@ -207,61 +202,54 @@ class AppModule(appModuleHandler.AppModule):
 		where = self.getWhere()
 		if not hasattr(where, "IAccessibleChildID") or where.IAccessibleChildID != 6:
 			return
-		obj = self.getToolBar().simpleNext.simpleNext.lastChild
-		children = obj.children
-		for child in children:
-			if child.IAccessibleRole==oleacc.ROLE_SYSTEM_LIST:
-				obj=child
-		obj.setFocus()
-		api.moveMouseToNVDAObject(obj)
-		api.setMouseObject(obj)
+		try:
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
+			windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, controlID=2833),
+			winUser.OBJID_CLIENT, 0)
+		except LookupError:
+			return
+		if obj != api.getFocusObject():
+			api.moveMouseToNVDAObject(obj)
+			api.setMouseObject(obj)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
 	script_searchList.__doc__=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window.")
 
-	def script_results(self, gesture):
-		where = self.getWhere()
-		if not hasattr(where, "IAccessibleChildID") or where.IAccessibleChildID != 6:
+	def script_list(self, gesture):
+		try:
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
+			windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, className="SysListView32"),
+			winUser.OBJID_CLIENT, 0)
+		except LookupError:
 			return
-		obj = self.getToolBar().simpleNext.firstChild
-		children=obj.children
-		for child in children:
-			if child.IAccessibleRole==oleacc.ROLE_SYSTEM_TOOLBAR:
-				obj=child.firstChild
-		api.moveMouseToNVDAObject(obj)
-		api.setMouseObject(obj)
-		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-		winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+		if obj != api.getFocusObject():
+			api.moveMouseToNVDAObject(obj)
+			api.setMouseObject(obj)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
-	script_results.__doc__=_("Moves the system focus to the results list in the Search window.")
+	script_list.__doc__=_("Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc.")
 
-	def script_mainWindow(self, gesture):
+	def script_readOnlyEdit(self, gesture):
 		where = self.getWhere()
-		if not hasattr(where, "IAccessibleChildID"):
-			return
-		if where.IAccessibleChildID!=9:
-			obj = self.getToolBarWindow()
+		if hasattr(where, "IAccessibleChildID") and where.IAccessibleChildID == 9:
+			cID = -1
 		else:
-			obj = self.getIRCToolBarWindow()
-		if obj is None:
+			cID = None
+		try:
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
+			windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, className="RichEdit20W", controlID=cID),
+			winUser.OBJID_CLIENT, 0)
+		except LookupError:
 			return
-		obj.setFocus()
-		api.moveMouseToNVDAObject(obj)
-		api.setMouseObject(obj)
+		if obj != api.getFocusObject():
+			api.moveMouseToNVDAObject(obj)
+			api.setMouseObject(obj)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
 	# Translators: Message presented in input help mode.
-	script_mainWindow.__doc__=_("Moves the system focus and mouse to the Context Tool Bar, where the Tab key can be used to move among the items.")
-
-	def script_mainIRC(self, gesture):
-		where = self.getWhere()
-		if not hasattr(where, "IAccessibleChildID") or where.IAccessibleChildID != 9:
-			return
-		obj = self.getIRCToolBarWindow().simpleNext.simpleNext
-		if obj is None or obj.IAccessibleStates != 1048640:
-			return
-		obj.setFocus()
-		api.setFocusObject(obj)
-		speech.speakObject(obj)
-	# Translators: Message presented in input help mode.
-	script_mainIRC.__doc__=_("Moves the system focus to the IRC received messages.")
+	script_readOnlyEdit.__doc__=_("Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages.")
 
 	def script_header(self, gesture):
 		obj = self.getHeader()
@@ -301,39 +289,6 @@ class AppModule(appModuleHandler.AppModule):
 		ui.message(self.statusBarObj(3))
 	# Translators: Message presented in input help mode.
 	script_statusBarForthChild.__doc__=_("Reports fourth object of the Status Bar.")
-
-	def getDocFolder(self):
-		langs = [languageHandler.getLanguage(), "en"]
-		for lang in langs:
-			docFolder = os.path.join(os.path.dirname(__file__), "..", "doc", lang)
-			if os.path.isdir(docFolder):
-				return docFolder
-			if "_" in lang:
-				tryLang = lang.split("_")[0]
-				docFolder = os.path.join(os.path.dirname(__file__), "..", "doc", tryLang)
-				if os.path.isdir(docFolder):
-					return docFolder
-				if tryLang == "en":
-					break
-			if lang == "en":
-				break
-		return None
-
-	def getDocPath(self, docFileName):
-		docPath = self.getDocFolder()
-		if docPath is not None:
-			docFile = os.path.join(docPath, docFileName)
-			if os.path.isfile(docFile):
-				docPath = docFile
-		return docPath
-
-	def script_about(self, gesture):
-		try:
-			os.startfile(self.getDocPath("readme.html"))
-		except WindowsError:
-			pass
-	# Translators: Message presented in input help mode.
-	script_about.__doc__ = _("Opens addon documentation.")
 
 	def doFindText(self,text,reverse=False):
 		if not text:
@@ -413,9 +368,8 @@ class AppModule(appModuleHandler.AppModule):
 		"kb:control+shift+t": "where",
 		"kb:control+shift+n": "name",
 		"kb:control+shift+p": "searchList",
-		"kb:control+shift+b": "results",
-		"kb:control+shift+z": "mainWindow",
-		"kb:control+shift+o": "mainIRC",
+		"kb:control+shift+b": "list",
+		"kb:control+shift+o": "readOnlyEdit",
 		"kb:control+shift+l": "header",
 		"kb:control+shift+q": "statusBarFirstChild",
 		"kb:control+shift+w": "statusBarSecondChild",
@@ -424,5 +378,4 @@ class AppModule(appModuleHandler.AppModule):
 		"kb:control+NVDA+f": "find",
 		"kb:control+f3": "findNext",
 		"kb:control+shift+f3": "findPrevious",
-		"kb:NVDA+control+shift+h": "about",
 	}
