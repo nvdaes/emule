@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Yazarlar: Noelia, Chris, Alberto.
 *	İndir [kararlı versiyon][1]
@@ -22,10 +22,10 @@ kaldırmalısınız. gerekir.
 *	kontrol + shift + n: Bul penceresinde odağı Ad alanınna taşır.
 *	kontrol + shift + p: Arama penceresinde, odağı ve fareyi arama
   parametreleri listesine  veya alan düzenleme seçeneklerine taşır.
-*	kontrol + shift + b: odağı arama penceresinde sonuçlar listesine taşır.
-*	kontrol + shift + z: odak ve fareyi bağlamsal araç çubuğuna taşır . Sekme
-  tuşunu kullanarak araç çubuğunda hareket edebilirsiniz.
-*	kontrol + shift + o: odağı alınan IRC mesajları penceresine taşır.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	kontrol + NVDA + f: Düzenleme imleci bir salt okunur düzenleme kutusunda
   bulunuyorsa, bul iletişim kutusunu açar.
 *	kontrol + f3: Daha önce aranan ifadeyi metnin sonraki kısmında arar.
@@ -40,8 +40,6 @@ kaldırmalısınız. gerekir.
   çubuğunun üçüncü nesnesini okur.
 *	kontrol + shift + r: eD2K ve Kad ağ bağlantı raporlarıyla ilgili durum
   çubuğunun dördüncü nesnesini okur.
-*	NVDA + kontrol + shift + h: Dokümantasyonu açar. Bu varsayılan dil için
-  kullanılabilir değilse İngilizce belgeler açılır.
 
 ## Sütunların yönetimi. ##
 
@@ -51,6 +49,15 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA + kontrol 1-0: ilk 10 sütunu okur.
 *	NVDA + shift 1-0: 11-20 sütunları okur.
 *	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
+
+## 1.2 için Değişiklikler ##
+*	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## 1.1 Değişiklikler ##
 *	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.
@@ -67,3 +74,4 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

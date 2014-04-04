@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Auteurs: Noelia, Chris, Alberto.
 *	download [stabiele versie][1]
@@ -22,12 +22,10 @@ Getest op [eMule][2] 0.50a.
 *	control+shift+n: Verplaatst de focus naar het Naamveld in het Zoekvenster.
 *	control+shift+p: In het Zoekscherm, verplaatst focus en muis naar de lijst
   met zoekopties, of opties voor het invoerveld.
-*	control+shift+b: Verplaatst de focus naar de resultatenlijst in het
-  Zoekvenster.
-*	control+shift+z: Verplaatst focus en muis naar contextuele taakbalk. Vanaf
-  de taakbalk kunt u navigeren met de Tabtoets.
-*	control+shift+o: Verplaatst de focus naar het venster met de via IRC
-  ontvangen berichten.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Opent een zoekdialoogvenster als de cursor in een alleen
   lezen invoerveld staat.
 *	control+f3: Zoekt het volgende voorkomen van de tekst die u eerder zocht
@@ -44,8 +42,6 @@ Getest op [eMule][2] 0.50a.
   UpLoad-/DownLoadsnelheid te kennen.
 *	control+shift+r: Leest het vierde object van de statusbalk; meld over
   verbinding met eD2K en Kad netwerk.
-*	NVDA+control+shift+h: Opent de documentatie. Als ze niet beschikbaar is in
-  uw standaardtaal wordt de Engelse documentatie geopend.
 
 ## Kolommen beheren. ##
 
@@ -57,6 +53,15 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+1-0: Leest kolommen 11 tot 20.
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
+
+## Changes for 1.2 ##
+*	 When moving to the IRC messages, the selected text is reported properly.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Veranderingen voor 1.1 ##
 *	 Probleem opgelost in eMule item onder NVDA's help menu, als de naam van
@@ -74,3 +79,4 @@ volgende sneltoetsen beschikbaar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

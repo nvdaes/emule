@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Автори: Noelia, Chris, Alberto.
 *	Изтегляне [стабилна версия][1]
@@ -21,11 +21,10 @@
 *	control+shift+n: Премества фокуса до полето Име на прозореца за търсене.
 *	control+shift+p: Премества фокуса и мишката до списъка с параметри на
   търсенето или полето за писане на всяка опция в прозореца за търсене.
-*	control+shift+b: Премества фокуса до списъка с резултати в прозореца за
-  търсене.
-*	control+shift+z: Премества фокуса и мишката до контекстната лента. В нея
-  можете да се придвижвате с клавиша Tab.
-*	control+shift+o: Премества фокуса до списъка с получени съобщения в IRC.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Отваря диалог за търсене, ако каретката се намира в поле
   за писане само за четене.
 *	control+f3: Търси следваща поява на текста, който сте търсили последно в
@@ -42,8 +41,6 @@
   ако искате да разберете скоростта на качване/сваляне.
 *	control+shift+r: Прочита четвъртия обект в лентата на състоянието;
   докладва при свързване към eD2K и Kad мрежи.
-*	NVDA+control+shift+h: Отваря документацията. Ако не е налична на вашия
-  език,  отваря английската версия.
 
 ## Управление на колоните. ##
 
@@ -55,6 +52,16 @@
 *	nvda+shift+1-0: Прочита колоните с поредност от 11 до 20.
 *	nvda+shift+C: Копира съдържанието на последно прочетената колона в
   клипборда.
+
+## Промени във версия 1.2 ##
+*	 При придвижване в съобщенията в IRC, маркираният текст вече се съобщава
+   правилно.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Промени във версия 1.1 ##
 *	 Отстранен е проблем с елемента eMule от подменю Помощ от менюто на NVDA,
@@ -73,3 +80,4 @@
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

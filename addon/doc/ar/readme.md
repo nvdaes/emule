@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	مطورو الإضافة: Noelia, Chris, Alberto
 *	تحميل [الإصدار النهائي][1]
@@ -22,11 +22,10 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	control+shift+n: لتحريك مؤشر النظام إلى حقل الاسم في نافذة البحث.
 *	control+shift+p: في نافذة البحث يحرك مؤشر الفأرة ومؤشر النظام تجاه قائمة
   معطيات البحث أو خيارات حقول التحرير. 
-*	control+shift+b: لتحريك مؤشر النظام تجاه قائمة النتائج في نافذة البحث. 
-*	control+shift+z: تحريك مؤشر الفأرة ومؤشر النظام تجاه شريط الأدوات
-  السياقي. ويمكن التنقل من شريط الأدوات باستخدام مفتاح الانتقال TAB
-*	control+shift+o: لتحريك مؤشر النظام تجاه نافذة الرسائل المستلمة في
-  بروتوكول IRC للدردشة عبر الإنترنت. 
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: إذا كان المؤشر موجودا في صندوق تحرير للقراءة فقط فإن هذا
   الاختصار يمكن من فتح محاورة للبحث. 
 *	control+f3: للوصول إلى الظهور التالي للنص الذي قمت بالبحث عنه مسبقا في
@@ -42,8 +41,6 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
   الرفع والتنزيل. 
 *	control+shift+r: لقراءة الكائن الرابع في شريط الحالة. يستخدم للإعلام عن
   الاتصال بشبكة eD2K و CAD
-*	NVDA+control+shift+h: لفتح ملف المساعدة بالبرنامج. وإذا لم يكن موجودا بلغة
-  حاسبك الافتراضية فسوف يتم فتحه باللغة الإنجليزية. 
 
 ## إدارة العماويد ##
 
@@ -53,6 +50,15 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	nvda+control+1-0: لقراءة الأعمدة العشر الأولى. 
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
+
+## مستجدات الإصدار 1.2 ##
+*	 عند التحرك على رسائل ال IRC, فإنه سيتم الإعلان عنها بشكل صحيح
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## تعديلات الإصدار  1.1 ##
 *	 إصلاح خطأ برمجي بعنصر eMule بقائمة المساعدة ب NVDA, عندما يحتوي اسم ملف
@@ -69,3 +75,4 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em
+

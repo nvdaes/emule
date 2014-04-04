@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Autorzy: Noelia, Chris, Alberto.
 *	Pobierz [wersja stabilna][1]
@@ -21,11 +21,10 @@ Przetestowany na [eMule][2] 0.50a.
 *	control+shift+n: przenosi punkt uwagi do pola nazwy w oknie znajdowania.
 *	control+shift+p: w oknie wyszukiwania, przenosi mysz i punkt uwagi do
   listy parametrów, albo opcji pola edycji.
-*	control+shift+b: przenosi punkt uwagi do listy wyników w oknie
-  wyszukiwania.
-*	control+shift+z: przenosi punkt uwagi i mysz do kontekstowego paska
-  narzędzi. Mozesz wyjść z paska narzędzi przy pomocy klawisza Tab.
-*	control+shift+o: przenosi punkt uwagi do okna otrzymanych wiadomości IRC.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: jeśli kursor systemowy znajduje się w polu edycji tylko do
   odczytu, otwiera okno Znajdź.
 *	control+f3: znajduje następne wystąpienie tekstu ostatnio wyszukiwanego w
@@ -42,8 +41,6 @@ Przetestowany na [eMule][2] 0.50a.
   poznać prędkość pobierania i wysyłania.
 *	control+shift+r: odczytuje czwarty obiekt na pasku stanu; raport z
   połączenia z siecią eD2K i Kad.
-*	NVDA+control+shift+h: otwiera dokumentację. jeśli nie jest dostępna w
-  twoim języku, otwiera dokumentację w języku angielskim.
 
 ## Zarządzanie kolumnami. ##
 
@@ -54,6 +51,16 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+control+1-0: czyta pierwsze 10 kolumn.
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
+
+## Zmiany dla 1.2 ##
+*	 Po przejściu do wiadomości IRC, zaznaczony tekst jest prawidłowo
+   odczytywany.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Zmiany dla 1.1 ##
 *	 Poprawiony błąd polecenia Emule w menu Pomoc NVDA, gdy nazwa folderu
@@ -71,3 +78,4 @@ następujące polecenia klawiszowe w tym dodatku:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Autores: Noelia, Chris, Alberto.
 *	baixe a [versão estável][1]
@@ -21,12 +21,10 @@ Testado no [eMule][2] 0.50a.
 *	control+shift+n: Moves o foco para o campo nome na janela pesquisar.
 *	control+shift+p: Na janela pesquisar, moves foco e mouse para a lista de
   parâmetros de pesquisa, ou opções do campo editar.
-*	control+shift+b: Move o foco para a lista de resultados na janela
-  pesquisar.
-*	control+shift+z: Moves foco e mouse para a barra de ferramentas de
-  contexto. Pode mover-se na barra de ferramentas usando a tecla Tab.
-*	control+shift+o: Moves o foco para a janela de mensagens recebidas por
-  IRC.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Se o cursor estiver posicionado numa caixa de edição
   somente leitura, abre um diálogo de busca.
 *	control+f3: Procura a próxima ocorrência do texto que você pesquisou
@@ -43,8 +41,6 @@ Testado no [eMule][2] 0.50a.
   a velocidade de Upload e DownLoad.
 *	control+shift+r: Lê o quarto objeto da barra de status; anuncia como estão
   as conexões às redes eD2K e Kad.
-*	NVDA+control+shift+h: Abre a documentação. Caso a mesma não exista em seu
-  idioma padrão, abre a documentação em Inglês.
 
 ## Mexer com colunas. ##
 
@@ -56,6 +52,16 @@ seguintes teclas de comando:
 *	nvda+shift+1-0: Lê as colunas de 11 a 20.
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
+
+## Mudanças na 1.2 ##
+*	 Ao mover-se para as mensagens de IRC, o texto selecionado é devidamente
+   anunciado.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Mudanças na 1.1 ##
 *	 Corrigido erro no item eMule no menu de ajuda do NVDA quando o nome da
@@ -73,3 +79,4 @@ seguintes teclas de comando:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

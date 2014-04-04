@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Autores: Noelia, Chris, Alberto.
 *	descarga [versión estable][1]
@@ -22,13 +22,10 @@ Probado en [eMule] [2] 0.50A.
 *	control+shift+n: Mueve el foco al campo nombre en la ventana de Búsqueda.
 *	control+shift+p: En la ventana de Búsqueda, mueve el foco y el ratón a la
   lista de parámetros de búscqueda, o al campo de edición de opciones .
-*	control+shift+b: Mueve el foco a la lista de resultados en la ventana de
-  búsqueda.
-*	control+shift+z: Mueve el foco y el ratón a la barra de herramientas
-  contextual. Puedes moverte por la barra de herramientas utilizando la
-  tecla Tab.
-*	control+shift+o: Mueve el foco a la ventana de mensajes recibidos del
-  IRC.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Si el cursor se pone en un cuadro de edición de sólo
   lectura, abre un diálogo de búsqueda.
 *	control+f3: Encuentra la siguiente aparición del texto que hayas buscado
@@ -45,8 +42,6 @@ Probado en [eMule] [2] 0.50A.
   saber la velocidad de subida y bajada.
 *	control+shift+r: Lee el cuarto objeto de la barra de estado; informa sobre
   la conexión de las redes Kad y eD2K.
-*	NVDA+control+shift+h: Abre la documentación. Si no está disponible para tu
-  idioma predeterminado abre la documentación en inglés.
 
 ## Administrando columnas. ##
 
@@ -58,6 +53,16 @@ están disponibles las siguientes órdenes de teclado:
 *	NVDA+shift+1-0: Lee las columnas 11 a 20.
 *	NVDA+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
+
+## Cambios para 1.2 ##
+*	 Al moverse a los mensajes del IRC, el texto seleccionado se anuncia
+   apropiadamente.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Cambios para 1.1 ##
 *	 Solucionado un problema en el elemento eMule en el menú Ayuda de NVDA,
@@ -76,3 +81,4 @@ están disponibles las siguientes órdenes de teclado:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

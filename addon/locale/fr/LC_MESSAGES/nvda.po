@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-09 15:18+0100\n"
-"Last-Translator: patrick ZAJDA <patrick@zajda.fr>\n"
+"PO-Revision-Date: 2014-03-09 10:47+0100\n"
+"Last-Translator: Bachir Benanou <ben_bach@yahoo.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:58
@@ -26,7 +26,7 @@ msgstr "Lis la collone spécifiée pour l'élément de liste en cours"
 #: addon/appModules/emule.py:73
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s copié dans le presse-papier"
+msgstr "%s copié dans le presse-papiers"
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:75
@@ -49,7 +49,7 @@ msgstr "Rapporte la fenêtre courrante"
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:181
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Déplace le focus système au champ Nom de la fenêtre de recherche"
+msgstr "Déplace le focus système au champ Nom de la fenêtre de recherche."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:196
@@ -58,14 +58,14 @@ msgid ""
 "for each option, in the Search window."
 msgstr ""
 "Déplace le focus système et la souris aux paramètres de recherche ou au "
-"champ d'édition pour chaque option dans la fenêtre de recherche"
+"champ d'édition pour chaque option dans la fenêtre de recherche."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:212
 msgid "Moves the system focus to the results list in the Search window."
 msgstr ""
 "Déplace le focus système à la liste des résultats dans la fenêtre de "
-"recherche"
+"recherche."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:228
@@ -73,19 +73,19 @@ msgid ""
 "Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
 "can be used to move among the items."
 msgstr ""
-"Déplace le focus système et la souris dans la barre d'outils contextuelle, "
-"où la touche tab peut être utilisée pour se déplacer entre les éléments"
+"Déplace le focus système et la souris vers la barre d'outils contextuelle, "
+"où la touche tab peut être utilisée pour se déplacer entre les éléments."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:241
 msgid "Moves the system focus to the IRC received messages."
-msgstr "Déplace le focus système dans les messages IRC reçus"
+msgstr "Déplace le focus système vers les messages IRC reçus."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:252
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr ""
-"Déplace le navigateur d'objets et la souris aux entêtes de la liste courrante"
+"Déplace l'objet navigateur et la souris aux entêtes de la liste courrante."
 
 #. Translators: Message presented in input help mode.
 #: addon/appModules/emule.py:259
@@ -116,7 +116,7 @@ msgstr "Ouvre la documentation du module complémentaire"
 #: addon/appModules/emule.py:332
 #, python-format
 msgid "text \"%s\" not found"
-msgstr "texte \"%s\" non trouvé\""
+msgstr "texte \"%s\" non trouvé"
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
 #: addon/appModules/emule.py:334

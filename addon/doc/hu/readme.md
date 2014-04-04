@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Készítők: Noelia, Chris, Alberto.
 *	Letöltés [stabil verzió][1]
@@ -19,10 +19,10 @@ Tesztelve az [eMule][2] 0.50a programmal.
 *	control+shift+n: a fókuszt a keresőablak Név mezőjére helyezi.
 *	control+shift+p: a fókuszt a keresőablak paraméterlistájához, vagy a
   szerkesztőmező beállításaihoz helyezi.
-*	control+shift+b: a fókuszt a keresési találatok listájára helyezi.
-*	control+shift+z: A fókuszt és az egeret a helyi eszköztárra helyezi. Az
-  eszköztárról a Tab billentyűvel válthat másik vezérlőelemre.
-*	control+shift+o: A fókuszt az IRC üzenetek ablakra helyezi.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Ha a kurzor egy csak olvasható szerkesztőmezőn áll,
   megnyit egy keresőablakot.
 *	control+f3: A csak olvasható szerkesztőmezőkben megkezdett keresés
@@ -40,8 +40,6 @@ Tesztelve az [eMule][2] 0.50a programmal.
   és feltöltési sebességet tartalmazza.
 *	control+shift+r: felolvassa a negyedik elemet az állapotsoron, mely az
   eD2K és Kad hálózatok kapcsolódási állapotát tartalmazza.
-*	NVDA+control+shift+h: Megnyitja a dokumentációt. Ha ez az NVDA jelenleg
-  használt nyelvéhez nem érhető el, az angol dokumentáció nyílik meg.
 
 ## Oszlopok kezelése. ##
 
@@ -53,6 +51,16 @@ parancsok is elérhetőek:
 *	nvda+shift+1-0: Felolvassa a 11-től 20-ig található oszlopokat.
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
+
+## Az 1.2 verzió változásai ##
+*	 Amikor az IRC üzeneteken navigálunk, a kijelölt szöveg felolvasásra
+   kerül.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Az 1.1 verzió változásai ##
 *	 Javítva az Emule elem a súgó menüben, hiba történt ha a felhasználói
@@ -69,3 +77,4 @@ parancsok is elérhetőek:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

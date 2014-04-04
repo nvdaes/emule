@@ -1,6 +1,4 @@
-# eMule 0.50A #
-[[!meta title="eMule 0.50A"]]
-[[!meta title="eMule 0.50A"]]
+# eMule #
 
 *	Authoren: Noelia, Chris, Alberto.
 *	[stabile Version herunterladen][1]
@@ -25,12 +23,10 @@ Getestet mit [eMule][2] 0.50a.
 *	strg+Umschalt+n: Verschiebt den Fokus in das Feld "name" im Suchfenster
 *	strg+Umschalt+p: Bewegt den Fokus im Suchfenster in die Liste der
   Suchparameter
-*	strg+Umschalt+b: Bewegt den Fokus in die liste mit den Suchergebnissen
-*	strg+Umschalt+z: bewegt den Fokus und die Maus in die
-  Kontext-Symbolleiste. Von hier aus können Sie die Tab-Taste verwenden, um
-  andere Elemente zu fokussieren.
-*	strg+Umschalt+o: Bewegt den Fokus in das Fenster mit den empfangenen
-  Irc-Nachrichten
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	strg+NVDA+f: Wenn sich der Systemcursor in einem schreibgeschützten
   Eingabefeld befindet, wird ein Suchfeld geöffnet.
 *	strg+f3: sucht nach dem nächsten Vorkommen des Textes, den Sie mit
@@ -47,8 +43,6 @@ Getestet mit [eMule][2] 0.50a.
   Datenübertragungsraten)
 *	strg+Umschalt+r: Zeigt das vierte Element der Statuszeile an
   (Informationen zu Verbindungen mit ed2k- und Kademia-Netzwerken)
-*	NVDA+Umschalt+h: öffnet die Dokumentation. Fals es diese nicht in Ihrer
-  Sprache gibt, wird die englische Dokumentation geöffnet.
 
 ## Spalten verwalten. ##
 
@@ -60,6 +54,15 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+1-0: Ließt die Spalten 11 bis 20.
 *	NVDA+Umschalt+c: kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
+
+## Changes for 1.2 ##
+*	 When moving to the IRC messages, the selected text is reported properly.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Änderungen bis 1.1 ##
 *	 Fehler im Eintrag Emule im NVDA-Hilfe-Menü behoben, wenn der Namen des
@@ -77,3 +80,4 @@ Befehle sind außerdem verfügbar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

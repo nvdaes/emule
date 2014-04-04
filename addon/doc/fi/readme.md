@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Tekijät: Noelia, Chris, Alberto.
 *	Lataa [vakaa versio][1]
@@ -21,11 +21,10 @@ Testattu [eMule][2]n 0.50a-versiossa.
 *	Control+Shift+N: Siirtää kohdistuksen Haku-ikkunan Nimi-kenttään.
 *	Control+Shift+P: Siirtää kohdistuksen ja hiiren Haku-ikkunassa
   hakuparametrien listaan tai eri vaihtoehtojen muokkauskenttiin.
-*	Control+Shift+B: Siirtää kohdistuksen tuloslistaan Haku-ikkunassa.
-*	Control+Shift+Z: Siirtää kohdistuksen ja hiiren tilannekohtaiselle
-  työkaluriville. Siitä voidaan siirtyä pois painamalla sarkain-näppäintä.
-*	Control+Shift+O: Siirtää kohdistuksen vastaanotettujen IRC-viestien
-  ikkunaan.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	Control+NVDA+F: Avaa etsintävalintaikkunan, mikäli kohdistin on vain luku
   -muokkausruudussa.
 *	Control+F3: Etsii vain luku -muokkausruuduista aiemmin etsityn tekstin
@@ -42,8 +41,6 @@ Testattu [eMule][2]n 0.50a-versiossa.
   sisältää lähetys- ja latausnopeudet.
 *	Control+Shift+R: Lukee tilarivillä neljäntenä olevan objektin, jossa on
   tietoa eD2K- ja Kad-verkkojen yhteyden tilasta.
-*	NVDA+Control+Shift+H: Avaa ohjeen nykyisellä kielellä tai englanniksi,
-  mikäli käännöstä ei ole saatavilla.
 
 ## Sarakkeiden hallinta ##
 
@@ -54,6 +51,15 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Control+1-0: Lukee ensimmäiset 10 saraketta.
 *	NVDA+Shift+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Shift+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
+
+## Muutokset versiossa 1.2 ##
+*	 Valittu teksti luetaan oikein IRC-viesteihin siirryttäessä.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Muutokset versiossa 1.1 ##
 *	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa
@@ -71,3 +77,4 @@ lisäksi seuraavat näppäinkomennot:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+

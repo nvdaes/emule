@@ -1,4 +1,4 @@
-# eMule 0.50A #
+# eMule #
 
 *	Autori: Noelia, Chris, Alberto.
 *	Stiahnuť [stabilná verzia][1]
@@ -20,10 +20,10 @@ Testované s [eMule][2] 0.50a.
 *	control+shift+n: Presunie fokus do poľa názov v okne hľadania.
 *	control+shift+p: Presunie fokus na zoznam parametrov alebo do editačného
   poľa s možnosťami v okne hľadania.
-*	control+shift+b: Presunie fokus do zoznamu výsledkov v okne hľadania.
-*	control+shift+z: Presunie myš a fokus do kontextového menu. Na pohy v
-  tomto menu použite tabulátor.
-*	control+shift+o: Presunie kurzor do okna s IRC správami.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
 *	control+NVDA+f: Ak ste v editačnom poli iba na čítanie, otvorí okno
   hľadania.
 *	control+f3: Nájde najbližší výskyt hľadaného reťazca.
@@ -38,7 +38,6 @@ Testované s [eMule][2] 0.50a.
   sťahovania a posielania.
 *	control+shift+r: prečíta štvrtý objekt na stavovom riadku; Oznámy stav
   pripájania do siete eD2K a Kad.
-*	NVDA+control+shift+h: otvorí návod (tento dokument)
 
 ## práca so stĺpcami. ##
 
@@ -48,6 +47,15 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+control+1-0: Prečíta prvých 10 stĺpcov.
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
+
+## Zmeny vo verzii 1.2 ##
+*	 Pri pohybe v IRC správach je správne oznamovaný vybratý text.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
 
 ## Zmeny vo verzii 1.1 ##
 *	 opravená chyba v pomocníkovy Emule, ktorá sa objavovala, ak názov
@@ -64,3 +72,4 @@ doplnku sú dostupné aj tieto skratky:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+
