@@ -22,10 +22,11 @@ Probado no [eMule][2] 0.50a.
 *	control+shift+n: Move o foco cara o campo de nome na ventá de busca.
 *	control+shift+p: Na ventá de procurar, move o foco e o rato cara a lista
   de parámetros de procuras, ou opcións do campo de edición.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: Move o foco para a lista na ventá actual. Por exemplo
+  utilizable na xanela Buscar, descargas na xanela de transferencia, etc
+*	control+shift+o: Move o foco para caixas  de só lectura no diálogo
+  actual. Por exemplo, as mensaxes recibidas no IRC , servidores
+  dispoñibles, etc
 *	control+NVDA+f: Se se atopa o cursor nun cadro de edición de só lectura,
   abre un diálogo de busca.
 *	control+f3: Busca a seguinte aparición do texto que procuraches
@@ -56,12 +57,12 @@ dispoñibles as seguintes ordes de teclado:
 ## Cambios para 1.2 ##
 *	 Cando se cambia para as mensaxes de IRC, o texto seleccionado indícase
    correctamente.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 A combinación de teclas usada para pasar á lista de resultados de busca
+   foi xeneralizada para poder mover o foco para calquera lista dispoñible
+   na ventá actual.
+*	 A orde usada para concentrar as mensaxes de IRC foi xeneralizada para
+   desprazarse a calquera caixa de edición de só lectura, o que fai posible
+   revisar a información de conexión no diálogo de servidores.
 
 ## Cambios para 1.1 ##
 *	 Correxido un erro no elemento eMule no menú de axuda do NVDA, cando o

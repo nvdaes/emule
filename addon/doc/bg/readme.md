@@ -21,10 +21,12 @@
 *	control+shift+n: Премества фокуса до полето Име на прозореца за търсене.
 *	control+shift+p: Премества фокуса и мишката до списъка с параметри на
   търсенето или полето за писане на всяка опция в прозореца за търсене.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: Преместване на фокуса в списъка в текущия прозорец. Може
+  да се използва например в прозореца за търсене, изтеглянията в прозореца
+  за прехвърляния, и т.н.
+*	control+shift+o: Преместване на фокуса в нередактируемите текстови полета
+  в текущия прозорец. Например - получените в IRC съобщения , наличните
+  сървъри, и т.н.
 *	control+NVDA+f: Отваря диалог за търсене, ако каретката се намира в поле
   за писане само за четене.
 *	control+f3: Търси следваща поява на текста, който сте търсили последно в
@@ -56,12 +58,13 @@
 ## Промени във версия 1.2 ##
 *	 При придвижване в съобщенията в IRC, маркираният текст вече се съобщава
    правилно.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 Клавишната комбинация за преместване на фокуса в списъка с резултатите от
+   търсенето бе подобрена, с цел с нея да може да се премества фокуса до
+   всеки един списък, наличен в текущия прозорец.
+*	 Командата за фокусиране на IRC съобщенията бе подобрена, с цел с нея да
+   се премества фокуса във всяко едно нередактируемо текстово поле, правейки
+   възможно преглеждането на информацията за свързването в прозореца със
+   сървърите.
 
 ## Промени във версия 1.1 ##
 *	 Отстранен е проблем с елемента eMule от подменю Помощ от менюто на NVDA,

@@ -10,7 +10,8 @@ msgstr ""
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
 "PO-Revision-Date: 2013-08-05 18:15-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
-"Language-Team: Equipe de tradução do NVDA para Português do Brasil <clever92000@yahoo.com.br>\n"
+"Language-Team: Equipe de tradução do NVDA para Português do Brasil "
+"<clever92000@yahoo.com.br>\n"
 "Language: pt_BR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -20,132 +21,113 @@ msgstr ""
 "X-Poedit-SourceCharset: utf-8\n"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:58
 msgid "Reads the specified column for the current list item."
 msgstr "Lê a respectiva coluna do item de lista atual."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
-#: addon/appModules/emule.py:73
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s copiado para área de transferência"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:75
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Copia a última coluna lida do item de lista selecionado para a área de transferência."
+msgstr ""
+"Copia a última coluna lida do item de lista selecionado para a área de "
+"transferência."
 
 #. Translators: Message presented in input help mode
-#: addon/appModules/emule.py:163
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "Move o foco do sistema e o mouse para a barra de ferramentas principal."
+msgstr ""
+"Move o foco do sistema e o mouse para a barra de ferramentas principal."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
-#: addon/appModules/emule.py:172
 msgid "Reports the current window."
 msgstr "Lê a janela atual."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:181
 msgid "Moves the system focus to the Name field of the Search window."
 msgstr "Move o foco do sistema para o campo nome da janela pesquisar."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:196
-msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
-msgstr "Move o foco do sistema e o mouse para a lista de parâmetros de pesquisa ou o campo de edição de cada opção, na janela pesquisar."
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"Move o foco do sistema e o mouse para a lista de parâmetros de pesquisa ou o "
+"campo de edição de cada opção, na janela pesquisar."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:212
-msgid "Moves the system focus to the results list in the Search window."
+#, fuzzy
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr "Move o foco do sistema para a lista de resultados na janela pesquisar."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:228
-msgid "Moves the system focus and mouse to the Context Tool Bar, where the Tab key can be used to move among the items."
-msgstr "Move o foco do sistema e o mouse para a barra de ferramentas de contexto, onde se pode usar a tecla tab para mover-se entre os itens."
-
-#. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:241
-msgid "Moves the system focus to the IRC received messages."
+#, fuzzy
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
 msgstr "Move o foco do sistema para as mensagens recebidas por IRC."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:252
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Move o objeto de navegação e o mouse para os cabeçalhos da lista atual."
+msgstr ""
+"Move o objeto de navegação e o mouse para os cabeçalhos da lista atual."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:259
 msgid "Reports first object of the Status Bar."
 msgstr "Lê o primeiro objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:266
 msgid "Reports second object of the Status Bar."
 msgstr "Lê o segundo objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:273
 msgid "Reports third object of the Status Bar."
 msgstr "Lê o terceiro objeto da barra de status."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:280
 msgid "Reports fourth object of the Status Bar."
 msgstr "Lê o quarto objeto da barra de status."
 
-#. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:313
-msgid "Opens addon documentation."
-msgstr "Abre a documentação do complemento."
-
 #. Translators: Label of a dialog presented when the specified string of text is not found.
-#: addon/appModules/emule.py:332
 #, python-format
 msgid "text \"%s\" not found"
 msgstr "texto \"%s\" não achado"
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
-#: addon/appModules/emule.py:334
 msgid "Find Error"
 msgstr "Erro de busca"
 
 #. Translators: Label for a search box.
-#: addon/appModules/emule.py:342
 msgid "Search for:"
 msgstr "Pesquisar por:"
 
 #. Translators: title for the search dialog.
-#: addon/appModules/emule.py:344
 msgid "eMule search"
 msgstr "Pesquisa do eMule"
 
 #. Translators: Message presented in input help mode
-#: addon/appModules/emule.py:360
 msgid "Opens the find dialog when in read only edit boxes."
 msgstr "Abre o diálogo procurar quando em caixas de edição somente leitura."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:373
 msgid "Find next occurence."
 msgstr "Procura próxima ocorrência."
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:386
 msgid "Find previous occurrence."
 msgstr "Procura ocorrência anterior."
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:13
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "\teMule is a P2P program to search and share files.\n"
@@ -159,3 +141,12 @@ msgstr ""
 "\thttp://www.emule-project.net\n"
 "\t"
 
+#~ msgid ""
+#~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "
+#~ "key can be used to move among the items."
+#~ msgstr ""
+#~ "Move o foco do sistema e o mouse para a barra de ferramentas de contexto, "
+#~ "onde se pode usar a tecla tab para mover-se entre os itens."
+
+#~ msgid "Opens addon documentation."
+#~ msgstr "Abre a documentação do complemento."

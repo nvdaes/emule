@@ -54,19 +54,17 @@ msgstr ""
 "писане на всяка опция в прозореца за търсене."
 
 #. Translators: Message presented in input help mode.
-msgid "Moves the system focus to the results list in the Search window."
+#, fuzzy
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr "Премества фокуса до списъка с резултати в прозореца за търсене."
 
 #. Translators: Message presented in input help mode.
+#, fuzzy
 msgid ""
-"Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
-"can be used to move among the items."
-msgstr ""
-"Премества фокуса и мишката до контекстната лента, където може да използвате "
-"клавиша Tab, за да се придвижвате между елементите."
-
-#. Translators: Message presented in input help mode.
-msgid "Moves the system focus to the IRC received messages."
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
 msgstr "Премества фокуса до списъка с получени съобщения в IRC."
 
 #. Translators: Message presented in input help mode.
@@ -88,10 +86,6 @@ msgstr "Докладва третия обект в лентата на съст
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "Докладва четвъртия обект в лентата на състоянието."
-
-#. Translators: Message presented in input help mode.
-msgid "Opens addon documentation."
-msgstr "Отваря документацията за добавката"
 
 #. Translators: Label of a dialog presented when the specified string of text is not found.
 #, python-format
@@ -141,3 +135,13 @@ msgstr ""
 "\tМоже да получите повече информация за eMule на адрес\n"
 "\thttp://www.emule-project.net\n"
 "\t"
+
+#~ msgid ""
+#~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "
+#~ "key can be used to move among the items."
+#~ msgstr ""
+#~ "Премества фокуса и мишката до контекстната лента, където може да "
+#~ "използвате клавиша Tab, за да се придвижвате между елементите."
+
+#~ msgid "Opens addon documentation."
+#~ msgstr "Отваря документацията за добавката"

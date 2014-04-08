@@ -22,10 +22,12 @@ Probado en [eMule] [2] 0.50A.
 *	control+shift+n: Mueve el foco al campo nombre en la ventana de Búsqueda.
 *	control+shift+p: En la ventana de Búsqueda, mueve el foco y el ratón a la
   lista de parámetros de búscqueda, o al campo de edición de opciones .
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: Mueve el foco a la lista en la ventana actual. Por
+  ejemplo útil en la ventana Buscar, Descargas en ventana de Transferencia,
+  etc.
+*	control+shift+o: Mueve el foco a los cuadros de edición de sólo lectura en
+  la ventana actual. Por ejemplo, mensajes recibidos de IRC , Servidores
+  disponibles, etc.
 *	control+NVDA+f: Si el cursor se pone en un cuadro de edición de sólo
   lectura, abre un diálogo de búsqueda.
 *	control+f3: Encuentra la siguiente aparición del texto que hayas buscado
@@ -57,12 +59,12 @@ están disponibles las siguientes órdenes de teclado:
 ## Cambios para 1.2 ##
 *	 Al moverse a los mensajes del IRC, el texto seleccionado se anuncia
    apropiadamente.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 La combinación de teclas usada para mover a la lista de resultados de la
+   búsqueda se ha generalizado para ser capaz de mover el foco a cualquier
+   lista disponible en la ventana actual.
+*	 La orden usada para enfocar los mensajes de IRC se ha generalizado para
+   moverse a cualquier casilla de edición de sólo lectura, por lo que es
+   posible revisar la información de conexión en la ventana Servidores.
 
 ## Cambios para 1.1 ##
 *	 Solucionado un problema en el elemento eMule en el menú Ayuda de NVDA,
