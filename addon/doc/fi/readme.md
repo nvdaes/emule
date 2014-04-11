@@ -23,7 +23,7 @@ Testattu [eMule][2]n 0.50a-versiossa.
   hakuparametrien listaan tai eri vaihtoehtojen muokkauskenttiin.
 *	Control+Shift+B: Siirtää kohdistuksen nykyisessä ikkunassa olevaan
   listaan. Käyttökelpoinen esimerkiksi Haku-ikkunassa, Siirrot-ikkunan
-  latauksissa jne.
+  Lataukset-listassa jne.
 *	Control+Shift+O: Siirtää kohdistuksen nykyisen ikkunan vain luku
   -muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin,
   käytettävissä olevien palvelimien listaan jne.

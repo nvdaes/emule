@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-05 16:21+0200\n"
-"Last-Translator: Jani Kinnunen\n"
+"PO-Revision-Date: 2014-04-08 07:44+0200\n"
+"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.4\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -52,18 +52,21 @@ msgstr ""
 "listaan tai jokaisen vaihtoehdon muokkauskenttään."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "Siirtää järjestelmäkohdistuksen Haku-ikkunassa tuloslistaan."
+msgstr ""
+"Siirtää järjestelmäkohdistuksen nykyisen ikkunan ensimmäiseen listaan. "
+"Esimerkiksi Haku-ikkunan hakutulosten listaan, Siirrot-ikkunan Lataukset-"
+"listaan jne."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "Siirtää järjestelmäkohdistuksen vastaanotettuihin IRC-viesteihin."
+msgstr ""
+"Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku -"
+"muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
