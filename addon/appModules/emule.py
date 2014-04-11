@@ -1,6 +1,8 @@
 # -*- coding: UTF-8 -*-
 
 # eMule
+# Used queueEvent("gainFocus", obj) for script_toolBar
+# Date: 11/04/2014
 # Removed control+shift+z. Used windowUtils to search the toolbar, lists an read-only edit boxes in different windows
 # Date: 20/02/2014
 # Version: 1.2-dev
@@ -23,6 +25,7 @@
 
 import appModuleHandler
 import addonHandler
+import eventHandler
 import os
 import api
 import ui
@@ -170,7 +173,7 @@ class AppModule(appModuleHandler.AppModule):
 				api.setMouseObject(obj)
 			if not controlTypes.STATE_FOCUSED in obj.states:
 				obj.setFocus()
-			speech.speakObject(obj, reason=controlTypes.REASON_FOCUS)
+			eventHandler.queueEvent("gainFocus", obj)
 	# Translators: Message presented in input help mode
 	script_toolBar.__doc__=_("Moves the system focus and mouse to the main Tool Bar.")
 
