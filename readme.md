@@ -41,7 +41,7 @@ In this Add-on the following key commands are also available:
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.
 *	 The command used to focus the IRC messages has been generalized to move to any read-only edit box, making it possible to review connection information in the Servers window. 
-*	 When moving mouse and focus to the toolbar, it won't be announced two times if focus was on certain control. 
+*	 When moving mouse and focus to the toolbar, in some cases it was announced twice. This has been fixed. 
 
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config folder name contains non latin characters.
