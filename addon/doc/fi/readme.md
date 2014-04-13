@@ -21,10 +21,12 @@ Testattu [eMule][2]n 0.50a-versiossa.
 *	Control+Shift+N: Siirtää kohdistuksen Haku-ikkunan Nimi-kenttään.
 *	Control+Shift+P: Siirtää kohdistuksen ja hiiren Haku-ikkunassa
   hakuparametrien listaan tai eri vaihtoehtojen muokkauskenttiin.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	Control+Shift+B: Siirtää kohdistuksen nykyisessä ikkunassa olevaan
+  listaan. Käyttökelpoinen esimerkiksi Haku-ikkunassa, Siirrot-ikkunan
+  Lataukset-listassa jne.
+*	Control+Shift+O: Siirtää kohdistuksen nykyisen ikkunan vain luku
+  -muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin,
+  käytettävissä olevien palvelimien listaan jne.
 *	Control+NVDA+F: Avaa etsintävalintaikkunan, mikäli kohdistin on vain luku
   -muokkausruudussa.
 *	Control+F3: Etsii vain luku -muokkausruuduista aiemmin etsityn tekstin
@@ -54,12 +56,12 @@ lisäksi seuraavat näppäinkomennot:
 
 ## Muutokset versiossa 1.2 ##
 *	 Valittu teksti luetaan oikein IRC-viesteihin siirryttäessä.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 Hakutuloslistaan siirtävä näppäinkomento on yleistetty siirtämään
+   kohdistus mihin tahansa käytettävissä olevaan listaan nykyisessä
+   ikkunassa.
+*	 IRC-viesteihin siirtävä näppäinkomento on yleistetty siirtämään mihin
+   tahansa vain luku -muokkausruutuun, mikä mahdollistaa yhteyden tietojen
+   tarkastelemisen Palvelimet-ikkunassa.
 
 ## Muutokset versiossa 1.1 ##
 *	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa

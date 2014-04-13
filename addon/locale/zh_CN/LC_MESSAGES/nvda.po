@@ -18,130 +18,102 @@ msgstr ""
 "X-Generator: Poedit 1.6.4\n"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:74
 msgid "Reads the specified column for the current list item."
 msgstr "朗读当前列表项目的指定列。"
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
-#: addon/appModules/emule.py:89
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s已经复制到剪贴板。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:91
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr "拷贝已选择的列表项目中最后一次朗读的列到剪贴板。"
 
 #. Translators: Message presented in input help mode
-#: addon/appModules/emule.py:189
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "移动系统焦点和鼠标到主工具栏。"
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
-#: addon/appModules/emule.py:198
 msgid "Reports the current window."
 msgstr "朗读当前窗口。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:207
 msgid "Moves the system focus to the Name field of the Search window."
 msgstr "移动系统焦点到“搜索”窗口的“名字”输入框。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:222
 msgid ""
 "Moves the system focus and mouse to the search parameters list or Edit field "
 "for each option, in the Search window."
 msgstr "移动系统焦点和鼠标到“搜索”窗口中每一个搜索参数项或输入框。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:238
-msgid "Moves the system focus to the results list in the Search window."
+#, fuzzy
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr "移动系统焦点到“搜索”窗口的结果列表。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:254
+#, fuzzy
 msgid ""
-"Moves the system focus and mouse to the Context Tool Bar, where the Tab key "
-"can be used to move among the items."
-msgstr "移动系统焦点和鼠标到上下文工具栏，您可使用“Tab”键在项目之间切换。"
-
-#. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:268
-msgid "Moves the system focus to the IRC received messages."
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
 msgstr "移动系统焦点到 IRC 的以接受消息。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:279
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr "移动浏览对象和鼠标到当前表头"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:286
 msgid "Reports first object of the Status Bar."
 msgstr "朗读状态栏的第一个对象。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:293
 msgid "Reports second object of the Status Bar."
 msgstr "朗读状态栏的第二个对象。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:300
 msgid "Reports third object of the Status Bar."
 msgstr "朗读状态栏的第三个对象"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:307
 msgid "Reports fourth object of the Status Bar."
 msgstr "朗读状态栏的第四个对象。"
 
-#. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:340
-msgid "Opens addon documentation."
-msgstr "打开插件文档"
-
 #. Translators: Label of a dialog presented when the specified string of text is not found.
-#: addon/appModules/emule.py:359
 #, python-format
 msgid "text \"%s\" not found"
 msgstr "未找到文本\"%s\""
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
-#: addon/appModules/emule.py:361
 msgid "Find Error"
 msgstr "查找错误"
 
 #. Translators: Label for a search box.
-#: addon/appModules/emule.py:369
 msgid "Search for:"
 msgstr "搜索字串："
 
 #. Translators: title for the search dialog.
-#: addon/appModules/emule.py:371
 msgid "eMule search"
 msgstr "eMule搜索"
 
 #. Translators: Message presented in input help mode
-#: addon/appModules/emule.py:387
 msgid "Opens the find dialog when in read only edit boxes."
 msgstr "在只读编辑框时打开“查找”对话框。"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:400
 msgid "Find next occurence."
 msgstr "查找下一个项目"
 
 #. Translators: Message presented in input help mode.
-#: addon/appModules/emule.py:413
 msgid "Find previous occurrence."
 msgstr "查找上一个项目"
 
 #. Add-on description
 #. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
-#: buildVars.py:13
 msgid "eMule"
 msgstr ""
 "eMule\n"
@@ -149,7 +121,6 @@ msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on installation and add-on information
-#: buildVars.py:16
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "\teMule is a P2P program to search and share files.\n"
@@ -162,3 +133,11 @@ msgstr ""
 "访问\n"
 "\thttp://www.emule-project.net\n"
 "\t"
+
+#~ msgid ""
+#~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "
+#~ "key can be used to move among the items."
+#~ msgstr "移动系统焦点和鼠标到上下文工具栏，您可使用“Tab”键在项目之间切换。"
+
+#~ msgid "Opens addon documentation."
+#~ msgstr "打开插件文档"

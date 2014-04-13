@@ -4,7 +4,9 @@
 *	Letöltés [stabil verzió][1]
 *	Letöltés [fejlesztői verzió][3]
 
-Ez a kiegészítő hatékonyabb hozzáférést biztosít az eMule programhoz.
+Ez a kiegészítő hatékonyabb hozzáférést biztosít az eMule
+programhoz. Billenytyűparancsokat ad a különböző ablakokban való
+navigáláshoz, és hasznos információkat tesz elérhetővé az eMule programban.
 
 A bővítmény az eMuleNVDASupport kiegészítőre épül, melyet szintén a jelen
 kiegészítő fejlesztője készített. Használat előtt kérjük távolítsa el a
@@ -19,10 +21,12 @@ Tesztelve az [eMule][2] 0.50a programmal.
 *	control+shift+n: a fókuszt a keresőablak Név mezőjére helyezi.
 *	control+shift+p: a fókuszt a keresőablak paraméterlistájához, vagy a
   szerkesztőmező beállításaihoz helyezi.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: a fókuszt az aktuális ablakban elérhető listára
+  helyezi. Ez hasznos a keresési ablakban, a letöltéseknél az átvitel
+  ablakban, stb.
+*	control+shift+o: A fókuszt az aktuális ablakban elérhető csak olvasható
+  szerkesztőmezőre helyezi. Például IRC fogadott üzenetek, elérhető
+  szerverek, stb.
 *	control+NVDA+f: Ha a kurzor egy csak olvasható szerkesztőmezőn áll,
   megnyit egy keresőablakot.
 *	control+f3: A csak olvasható szerkesztőmezőkben megkezdett keresés
@@ -55,12 +59,13 @@ parancsok is elérhetőek:
 ## Az 1.2 verzió változásai ##
 *	 Amikor az IRC üzeneteken navigálunk, a kijelölt szöveg felolvasásra
    kerül.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 A billentyűparancs, amely eddig a fókuszt csak a keresési találatok
+   listájára helyezte, most már bármilyen, az aktuális ablakban elérhető
+   listára át tudja helyezni azt.
+*	 A parancs, ami eddig csak az IRC üzenetekre helyezte át a fókuszt,
+   immáron bármely más csak olvasható szerkesztőmezőre is át tudja helyezni
+   azt, ezáltal lehetővé vált a kapcsolódási információk áttekintése a
+   szerverek ablakában.
 
 ## Az 1.1 verzió változásai ##
 *	 Javítva az Emule elem a súgó menüben, hiba történt ha a felhasználói
