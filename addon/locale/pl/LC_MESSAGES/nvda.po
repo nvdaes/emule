@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 1.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-02-01 17:16+0100\n"
-"PO-Revision-Date: 2014-02-08 13:34+0100\n"
+"PO-Revision-Date: 2014-04-11 21:56+0100\n"
 "Last-Translator: Grzegorz Zlotowicz <grzezlo@wp.pl>\n"
 "Language-Team: Polish <killer@tyflonet.com>\n"
 "Language: pl\n"
@@ -53,18 +53,20 @@ msgstr ""
 "pola edycyjnego dla każdej opcji w oknie wyszukiwania."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "Przenosi punkt uwagi do listy wyników w oknie wyszukiwania."
+msgstr ""
+"Przenosi punkt uwagi do pierwszej listy w aktualnym oknie, np. lista wyników "
+"w oknie wyszukiwania, pobierania w oknie transfer itd."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "Przenosi punkt uwagi do otrzymanych wiadomości IRC."
+msgstr ""
+"Przenosi punkt uwagi do  pól edycji tylko do odczytu w aktualnym oknie, np. "
+"otrzymane wiadomości IRC."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
