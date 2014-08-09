@@ -22,10 +22,12 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	control+shift+n: لتحريك مؤشر النظام إلى حقل الاسم في نافذة البحث.
 *	control+shift+p: في نافذة البحث يحرك مؤشر الفأرة ومؤشر النظام تجاه قائمة
   معطيات البحث أو خيارات حقول التحرير. 
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: لتحريك مؤشر النظام تجاه القائمة الموجودة بالنافذة
+  الحالية. كالانتقال إلى قوائم نتائج البحث, أو التحميلات بنافذة نقل الملفات,
+  وهكذا.
+*	control+shift+o: لتحريك مؤشر النظام تجاه مربعات التحرير المخصصة للقراءة
+  فقط في النافذة الحالية.  كمربعات تحرير استلام رسائل بروتوكول IRC, أو
+  الخوادم المتاحة, وهكذا.
 *	control+NVDA+f: إذا كان المؤشر موجودا في صندوق تحرير للقراءة فقط فإن هذا
   الاختصار يمكن من فتح محاورة للبحث. 
 *	control+f3: للوصول إلى الظهور التالي للنص الذي قمت بالبحث عنه مسبقا في
@@ -53,12 +55,11 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 
 ## مستجدات الإصدار 1.2 ##
 *	 عند التحرك على رسائل ال IRC, فإنه سيتم الإعلان عنها بشكل صحيح
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 لقد تم تعميم الاختصار الذي كان منوط بالانتقال إلى نتائج البحث حيث أصبح
+   ينتقل لأي قائمة موجودة بالنافذة الحالية.
+*	 لقد تم تعميم الأمر المخصص للانتقال للرسائل المستلمة ببروتوكول IRC حيث
+   أصبح ينتقل إلى أي مربع تحرير للقراءة فقط, وذلك أدى إلى إمكانية مراجعة
+   معلومات الاتصال بنافذة الخوادم.
 
 ## تعديلات الإصدار  1.1 ##
 *	 إصلاح خطأ برمجي بعنصر eMule بقائمة المساعدة ب NVDA, عندما يحتوي اسم ملف

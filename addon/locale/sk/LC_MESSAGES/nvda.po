@@ -8,13 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-13 10:34+0100\n"
+"PO-Revision-Date: 2014-05-29 14:46+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -51,18 +52,19 @@ msgstr ""
 "editačné pole pre každý parameter v okne hľadania."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "presunie systémový fokus do zoznamu výsledkov v okne hľadania."
+msgstr ""
+"presunie systémový fokus do prvého zoznamu v aktuálnom okne. Napríklad do "
+"zoznamu výsledkov v okne hľadania, alebo do zoznamu sťahovania pri prenose a "
+"podobne."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "Presunie systémový fokus na prijaté správy IRC."
+msgstr "Presunie systémový fokus do neprepisovateľných polí, napr správy IRC,."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."

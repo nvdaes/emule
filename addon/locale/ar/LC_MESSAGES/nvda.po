@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-02-09 21:58-0200\n"
+"PO-Revision-Date: 2014-04-15 22:55+0200\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ar\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6\n"
+"X-Generator: Poedit 1.5.7\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -52,20 +52,20 @@ msgstr ""
 "خيار في نافذة البحث."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "تحريك مؤشر النظام تجاه قائمة النتائج في نافذة البحث. "
+msgstr ""
+"تحريك مؤشر النظام تجاه القائمة الأولى بالنافذة الحالية مثل قائمة النتائج في "
+"نافذة البحث، أو التنزيلات أو النقل إلخ. "
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
 msgstr ""
-"تحريك مؤشر النظام تجاه نافذة الرسائل المستلمة في بروتوكول IRC للدردشة عبر "
-"الإنترنت. "
+"تحريك مؤشر النظام تجاه صناديق التحرير للقراءة فقط في النافذة الحالية مثل "
+"الرسائل المستلمة في بروتوكول IRC للدردشة عبر الإنترنت. "
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."

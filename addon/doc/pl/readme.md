@@ -21,10 +21,12 @@ Przetestowany na [eMule][2] 0.50a.
 *	control+shift+n: przenosi punkt uwagi do pola nazwy w oknie znajdowania.
 *	control+shift+p: w oknie wyszukiwania, przenosi mysz i punkt uwagi do
   listy parametrów, albo opcji pola edycji.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: przenosi punkt uwagi do listy w aktualnym
+  oknie. Przydatne do listy wyników w oknie wyszukiwania, listy pobierań w
+  oknie transfer itd.
+*	control+shift+o: przenosi punkt uwagi do pól edycji tylko do odczytu,
+  znajdujących się w aktualnym oknie, np. otrzymane wiadomości IRC, dostępne
+  serwery itd.
 *	control+NVDA+f: jeśli kursor systemowy znajduje się w polu edycji tylko do
   odczytu, otwiera okno Znajdź.
 *	control+f3: znajduje następne wystąpienie tekstu ostatnio wyszukiwanego w
@@ -55,12 +57,12 @@ następujące polecenia klawiszowe w tym dodatku:
 ## Zmiany dla 1.2 ##
 *	 Po przejściu do wiadomości IRC, zaznaczony tekst jest prawidłowo
    odczytywany.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 Komenda przechodzenia do wyników wyszukiwania została uogólniona i
+   przenosi punkt uwagi do jakiejkolwiek pierwszej dostępnej listy w
+   aktualnym oknie.
+*	 Komenda przechodzenia do wiadomości IRC została uogólniona i  teraz
+   umożliwia przejście do jakiegokolwiek pola tylko do odczytu  dzięki czemu
+   można przeglądać informacje o połączeniach w oknie serwera.
 
 ## Zmiany dla 1.1 ##
 *	 Poprawiony błąd polecenia Emule w menu Pomoc NVDA, gdy nazwa folderu

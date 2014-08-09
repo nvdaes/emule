@@ -20,10 +20,10 @@ Testované s [eMule][2] 0.50a.
 *	control+shift+n: Presunie fokus do poľa názov v okne hľadania.
 *	control+shift+p: Presunie fokus na zoznam parametrov alebo do editačného
   poľa s možnosťami v okne hľadania.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: Presunie fokus do zoznamu v aktuálnom okne. Funguje
+  napríklad v okne hľadania, v okne so sťahovaním a podobne.
+*	control+shift+o: Presunie kurzor do editačného poľa iba na
+  čítanie. Napríklad do okna s IRC správami, dostupnými servermi a podobne.
 *	control+NVDA+f: Ak ste v editačnom poli iba na čítanie, otvorí okno
   hľadania.
 *	control+f3: Nájde najbližší výskyt hľadaného reťazca.
@@ -50,12 +50,11 @@ doplnku sú dostupné aj tieto skratky:
 
 ## Zmeny vo verzii 1.2 ##
 *	 Pri pohybe v IRC správach je správne oznamovaný vybratý text.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
+*	 Skratka na prechod do výsledkov hľadania bola upravená tak, že prechádza
+   do akého koľvek zoznamu v aktuálnom okne.
+*	 Skratka na prechod k správam IRC bola upravená tak, že prechádza do
+   ľubovolného editačného poľa, takže je možné čítať informácie o spojení v
+   okne servera.
 
 ## Zmeny vo verzii 1.1 ##
 *	 opravená chyba v pomocníkovy Emule, ktorá sa objavovala, ak názov

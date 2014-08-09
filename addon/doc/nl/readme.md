@@ -54,7 +54,7 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
-## Changes for 1.2 ##
+## Veranderingen voor 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been
    generalized to be able to move focus to any available list in the current

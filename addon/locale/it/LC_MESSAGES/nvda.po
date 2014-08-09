@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-08-19 08:44+0100\n"
+"PO-Revision-Date: 2014-07-21 14:01+0100\n"
 "Last-Translator: Simone Dal Maso <simone.dalmaso@juvox.it>\n"
 "Language-Team: it <simone.dalmaso@juvox.it>\n"
 "Language: it\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.6\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -54,19 +54,21 @@ msgstr ""
 "nel campo modifica per ciascuna opzione, nella finestra di ricerca."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
-"Sposta il focus di sistema sull'elenco risultati della finestra di ricerca."
+"Sposta il focus di sistema sul primo elenco  della finestra corrente. Ad "
+"esempio l'elenco risultati nella finestra di ricerca, i download nella "
+"finestra trasferimenti, etc."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "Sposta il focus di sistema all'elenco dei messaggi ricevuti irc."
+msgstr ""
+"Sposta il focus di sistema sul campo di sola lettura della finestra "
+"corrente. Ad esempio i messaggi ricevuti via irc."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
