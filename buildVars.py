@@ -19,7 +19,7 @@ addon_info = {
 	http://www.emule-project.net
 	"""),
 	# version
-	"addon-version" : "1.2-dev",
+	"addon-version" : "1.2",
 	# Author(s)
 	"addon-author" : "Noelia <nrm1977@gmail.com>, Chris <llajta2012@hotmail.com>, Alberto <a.buffolino@gmail.com>",
 	# URL for the add-on documentation support
