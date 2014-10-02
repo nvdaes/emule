@@ -53,7 +53,7 @@
 ## 版本1.0 ##
 *	 初始版本。
 
-[[!tag 开发 稳定]]
+[[!tag dev stable]]
 
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 

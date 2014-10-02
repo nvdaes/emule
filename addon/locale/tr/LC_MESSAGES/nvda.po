@@ -8,14 +8,16 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2013-11-18 21:24+0200\n"
+"PO-Revision-Date: 2014-10-01 21:11+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: TR <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.7\n"
+"X-Generator: Poedit 1.6.9\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -52,18 +54,20 @@ msgstr ""
 "düzenleme alanına taşır."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "Sistem odağını arama penceresinde sonuç listesine taşır."
+msgstr ""
+"Sistem odağını mevcut penceredeki ilk liste öğesine taşır. Örneğin, the "
+"arama penceresinde sonuç listesi, transfer edilen indirmeler, vs."
 
 #. Translators: Message presented in input help mode.
-#, fuzzy
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "Sistem odağını IRC alınan mesajlar alanına taşır."
+msgstr ""
+"Sistem odağını salt okunur metin alanlarına taşır. Örneğin IRC alınan "
+"mesajlar alanına."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
