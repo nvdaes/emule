@@ -37,6 +37,9 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## Changes for 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been generalized to be able to move focus to any available list in the current window.
