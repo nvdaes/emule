@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-08-02 01:43+0100\n"
+"PO-Revision-Date: 2014-10-27 07:58+0100\n"
 "Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
 "Language-Team: Deutsch <bernd_dorer@yahoo.de>\n"
 "Language: de\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.7\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -118,19 +118,18 @@ msgstr "Nächstes Vorkommen suchen."
 msgid "Find previous occurrence."
 msgstr "Vorheriges Vorkommen suchen."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Verbessert die Zugänglichkeit von eMule mit NVDA.\n"
 "\teMule ist ein P2P-Programm, zum Suchen nach und Teilen von Dateien.\n"

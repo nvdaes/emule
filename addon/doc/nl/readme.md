@@ -54,6 +54,9 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## Veranderingen voor 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been
@@ -62,6 +65,8 @@ volgende sneltoetsen beschikbaar:
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## Veranderingen voor 1.1 ##
 *	 Probleem opgelost in eMule item onder NVDA's help menu, als de naam van
@@ -79,4 +84,3 @@ volgende sneltoetsen beschikbaar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

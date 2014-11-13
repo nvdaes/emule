@@ -37,6 +37,9 @@
 *	NVDA加SHIFT加1到0： 朗读第11到20列。
 *	NVDA加SHIFT加C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## 版本1.2 ##
 *	 当移动到 IRC 消息时，选择的文本内容已可正确的朗读。
 *	 The keystroke used for moving to the Search results list has been
@@ -45,6 +48,8 @@
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## 版本1.1 ##
 *	 修复在用户配置文件夹名称包含非拉丁字符时 NVDA 帮助菜单下的 eMule 项目，发生的错误。
@@ -60,4 +65,3 @@
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

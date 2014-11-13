@@ -55,6 +55,9 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+c: kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## Changes for 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been
@@ -63,6 +66,8 @@ Befehle sind außerdem verfügbar:
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## Änderungen bis 1.1 ##
 *	 Fehler im Eintrag Emule im NVDA-Hilfe-Menü behoben, wenn der Namen des
@@ -80,4 +85,3 @@ Befehle sind außerdem verfügbar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-04-09 22:07+0100\n"
+"PO-Revision-Date: 2014-10-20 18:18+0100\n"
 "Last-Translator: Juan C. Buño <quetzatl@eresmas.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language-Team: NVDA add-ons translation Team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.4\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -125,25 +125,23 @@ msgstr "Buscar la siguiente aparición."
 msgid "Find previous occurrence."
 msgstr "Buscar la aparición anterior."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Mejora la accesibilidad de eMule con NVDA.\n"
-"\teMule es un programa P2P para buscar archivos y compartir.\n"
-"\tPuedes obtener más información acerca de eMule en\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule es un programa P2P para buscar y compartir ficheros.\n"
+"Puedes obtener más información acerca de eMule en\n"
+"http://www.emule-project.net"
 
 #~ msgid ""
 #~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "

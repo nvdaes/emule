@@ -48,6 +48,9 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
 
+## Zmeny vo verzii 2.0 ##
+*	 Návod k doplnku nájdete v správcovi doplnkov.
+
 ## Zmeny vo verzii 1.2 ##
 *	 Pri pohybe v IRC správach je správne oznamovaný vybratý text.
 *	 Skratka na prechod do výsledkov hľadania bola upravená tak, že prechádza
@@ -55,6 +58,8 @@ doplnku sú dostupné aj tieto skratky:
 *	 Skratka na prechod k správam IRC bola upravená tak, že prechádza do
    ľubovolného editačného poľa, takže je možné čítať informácie o spojení v
    okne servera.
+*	 NVDA viac opakovane nečíta obsah panela nástrojov, ak naň presuniete
+   fokus alebo myš.
 
 ## Zmeny vo verzii 1.1 ##
 *	 opravená chyba v pomocníkovy Emule, ktorá sa objavovala, ak názov
@@ -71,4 +76,3 @@ doplnku sú dostupné aj tieto skratky:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

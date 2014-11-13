@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-05-17 14:31+0400\n"
-"Last-Translator: Ruslan Kolodyazhni <eye0@rambler.ru>\n"
+"PO-Revision-Date: 2014-10-29 00:19+0300\n"
+"Last-Translator: Ruslan <eye0@rambler.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
@@ -121,22 +121,20 @@ msgstr "Найти следующее вхождение."
 msgid "Find previous occurrence."
 msgstr "Найти предыдущее вхождение."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Улучшает доступность Emule с NVDA.\n"
-"\teMule это P2P программа для поиска и обмена файлами.\n"
-"\tВы можете получить более подробную информацию об eMule на \n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule это P2P программа для поиска и обмена файлами.\n"
+"Вы можете получить более подробную информацию об eMule на \n"
+"http://www.emule-project.net"

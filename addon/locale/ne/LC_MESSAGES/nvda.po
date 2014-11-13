@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 1.2-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-02-01 17:16+0100\n"
-"PO-Revision-Date: 2014-08-07 18:18+0545\n"
+"PO-Revision-Date: 2014-10-17 12:43+0545\n"
 "Last-Translator: \n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: ne\n"
@@ -116,25 +116,23 @@ msgstr "अगाडी रहेको यही सामाग्री फ�
 msgid "Find previous occurrence."
 msgstr "पछाडी रहेको यही सामाग्री फेला पार।"
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "ईम्युल"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "नेत्रवाणीमा ईम्युलको पहुँच बढाउने छ ।\n"
-"\tईम्युल खोज्ने र फाइल साझेदारी गर्ने  P2P कार्यक्रम हो ।\n"
-"\tतपाइले ईम्युल सम्बन्धी थप जानकारीहरू\n"
-"\thttp://www.emule-project.net मा पाउन सक्नु हुन्छ ।\n"
-"\t"
+"ईम्युल खोज्ने र फाइल साझेदारी गर्ने  P2P कार्यक्रम हो ।\n"
+"तपाइले ईम्युल सम्बन्धी थप जानकारीहरू\n"
+"http://www.emule-project.net मा पाउन सक्नु हुन्छ ।"
 
 #~ msgid ""
 #~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "
@@ -144,4 +142,4 @@ msgstr ""
 #~ "केन्द्रीयता र सुलसुलेलाई   लेजान्छ ।"
 
 #~ msgid "Opens addon documentation."
-#~ msgstr "थप-साधन सम्बन्धी  कागजातहरू पल्टाउने छ ।"
+#~ msgstr "उपकर्मी सम्बन्धी  कागजातहरू पल्टाउने छ ।"

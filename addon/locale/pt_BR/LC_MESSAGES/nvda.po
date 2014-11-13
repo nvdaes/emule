@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-04-08 21:29-0300\n"
+"PO-Revision-Date: 2014-10-18 22:56-0300\n"
 "Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever92000@yahoo.com.br>\n"
@@ -122,25 +122,23 @@ msgstr "Procura próxima ocorrência."
 msgid "Find previous occurrence."
 msgstr "Procura ocorrência anterior."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Melhora a acessibilidade do eMule com o NVDA.\n"
-"\tO eMule é um programa P2P de busca e compartilhamento de arquivos.\n"
-"\tPode obter mais informações sobre o eMule em\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"O eMule é um programa P2P de busca e compartilhamento de arquivos.\n"
+"Pode obter mais informações sobre o eMule em\n"
+"http://www.emule-project.net"
 
 #~ msgid ""
 #~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "

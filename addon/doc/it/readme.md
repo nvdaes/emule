@@ -54,6 +54,9 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## Changes for 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been
@@ -62,6 +65,8 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## Changes for 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config
@@ -78,4 +83,3 @@ disponibili inoltre i seguenti comandi da tastiera:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

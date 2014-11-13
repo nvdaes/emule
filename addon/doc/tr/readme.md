@@ -50,6 +50,9 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA + shift 1-0: 11-20 sütunları okur.
 *	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## 1.2 için Değişiklikler ##
 *	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
 *	 The keystroke used for moving to the Search results list has been
@@ -58,6 +61,8 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## 1.1 Değişiklikler ##
 *	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.
@@ -74,4 +79,3 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

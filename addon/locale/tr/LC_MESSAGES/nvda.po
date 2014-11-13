@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-10-01 21:11+0200\n"
+"PO-Revision-Date: 2014-11-02 15:18+0200\n"
 "Last-Translator: Çağrı Doğan <cagrid@hotmail.com>\n"
 "Language-Team: TR <cagrid@hotmail.com>\n"
 "Language: tr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.9\n"
+"X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
@@ -118,25 +118,23 @@ msgstr "Sonrakini bul."
 msgid "Find previous occurrence."
 msgstr "Öncekini bul."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "NVDA ile eMule'un erişilebilirliğini artırır.\n"
-"\teMule arama ve dosya paylaşımı için bir P2P programıdır.\n"
-"\teMule hakkında daha fazla bilgi için\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule arama ve dosya paylaşımı için bir P2P programıdır.\n"
+"eMule hakkında daha fazla bilgi için\n"
+"http://www.emule-project.net"
 
 #~ msgid ""
 #~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "

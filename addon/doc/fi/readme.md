@@ -54,6 +54,9 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Shift+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Shift+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Muutokset versiossa 2.0 ##
+*	 Ohje on käytettävissä Lisäosien hallinnasta.
+
 ## Muutokset versiossa 1.2 ##
 *	 Valittu teksti luetaan oikein IRC-viesteihin siirryttäessä.
 *	 Hakutuloslistaan siirtävä näppäinkomento on yleistetty siirtämään
@@ -62,6 +65,8 @@ lisäksi seuraavat näppäinkomennot:
 *	 IRC-viesteihin siirtävä näppäinkomento on yleistetty siirtämään mihin
    tahansa vain luku -muokkausruutuun, mikä mahdollistaa yhteyden tietojen
    tarkastelemisen Palvelimet-ikkunassa.
+*	 Kun hiiri ja kohdistus siirrettiin työkalupalkkiin, se luettiin joissakin
+   tapauksissa kahdesti. Tämä on korjattu.
 
 ## Muutokset versiossa 1.1 ##
 *	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa
@@ -79,4 +84,3 @@ lisäksi seuraavat näppäinkomennot:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

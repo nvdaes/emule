@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-05-29 14:46+0100\n"
+"PO-Revision-Date: 2014-10-28 09:02+0100\n"
 "Last-Translator: Ondrej Rosík <ondrej.rosik@gmail.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: sk\n"
@@ -115,25 +115,23 @@ msgstr "Hľadá ďalší výskyt reťazca."
 msgid "Find previous occurrence."
 msgstr "Hľadá predchádzajúci výskyt reťazca."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Zlepšuje prístupnosť programu eMule s NVDA.\n"
-"\teMule je P2P program na vyhľadávanie a zdieľanie súborov.\n"
-"\tViac Informácii o eMule nájdete na\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"EMule je P2P program na vyhľadávanie a zdieľanie súborov.\n"
+"Viac Informácii o eMule nájdete na\n"
+"http://www.emule-project.net"
 
 #~ msgid ""
 #~ "Moves the system focus and mouse to the Context Tool Bar, where the Tab "

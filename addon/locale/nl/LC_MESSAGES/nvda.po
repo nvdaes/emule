@@ -28,7 +28,9 @@ msgstr "%s naar het klembord gekopieerd"
 
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Kopieert de laatstgelezen kolom van het geselecteerde lijstitem naar het klembord."
+msgstr ""
+"Kopieert de laatstgelezen kolom van het geselecteerde lijstitem naar het "
+"klembord."
 
 #. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
@@ -44,20 +46,34 @@ msgid "Moves the system focus to the Name field of the Search window."
 msgstr "Verplaatst de focus naar het Naamveld in het Zoekvenster."
 
 #. Translators: Message presented in input help mode.
-msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
-msgstr "Verplaatst de systeemfocus en de muis naar de lijst met zoekparameters of het invoerveld voor iedere optie, in het zoekvenster."
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"Verplaatst de systeemfocus en de muis naar de lijst met zoekparameters of "
+"het invoerveld voor iedere optie, in het zoekvenster."
 
 #. Translators: Message presented in input help mode.
-msgid "Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc."
-msgstr "Verplaatst de systeemfocus naar de eerste lijst in het huidige scherm. B.v. de resultatenlijst in het zoekscherm, downloads in Transfer, etc."
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
+msgstr ""
+"Verplaatst de systeemfocus naar de eerste lijst in het huidige scherm. B.v. "
+"de resultatenlijst in het zoekscherm, downloads in Transfer, etc."
 
 #. Translators: Message presented in input help mode.
-msgid "Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages."
-msgstr "Verplaatst de systeemfocus naar alleen-lezen invoervelden in het huidige scherm. B.v. de via IRC ontvangen berichten."
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
+msgstr ""
+"Verplaatst de systeemfocus naar alleen-lezen invoervelden in het huidige "
+"scherm. B.v. de via IRC ontvangen berichten."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Verplaatst het navigatorobject en de muis naar de kopteksten van de huidige lijst."
+msgstr ""
+"Verplaatst het navigatorobject en de muis naar de kopteksten van de huidige "
+"lijst."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
@@ -104,19 +120,19 @@ msgstr "Zoek volgende voorkomen."
 msgid "Find previous occurrence."
 msgstr "Zoek vorige voorkomen."
 
-#. Add-on description
-#. TRANSLATORS: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on installation and add-on information
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
-"\teMule is a P2P program to search and share files.\n"
-"\tYou can get more information about eMule at\n"
-"\thttp://www.emule-project.net\n"
-"\t"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
 msgstr ""
 "Verbetert de toegankelijkheid van eMule met NVDA.\n"
 "\teMule is een P2P programma om bestanden te zoeken en te delen.\n"

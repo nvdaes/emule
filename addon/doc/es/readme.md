@@ -56,6 +56,10 @@ están disponibles las siguientes órdenes de teclado:
 *	NVDA+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 2.0 ##
+*	 La ayuda del complemento está disponible en el Administrador de
+   Complementos.
+
 ## Cambios para 1.2 ##
 *	 Al moverse a los mensajes del IRC, el texto seleccionado se anuncia
    apropiadamente.
@@ -65,6 +69,8 @@ están disponibles las siguientes órdenes de teclado:
 *	 La orden usada para enfocar los mensajes de IRC se ha generalizado para
    moverse a cualquier casilla de edición de sólo lectura, por lo que es
    posible revisar la información de conexión en la ventana Servidores.
+*	 Al mover el ratón y el foco a la barra de herramientas, en algunos casos
+   se anunciaba dos veces. Esto ha sido corregido.
 
 ## Cambios para 1.1 ##
 *	 Solucionado un problema en el elemento eMule en el menú Ayuda de NVDA,
@@ -83,4 +89,3 @@ están disponibles las siguientes órdenes de teclado:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

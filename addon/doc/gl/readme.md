@@ -54,6 +54,9 @@ dispoñibles as seguintes ordes de teclado:
 *	nvda+shift+1-0: Le as columnas 11 a 20.
 *	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
 
+## Cambios para 2.0 ##
+*	 A axuda do complemento está dispoñible no Administrador de Complementos.
+
 ## Cambios para 1.2 ##
 *	 Cando se cambia para as mensaxes de IRC, o texto seleccionado indícase
    correctamente.
@@ -63,6 +66,8 @@ dispoñibles as seguintes ordes de teclado:
 *	 A orde usada para concentrar as mensaxes de IRC foi xeneralizada para
    desprazarse a calquera caixa de edición de só lectura, o que fai posible
    revisar a información de conexión no diálogo de servidores.
+*	 Ó mover o rato e o foco a barra de tarefas, nalgúns casos anunciábase
+   dúas veces. Esto foi correxido.
 
 ## Cambios para 1.1 ##
 *	 Correxido un erro no elemento eMule no menú de axuda do NVDA, cando o
@@ -81,4 +86,3 @@ dispoñibles as seguintes ordes de teclado:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

@@ -54,6 +54,9 @@ seguintes teclas de comando:
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
 
+## Mudanças na 2.0 ##
+*	 A ajuda do complemento está disponível no gestor de complementos.
+
 ## Mudanças na 1.2 ##
 *	 Ao mover-se para as mensagens de IRC, o texto selecionado é devidamente
    anunciado.
@@ -63,6 +66,8 @@ seguintes teclas de comando:
 *	 O comando usado para focar as mensagens de IRC foi generalizado para
    mover a qualquer campo de edição somente-leitura, tornando-o capaz de
    explorar informações de conexão na janela de servidores.
+*	 Ao mover o mouse e o foco para a barra de ferramentas, em alguns casos
+   isso era anunciado duas vezes. Corrigido.
 
 ## Mudanças na 1.1 ##
 *	 Corrigido erro no item eMule no menu de ajuda do NVDA quando o nome da
@@ -80,4 +85,3 @@ seguintes teclas de comando:
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

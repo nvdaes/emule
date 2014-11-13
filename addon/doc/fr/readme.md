@@ -57,6 +57,10 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
+## Changements pour la version 2.0 ##
+*	 L'aide du module complémentaire est disponible à partir du Gestionnaire
+   de modules complémentaires.
+
 ## Changements pour la version 1.2 ##
 *	 Lors du déplacement aux messages IRC, le texte sélectionné est indiqué
    correctement.
@@ -67,6 +71,8 @@ touches de raccourci suivantes sont également disponibles :
    généralisée pour se déplacer sur toutes les zones d'édition en lecture
    seule, ce qui permet de consulter les informations de connexion dans la
    fenêtre des serveurs.
+*	 lors du déplacement de la souris et le focus à la barre d'outils, dans
+   certains cas, il a été annoncé deux fois. Ce problème a été corrigé.
 
 ## Changements pour la version 1.1 ##
 *	 Correction d'un bug dans l'élément eMule sous le menu d'aide de NVDA,
@@ -85,4 +91,3 @@ touches de raccourci suivantes sont également disponibles :
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-

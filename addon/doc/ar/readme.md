@@ -53,6 +53,9 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
+## Changes for 2.0 ##
+*	 Add-on help is available from the Add-ons Manager.
+
 ## مستجدات الإصدار 1.2 ##
 *	 عند التحرك على رسائل ال IRC, فإنه سيتم الإعلان عنها بشكل صحيح
 *	 لقد تم تعميم الاختصار الذي كان منوط بالانتقال إلى نتائج البحث حيث أصبح
@@ -60,6 +63,8 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	 لقد تم تعميم الأمر المخصص للانتقال للرسائل المستلمة ببروتوكول IRC حيث
    أصبح ينتقل إلى أي مربع تحرير للقراءة فقط, وذلك أدى إلى إمكانية مراجعة
    معلومات الاتصال بنافذة الخوادم.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
 
 ## تعديلات الإصدار  1.1 ##
 *	 إصلاح خطأ برمجي بعنصر eMule بقائمة المساعدة ب NVDA, عندما يحتوي اسم ملف
@@ -76,4 +81,3 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 [2]: http://www.emule-project.net
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em
-
