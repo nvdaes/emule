@@ -56,8 +56,8 @@ parancsok is elérhetőek:
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## Az 2.0 verzió változásai ##
+*	 A kiegészítő súgója elérhető a Bővitménykezelő párbeszédablakából is.
 
 ## Az 1.2 verzió változásai ##
 *	 Amikor az IRC üzeneteken navigálunk, a kijelölt szöveg felolvasásra
@@ -69,8 +69,8 @@ parancsok is elérhetőek:
    immáron bármely más csak olvasható szerkesztőmezőre is át tudja helyezni
    azt, ezáltal lehetővé vált a kapcsolódási információk áttekintése a
    szerverek ablakában.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Amikor az egér és a fókusz az eszköztárra került, némely esetben az
+   információ kétszer került kimondásra. A hiba kijavításra került.
 
 ## Az 1.1 verzió változásai ##
 *	 Javítva az Emule elem a súgó menüben, hiba történt ha a felhasználói
