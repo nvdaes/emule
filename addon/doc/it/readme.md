@@ -54,10 +54,11 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## Cambiamenti per la 2.0 ##
+*	 L'aiuto sul componente aggiuntivo è disponibile dalla gestione
+   componenti.
 
-## Changes for 1.2 ##
+## Cambiamenti nella 1.2 ##
 *	 When moving to the IRC messages, the selected text is reported properly.
 *	 The keystroke used for moving to the Search results list has been
    generalized to be able to move focus to any available list in the current
@@ -68,10 +69,11 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	 When moving mouse and focus to the toolbar, in some cases it was
    announced twice. This has been fixed.
 
-## Changes for 1.1 ##
+## Cambiamenti per la 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config
    folder name contains non latin characters.
-*	 Shortcuts can now be reassigned using the NVDA gesture input dialog.
+*	 I tasti rapidi possono essere riassegnati utilizzando la finestra di
+   dialogo gesti di immissione di NVDA.
 
 ## Changes for 1.0 ##
 *	 Initial version.
