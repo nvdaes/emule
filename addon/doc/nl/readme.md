@@ -22,10 +22,11 @@ Getest op [eMule][2] 0.50a.
 *	control+shift+n: Verplaatst de focus naar het Naamveld in het Zoekvenster.
 *	control+shift+p: In het Zoekscherm, verplaatst focus en muis naar de lijst
   met zoekopties, of opties voor het invoerveld.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
+*	control+shift+b: Verplaatst de focus naar de lijst in het huidige
+  venster. Bijvoorbeeld: 
+*	control+shift+o: Verplaatst de focus naar alleen-lezen invoervelden in het
+  huidige venster. Bijvoorbeeld: via IRC ontvangen berichten, beschikbare
+  servers, etc.
 *	control+NVDA+f: Opent een zoekdialoogvenster als de cursor in een alleen
   lezen invoerveld staat.
 *	control+f3: Zoekt het volgende voorkomen van de tekst die u eerder zocht
@@ -54,14 +55,15 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## Veranderingen in 2.0 ##
+*	 Add-on help is beschikbaar via Add-ons beheren.
 
 ## Veranderingen voor 1.2 ##
-*	 When moving to the IRC messages, the selected text is reported properly.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
+*	 Bij het navigeren naar de IRC-berichten wordt de geselecteerde tekst
+   correct gemeld.
+*	 De sneltoets die gebruikt werd voor het navigeren naar de
+   zoekresultatenlijst wordt nu gebruikt om te navigeren naar iedere
+   beschikbare lijst in het huidige venster.
 *	 The command used to focus the IRC messages has been generalized to move
    to any read-only edit box, making it possible to review connection
    information in the Servers window.
@@ -74,7 +76,7 @@ volgende sneltoetsen beschikbaar:
 *	 Snelkoppelingen kunnen nu gewijzigd worden via het dialoogvenster
    Invoerhandelingen koppelen van NVDA.
 
-## Veranderingen voor 1.0 ##
+## Veranderingen in 1.0 ##
 *	 Eerste versie.
 
 [[!tag dev stable]]
