@@ -54,8 +54,8 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## Zmiany dla 2.0 ##
+*	 Pomoc dodatku dostępna w oknie zarządzania dodatkami.
 
 ## Zmiany dla 1.2 ##
 *	 Po przejściu do wiadomości IRC, zaznaczony tekst jest prawidłowo
@@ -66,8 +66,8 @@ następujące polecenia klawiszowe w tym dodatku:
 *	 Komenda przechodzenia do wiadomości IRC została uogólniona i  teraz
    umożliwia przejście do jakiegokolwiek pola tylko do odczytu  dzięki czemu
    można przeglądać informacje o połączeniach w oknie serwera.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Po przemieszczeniu myszy lub punktu uwagi do paska narzędzi, w niektórych
+   sytuacjach był oznajmiany podwójnie. Zostało to naprawione.
 
 ## Zmiany dla 1.1 ##
 *	 Poprawiony błąd polecenia Emule w menu Pomoc NVDA, gdy nazwa folderu
