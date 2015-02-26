@@ -1,4 +1,6 @@
 # eMule #
+[[!meta title="eMule 0.50A"]]
+[[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
 *	[stabile Version herunterladen][1]
@@ -55,11 +57,12 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+c: kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## Änderungen bis 2.0 ##
+*	 Die Hilfe zur Erweiterung ist über den Erweiterungs-Manager verfügbar.
 
-## Changes for 1.2 ##
-*	 When moving to the IRC messages, the selected text is reported properly.
+## Änderungen bis 1.2 ##
+*	 Wenn Sie sich zu den IRC-Nachrichten bewegen, wird ausgewählter Text
+   vorgelesen.
 *	 The keystroke used for moving to the Search results list has been
    generalized to be able to move focus to any available list in the current
    window.
