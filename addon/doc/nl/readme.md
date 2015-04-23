@@ -64,11 +64,12 @@ volgende sneltoetsen beschikbaar:
 *	 De sneltoets die gebruikt werd voor het navigeren naar de
    zoekresultatenlijst wordt nu gebruikt om te navigeren naar iedere
    beschikbare lijst in het huidige venster.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Het gebruikte commando voor het weergeven van de IRC-berichten is
+   algemeen gemaakt om te navigeren naar ieder alleen-lezen invoerveld, wat
+   het mogelijk maakt om verbindingsinformatie in het servervenster te
+   bekijken.
+*	 Bij het verplaatsen van de muis of de focus naar de werkbalk werd dit in
+   sommige gevallen twee keer gemeld. Dit is opgelost.
 
 ## Veranderingen voor 1.1 ##
 *	 Probleem opgelost in eMule item onder NVDA's help menu, als de naam van
