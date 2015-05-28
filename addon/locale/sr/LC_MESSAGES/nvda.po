@@ -7,18 +7,18 @@ msgstr ""
 "Project-Id-Version: eMule 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-09-19 05:05+1000\n"
-"PO-Revision-Date: 2014-11-09 15:30+0100\n"
-"Last-Translator: nikola jovic <wwenikola123@gmail.com>\n"
+"PO-Revision-Date: 2015-05-23 02:55+0100\n"
+"Last-Translator: Danijela Popovic <vlajna95@gmail.com>\n"
 "Language-Team: serbian <wwenikola123@gmail.com>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.6.3\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "čita specifičnu kolonuza trenutnu stavku liste"
+msgstr "Čita specifičnu kolonu za trenutnu stavku liste"
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -27,92 +27,92 @@ msgstr "%s kopirano u privremenu memoriju"
 
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "kopira pročitanu kolonu u radnu memoriju"
+msgstr "Kopira pročitanu kolonu u radnu memoriju"
 
 #. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "premešta fokus sistema i miš u traku sa alatkama"
+msgstr "Premešta fokus sistema i miš u traku sa alatkama"
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 msgid "Reports the current window."
-msgstr "čita trenutni prozor"
+msgstr "Čita trenutni prozor"
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "pomera sistemski fokus u polje imena prozora za pretragu"
+msgstr "Pomera sistemski fokus u polje imena prozora za pretragu"
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus and mouse to the search parameters list or Edit field "
 "for each option, in the Search window."
-msgstr "premešta miš i sistemski fokus na polje za upis teksta pretrage"
+msgstr "Premešta miš i sistemski fokus na polje za upis teksta pretrage"
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "pomera sistemski fokus na prvu stavku liste"
+msgstr "Pomera sistemski fokus na prvu stavku liste"
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
-msgstr "pomera sistemski fokus na polja samo za čitanje"
+msgstr "Pomera sistemski fokus na polja samo za čitanje"
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "pomera miš na zaglavlje liste"
+msgstr "Pomera miš na zaglavlje liste"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
-msgstr "prijavljuje prvi objekat statusne trake"
+msgstr "Prijavljuje prvi objekat statusne trake"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports second object of the Status Bar."
-msgstr "prijavljuje drugi objekat statusne trake"
+msgstr "Prijavljuje drugi objekat statusne trake"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports third object of the Status Bar."
-msgstr "prijavljuje treći objekat statusne trake"
+msgstr "Prijavljuje treći objekat statusne trake"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
-msgstr "prijavljuje četvrti objekat statusne trake"
+msgstr "Prijavljuje četvrti objekat statusne trake"
 
 #. Translators: Label of a dialog presented when the specified string of text is not found.
 #, python-format
 msgid "text \"%s\" not found"
-msgstr "tekst %s nije pronaђен"
+msgstr "Tekst %s nije pronaђен"
 
 #. Translators: Title of a dialog presented when the specified string of text is not found.
 msgid "Find Error"
-msgstr "greška pretrage "
+msgstr "Greška pretrage "
 
 #. Translators: Label for a search box.
 msgid "Search for:"
-msgstr "šta traziti"
+msgstr "Šta tražiti:"
 
 #. Translators: title for the search dialog.
 msgid "eMule search"
-msgstr "emule pretraga"
+msgstr "eMule pretraga"
 
 #. Translators: Message presented in input help mode
 msgid "Opens the find dialog when in read only edit boxes."
-msgstr "otvara dijalog za pretragu kada si u poljima samo za čitanje"
+msgstr "Otvara dijalog za pretragu kada si u poljima samo za čitanje"
 
 #. Translators: Message presented in input help mode.
 msgid "Find next occurence."
-msgstr "trazi sledeće"
+msgstr "Traži sledeće"
 
 #. Translators: Message presented in input help mode.
 msgid "Find previous occurrence."
-msgstr "trazi prethodno"
+msgstr "Traži prethodno"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
-msgstr "emule"
+msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
@@ -122,5 +122,5 @@ msgid ""
 "You can get more information about eMule at\n"
 "http://www.emule-project.net"
 msgstr ""
-"poboljšava pristupačnost emule programa sa kojim mozete deliti i skidati "
-"datoteke više informacija o emuliovde www.emule-project.net"
+"Poboljšava pristupačnost eMule programa sa kojim možete deliti i skidati "
+"datoteke. Više informacija o eMule ovde: www.emule-project.net"
