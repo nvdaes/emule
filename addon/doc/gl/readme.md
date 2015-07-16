@@ -19,19 +19,19 @@ Probado no [eMule][2] 0.50a.
 *	control+shift+h: Move o foco e o rato cara a barra de ferramentas
   principal.
 *	control+shift+t: Le a ventá actual.
-*	control+shift+n: Move o foco cara o campo de nome na ventá de busca.
+*	control+shift+n: Move o foco cara o campo de nome na ventá procurar.
 *	control+shift+p: Na ventá de procurar, move o foco e o rato cara a lista
   de parámetros de procuras, ou opcións do campo de edición.
 *	control+shift+b: Move o foco para a lista na ventá actual. Por exemplo
-  utilizable na xanela Buscar, descargas na xanela de transferencia, etc
+  utilizable na ventá Buscar, descargas na ventá de transferencia, etc
 *	control+shift+o: Move o foco para caixas  de só lectura no diálogo
   actual. Por exemplo, as mensaxes recibidas no IRC , servidores
   dispoñibles, etc
 *	control+NVDA+f: Se se atopa o cursor nun cadro de edición de só lectura,
-  abre un diálogo de busca.
-*	control+f3: Busca a seguinte aparición do texto que procuraches
+  abre un diálogo de procura.
+*	control+f3: atopa a seguinte aparición do texto que procuraches
   anteriormente en cadros de edición de só lectura.
-*	control+shift+f3: Busca a anterior aparición do texto que procuraches
+*	control+shift+f3: Atopa a anterior aparición do texto que procuraches
   anteriormente en cadros de edición de só lectura.
 *	control+shift+l: Move o navegador de obxectos e o rato cara as cabeceiras
   da lista actual.
