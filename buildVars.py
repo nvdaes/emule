@@ -24,7 +24,7 @@ http://www.emule-project.net"""),
 	# version
 	"addon_version" : "3.0-dev",
 	# Author(s)
-	"addon_author" : u"Noelia <nrm1977@gmail.com>, Chris <llajta2012@hotmail.com>, Alberto <a.buffolino@gmail.com>",
+	"addon_author" : u"Noelia <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>",
 	# URL for the add-on documentation support
 	"addon_url" : "http://addons.nvda-project.org",
 	# Documentation file name

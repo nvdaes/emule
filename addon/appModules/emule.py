@@ -58,7 +58,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	scriptCategory = _scriptCategory
 
 	def initOverlayClass(self):
-		modifiers = ["control", "shift"]
+		modifiers = ("control", "shift")
 		for n in xrange(10):
 			for modifier in modifiers:
 				gesture = "kb:NVDA+{mod}+{num}".format(mod=modifier, num=n)
