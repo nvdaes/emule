@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2014-10-16 22:00+0100\n"
+"PO-Revision-Date: 2015-11-13 10:31+0100\n"
 "Last-Translator: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language-Team: Rémy Ruiz <remyruiz@gmail.com>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.8\n"
+"X-Generator: Poedit 1.8.5\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "Lit la colonne spécifiée pour l'élément de liste en cours."
+msgstr "Lire la colonne spécifiée pour l'élément de liste en cours."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -30,29 +30,29 @@ msgstr "%s copié dans le presse-papiers"
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr ""
-"Copie dans le presse-papiers la dernière colonne lue de l'élément de liste "
+"Copier dans le presse-papiers la dernière colonne lue de l'élément de liste "
 "sélectionné"
 
 #. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr ""
-"Déplace le focus système et la souris vers la barre d'outils principale"
+"Déplacer le focus système et la souris vers la barre d'outils principale"
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 msgid "Reports the current window."
-msgstr "Annonce la fenêtre courrante"
+msgstr "Annoncer la fenêtre courrante"
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Déplace le focus système au champ Nom de la fenêtre de recherche."
+msgstr "Déplacer le focus système au champ Nom de la fenêtre de recherche."
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus and mouse to the search parameters list or Edit field "
 "for each option, in the Search window."
 msgstr ""
-"Déplace le focus système et la souris aux paramètres de recherche ou au "
+"Déplacer le focus système et la souris aux paramètres de recherche ou au "
 "champ d'édition pour chaque option dans la fenêtre de recherche."
 
 #. Translators: Message presented in input help mode.
@@ -60,7 +60,7 @@ msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
-"Déplace le focus système à la première liste dans la fenêtre courante. Par "
+"Déplacer le focus système à la première liste dans la fenêtre courante. Par "
 "exemple, la liste de résultats dans la fenêtre de recherche, dans les "
 "Transferts de téléchargements, etc."
 
@@ -69,29 +69,29 @@ msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
 msgstr ""
-"Déplace le focus système aux zones d'édition en lecture seule dans la "
+"Déplacer le focus système aux zones d'édition en lecture seule dans la "
 "fenêtre courante. Par exemple, les messages IRC reçus."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr ""
-"Déplace l'objet navigateur et la souris aux ent-êtes de la liste courrante."
+"Déplacer l'objet navigateur et la souris aux ent-êtes de la liste courrante."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
-msgstr "Annonce le premier objet de la barre d'état"
+msgstr "Annoncer le premier objet de la barre d'état"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports second object of the Status Bar."
-msgstr "Annonce le deuxième objet de la barre d'état"
+msgstr "Annoncer le deuxième objet de la barre d'état"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports third object of the Status Bar."
-msgstr "Annonce le troisième objet de la barre d'état"
+msgstr "Annoncer le troisième objet de la barre d'état"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
-msgstr "Annonce le quatrième objet de la barre d'état"
+msgstr "Annoncer le quatrième objet de la barre d'état"
 
 #. Translators: Label of a dialog presented when the specified string of text is not found.
 #, python-format
@@ -113,16 +113,16 @@ msgstr "recherche eMule"
 #. Translators: Message presented in input help mode
 msgid "Opens the find dialog when in read only edit boxes."
 msgstr ""
-"Ouvre le dialogue de recherche lorsque dans la zone d'édition en lecture "
+"Ouvrir le dialogue de recherche lorsque dans la zone d'édition en lecture "
 "seule"
 
 #. Translators: Message presented in input help mode.
 msgid "Find next occurence."
-msgstr "trouve l'occurence suivante"
+msgstr "trouver l'occurence suivante"
 
 #. Translators: Message presented in input help mode.
 msgid "Find previous occurrence."
-msgstr "trouve l'occurence précédente"
+msgstr "trouver l'occurence précédente"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
