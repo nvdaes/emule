@@ -67,12 +67,12 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	def script_readColumn(self, gesture):
 		try:
-			col = int(gesture.keyName[-1])
-		except AttributeError:
 			col = int(gesture.mainKeyName[-1])
+		except (AttributeError, ValueError):
+			return
 		if col == 0:
-			col += 10
-		if "shift" in gesture.modifierNames:
+			col = 10
+		elif "shift" in gesture.modifierNames:
 			col += 10
 		self._moveToColumnNumber(col)
 	# Translators: Message presented in input help mode.
