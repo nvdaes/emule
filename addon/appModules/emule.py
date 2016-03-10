@@ -106,9 +106,8 @@ class FixedList(List):
 
 class RichEditCursorManager(CursorManager):
 
-	scriptCategory = _scriptCategory
-
 	def makeTextInfo(self, position):
+	# Fixes regression for issue 4291.
 		return EditTextInfo(self,position)
 
 class AppModule(appModuleHandler.AppModule):
