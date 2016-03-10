@@ -19,9 +19,7 @@ Tested on [eMule][2] 0.50a.
 *	control+shift+p: In the Search window, moves focus and mouse to the list of search parameters, or edit field options.
 *	control+shift+b: Move the focus to the list in the current window. For example usable in the Search window, downloads in Transfer window, etc.
 *	control+shift+o: Move the focus to read-only edit boxes in the current window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: If the caret is located in an read only edit box, opens a find dialog.
-*	control+f3: Finds the next occurrence of the text that you previously searched in read only edit boxes.
-*	control+shift+f3: Finds the previous occurrence of the text that you previously searched in read only edit boxes.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: Moves the navigator object and mouse to the headers of the current list.
 *	control+shift+q: Reads the first object in the status bar; provides information about recent activity.
 *	control+shift+w: Reads the second object of the status bar; contains information about files and users on the current server.
@@ -36,6 +34,9 @@ In this Add-on the following key commands are also available:
 *	nvda+control+1-0: Reads the first 10 columns. 
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and commands available in NVDA.
 
 ## Changes for 2.0 ##
 *	 Add-on help is available from the Add-ons Manager.
