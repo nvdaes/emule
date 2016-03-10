@@ -1,6 +1,6 @@
-# -*- coding: UTF-8 -*-
-
 # eMule
+# Fixed regression for issue 4291. Find text works again in RichEdit controls
+# Date: 10/03/2016
 # Used queueEvent("gainFocus", obj) for script_toolBar
 # Date: 11/04/2014
 # Removed control+shift+z. Used windowUtils to search the toolbar, lists an read-only edit boxes in different windows
@@ -42,8 +42,8 @@ from NVDAObjects.IAccessible import IAccessible
 from NVDAObjects.IAccessible.sysListView32 import List
 from ctypes import * # for c_int
 from NVDAObjects.behaviors import RowWithFakeNavigation
-
-_lastFindText = ""
+from cursorManager import CursorManager
+from NVDAObjects.window.edit import EditTextInfo
 
 addonHandler.initTranslation()
 
@@ -67,12 +67,12 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	def script_readColumn(self, gesture):
 		try:
+			col = int(gesture.keyName[-1])
+		except AttributeError:
 			col = int(gesture.mainKeyName[-1])
-		except (AttributeError, ValueError):
-			return
 		if col == 0:
-			col = 10
-		elif "shift" in gesture.modifierNames:
+			col += 10
+		if "shift" in gesture.modifierNames:
 			col += 10
 		self._moveToColumnNumber(col)
 	# Translators: Message presented in input help mode.
@@ -104,6 +104,13 @@ class FixedList(List):
 			myCoa[n] = n
 		return myCoa
 
+class RichEditCursorManager(CursorManager):
+
+	scriptCategory = _scriptCategory
+
+	def makeTextInfo(self, position):
+		return EditTextInfo(self,position)
+
 class AppModule(appModuleHandler.AppModule):
 
 	scriptCategory = _scriptCategory
@@ -113,7 +120,8 @@ class AppModule(appModuleHandler.AppModule):
 			clsList.insert(0, EmuleRowWithFakeNavigation)
 		elif obj.role==controlTypes.ROLE_LIST:
 			clsList.insert(0, FixedList)
-
+		elif obj.windowClassName == "RichEdit20W":
+			clsList.insert(0, RichEditCursorManager)
 	def getToolBar(self):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
@@ -293,79 +301,6 @@ class AppModule(appModuleHandler.AppModule):
 	# Translators: Message presented in input help mode.
 	script_statusBarForthChild.__doc__=_("Reports fourth object of the Status Bar.")
 
-	def doFindText(self,text,reverse=False):
-		if not text:
-			return
-		obj=api.getFocusObject()
-		try:
-			info=obj.makeTextInfo(textInfos.POSITION_CARET)
-		except (NotImplementedError, RuntimeError):
-			info=obj.makeTextInfo(textInfos.POSITION_FIRST)
-		res=info.find(text,reverse=reverse)
-		if res:
-			info.updateCaret()
-			speech.cancelSpeech()
-			info.move(textInfos.UNIT_LINE,1,endPoint="end")
-			speech.speakTextInfo(info,reason=controlTypes.REASON_CARET)
-		else:
-			wx.CallAfter(gui.messageBox,
-			# Translators: Label of a dialog presented when the specified string of text is not found.
-			_('text "%s" not found')%text,
-			# Translators: Title of a dialog presented when the specified string of text is not found.
-			_("Find Error"),
-			wx.OK|wx.ICON_ERROR)
-		global _lastFindText
-		_lastFindText = text
-
-	def doFindTextDialog(self):
-		d = wx.TextEntryDialog(gui.mainFrame,
-		# Translators: Label for a search box.
-        _("Search for:"),
-		# Translators: title for the search dialog.
-		_("eMule search"),
-		defaultValue=_lastFindText)
-		def callback(result):
-			if result == wx.ID_OK:
-				# Make sure this happens after focus returns to the document.
-				wx.CallLater(100, self.doFindText, d.GetValue())
-		gui.runScriptModalDialog(d, callback)
-
-	def script_find(self,gesture):
-		obj = api.getFocusObject()
-		if obj is None:
-			return
-		if not (obj.role == controlTypes.ROLE_EDITABLETEXT and controlTypes.STATE_READONLY in obj.states):
-			return
-		self.doFindTextDialog()
-	# Translators: Message presented in input help mode
-	script_find.__doc__ = _("Opens the find dialog when in read only edit boxes.")
-
-	def script_findNext(self,gesture):
-		obj = api.getFocusObject()
-		if obj is None:
-			return
-		if not (obj.role == controlTypes.ROLE_EDITABLETEXT and controlTypes.STATE_READONLY in obj.states):
-			return
-		if not _lastFindText:
-			self.doFindTextDialog()
-			return
-		self.doFindText(_lastFindText)
-	# Translators: Message presented in input help mode.
-	script_findNext.__doc__ = _("Find next occurence.")
-
-	def script_findPrevious(self,gesture):
-		obj = api.getFocusObject()
-		if obj is None:
-			return
-		if not (obj.role == controlTypes.ROLE_EDITABLETEXT and controlTypes.STATE_READONLY in obj.states):
-			return
-		if not _lastFindText:
-			self.doFindTextDialog()
-			return
-		self.doFindText(_lastFindText,reverse=True)
-	# Translators: Message presented in input help mode.
-	script_findPrevious.__doc__ = _("Find previous occurrence.")
-
 	__gestures = {
 		"kb:control+shift+h": "toolBar",
 		"kb:control+shift+t": "where",
@@ -378,7 +313,4 @@ class AppModule(appModuleHandler.AppModule):
 		"kb:control+shift+w": "statusBarSecondChild",
 		"kb:control+shift+e": "statusBarThirdChild",
 		"kb:control+shift+r": "statusBarForthChild",
-		"kb:control+NVDA+f": "find",
-		"kb:control+f3": "findNext",
-		"kb:control+shift+f3": "findPrevious",
 	}
