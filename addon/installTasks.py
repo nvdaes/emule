@@ -1,10 +1,10 @@
-﻿import config
+﻿import globalVars
 import os
 import shutil
 import glob
 
 def onInstall():
-	configPath = config.getUserDefaultConfigPath()
+	configPath = globalVars.appArgs.configPath
 	modulePath = os.path.join(configPath, "appModules")
 	modulePath = glob.glob(modulePath+"\\emule.*")
 	for file in modulePath:
