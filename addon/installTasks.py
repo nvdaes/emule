@@ -1,5 +1,4 @@
-﻿# -*- coding: UTF-8 -*-
-import config
+﻿import config
 import os
 import shutil
 import glob
