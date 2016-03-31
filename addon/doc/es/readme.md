@@ -28,12 +28,9 @@ Probado en [eMule] [2] 0.50A.
 *	control+shift+o: Mueve el foco a los cuadros de edición de sólo lectura en
   la ventana actual. Por ejemplo, mensajes recibidos de IRC , Servidores
   disponibles, etc.
-*	control+NVDA+f: Si el cursor se pone en un cuadro de edición de sólo
-  lectura, abre un diálogo de búsqueda.
-*	control+f3: Encuentra la siguiente aparición del texto que hayas buscado
-  previamente en cuadros de edición de sólo lectura.
-*	control+shift+f3: Busca la anterior aparición del texto que hayas buscado
-  previamente en cuadros de edición de sólo lectura.
+*	control+NVDA+f: si el cursor está colocado en un cuadro de edición de sólo
+  lectura, abre un diálogo de búsqueda para utilizar las órdenes para
+  encontrar texto disponibles en NVDA.
 *	control+shift+l: Mueve el navegador de objetos y el ratón a los
   encabezados de la lista actual.
 *	control+shift+q: Lee el primer objeto en la barra de estado; proporciona
@@ -55,6 +52,10 @@ están disponibles las siguientes órdenes de teclado:
 *	NVDA+shift+1-0: Lee las columnas 11 a 20.
 *	NVDA+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
+
+## Cambios para 3.0 ##
+*	 Para buscar texto en cuadros de edición de sólo lectura, ahora podemos
+   utilizar el diálogo y las órdenes disponibles en NVDA.
 
 ## Cambios para 2.0 ##
 *	 La ayuda del complemento está disponible en el Administrador de

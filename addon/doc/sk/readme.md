@@ -24,10 +24,8 @@ Testované s [eMule][2] 0.50a.
   napríklad v okne hľadania, v okne so sťahovaním a podobne.
 *	control+shift+o: Presunie kurzor do editačného poľa iba na
   čítanie. Napríklad do okna s IRC správami, dostupnými servermi a podobne.
-*	control+NVDA+f: Ak ste v editačnom poli iba na čítanie, otvorí okno
-  hľadania.
-*	control+f3: Nájde najbližší výskyt hľadaného reťazca.
-*	control+shift+f3: Nájde predchádzajúci výskyt hľadaného reťazca.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: presunie navigačný objekt a myš na hlavičku pre aktuálny
   zoznam.
 *	control+shift+q: Prečíta prvý objekt na stavovom riadku; informáciu o
@@ -47,6 +45,10 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+control+1-0: Prečíta prvých 10 stĺpcov.
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Zmeny vo verzii 2.0 ##
 *	 Návod k doplnku nájdete v správcovi doplnkov.

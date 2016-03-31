@@ -26,12 +26,8 @@ Testado no [eMule][2] 0.50a.
 *	control+shift+o: Move o foco para os campos de edição somente-leitura na
   janela atual, por exemplo as mensagens recebidas por IRC, servidores
   disponíveis, etc.
-*	control+NVDA+f: Se o cursor estiver posicionado numa caixa de edição
-  somente leitura, abre um diálogo de busca.
-*	control+f3: Procura a próxima ocorrência do texto que você pesquisou
-  anteriormente em alguma caixa de edição somente leitura.
-*	control+shift+f3: Procura a ocorrência anterior do texto que você
-  pesquisou anteriormente em alguma caixa de edição somente leitura.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: Moves objeto de navegação e mouse para os cabeçalhos da
   lista atual.
 *	control+shift+q: Lê o primeiro objeto da barra de status; Fornece
@@ -53,6 +49,10 @@ seguintes teclas de comando:
 *	nvda+shift+1-0: Lê as colunas de 11 a 20.
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Mudanças na 2.0 ##
 *	 A ajuda do complemento está disponível no gestor de complementos.

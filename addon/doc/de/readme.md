@@ -17,64 +17,63 @@ bei beiden Erweiterungen.
 
 Getestet mit [eMule][2] 0.50a.
 
-## Tastenkürzel: ##
+## Tastenbefehle: ##
 
-*	strg+Umschaltt+h: verschiebt den Fokus und die Maus auf die
+*	Strg+Umschaltt+H: Verschiebt den Fokus und die Maus auf die
   Hauptsymbolleiste.
-*	Steuerung+Umschalt+t: ließt das aktuelle Fenster.
-*	strg+Umschalt+n: Verschiebt den Fokus in das Feld "name" im Suchfenster
-*	strg+Umschalt+p: Bewegt den Fokus im Suchfenster in die Liste der
-  Suchparameter
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
-*	strg+NVDA+f: Wenn sich der Systemcursor in einem schreibgeschützten
+*	Strg+Umschalt+T: Liest das aktuelle Fenster aus.
+*	Strg+Umschalt+N: Verschiebt den Fokus in das Feld "Name" im Suchfenster.
+*	Strg+Umschalt+P: Bewegt den Fokus im Suchfenster in die Liste der
+  Suchparameter.
+*	Strg+Umschalt+B: Bewegt den Fokus in die Liste im aktuellen Fenster. Zum
+  Beispiel verwendbar im Suchfenster, Downloads in Übertragungsfenster, etc.
+*	Strg+Umschalt+O: Bewegt den Fokus zum schreibgeschützten Feld, im
+  aktuellen Fenster. Zum Beispiel die empfangenen Nachrichten im IRC,
+  verfügbare Server, etc.
+*	Strg+NVDA+F: Wenn sich der Systemcursor in einem schreibgeschützten
   Eingabefeld befindet, wird ein Suchfeld geöffnet.
-*	strg+f3: sucht nach dem nächsten Vorkommen des Textes, den Sie mit
-  nvda+strg+f gesucht haben.
-*	strg+Umschalt+f3: sucht nach dem vorigen Vorkommen des Textes, den Sie mit
-  nvda+strg+f gesucht haben.
-*	Steuerung+Umschalt+l: bewegt den Navigator und die Maus zur Überschrift
-  der aktuellen Liste.
-*	strg+Umschalt+q: Zeigt das erste Objekt in der Statuszeile (die letzten
-  Aktivitäten) an
-*	strg+umschalt+w: zeigt das zweite Objekt auf der Statuszeile an (Dateien
-  und Nutzer auf dem aktuellen Server)
-*	strg+umschalt+e: zeigt das dritte Objekt der Statuszeile an (die
-  Datenübertragungsraten)
-*	strg+Umschalt+r: Zeigt das vierte Element der Statuszeile an
-  (Informationen zu Verbindungen mit ed2k- und Kademia-Netzwerken)
+*	Strg+Umschalt+L: Bewegt den Navigator und die Maus zur Überschrift der
+  aktuellen Liste.
+*	Strg+Umschalt+Q: Zeigt das erste Element in der Statuszeile (die letzten
+  Aktivitäten) an.
+*	Strg+Umschalt+W: Zeigt das zweite Element auf der Statuszeile an (Dateien
+  und Nutzer auf dem aktuellen Server).
+*	Strg+Umschalt+E: Zeigt das dritte Element der Statuszeile an (die
+  Datenübertragungsraten).
+*	Strg+Umschalt+R: Zeigt das vierte Element der Statuszeile an
+  (Informationen zu Verbindungen mit ed2k- und Kademia-Netzwerken).
 
 ## Spalten verwalten. ##
 
-Wenn sich der Fokus in einer Liste befindet, können Sie strg+alt+Pfeiltasten
-verwenden, um sich zwischen den Zeilen und Spalten zu bewegen. Golgende
+Wenn sich der Fokus in einer Liste befindet, können Sie sich mit
+Strg+Alt+Pfeiltasten zwischen den Zeilen und Spalten bewegen. Folgende
 Befehle sind außerdem verfügbar:
 
-*	NVDA+Steuerung+1-0: Ließt die ersten 10 Spalten.
-*	NVDA+Umschalt+1-0: Ließt die Spalten 11 bis 20.
-*	NVDA+Umschalt+c: kopiert die Inhalte der zuletzt gesprochenen Spalte in
+*	NVDA+Strg+1-0: Liest die ersten 10 Spalten.
+*	NVDA+Umschalt+1-0: Liest die Spalten 11 bis 20.
+*	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Änderungen bis 3.0 ##
+*	 Mit den NVDA-Befehlen können Sie jetzt auch die Suchergebnisse auslesen.
+
 ## Änderungen bis 2.0 ##
-*	 Die Hilfe zur Erweiterung ist über den Erweiterungs-Manager verfügbar.
+*	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.
 
 ## Änderungen bis 1.2 ##
 *	 Wenn Sie sich zu den IRC-Nachrichten bewegen, wird ausgewählter Text
    vorgelesen.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Mit der Tastenkombination können Sie mittlerweile anstatt nur die
+   Suchergebnisse auch sämtliche Listen im aktuellen Fenster ansteuern.
+*	 Der Befehl wurde zuvor generell zum Fokussieren der IRC-Nachrichten
+   verwendet. Mittlerweile können Sie jetzt auch damit im Fenster der
+   Verbindungen zu den Servern auslesen.
+*	 Beim Bewegen der Maus und dem Fokus zur Werkzeugleiste wurde unter
+   Umständen die Aktion doppelt angesagt. Dies ist nun behoben worden.
 
 ## Änderungen bis 1.1 ##
-*	 Fehler im Eintrag Emule im NVDA-Hilfe-Menü behoben, wenn der Namen des
-   Benutzerverzeichnises nicht-lateinische Zeichen enthällt.
+*	 Fehler im Eintrag Emule im NVDA-Hilfemenü behoben, wenn der Namen des
+   Benutzerverzeichnises nicht-lateinische Zeichen enthiellt.
 *	 Tastenkombinationen können nun mittels des Dialogs Eingaben neu
    zugewiesen werden.
 

@@ -27,12 +27,8 @@ Testattu [eMule][2]n 0.50a-versiossa.
 *	Control+Shift+O: Siirtää kohdistuksen nykyisen ikkunan vain luku
   -muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin,
   käytettävissä olevien palvelimien listaan jne.
-*	Control+NVDA+F: Avaa etsintävalintaikkunan, mikäli kohdistin on vain luku
-  -muokkausruudussa.
-*	Control+F3: Etsii vain luku -muokkausruuduista aiemmin etsityn tekstin
-  seuraavan esiintymän.
-*	Control+Shift+F3: Etsii vain luku -muokkausruuduista aiemmin etsityn
-  tekstin edellisen esiintymän.
+*	Control+NVDA+F: Avaa etsintävalintaikkunan, jos kohdistin on vain luku
+  -tyyppisessä muokkausruudussa.
 *	Control+Shift+L: Siirtää navigointiobjektin ja hiiren nykyisen listan
   otsikoihin.
 *	Control+Shift+Q: Lukee tilarivillä ensimmäisenä olevan objektin, joka
@@ -53,6 +49,11 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Control+1-0: Lukee ensimmäiset 10 saraketta.
 *	NVDA+Shift+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Shift+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
+
+## Muutokset versiossa 3.0 ##
+*	 NVDA:ssa käytettävissä olevaa valintaikkunaa ja komentoja on nyt
+   mahdollista käyttää tekstin etsimiseen vain luku -tyyppisistä
+   muokkausruuduista.
 
 ## Muutokset versiossa 2.0 ##
 *	 Ohje on käytettävissä Lisäosien hallinnasta.

@@ -27,12 +27,8 @@ Tesztelve az [eMule][2] 0.50a programmal.
 *	control+shift+o: A fókuszt az aktuális ablakban elérhető csak olvasható
   szerkesztőmezőre helyezi. Például IRC fogadott üzenetek, elérhető
   szerverek, stb.
-*	control+NVDA+f: Ha a kurzor egy csak olvasható szerkesztőmezőn áll,
-  megnyit egy keresőablakot.
-*	control+f3: A csak olvasható szerkesztőmezőkben megkezdett keresés
-  következő előfordulására lép.
-*	control+shift+f3: A csak olvasható szerkesztőmezőkben megkezdett keresés
-  előző előfordulására lép.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: A navigátor- és az egérkurzort az aktuális lista
   fejlécéhez helyezi.
 *	control+shift+q: felolvassa az első elemet az állapotsoron, mely a
@@ -55,6 +51,10 @@ parancsok is elérhetőek:
 *	nvda+shift+1-0: Felolvassa a 11-től 20-ig található oszlopokat.
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Az 2.0 verzió változásai ##
 *	 A kiegészítő súgója elérhető a Bővitménykezelő párbeszédablakából is.
