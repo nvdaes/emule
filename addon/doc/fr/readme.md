@@ -29,8 +29,9 @@ Testé avec [eMule][2] 0.50a.
 *	Ctrl + Maj + o : Déplace le focus aux zones d'édition en lecture seule
   dans la fenêtre courante. Par exemple, les messages IRC reçus, Serveurs
   disponibles, etc.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	contrôle + NVDA + f : Si le curseur est situé dans une zone d'édition en
+  lecture seule, ouvre un dialogue de Recherche afin d'utiliser les
+  commandes pour la recherche de texte disponible dans NVDA.
 *	Ctrl + Maj + L : Déplace l'objet de navigation et la souris aux en-têtes
   de la liste actuelle.
 *	Ctrl + Maj + Q : Lit le premier objet dans la barre d'état, fournit des
@@ -53,9 +54,10 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
-## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+## Changements pour la version 3.0 ##
+*	 Pour rechercher du texte dans les zones d'édition en lecture seule
+   maintenant nous pouvons utiliser le dialogue et les commandes disponibles
+   dans NVDA.
 
 ## Changements pour la version 2.0 ##
 *	 L'aide du module complémentaire est disponible à partir du Gestionnaire
