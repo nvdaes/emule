@@ -19,20 +19,20 @@ msgstr ""
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "Citeşte coloana specificată pentru lista de elemente curente."
+msgstr "Citește coloana specificată pentru lista de elemente curente."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s a fost copiat pe planşetă."
+msgstr "%s a fost copiat pe planșetă."
 
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Copiază ultima coloană a elementelor selectate în planşetă."
+msgstr "Copiază ultima coloană a elementelor selectate în planșetă."
 
 #. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "Mută focalizarea sistemului şi mausul în Bara de unelte principale."
+msgstr "Mută focalizarea sistemului și mausul în Bara de unelte principale."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
@@ -49,8 +49,8 @@ msgid ""
 "Moves the system focus and mouse to the search parameters list or Edit field "
 "for each option, in the Search window."
 msgstr ""
-"Mută focalizarea sistemului şi mausul la lista de căutare a parametrilor sau "
-"câmpul de editare a fiecărei opţiuni, în fereastra de căutare."
+"Mută focalizarea sistemului și mausul la lista de căutare a parametrilor sau "
+"câmpul de editare a fiecărei opțiuni, în fereastra de căutare."
 
 #. Translators: Message presented in input help mode.
 msgid ""
@@ -70,7 +70,7 @@ msgstr ""
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Mută obiectele navigatoare şi mausul la lista curentă de niveluri."
+msgstr "Mută obiectele navigatoare și mausul la lista curentă de niveluri."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
@@ -101,7 +101,7 @@ msgid ""
 "You can get more information about eMule at\n"
 "http://www.emule-project.net"
 msgstr ""
-"Îmbunătăţeşte accesibilitatea lui eMule cu NVDA.\n"
-"eMule este un program P2P pentru căutarea şi partajarea fişierelor.\n"
-"Poţi găsi mai multe informaţii despre eMule la\n"
+"Îmbunătățește accesibilitatea lui eMule cu NVDA.\n"
+"eMule este un program P2P pentru căutarea și partajarea fișierelor.\n"
+"Poți găsi mai multe informații despre eMule la\n"
 "http://www.emule-project.net"
