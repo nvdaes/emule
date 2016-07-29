@@ -20,9 +20,8 @@
   example usable in the Search window, downloads in Transfer window, etc.
 *	control+shift+o: Move the focus to read-only edit boxes in the current
   window. For example the IRC received messages, available Servers, etc.
-*	CTRL加NVDA加F：如果编辑光标停留在只读编辑框，打开一个查找对话框。
-*	CTRL加F3：搜索下一个您上次在只读编辑框内键入文本的结果。
-*	CTRL加SHIFT加F3：搜索上一个您上次在只读编辑框内键入文本的结果。
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	CTRL加SHIFT加L：移动鼠标和浏览对象到当前列表的表头。
 *	CTRL加SHIFT加L：朗读状态栏的第一个对象，提供最近一次活动的信息。
 *	CTRL加SHIFT加W: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
@@ -36,6 +35,10 @@
 *	NVDA加CTRL加1到0： 朗读前十列
 *	NVDA加SHIFT加1到0： 朗读第11到20列。
 *	NVDA加SHIFT加C： 拷贝最后一次朗读的那一列的内容到剪贴板。
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Changes for 2.0 ##
 *	 Add-on help is available from the Add-ons Manager.

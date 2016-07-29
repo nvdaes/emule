@@ -28,12 +28,8 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	control+shift+o: لتحريك مؤشر النظام تجاه مربعات التحرير المخصصة للقراءة
   فقط في النافذة الحالية.  كمربعات تحرير استلام رسائل بروتوكول IRC, أو
   الخوادم المتاحة, وهكذا.
-*	control+NVDA+f: إذا كان المؤشر موجودا في صندوق تحرير للقراءة فقط فإن هذا
-  الاختصار يمكن من فتح محاورة للبحث. 
-*	control+f3: للوصول إلى الظهور التالي للنص الذي قمت بالبحث عنه مسبقا في
-  صناديق تحرير القراءة فقط. 
-*	control+shift+f3: للوصول إلى الظهور السابق للنص الذي قمت بالبحث عنه مسبقا
-  في صناديق تحرير القراءة فقط.  
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: لتحريك مؤشر NVDA ومؤشر الفأرة تجاه رأس القائمة الحالية. 
 *	control+shift+q: لقراءة أول كائن في شريط الحالة. يعطي معلومات عن أحدث أمر
   تم تنفيذه. 
@@ -52,6 +48,10 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	nvda+control+1-0: لقراءة الأعمدة العشر الأولى. 
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## مستجدات الإصدار  1.0 ##
 *	 إتاحة ملف المساعدة بمدير الإضافات البرمجية.

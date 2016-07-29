@@ -21,10 +21,8 @@
 *	control+shift+b помера фокус на неку листу корисно у прозорима за
   претраживање или преузимања
 *	control+shift+o помера фокус на поља само за читање
-*	control+NVDA+f ако сте у пољу само за читање отвара дијалог за претрагу
-*	control+f3 тражи следеће текстове које сте тражили у пољима само за читање
-*	control+shift+ф3 тражи претходне текстове које сте тражили у пољима само
-  тза читање
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l помера објекатски навигатор и миш на заглавље тренутне
   листе
 *	control+shift+q чита објекат у статусној траци
@@ -40,6 +38,10 @@
 *	nvda+control+1-0 чита колоне
 *	nvda+shift+1-0: чита колоне од 11 до 20
 *	nvda+shift+C копира садржај задње прочитане колоне
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## промене у 2.0 ##
 *	 помоћ за додатак доступна из управљача за додатке

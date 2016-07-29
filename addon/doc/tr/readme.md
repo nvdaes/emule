@@ -26,10 +26,8 @@ kaldırmalısınız. gerekir.
   example usable in the Search window, downloads in Transfer window, etc.
 *	control+shift+o: Move the focus to read-only edit boxes in the current
   window. For example the IRC received messages, available Servers, etc.
-*	kontrol + NVDA + f: Düzenleme imleci bir salt okunur düzenleme kutusunda
-  bulunuyorsa, bul iletişim kutusunu açar.
-*	kontrol + f3: Daha önce aranan ifadeyi metnin sonraki kısmında arar.
-*	kontrol+shift+f3: Daha önce aranan ifadeyi metnin önceki kısmında arar.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	kontrol + shift + l: Fare ve nesne sunucusunu Mevcut listenin başlıkları
   üzerine taşır.
 *	kontrol + shift + q: durum çubuğunda ilk nesneyi okur; son etkinlik
@@ -49,6 +47,10 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA + kontrol 1-0: ilk 10 sütunu okur.
 *	NVDA + shift 1-0: 11-20 sütunları okur.
 *	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Changes for 2.0 ##
 *	 Add-on help is available from the Add-ons Manager.

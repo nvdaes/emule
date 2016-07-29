@@ -27,12 +27,8 @@ Getest op [eMule][2] 0.50a.
 *	control+shift+o: Verplaatst de focus naar alleen-lezen invoervelden in het
   huidige venster. Bijvoorbeeld: via IRC ontvangen berichten, beschikbare
   servers, etc.
-*	control+NVDA+f: Opent een zoekdialoogvenster als de cursor in een alleen
-  lezen invoerveld staat.
-*	control+f3: Zoekt het volgende voorkomen van de tekst die u eerder zocht
-  in alleen lezen invoervelden.
-*	control+shift+f3: Zoekt het vorige voorkomen van de tekst die u eerder
-  zocht in alleen lezen invoervelden.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: Verplaatst het navigator object en de muis naar de
   hoofdingen van de huidige lijst.
 *	control+shift+q: Leest het eerste object in de statusbalk; geeft
@@ -54,6 +50,10 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+1-0: Leest kolommen 11 tot 20.
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Veranderingen in 2.0 ##
 *	 Add-on help is beschikbaar via Add-ons beheren.

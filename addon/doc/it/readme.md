@@ -26,12 +26,8 @@ Testato su [eMule][2] 0.50a.
   example usable in the Search window, downloads in Transfer window, etc.
 *	control+shift+o: Move the focus to read-only edit boxes in the current
   window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: Se il cursore si trova in un campo editazione di sola
-  lettura, apre una finestra di dialogo per la ricerca di testo.
-*	control+f3: Se il cursore si trova in un campo editazione di sola lettura,
-  trova il testo successivo alla posizione del cursore.
-*	control+shift+f3: Se il cursore si trova in un campo editazione di sola
-  lettura, trova il testo precedente alla posizione del cursore.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
 *	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse
   sull'intestazione di una colonna all'interno di un elenco.
 *	control+shift+q: Legge attività recenti, primo elemento della barra di
@@ -53,6 +49,10 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	nvda+shift+1-0: Consente di leggere le colonne corrispondenti, dalla
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
+
+## Changes for 3.0 ##
+*	 To search text in readonly edit boxes, now we can use the dialog and
+   commands available in NVDA.
 
 ## Cambiamenti per la 2.0 ##
 *	 L'aiuto sul componente aggiuntivo è disponibile dalla gestione

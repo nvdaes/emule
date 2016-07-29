@@ -30,11 +30,8 @@ Testé avec [eMule][2] 0.50a.
   dans la fenêtre courante. Par exemple, les messages IRC reçus, Serveurs
   disponibles, etc.
 *	contrôle + NVDA + f : Si le curseur est situé dans une zone d'édition en
-  lecture seule, ouvre un dialogue de Recherche.
-*	Contrôle + F3 : Recherche l'occurrence suivante du texte que vous avez
-  cherché auparavant dans la zone d'édition en lecture seule.
-*	Contrôle + maj + F3 : Recherche l'occurrence précédente du texte que vous
-  avez cherché auparavant dans la zone d'édition en lecture seule.
+  lecture seule, ouvre un dialogue de Recherche afin d'utiliser les
+  commandes pour la recherche de texte disponible dans NVDA.
 *	Ctrl + Maj + L : Déplace l'objet de navigation et la souris aux en-têtes
   de la liste actuelle.
 *	Ctrl + Maj + Q : Lit le premier objet dans la barre d'état, fournit des
@@ -56,6 +53,11 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + maj +1-0 : Lit colonnes 11 à 20.
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
+
+## Changements pour la version 3.0 ##
+*	 Pour rechercher du texte dans les zones d'édition en lecture seule
+   maintenant nous pouvons utiliser le dialogue et les commandes disponibles
+   dans NVDA.
 
 ## Changements pour la version 2.0 ##
 *	 L'aide du module complémentaire est disponible à partir du Gestionnaire
