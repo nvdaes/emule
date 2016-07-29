@@ -1,4 +1,8 @@
-# eMule
+# -*- coding: UTF-8 -*-
+# eMule app module
+#Copyright (C) 2012-2016 Noelia Ruiz Martínez, Alberto Buffolino
+# Released under GPL 2
+
 # Fixed regression for issue 4291. Find text works again in RichEdit controls
 # Date: 10/03/2016
 # Used queueEvent("gainFocus", obj) for script_toolBar
