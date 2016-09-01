@@ -5,9 +5,9 @@
 *	download [development version][3]
 
 This add-on helps to improve accessibility of eMule with nVDA.
-Also provides additional keyboard commands for moving in different windows and gives Useful information of eMule.
+It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.
 
-It's based on eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You should uninstall that old add-on to use this one, since both have common keystrokes and features.
 
 Tested on [eMule][2] 0.50a.
 
@@ -36,7 +36,7 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
 ## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and commands available in NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.
 
 ## Changes for 2.0 ##
 *	 Add-on help is available from the Add-ons Manager.
