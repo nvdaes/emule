@@ -145,15 +145,8 @@ class AppModule(appModuleHandler.AppModule):
 
 	def getName(self):
 		where = self.getWhere()
-		if where is None:
-			return None
-		return self.getWhere().name
-
-	def getChildID(self):
-		where = self.getWhere
-		if where is None:
-			return None
-		return self.getWhere().IAccessibleChildID
+		if where:
+			return where.name
 
 	def getHeader(self):
 		obj=api.getFocusObject()
