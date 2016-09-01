@@ -165,8 +165,7 @@ class AppModule(appModuleHandler.AppModule):
 			return statusBar.getChild(pos).name
 
 	def script_toolBar(self, gesture):
-		obj = self.getToolBar(
-		
+		obj = self.getToolBar()
 		if obj is not None:
 			if obj != api.getMouseObject():
 				api.moveMouseToNVDAObject(obj)
