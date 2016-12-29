@@ -1,65 +1,80 @@
 # eMule #
 
-*	аутори : Noelia, Chris, Alberto.
-*	преузми стабилну верзију1
-*	преузми верзију у развоју3
+*	Autori: Noelia, Chris, Alberto.
+*	Preuzmi[stabilnu verziju][1]
+*	Preuzmi[verziju u razvoju][3]
 
-овај додатак побољшава приступачност емуле програма са нвда. он такође
-додаје корисне пречице
+Ovaj dodatak poboljšava pristupačnost programa eMule sa NVDA.  Takođe pruža
+dodatne komande za premeštanje na različite prozore i dobijanje korisnih
+informacija o eMule.
 
-базиран је на старом додатку па га деинсталирајте  инсталирајте овај
+Baziran je na dodatku eMuleNVDASupport, programiran od strane istog
+autora. Morate ukloniti taj dodatak kako biste koristili ovaj, zbog toga što
+oba dodatka imaju slične karakteristike i prečice.
 
-тестирано на емуле20.50а
+Testirano na [eMule][2] 0.50a.
 
-## команде ##
+## Glavne prečice ##
 
-*	control+shift+h помера фокус на алатну траку
-*	control+shift+t чита тренутни прозор
-*	control+shift+n помера фокус на име у дијалогу за претраживање
-*	control+shift+p у пољу за претраживање помера фокус на поље за
-  претраживање или листу параметара
-*	control+shift+b помера фокус на неку листу корисно у прозорима за
-  претраживање или преузимања
-*	control+shift+o помера фокус на поља само за читање
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
-*	control+shift+l помера објекатски навигатор и миш на заглавље тренутне
-  листе
-*	control+shift+q чита објекат у статусној траци
-*	control+shift+w чита други објекат из статусне траке
-*	control+shift+e чита трећи објекат статусне траке
-*	control+shift+r чита четврти објекат статусне траке
+*	control+shift+h: Pomera fokus i miš na glavnu traku.
+*	control+shift+t: Čita trenutni prozor.
+*	control+shift+n: Premešta fokus na polje za unos imena u dijalogu za
+  pretragu.
+*	control+shift+p: U prozoru za pretragu, premešta fokus na listu
+  podešavanja pretrage, ili opcije polja za uređivanje.
+*	control+shift+b: Premešta fokus na listu u trenutnom prozoru. Na primer
+  korisno u prozoru za pretragu, Preuzimanjima u prozoru za prebacivanje, i
+  tako dalje.
+*	control+shift+o: Premešta fokus na polja koja su samo za čitanje u
+  trenutnom prozoru. Na primer IRC primljene poruke, dostupni serveri, i
+  tako dalje.
+*	control+NVDA+f: Ako je kursor u polju koje je samo za čitanje, otvara
+  dijalog za pretragu kako biste koristili NVDA komande.
+*	control+shift+l: Pomera miš i navigacioni objekat na zaglavlje trenutne
+  liste.
+*	control+shift+q: Čita prvi objekat na statusnoj traci; pruža informacije o
+  poslednjim aktivnostima.
+*	control+shift+w: Čita drugi objekat statusne trake; sadrži informacije o
+  datotekama i korisnicima na trenutnom serveru.
+*	control+shift+e: Čita treći objekat statusne trake; korisno kako biste
+  znali trenutnu brzinu odpremanja i preuzimanja.
+*	control+shift+r: Čita četvrti objekat statusne trake; prijavjuje
+  povezivanja na eD2K i Kad mrežu.
 
-## управљање колонама ##
+## Upravljanje kolona ##
 
-када сте у некој листи померајте се са алт+контрол+нека сстрелица следеће
-команде су такође доступне
+Kada ste u listi, možete pomerati kursor između kolona i redova koristeći
+alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 
-*	nvda+control+1-0 чита колоне
-*	nvda+shift+1-0: чита колоне од 11 до 20
-*	nvda+shift+C копира садржај задње прочитане колоне
+*	nvda+control+1-0: čita prvih deset kolona.
+*	nvda+shift+1-0: Čita kolone 11 do 20.
+*	nvda+shift+C: Kopira sadržaj zadnje pročitane kolone u privremenu
+  memoriju.
 
-## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+## Promene u 3.0 ##
+*	 Za pretragu teksta u poljima koja su samo za čitanje, sada možete
+   koristiti NVDA komande
 
-## промене у 2.0 ##
-*	 помоћ за додатак доступна из управљача за додатке
+## Promene u 2.0 ##
+*	 Pomoć za dodatak je dostupna iz menia za upravljanje dodacima.
 
-## промене у 1.2 ##
-*	 када сте у ирц поруци текст је правилно прочитан
-*	 пречица сада помера на све листе а не само резултате претраге
-*	 команда за померање на ирц поруке сада се помера на било које поље које
-   је само за читање
-*	 када померите миш и фокус у траку са алаткама некада јње изговарано 2
-   путса сада је то поправљено
+## Promene u 1.2 ##
+*	 Kada ste u IRC porukama, izabran tekst je ispravno pročitan.
+*	 Prečica za prelazak na rezultate pretrage sada prelazi na bilo koju listu
+   u trenutnom prozoru.
+*	 Komanda za čitanje IRC poruka sada prelazi na bilo koje polje koje je
+   samo za čitanje, tako da možete pregledati informacije o konekciji u bilo
+   kom prozoru.
+*	 Kada premestite fokus i miš na traku sa alatkama, u nekim slučajevima
+   bila je izgovorena dva puta. Ovo je popravljeno.
 
-## промене у 1.1 ##
-*	 поправљен баг са не латиничним словима
-*	 пречице могу бити промењене
+## Promene u 1.1 ##
+*	 Popravljen bag u eMule stavci u NVDA Meniju za pomoć, kada folder za
+   korisnička podešavanja sadrži znakove koji nisu latinični.
+*	 Prečice sada mogu biti promenjene u NVDA dijalogu za ulazne gestove.
 
-## промене у 1.0 ##
-*	 прва верзија
+## Promene u 1.0 ##
+*	 Prva verzija
 
 [[!tag dev stable]]
 
