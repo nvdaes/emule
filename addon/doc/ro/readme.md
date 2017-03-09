@@ -4,7 +4,7 @@
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][3]
 
-Acest add-on ajută la îmbunătățirea accesibilității lui eMule cu NVDA. De
+Acest supliment ajută la îmbunătățirea accesibilității lui eMule cu NVDA. De
 asemenea, oferă comenzi suplimentare de taste pentru deplasarea în ferestre
 diferite și dă informații utile despre eMule.
 
