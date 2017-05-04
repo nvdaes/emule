@@ -7,18 +7,18 @@ msgstr ""
 "Project-Id-Version: eMule 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-09-19 05:05+1000\n"
-"PO-Revision-Date: 2015-10-08 12:27+0200\n"
-"Last-Translator: Janko Valenćik <jankoval@gmail.com>\n"
+"PO-Revision-Date: 2017-05-03 11:18+0100\n"
+"Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: serbian <wwenikola123@gmail.com>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.8.5\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "Čita specifičnu kolonu za trenutnu stavku liste"
+msgstr "Čita izabranu kolonu za trenutnu stavku liste."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -40,7 +40,7 @@ msgstr "Prijavljuje trenutni prozor."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Pomera sistemski fokus u poljeza unos imena prozora za pretragu."
+msgstr "Pomera sistemski fokus u polje za unos imena prozora za pretragu."
 
 #. Translators: Message presented in input help mode.
 msgid ""
@@ -64,7 +64,7 @@ msgid ""
 "example the IRC received messages."
 msgstr ""
 "Pomera sistemski fokus na polja samo za čitanje u trenutno aktivnom prozoru. "
-"Na primer primljene poruke u čet prozoru."
+"Na primer primljene IRC poruke u čet prozoru."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
