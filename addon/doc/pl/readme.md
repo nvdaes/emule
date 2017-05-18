@@ -27,8 +27,9 @@ Przetestowany na [eMule][2] 0.50a.
 *	control+shift+o: przenosi punkt uwagi do pól edycji tylko do odczytu,
   znajdujących się w aktualnym oknie, np. otrzymane wiadomości IRC, dostępne
   serwery itd.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	control+NVDA+f: jeśli kursor systemowy znajduje się w polu edycji tylko do
+  odczytu, otwiera okno Znajdź, aby móc użyć komend do wyszukiwania tekstu w
+  NVDA. 
 *	control+shift+l: przenosi obiekt nawigatora i wskaźnik myszy do nagłówków
   aktualnej listy.
 *	control+shift+q: odczytuje pierwszy obiekt na pasku stanu; dostarcza
@@ -50,9 +51,9 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
 
-## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+## Zmiany dla 3.0 ##
+*	 Aby wyszukać tekst w polach tylko do odczytu, teraz możemy użyć okna
+   dialogowego i komendy dostępne w NVDA.
 
 ## Zmiany dla 2.0 ##
 *	 Pomoc dodatku dostępna w oknie zarządzania dodatkami.
