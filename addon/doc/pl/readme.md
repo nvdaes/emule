@@ -81,8 +81,8 @@ następujące polecenia klawiszowe w tym dodatku:
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
-[3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
