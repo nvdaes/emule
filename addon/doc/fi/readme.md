@@ -73,7 +73,7 @@ lisäksi seuraavat näppäinkomennot:
 *	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa
    käyttäjän asetuskansio sisältää muita kuin latinalaisia merkkejä.
 *	 Pikanäppäinten uudelleenmäärittely on nyt mahdollista NVDA:n
-   syöte-eleiden valintaikkunaa käyttäen.
+   syötekomentojen valintaikkunaa käyttäen.
 
 ## Muutokset versiossa 1.0 ##
 *	 Ensimmäinen versio.
