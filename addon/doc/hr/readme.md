@@ -28,8 +28,8 @@ testirano na [eMule][2] 0.50a.
 *	control+shift+o: premjesti fokus na polja za uređivanje koja su samo za
   čitanje u trenutnom prozoru. Na primjer, irc primljene poruke, dostupni
   poslužitelji, itd.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	control+NVDA+f: ako se kursor nalazi u polju za uređivanje koje je samo za
+  čitanje, otvara se dijalog za pretragu.
 *	control+shift+l: premješta objekt navigacije i miš na zaglavlja trenutnog
   popisa.
 *	control+shift+q: čita prvi objekt u statusnoj traci; daje informaciju o
@@ -51,9 +51,9 @@ također dostupne:
 *	nvda+shift+1-0: čita od 11 do 20 retka.
 *	nvda+shift+C: kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
-## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+## Promjene u inačici 2.0 ##
+*	 Za pretraživanje teksta u poljima koja su samo za čitanje, sada možete
+   koristiti dijaloški okvir i NVDA komande.
 
 ## promjene u inačici 2.0 ##
 *	 Pomoč za dodatak dostupna je unutar upravitelja dodataka.
