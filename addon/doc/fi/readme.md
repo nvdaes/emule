@@ -73,15 +73,15 @@ lisäksi seuraavat näppäinkomennot:
 *	 Korjattu NVDA:n ohjevalikossa olevan eMule-valikkokohteen vika, jossa
    käyttäjän asetuskansio sisältää muita kuin latinalaisia merkkejä.
 *	 Pikanäppäinten uudelleenmäärittely on nyt mahdollista NVDA:n
-   syöte-eleiden valintaikkunaa käyttäen.
+   syötekomentojen valintaikkunaa käyttäen.
 
 ## Muutokset versiossa 1.0 ##
 *	 Ensimmäinen versio.
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
 
-[3]: http://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
