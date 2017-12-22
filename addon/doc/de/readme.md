@@ -54,13 +54,13 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
-## Änderungen bis 3.0 ##
+## Änderungen in 3.0 ##
 *	 Mit den NVDA-Befehlen können Sie jetzt auch die Suchergebnisse auslesen.
 
-## Änderungen bis 2.0 ##
+## Änderungen in 2.0 ##
 *	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.
 
-## Änderungen bis 1.2 ##
+## Änderungen in 1.2 ##
 *	 Wenn Sie sich zu den IRC-Nachrichten bewegen, wird ausgewählter Text
    vorgelesen.
 *	 Mit der Tastenkombination können Sie mittlerweile anstatt nur die
@@ -71,13 +71,13 @@ Befehle sind außerdem verfügbar:
 *	 Beim Bewegen der Maus und dem Fokus zur Werkzeugleiste wurde unter
    Umständen die Aktion doppelt angesagt. Dies ist nun behoben worden.
 
-## Änderungen bis 1.1 ##
+## Änderungen in 1.1 ##
 *	 Fehler im Eintrag Emule im NVDA-Hilfemenü behoben, wenn der Namen des
    Benutzerverzeichnises nicht-lateinische Zeichen enthiellt.
 *	 Tastenkombinationen können nun mittels des Dialogs Eingaben neu
    zugewiesen werden.
 
-## Änderungen bis 1.0 ##
+## Änderungen in 1.0 ##
 *	 Ehrstveröffentlichung.
 
 [[!tag dev stable]]

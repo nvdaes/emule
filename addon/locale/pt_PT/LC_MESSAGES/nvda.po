@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: eMule 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:05+1000\n"
-"PO-Revision-Date: 2014-12-21 23:51-0000\n"
-"Last-Translator: Rui Fontes <rui.fontes@tiflotecnia.com>\n"
-"Language-Team: Portuguese <rui.fontes@tiflotecnia.com>\n"
+"PO-Revision-Date: 2017-12-05 12:19+0000\n"
+"Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
+"Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; rui.fontes@tiflotecnia.com>\n"
 "Language: pt_PT\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Poedit-Language: Portuguese\n"
-"X-Poedit-Country: PORTUGAL\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.0.1\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "Lê a coluna especificada para o item atual."
+msgstr "Lê a coluna especificada para o item actual."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -87,11 +87,11 @@ msgstr "Erro na localização"
 
 #. Translators: Label for a search box.
 msgid "Search for:"
-msgstr "Pesquisar:"
+msgstr "Pesquisar por:"
 
 #. Translators: title for the search dialog.
 msgid "eMule search"
-msgstr "Pesquisa eMule"
+msgstr "Pesquisa do eMule"
 
 #. Translators: Message presented in input help mode
 msgid "Opens the find dialog when in read only edit boxes."
@@ -122,4 +122,3 @@ msgstr ""
 "eMule é um programa P2P para pesquisar e partilhar ficheiros.\n"
 "Pode obter mais informações sobre o eMule em\n"
 "http://www.emule-project.net"
-
