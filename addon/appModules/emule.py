@@ -1,31 +1,7 @@
 # -*- coding: UTF-8 -*-
 # eMule app module
-#Copyright (C) 2012-2016 Noelia Ruiz Martínez, Alberto Buffolino
+#Copyright (C) 2012-2018 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
-
-# Fixed regression for issue 4291. Find text works again in RichEdit controls
-# Date: 10/03/2016
-# Used queueEvent("gainFocus", obj) for script_toolBar
-# Date: 11/04/2014
-# Removed control+shift+z. Used windowUtils to search the toolbar, lists an read-only edit boxes in different windows
-# Date: 20/02/2014
-# Version: 1.2-dev
-# Fixed bug in script mainIRC: now selected text is reported properly
-# Minor changes to clean code
-# Date: 25/01/2014
-# Version: 1.1-dev
-# Fixed bug in script_find: Now works just on readonly edit controls
-# Date: 17/05/2013
-# Added comments for translators
-# Date: 13/05/2012
-# Added support for managing columns
-# Date: 12/05/2013
-# Version: 2.2
-# Now doc file is opened when pressing NVDA+h
-# Date: 23/04/2013
-# Version: 2.1
-# Deleted commands for list navigation: we don't need them now
-# Date: 17/09/2012
 
 import appModuleHandler
 import addonHandler
@@ -51,15 +27,9 @@ from NVDAObjects.window.edit import EditTextInfo
 
 addonHandler.initTranslation()
 
-# The root of the addon folder
-_addonDir = os.path.join(os.path.dirname(__file__), "..").decode("mbcs")
-_curAddon = addonHandler.Addon(_addonDir)
-_addonSummary = _curAddon.manifest['summary']
-_scriptCategory = unicode(_addonSummary)
-
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
-	scriptCategory = _scriptCategory
+	scriptCategory = unicode(addonHandler.getCodeAddon().manifest["summary"])
 
 	def initOverlayClass(self):
 		modifiers = ("control", "shift")
@@ -116,7 +86,7 @@ class RichEditCursorManager(CursorManager):
 
 class AppModule(appModuleHandler.AppModule):
 
-	scriptCategory = _scriptCategory
+	scriptCategory = unicode(addonHandler.getCodeAddon().manifest["summary"])
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == controlTypes.ROLE_LISTITEM:
