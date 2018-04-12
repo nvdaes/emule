@@ -38,8 +38,8 @@ Testé avec [eMule][2] 0.50a.
   informations sur l'activité récente.
 *	Ctrl + Maj + W : Lit le second objet de la barre d'état, contient des
   informations sur les fichiers et les utilisateurs sur le serveur actuel.
-*	atrl + Maj + E: Lit le troisième objet de la barre d'état; utile pour
-  connaître la vitesse d'Envoi / Téléchrgement.
+*	Ctrl + Maj + E: Lit le troisième objet de la barre d'état; utile pour
+  connaître la vitesse d'Envoi / Téléchargement.
 *	Ctrl + Maj + r: Affiche Le quatrième objet de la barre d'état, les
   rapports sur la connexion de réseau eD2K et Kad.
 
