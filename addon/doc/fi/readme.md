@@ -16,28 +16,28 @@ Testattu [eMule][2]n 0.50a-versiossa.
 
 ## Näppäinkomennot: ##
 
-*	Control+Shift+H: Siirtää kohdistuksen ja hiiren päätyökaluriville.
-*	Control+Shift+T: Lukee nykyisen ikkunan.
-*	Control+Shift+N: Siirtää kohdistuksen Haku-ikkunan Nimi-kenttään.
-*	Control+Shift+P: Siirtää kohdistuksen ja hiiren Haku-ikkunassa
+*	Ctrl+Vaihto+H: Siirtää kohdistuksen ja hiiren päätyökaluriville.
+*	Ctrl+Vaihto+T: Lukee nykyisen ikkunan.
+*	Ctrl+Vaihto+N: Siirtää kohdistuksen Haku-ikkunan Nimi-kenttään.
+*	Ctrl+Vaihto+P: Siirtää kohdistuksen ja hiiren Haku-ikkunassa
   hakuparametrien listaan tai eri vaihtoehtojen muokkauskenttiin.
-*	Control+Shift+B: Siirtää kohdistuksen nykyisessä ikkunassa olevaan
+*	Ctrl+Vaihto+B: Siirtää kohdistuksen nykyisessä ikkunassa olevaan
   listaan. Käyttökelpoinen esimerkiksi Haku-ikkunassa, Siirrot-ikkunan
   Lataukset-listassa jne.
-*	Control+Shift+O: Siirtää kohdistuksen nykyisen ikkunan vain luku
+*	Ctrl+Vaihto+O: Siirtää kohdistuksen nykyisen ikkunan vain luku
   -muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin,
   käytettävissä olevien palvelimien listaan jne.
-*	Control+NVDA+F: Avaa etsintävalintaikkunan, jos kohdistin on vain luku
+*	Ctrl+NVDA+F: Avaa etsintävalintaikkunan, jos kohdistin on vain luku
   -tyyppisessä muokkausruudussa.
-*	Control+Shift+L: Siirtää navigointiobjektin ja hiiren nykyisen listan
+*	Ctrl+Vaihto+L: Siirtää navigointiobjektin ja hiiren nykyisen listan
   otsikoihin.
-*	Control+Shift+Q: Lukee tilarivillä ensimmäisenä olevan objektin, joka
-  antaa tietoja viimeaikaisesta toiminnasta.
-*	Control+Shift+W: Lukee tilarivillä toisena olevan objektin, joka sisältää
+*	Ctrl+Vaihto+Q: Lukee tilarivillä ensimmäisenä olevan objektin, joka antaa
+  tietoja viimeaikaisesta toiminnasta.
+*	Ctrl+Vaihto+W: Lukee tilarivillä toisena olevan objektin, joka sisältää
   tietoja nykyisellä palvelimella olevista tiedostoista ja käyttäjistä.
-*	Control+Shift+E: Lukee tilarivillä kolmantena olevan objektin, joka
-  sisältää lähetys- ja latausnopeudet.
-*	Control+Shift+R: Lukee tilarivillä neljäntenä olevan objektin, jossa on
+*	Ctrl+Vaihto+E: Lukee tilarivillä kolmantena olevan objektin, joka sisältää
+  lähetys- ja latausnopeudet.
+*	Ctrl+Vaihto+R: Lukee tilarivillä neljäntenä olevan objektin, jossa on
   tietoa eD2K- ja Kad-verkkojen yhteyden tilasta.
 
 ## Sarakkeiden hallinta ##
@@ -46,9 +46,9 @@ Kohdistinta voidaan siirtää rivien ja sarakkeiden välillä listassa oltaessa
 Alt+Ctrl+nuolinäppäimiä käyttäen.  Tässä lisäosassa ovat käytettävissä
 lisäksi seuraavat näppäinkomennot:
 
-*	NVDA+Control+1-0: Lukee ensimmäiset 10 saraketta.
-*	NVDA+Shift+1-0: Lukee sarakkeet väliltä 11-20.
-*	NVDA+Shift+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
+*	NVDA+Ctrl+1-0: Lukee ensimmäiset 10 saraketta.
+*	NVDA+Vaihto+1-0: Lukee sarakkeet väliltä 11-20.
+*	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
 ## Muutokset versiossa 3.0 ##
 *	 NVDA:ssa käytettävissä olevaa valintaikkunaa ja komentoja on nyt
