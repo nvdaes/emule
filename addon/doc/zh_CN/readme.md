@@ -1,4 +1,4 @@
-# eMule #
+# eMule-NVDA电骡支持插件 #
 
 *	作者： Noelia, Chris, Alberto.
 *	下载[稳定版本][1]
@@ -10,7 +10,7 @@
 
 经[eMule][2] 0.50a的测试。
 
-## 键盘命令： ##
+## 快捷键: ##
 
 *	CTRL加SHIFT加H，移动鼠标和焦点到”主工具栏
 *	CTRL加SHIFT加T:朗读当前窗口。
@@ -36,23 +36,17 @@
 *	NVDA加SHIFT加1到0： 朗读第11到20列。
 *	NVDA加SHIFT加C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
-## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+## 版本3.0 ##
+*	 现在在只读编辑框中搜索文本，我们可以使用NVDA中提供的对话框和快捷键。
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## 版本2.0 ##
+*	 插件管理器现在已提供了插件的帮助。
 
 ## 版本1.2 ##
 *	 当移动到 IRC 消息时，选择的文本内容已可正确的朗读。
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 用于移动到搜索结果列表的快捷键已被推广，以便能够将焦点移动到当前窗口中的任何可用列表。
+*	 用于聚焦IRC消息的快捷键已被推广到移动到任何只读编辑框，从而可以在“服务器”窗口中查看连接信息。
+*	 当移动鼠标并将焦点移动到工具栏时，在某些情况下它会被朗读两次。这已得到修复。
 
 ## 版本1.1 ##
 *	 修复在用户配置文件夹名称包含非拉丁字符时 NVDA 帮助菜单下的 eMule 项目，发生的错误。
