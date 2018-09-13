@@ -16,12 +16,9 @@
 *	CTRL加SHIFT加T:朗读当前窗口。
 *	CTRL加SHIFT加N： 移动焦点到“查找”窗口的“名称”编辑区。
 *	CTRL加SHIFT加P： 切换焦点和鼠标到“搜索”窗口的搜索参数列表和编辑区选项。
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	control + shift + b：将焦点移动到当前窗口的列表中。例如，可在“搜索”窗口中使用，在“传输”窗口中下载等。
+*	control + shift + o：将焦点移动到当前窗口中的只读编辑框。例如，IRC收到消息，可用服务器等。
+*	control + NVDA + f：如果插入符号位于只读编辑框中，则打开查找对话框以使用命令搜索NVDA中可用的文本。
 *	CTRL加SHIFT加L：移动鼠标和浏览对象到当前列表的表头。
 *	CTRL加SHIFT加L：朗读状态栏的第一个对象，提供最近一次活动的信息。
 *	CTRL加SHIFT加W: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
