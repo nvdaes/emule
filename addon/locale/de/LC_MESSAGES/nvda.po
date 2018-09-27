@@ -87,37 +87,6 @@ msgstr "Gibt das dritte Objekt der Statusleiste aus."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Gibt das vierte Objekt der Statusleiste aus."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "Text \"%s\" konnte nicht gefunden werden."
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Fehler beim Suchen"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Suchen nach:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "eMule-Suche"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr ""
-"Öffnet das Dialogfeld Suchen, wenn Sie sich in geschützten Eingabefeldern "
-"befinden."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Nächstes Vorkommen suchen."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Vorheriges Vorkommen suchen."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -125,6 +94,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -134,5 +104,28 @@ msgstr ""
 "Verbessert die Zugänglichkeit von eMule mit NVDA.\n"
 "\teMule ist ein P2P-Programm, zum Suchen nach und Teilen von Dateien.\n"
 "\tWeitere Informationen dazu finden Sie unter:\n"
-"\thttp://www.emule-project.net/\n"
+"\thttps://www.emule-project.net/\n"
 "\t"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "Text \"%s\" konnte nicht gefunden werden."
+
+#~ msgid "Find Error"
+#~ msgstr "Fehler beim Suchen"
+
+#~ msgid "Search for:"
+#~ msgstr "Suchen nach:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMule-Suche"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr ""
+#~ "Öffnet das Dialogfeld Suchen, wenn Sie sich in geschützten Eingabefeldern "
+#~ "befinden."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Nächstes Vorkommen suchen."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Vorheriges Vorkommen suchen."

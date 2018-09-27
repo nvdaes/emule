@@ -87,35 +87,6 @@ msgstr "الإعلام عن الكائن الثالث في شريط الحالة
 msgid "Reports fourth object of the Status Bar."
 msgstr "الإعلام عن الكائن الرابع في شريط الحالة."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "تعذر العثور على النص \"%s\""
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "يوجد خطأ"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "البحث عن"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "بحث eMule"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "فتح محاورة  البحث في حالة صناديق التحرير المقروءة فقط. "
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "الوصول إلى الظهور التالي للنص الذي قمت بالبحث عنه مسبقا. "
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "الوصول إلى الظهور السابق  للنص الذي قمت بالبحث عنه مسبقا."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -123,6 +94,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -132,4 +104,25 @@ msgstr ""
 "تحسين إمكانيات سهولة الوصول ببرنامج eMule مع NVDA.\n"
 "eMule هو برنامج لاقتران الحواسيب من أجل البحث ومشاركة الملفات.\n"
 "وللمزيد من المعلومات يمكن زيارة.\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "تعذر العثور على النص \"%s\""
+
+#~ msgid "Find Error"
+#~ msgstr "يوجد خطأ"
+
+#~ msgid "Search for:"
+#~ msgstr "البحث عن"
+
+#~ msgid "eMule search"
+#~ msgstr "بحث eMule"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "فتح محاورة  البحث في حالة صناديق التحرير المقروءة فقط. "
+
+#~ msgid "Find next occurence."
+#~ msgstr "الوصول إلى الظهور التالي للنص الذي قمت بالبحث عنه مسبقا. "
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "الوصول إلى الظهور السابق  للنص الذي قمت بالبحث عنه مسبقا."

@@ -87,37 +87,6 @@ msgstr "Felolvassa a harmadik elemet az állapotsoron."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Felolvassa a negyedik elemet az állapotsoron."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "\"%s\" szöveg nem található"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Találati hiba"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Keresés:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "eMule keresés"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr ""
-"Ha a kurzor egy csak olvasható szerkesztőmezőn áll, megnyit egy "
-"keresőablakot."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "A következő találatra lép."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Az előző találatra lép."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -125,6 +94,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -136,5 +106,28 @@ msgstr ""
 "Az eMule egy p2p alapú fájlcserélő program, mely lehetővé teszi a fájlok "
 "megosztását és kereshetőségét.\n"
 "Bővebb információt a szoftverről itt talál: \n"
-"http://www.emule-project.net\n"
+"https://www.emule-project.net\n"
 "\t"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "\"%s\" szöveg nem található"
+
+#~ msgid "Find Error"
+#~ msgstr "Találati hiba"
+
+#~ msgid "Search for:"
+#~ msgstr "Keresés:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMule keresés"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr ""
+#~ "Ha a kurzor egy csak olvasható szerkesztőmezőn áll, megnyit egy "
+#~ "keresőablakot."
+
+#~ msgid "Find next occurence."
+#~ msgstr "A következő találatra lép."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Az előző találatra lép."
