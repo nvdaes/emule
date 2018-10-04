@@ -1,15 +1,15 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
+# Brazilian Portuguese translation of eMule.
+# Copyright (C) 2013-2018 NVDA Contributors.
+# This file is distributed under the same license as the NVDA package.
+# Cleverson Casarin Uliana <clever97@gmail.com>, 2013-2014, 2016-2017.
+# Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>, 2018.
 msgid ""
 msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2016-02-26 02:29-0800\n"
-"Last-Translator: Cleverson Casarin Uliana <clever92000@yahoo.com.br>\n"
+"PO-Revision-Date: 2018-09-28 11:10-0300\n"
+"Last-Translator: Tiago Melo Casal <tcasal@intervox.nce.ufrj.br>\n"
 "Language-Team: Equipe de tradução do NVDA para Português do Brasil "
 "<clever92000@yahoo.com.br>\n"
 "Language: pt_BR\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: utf-8\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.11\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -100,7 +100,6 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -108,9 +107,9 @@ msgid ""
 "http://www.emule-project.net"
 msgstr ""
 "Melhora a acessibilidade do eMule com o NVDA.\n"
-"O eMule é um programa P2P de busca e compartilhamento de arquivos.\n"
+"O eMule é um programa P2P para buscar e compartilhar arquivos.\n"
 "Pode obter mais informações sobre o eMule em\n"
-"https://www.emule-project.net"
+"http://www.emule-project.net"
 
 #~ msgid "text \"%s\" not found"
 #~ msgstr "texto \"%s\" não achado"
