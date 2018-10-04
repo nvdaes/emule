@@ -89,35 +89,6 @@ msgstr "Durum çubuğunda üçüncü nesneyi okur."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Durum çubuğunda dördüncü nesneyi okur."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "Metin \"%s\" bulunamadı"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Arama hatası"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Ara:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "eMule arama"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "Salt okunur alanlarda bul iletişim kutusunu açar."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Sonrakini bul."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Öncekini bul."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -125,6 +96,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -134,4 +106,25 @@ msgstr ""
 "NVDA ile eMule'un erişilebilirliğini artırır.\n"
 "eMule arama ve dosya paylaşımı için bir P2P programıdır.\n"
 "eMule hakkında daha fazla bilgi için\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "Metin \"%s\" bulunamadı"
+
+#~ msgid "Find Error"
+#~ msgstr "Arama hatası"
+
+#~ msgid "Search for:"
+#~ msgstr "Ara:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMule arama"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Salt okunur alanlarda bul iletişim kutusunu açar."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Sonrakini bul."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Öncekini bul."

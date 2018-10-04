@@ -87,35 +87,6 @@ msgstr "Informa sobre o terceiro obxecto da barra de estado."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Informa sobre o carto obxecto da barra de estado."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "texto \"%s\" non atopado"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Erro de Busca"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Procurar:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "Busca de eMule"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "Abre cando se está en cadros de edición de só lectura."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Atopa a próxima aparición."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Atopa a ocorrencia anterior."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -123,6 +94,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -132,4 +104,25 @@ msgstr ""
 "Mellora a accesibilidade do eMule co NVDA.\n"
 "eMule é un programa P2P para buscar arquivos e compartilos.\n"
 "Podes obter máis información sobre o eMule en\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "texto \"%s\" non atopado"
+
+#~ msgid "Find Error"
+#~ msgstr "Erro de Busca"
+
+#~ msgid "Search for:"
+#~ msgstr "Procurar:"
+
+#~ msgid "eMule search"
+#~ msgstr "Busca de eMule"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Abre cando se está en cadros de edición de só lectura."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Atopa a próxima aparición."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Atopa a ocorrencia anterior."

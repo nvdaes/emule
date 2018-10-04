@@ -86,35 +86,6 @@ msgstr "prečíta tretí objekt na stavovom riadku."
 msgid "Reports fourth object of the Status Bar."
 msgstr "prečíta štvrtý objekt na stavovom riadku."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "text \"%s\" nebol nájdený"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Chyba vyhľadávania"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Hľadať:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "Hľadať"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "otvorí dialóg hľadania  v editačných poliach len na čítanie."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Hľadá ďalší výskyt reťazca."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Hľadá predchádzajúci výskyt reťazca."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -122,6 +93,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -131,4 +103,25 @@ msgstr ""
 "Zlepšuje prístupnosť programu eMule s NVDA.\n"
 "EMule je P2P program na vyhľadávanie a zdieľanie súborov.\n"
 "Viac Informácii o eMule nájdete na\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "text \"%s\" nebol nájdený"
+
+#~ msgid "Find Error"
+#~ msgstr "Chyba vyhľadávania"
+
+#~ msgid "Search for:"
+#~ msgstr "Hľadať:"
+
+#~ msgid "eMule search"
+#~ msgstr "Hľadať"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "otvorí dialóg hľadania  v editačných poliach len na čítanie."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Hľadá ďalší výskyt reťazca."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Hľadá predchádzajúci výskyt reťazca."

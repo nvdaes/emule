@@ -86,35 +86,6 @@ msgstr "Prijavljuje treći objekat statusne trake."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Prijavljuje četvrti objekat statusne trake."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "tekst \"%s\" nije pronađen"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Greška pretrage"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Šta tražiti:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "eMule pretraga"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "Otvara dijalog za pretragu kada si u poljima samo za čitanje."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Traži sledeće pojavljivanje."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Traži prethodno pojavljivanje."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -122,6 +93,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -131,4 +103,25 @@ msgstr ""
 "Poboljšava pristupačnost eMule programa sa NVDA.\n"
 "eMule je P2P program za pretragu i deljenje datoteka.\n"
 "Više informacija o eMule možete naći na\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "tekst \"%s\" nije pronađen"
+
+#~ msgid "Find Error"
+#~ msgstr "Greška pretrage"
+
+#~ msgid "Search for:"
+#~ msgstr "Šta tražiti:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMule pretraga"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Otvara dijalog za pretragu kada si u poljima samo za čitanje."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Traži sledeće pojavljivanje."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Traži prethodno pojavljivanje."

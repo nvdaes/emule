@@ -91,35 +91,6 @@ msgstr "Meldt het derde object van de Statusbalk."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Meldt het vierde object van de Statusbalk."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "tekst \"%s\" niet gevonden"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Zoekfout"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Zoeken naar:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "Zoeken met eMule"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "Opent het dialoogvenster zoeken vanuit Alleen-lezen invoervelden."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Zoek volgende voorkomen."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Zoek vorige voorkomen."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -127,6 +98,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -136,4 +108,25 @@ msgstr ""
 "Verbetert de toegankelijkheid van eMule met NVDA.\n"
 "eMule is een P2P programma om bestanden te zoeken en te delen.\n"
 "U vindt meer informatie over eMule op\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "tekst \"%s\" niet gevonden"
+
+#~ msgid "Find Error"
+#~ msgstr "Zoekfout"
+
+#~ msgid "Search for:"
+#~ msgstr "Zoeken naar:"
+
+#~ msgid "eMule search"
+#~ msgstr "Zoeken met eMule"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Opent het dialoogvenster zoeken vanuit Alleen-lezen invoervelden."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Zoek volgende voorkomen."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Zoek vorige voorkomen."

@@ -89,35 +89,6 @@ msgstr "Lukee tilarivin kolmannen objektin."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Lukee tilarivin neljännen objektin."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "Tekstiä \"%s\" ei löydy"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Hakuvirhe"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Etsittävä:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "eMulen haku"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
-msgstr "Avaa etsintävalintaikkunan vain luku -muokkausruuduissa oltaessa."
-
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Etsi seuraava esiintymä."
-
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Etsi edellinen esiintymä."
-
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
@@ -125,6 +96,7 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -134,4 +106,25 @@ msgstr ""
 "Parantaa eMulen saavutettavuutta NVDA:lla käytettäessä.\n"
 "eMule on P2P-asiakasohjelma tiedostojen etsimiseen ja jakamiseen.\n"
 "Saat lisätietoja osoitteesta\n"
-"http://www.emule-project.net"
+"https://www.emule-project.net"
+
+#~ msgid "text \"%s\" not found"
+#~ msgstr "Tekstiä \"%s\" ei löydy"
+
+#~ msgid "Find Error"
+#~ msgstr "Hakuvirhe"
+
+#~ msgid "Search for:"
+#~ msgstr "Etsittävä:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMulen haku"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Avaa etsintävalintaikkunan vain luku -muokkausruuduissa oltaessa."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Etsi seuraava esiintymä."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Etsi edellinen esiintymä."

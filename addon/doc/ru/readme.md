@@ -80,6 +80,6 @@ alt+ctrl+ стрелок. Следующие команды клавиш зде�
 
 [1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: http://www.emule-project.net
+[2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
