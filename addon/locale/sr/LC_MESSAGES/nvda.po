@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: eMule 1.2\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-09-19 05:05+1000\n"
-"PO-Revision-Date: 2017-05-03 11:18+0100\n"
+"PO-Revision-Date: 2018-11-25 22:08+0100\n"
 "Last-Translator: Nikola Jović <wwenikola123@gmail.com>\n"
 "Language-Team: serbian <wwenikola123@gmail.com>\n"
 "Language: sr\n"
@@ -93,7 +93,6 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -103,7 +102,7 @@ msgstr ""
 "Poboljšava pristupačnost eMule programa sa NVDA.\n"
 "eMule je P2P program za pretragu i deljenje datoteka.\n"
 "Više informacija o eMule možete naći na\n"
-"https://www.emule-project.net"
+"http://www.emule-project.net"
 
 #~ msgid "text \"%s\" not found"
 #~ msgstr "tekst \"%s\" nije pronađen"
