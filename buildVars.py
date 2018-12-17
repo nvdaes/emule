@@ -22,13 +22,19 @@ eMule is a P2P program to search and share files.
 You can get more information about eMule at
 http://www.emule-project.net"""),
 	# version
-	"addon_version" : "3.17",
+	"addon_version" : "3.18",
 	# Author(s)
 	"addon_author" : u"Noelia <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url" : "http://addons.nvda-project.org",
+	"addon_url" : "https://addons.nvda-project.org/addons/eMule",
 	# Documentation file name
 	"addon_docFileName" : "readme.html",
+	# Minimum NVDA version supported (e.g. "2018.3")
+	"addon_minimumNVDAVersion" : "2017.3",
+	# Last NVDA version supported/tested (e.g. "2018.4", ideally more recent than minimum version)
+	"addon_lastTestedNVDAVersion" : "2019.1",
+	# Add-on update channel (default is stable or None)
+	"addon_updateChannel" : None,
 }
 
 
