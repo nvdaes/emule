@@ -1,6 +1,7 @@
 # eMule #
 
 *	مطورو الإضافة: Noelia, Chris, Alberto
+*	NVDA compatibility: 2017.3 to 2019.1
 *	تحميل [الإصدار النهائي][1]
 *	تحميل [الإصدار التجريبي][3]
 

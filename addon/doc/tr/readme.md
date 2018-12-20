@@ -1,6 +1,7 @@
 # eMule #
 
 *	Yazarlar: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2017.3 to 2019.1
 *	İndir [kararlı versiyon][1]
 *	İndir [geliştirme sürümü][3]
 
