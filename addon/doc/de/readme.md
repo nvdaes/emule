@@ -3,7 +3,7 @@
 [[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.1
+*	NVDA-Kompatibilität: 2017.3 bis 2019.1
 *	[stabile Version herunterladen][1]
 *	[Testversion herunterladen][1]
 

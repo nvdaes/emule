@@ -1,7 +1,7 @@
 # eMule #
 
 *	Autheurs : Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.1
+*	Compatibilité NVDA: 2017.3 à 2019.1
 *	Télécharger [version stable][1]
 *	Télécharger  [version de développement][3]
 
