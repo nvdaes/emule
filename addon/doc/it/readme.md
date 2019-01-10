@@ -1,9 +1,9 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.1
-*	download [stable version][1]
-*	download [development version][3]
+*	Compatibilità con NVDA: dalla 2017.3 alla 2019.1
+*	Scarica la [versione stabile][1]
+*	Scarica la [versione in sviluppo][3]
 
 Questo componente aggiuntivo migliora l'accessibilità di Emule con
 NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
@@ -23,12 +23,14 @@ Testato su [eMule][2] 0.50a.
 *	Control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova .
 *	Control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse
   nell'elenco dei parametri di ricerca 
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	control+shift+b: sposta il focus sull'elenco della finestra corrente. Per
+  esempio, si sposta sui risultati nella finestra Cerca o nell'elenco dei
+  download nella finestra Trasferimenti.
+*	control+shift+o: sposta il focus nel campo di sola lettura della finestra
+  corrente. Per esempio, si sposta nei messaggi ricevuti nella finestra IRC,
+  etc.
+*	control+NVDA+f: Se il cursore si trova in un campo editazione di sola
+  lettura, apre la finestra di dialogo per la ricerca di testo di NVDA.
 *	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse
   sull'intestazione di una colonna all'interno di un elenco.
 *	control+shift+q: Legge attività recenti, primo elemento della barra di
@@ -52,23 +54,25 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
 ## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+*	 Per la ricerca di testo in campi di sola lettura , ora è possibile
+   utilizzare icomandi disponibili in NVDA. 
 
 ## Cambiamenti per la 2.0 ##
 *	 L'aiuto sul componente aggiuntivo è disponibile dalla gestione
    componenti.
 
 ## Cambiamenti nella 1.2 ##
-*	 When moving to the IRC messages, the selected text is reported properly.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Quando ci si sposta sui messaggi IRC , il testo selezionato viene
+   riportato correttamente. 
+*	 Il comando rapido  utilizzato per spostarsi alla lista dei risultati di
+   Ricerca è stato generalizzato per essere in grado di spostare il focus in
+   qualsiasi elenco nella finestra corrente. 
+*	 Il comando utilizzato per focalizzare i messaggi IRC è stato
+   generalizzato per spostare il focus su qualsiasi campo di sola lettura,
+   il che rende possibile rivedere le informazioni di connessione nella
+   finestra Server. 
+*	 Quando si sposta il mouse e il focus sulla barra degli strumenti, in
+   alcuni casi veniva ripetuto due volte. Questo problema è stato risolto. 
 
 ## Cambiamenti per la 1.1 ##
 *	 Fixed bug in eMule item under NVDA's help menu, when the user config
