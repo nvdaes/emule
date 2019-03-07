@@ -5,11 +5,11 @@
 *	Télécharger [version stable][1]
 *	Télécharger  [version de développement][3]
 
-Ce module complémentaire rend Emule plus accessible avec NVDA en ajoutant
-des raccourcis clavier pour avoir des informations ou activer des fenêtres
+Cette extension rend Emule plus accessible avec NVDA en ajoutant des
+raccourcis clavier pour avoir des informations ou activer des fenêtres
 particulières.
 
-Basé sur le module eMuleNVDASupport du même autheur. Désinstallez d'abord
+Basé sur l'extension eMuleNVDASupport du même autheur. Désinstallez d'abord
 eMuleNVDASupport qui créerait des conflits de raccourcis clavier.
 
 Testé avec [eMule][2] 0.50a.
@@ -61,8 +61,8 @@ touches de raccourci suivantes sont également disponibles :
    dans NVDA.
 
 ## Changements pour la version 2.0 ##
-*	 L'aide du module complémentaire est disponible à partir du Gestionnaire
-   de modules complémentaires.
+*	 L'aide de l'extension est disponible à partir du Gestionnaire
+   d'Extensions.
 
 ## Changements pour la version 1.2 ##
 *	 Lors du déplacement aux messages IRC, le texte sélectionné est indiqué
