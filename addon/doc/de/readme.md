@@ -5,7 +5,7 @@
 *	Authoren: Noelia, Chris, Alberto.
 *	NVDA-Kompatibilität: 2017.3 bis 2019.1
 *	[Stabile Version herunterladen][1]
-*	[Entwicklerversion herunterladen][1]
+*	[Entwicklerversion herunterladen][3]
 
 Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  NVDA
 stellt außerdem Tastenkombinationen zum Navigieren in verschiedene Fenster
