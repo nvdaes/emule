@@ -1,9 +1,9 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Compatibilidad con NVDA: de 2017.3 a 2019.1
+*	Compatibilidad con NVDA: de 2017.3 a 2019.2
 *	descarga [versión estable][1]
-*	Descargar [versión de desarrollo][3]
+*	descargar [versión de desarrollo][3]
 
 Este complemento te ayuda a mejorar la accesibilidad de eMule con
 NVDA. También proporciona comandos de teclado adicionales para moverse en
@@ -49,9 +49,9 @@ Cuando estés dentro de una lista, puedes mover el cursor  entre las filas y
 las columnas utilizando alt+control+Flechas.  En este complemento también
 están disponibles las siguientes órdenes de teclado:
 
-*	NVDA+control+1-0: Lee las primeras 10 columnas.
-*	NVDA+shift+1-0: Lee las columnas 11 a 20.
-*	NVDA+shift+C: Copia el contenido de la última columna leída al
+*	nvda+control+1-0: Lee las primeras 10 columnas.
+*	nvda+shift+1-0: Lee las columnas 11 a 20.
+*	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
 ## Cambios para 3.0 ##

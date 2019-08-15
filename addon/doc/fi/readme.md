@@ -1,7 +1,7 @@
 # eMule #
 
 *	Tekijät: Noelia, Chris, Alberto.
-*	NVDA-yhteensopivuus: 2017.3-2019.1
+*	Yhteensopivuus: NVDA 2017.3-2019.2
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][3]
 
