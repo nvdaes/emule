@@ -1,7 +1,7 @@
 # eMule #
 
 *	Tác giả: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA tương thích: 2017.3 đến 2019.2
 *	tải về [phiên bản chính thức][1]
 *	tải về [phiên bản thử nghiệm][3]
 
