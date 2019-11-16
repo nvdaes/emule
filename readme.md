@@ -1,9 +1,10 @@
 # eMule #
 
 *	Authors: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later
 *	download [stable version][1]
 *	download [development version][3]
+*	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.
 It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.
@@ -36,6 +37,9 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
+## Changes for 4.0 ##
+*	Reqires NVDA 2019.3 or later.
+
 ## Changes for 3.0 ##
 *	 To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.
 
@@ -61,3 +65,4 @@ In this Add-on the following key commands are also available:
 
 [3]: http://addons.nvda-project.org/files/get.php?file=em-dev
 
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o
