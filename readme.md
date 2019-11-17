@@ -38,7 +38,7 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
 ## Changes for 4.0 ##
-*	Reqires NVDA 2019.3 or later.
+*	Requires NVDA 2019.3 or later.
 
 ## Changes for 3.0 ##
 *	 To search text in the readonly edit boxes,  the find dialog  can be used, such as nvda+control+f to activate the find dialog.
