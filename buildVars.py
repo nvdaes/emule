@@ -22,7 +22,7 @@ eMule is a P2P program to search and share files.
 You can get more information about eMule at
 http://www.emule-project.net"""),
 	# version
-	"addon_version" : "4.0-dev",
+	"addon_version" : "4.1-dev",
 	# Author(s)
 	"addon_author" : u"Noelia <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>",
 	# URL for the add-on documentation support
