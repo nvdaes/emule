@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 3.10\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-02-01 17:16+0100\n"
-"PO-Revision-Date: 2019-01-09 07:48+0800\n"
+"PO-Revision-Date: 2020-01-05 12:21+0800\n"
 "Last-Translator: dingpengyu <dingpengyu06@gmail.com>\n"
 "Language-Team: NVDASimplified Chinese team All volunteers <Copyright (C) "
 "2010-2019>\n"
@@ -16,7 +16,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.2\n"
+"X-Generator: Poedit 2.2.4\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -25,7 +25,7 @@ msgstr "朗读当前列表项目的指定列。"
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s已经复制到剪贴板。"
+msgstr "%s已经复制到剪贴板"
 
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
@@ -54,7 +54,7 @@ msgstr "移动系统焦点和鼠标到“搜索”窗口中每一个搜索参数
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
-msgstr "移动系统焦点到当前窗口的第一个列表"
+msgstr "移动系统焦点到当前窗口的第一个列表。"
 
 #. Translators: Message presented in input help mode.
 msgid ""
@@ -64,7 +64,7 @@ msgstr "移动系统焦点到当前窗口的只读编辑框（如 IRC 的以接�
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "移动浏览对象和鼠标到当前表头"
+msgstr "移动浏览对象和鼠标到当前表头。"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
@@ -76,7 +76,7 @@ msgstr "朗读状态栏的第二个对象。"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports third object of the Status Bar."
-msgstr "朗读状态栏的第三个对象"
+msgstr "朗读状态栏的第三个对象。"
 
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
