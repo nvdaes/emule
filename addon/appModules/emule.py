@@ -36,6 +36,16 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		self.bindGesture("kb:rightArrow", "readNextColumn")
 		self.bindGesture("kb:leftArrow", "readPreviousColumn")
 		self._savedColumnNumber = 0
+		# Get a list of visible columns for avoid showing disabled columns
+		self.enabledColumns = []
+		c = 1
+		try:
+			while True:
+				if self._getColumnLocation(c).width: # width = 0 indicates that the column is disabled and therefore, although it is accessible by NVDA, it is invisible on the screen
+					self.enabledColumns.append(c)
+				c += 1
+		except IndexError: # Exceeding the last column ends the loop
+			pass
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -73,6 +83,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			tones.beep(250, 50)
 			return None
 		try:
+			col = self.enabledColumns[col-1]
 			header = self._getColumnHeader(col)
 			subitem = self._getColumnContent(col) if self._getColumnContent(col) else ""
 			column = ": ".join([header, subitem])
