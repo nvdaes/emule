@@ -1,18 +1,18 @@
 # eMule #
 
 *	Forfattere: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	download [stabil version][1]
 *	download [udviklingsversion][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Dette tilføjelsesprogram hjælper med at forbedre tilgængeligheden til eMule
-med NVDA. Det igver også ekstra tastaturkommandoer til at flytte rundt i
-forskellige vinduer, samt giver nyttig information om eMule.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Programmet er baseret på tilføjelsesprogrammet eMuleNVDASupport, som er
-udviklet af samme forfatter. Du skal afinstallere det gamle
-tilføjelsesprogram for at kunne bruge denne version, da de har kommandoer og
-funktioner til fælles.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Testet på [eMule][2] 0.50a.
 
@@ -51,9 +51,12 @@ følgende tastaturkommandoer:
 *	NVDA+Shift+c: Kopierer indholdet i den sidst læste kolonne til
   udklipsholderen.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Ændringer i 3.0 ##
-*	 For at søge efter tekst i skrivebeskyttede redigeringsbokse, kan vi nu
-   bruge dialogboksen og kommandoer tilgængelige i NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Ændringer i 2.0 ##
 *	 Hjælp til tilføjelsesprogrammet er til rådighed fra styring af
@@ -79,6 +82,7 @@ følgende tastaturkommandoer:
 
 ## Ændringer i 1.0 ##
 *	 Første version.
+
 
 [[!tag dev stable]]
 

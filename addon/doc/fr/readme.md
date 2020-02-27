@@ -1,16 +1,18 @@
 # eMule #
 
 *	Autheurs : Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Télécharger [version stable][1]
 *	Télécharger  [version de développement][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Cette extension rend Emule plus accessible avec NVDA en ajoutant des
-raccourcis clavier pour avoir des informations ou activer des fenêtres
-particulières.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Basé sur l'extension eMuleNVDASupport du même autheur. Désinstallez d'abord
-eMuleNVDASupport qui créerait des conflits de raccourcis clavier.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Testé avec [eMule][2] 0.50a.
 
@@ -55,10 +57,12 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changements pour la version 3.0 ##
-*	 Pour rechercher du texte dans les zones d'édition en lecture seule
-   maintenant nous pouvons utiliser le dialogue et les commandes disponibles
-   dans NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Changements pour la version 2.0 ##
 *	 L'aide de l'extension est disponible à partir du Gestionnaire
@@ -86,6 +90,7 @@ touches de raccourci suivantes sont également disponibles :
 
 ## Changements pour la version 1.0 ##
 *	 Première version.
+
 
 [[!tag dev stable]]
 

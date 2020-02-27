@@ -1,9 +1,10 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Compatibilidad con NVDA: de 2017.3 a 2019.2
+*	Compatibilidad con NVDA: 2019.3 o posterior.
 *	descarga [versión estable][1]
 *	descargar [versión de desarrollo][3]
+*	descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento te ayuda a mejorar la accesibilidad de eMule con
 NVDA. También proporciona comandos de teclado adicionales para moverse en
@@ -11,7 +12,7 @@ diferentes ventanas y da información útil de eMule.
 
 Se basa en el complemento eMuleNVDASupport, desarrollado por el mismo
 autor. Debes desinstalar el viejo complemento para usar este, ya que ambos
-tienen los mismos atajos de teclado y características.
+tienen atajos de teclado y características en común.
 
 Probado en [eMule] [2] 0.50A.
 
@@ -54,9 +55,12 @@ están disponibles las siguientes órdenes de teclado:
 *	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 4.0 ##
+*	Se requiere NVDA 2019.3 o posterior.
+
 ## Cambios para 3.0 ##
-*	 Para buscar texto en cuadros de edición de sólo lectura, ahora podemos
-   utilizar el diálogo y las órdenes disponibles en NVDA.
+*	 Para buscar texto en cuadros de edición de sólo lectura, se puede usar el
+   diálogo Buscar, por ejemplo pulsando NVDA+control+f para activarlo.
 
 ## Cambios para 2.0 ##
 *	 La ayuda del complemento está disponible en el Administrador de
@@ -83,6 +87,7 @@ están disponibles las siguientes órdenes de teclado:
 
 ## Cambios para 1.0 ##
 *	 Versión inicial.
+
 
 [[!tag dev stable]]
 

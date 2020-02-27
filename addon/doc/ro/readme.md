@@ -1,18 +1,18 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	Compatibilitate NVDA: 2017.3 - 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Descărcați [versiunea stabilă][1]
 *	Descărcați [versiunea în dezvoltare][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Acest supliment ajută la îmbunătățirea accesibilității lui eMule cu NVDA. De
-asemenea, oferă comenzi suplimentare de taste pentru deplasarea în ferestre
-diferite și dă informații utile despre eMule.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Este bazat pe add-on-ul eMuleNVDASupport, dezvoltat de același autor. Ar
-trebui să dezinstalați add-on-ul vechi și să-l utilizați pe acesta, din
-moment ce ambele add-on-uri au în comun combinații de taste și
-caracteristici.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Testat pe [eMule][2] 0.50a.
 
@@ -53,9 +53,12 @@ sunt de asemenea disponibile:
 *	nvda+shift+1-0: Citește coloanele de la 11 până la 20.
 *	nvda+shift+C: Copiază conținutul ultimei coloane citite pe planșetă.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Modificări aduse în versiunea 3.0 ##
-*	 Pentru a căuta text în casetele de editare doar citire, putem folosi
-   dialogul și comenzile disponibile în NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Modificări aduse în versiunea 2.0 ##
 *	 Ghidul add-on-ului este disponibil în managerul de add-on-uri.
@@ -80,6 +83,7 @@ sunt de asemenea disponibile:
 
 ## Modificări aduse în versiunea 1.0 ##
 *	 Versiunea inițială.
+
 
 [[!tag dev stable]]
 

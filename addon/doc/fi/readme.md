@@ -1,13 +1,14 @@
 # eMule #
 
 *	Tekijät: Noelia, Chris, Alberto.
-*	Yhteensopivuus: NVDA 2017.3-2019.2
+*	Yhteensopivuus: NVDA 2019.3 tai uudempi
 *	Lataa [vakaa versio][1]
 *	Lataa [kehitysversio][3]
+*	Lataa [versio, joka on yhteensopiva NVDA 2017.3:n kanssa][4]
 
-Tämä lisäosa auttaa parantamaan eMulen saavutettavuutta NVDA:lla
-käytettäessä.  Lisäksi se tarjoaa lisänäppäinkomentoja eri ikkunoissa
-liikkumiseen sekä antaa hyödyllistä tietoa eMulesta.
+Tämä lisäosa parantaa eMulen saavutettavuutta NVDA:lla käytettäessä.
+Lisäksi se tarjoaa lisänäppäinkomentoja eMulen eri ikkunoissa liikkumiseen
+sekä antaa hyödyllistä tietoa ohjelmasta.
 
 Perustuu saman tekijän kehittämään eMuleNVDASupport-lisäosaan. Sinun tulisi
 poistaa se tämän version käyttämiseksi, sillä molemmissa on yhteisiä
@@ -51,10 +52,12 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Vaihto+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Muutokset versiossa 4.0 ##
+*	Edellyttää NVDA 2019.3:a tai uudempaa.
+
 ## Muutokset versiossa 3.0 ##
-*	 NVDA:ssa käytettävissä olevaa valintaikkunaa ja komentoja on nyt
-   mahdollista käyttää tekstin etsimiseen vain luku -tyyppisistä
-   muokkausruuduista.
+*	 Etsi tekstiä vain luku -tyyppisistä muokkausruuduista NVDA:n
+   Etsi-valintaikkunaa, NVDA+Ctrl+F, käyttäen.
 
 ## Muutokset versiossa 2.0 ##
 *	 Ohje on käytettävissä Lisäosien hallinnasta.
@@ -78,6 +81,7 @@ lisäksi seuraavat näppäinkomennot:
 
 ## Muutokset versiossa 1.0 ##
 *	 Ensimmäinen versio.
+
 
 [[!tag dev stable]]
 

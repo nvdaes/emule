@@ -1,18 +1,18 @@
 # eMule #
 
 *	Yazarlar: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	İndir [kararlı versiyon][1]
 *	İndir [geliştirme sürümü][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Bu eklenti NVDA ile eMule erişilebilirliğinin geliştirilmesine yardımcı
-olur. Ayrıca farklı pencerelerde hareket için ek klavye komutları sağlar ve
-eMule ile ilgili faydalı bilgi verir.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Bu eklenti aynı yazar tarafından geliştirilen eMuleNVDASupport adlı
-eklentiye dayanılarak geliştirildi. Her ikisin ortak tuş komutlarına ve
-benzer özelliklere sahip olduğu için bunu kurmadan önce eskisini
-kaldırmalısınız. gerekir.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 [EMule] [2] 0.50a test edilmiştir.
 
@@ -49,9 +49,12 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA + shift 1-0: 11-20 sütunları okur.
 *	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Changes for 2.0 ##
 *	 Add-on help is available from the Add-ons Manager.
@@ -74,6 +77,7 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 
 ## 1.0 Değişiklikler ##
 *	 İlk versiyon.
+
 
 [[!tag dev stable]]
 

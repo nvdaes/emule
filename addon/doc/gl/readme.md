@@ -1,9 +1,10 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Compatibilidade con NVDA: da 2017.3 á 2019.2
+*	Compatibilidade con NVDA: 2019.3 ou posterior
 *	descarga [versión estable][1]
-*	Descargar [versión de desenvolvemento][3]
+*	descargar [versión de desenvolvemento][3]
+*	Descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento axuda a mellorar a accesivilidade do eMule co nVDA.  Tamén
 proporciona ordes de teclado adicionais para moverte en diferentes ventás e
@@ -24,10 +25,10 @@ Probado no [eMule][2] 0.50a.
 *	control+shift+p: Na ventá de procurar, move o foco e o rato cara a lista
   de parámetros de procuras, ou opcións do campo de edición.
 *	control+shift+b: Move o foco para a lista na ventá actual. Por exemplo
-  utilizable na ventá Buscar, descargas na ventá de transferencia, etc
+  utilizable na ventá Buscar, descargas na ventá de transferencia, etc.
 *	control+shift+o: Move o foco para caixas  de só lectura no diálogo
   actual. Por exemplo, as mensaxes recibidas no IRC , servidores
-  dispoñibles, etc
+  dispoñibles, etc.
 *	control+NVDA+f: se o cursor está localizado nunha Caixa de edición de só
   lectura, abre un diálogo de busca para usar as ordes para procurar texto
   disponibles no NVDA.
@@ -52,9 +53,12 @@ dispoñibles as seguintes ordes de teclado:
 *	nvda+shift+1-0: Le as columnas 11 a 20.
 *	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
 
+## Cambios para 4.0 ##
+*	Require NVDA 2019.3 ou posterior.
+
 ## Cambios para 3.0 ##
-*	 Para procurar texto en caixas de edición de só lectura, agora podemos
-   usar o diálogo e as ordes disponibles no NVDA.
+*	 Para procurar texto en caixas de edición de só lectura, pódese utilizar o
+   diálogo buscar, como nvda+control+f para activar o diálogo buscar.
 
 ## Cambios para 2.0 ##
 *	 A axuda do complemento está dispoñible no Administrador de Complementos.
@@ -80,6 +84,7 @@ dispoñibles as seguintes ordes de teclado:
 
 ## Cambios para 1.0 ##
 *	 Versión inicial.
+
 
 [[!tag dev stable]]
 

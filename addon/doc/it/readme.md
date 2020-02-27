@@ -1,17 +1,18 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	Compatibilità con NVDA: dalla 2017.3 alla 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Scarica la [versione stabile][1]
 *	Scarica la [versione in sviluppo][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Questo componente aggiuntivo migliora l'accessibilità di Emule con
-NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
-schede e fornisce informazioni utili su Emule.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
-autrice. è necessario disinstallare la vecchia versione, se presente, prima
-di installare questa versione.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Testato su [eMule][2] 0.50a.
 
@@ -53,9 +54,12 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changes for 3.0 ##
-*	 Per la ricerca di testo in campi di sola lettura , ora è possibile
-   utilizzare icomandi disponibili in NVDA. 
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Cambiamenti per la 2.0 ##
 *	 L'aiuto sul componente aggiuntivo è disponibile dalla gestione
@@ -82,6 +86,7 @@ disponibili inoltre i seguenti comandi da tastiera:
 
 ## Changes for 1.0 ##
 *	 Initial version.
+
 
 [[!tag dev stable]]
 
