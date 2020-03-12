@@ -1,45 +1,45 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
+*	NVDA kompatibilnost: 2019.3 i novija.
 *	Preuzmi [stabilnu verziju][1]
 *	Preuzmi [razvojnu verziju][3]
-*	download [version compatible with NVDA 2017.3][4]
+*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
+čitača. Također pruža dodatne tipkovničke prečace za premještanje po
+različitim prozorima i daje korisne informacije u eMuleu.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
+autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
+dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
 
 Testirano na [eMule][2] 0.50a.
 
 ## Tipkovnički prečaci: ##
 
-*	control+shift+h: Premješta fokus i miša na glavnu alatnu traku.
-*	control+shift+t: Čita trenutačni prozor.
-*	control+shift+n: Premješta fokus na polje za ime u prozoru pretrage.
-*	control+shift+p: U prozoru pretrage, premješta fokus i miša na popis
+*	kontrol+šift+h: Premješta fokus i miša na glavnu alatnu traku.
+*	kontrol+šift+t: Čita trenutačni prozor.
+*	kontrol+šift+n: Premješta fokus na polje za ime u prozoru pretrage.
+*	kontrol+šift+p: U prozoru pretrage, premješta fokus i miša na popis
   parametara pretrage ili na opcije uređivačkog polja.
-*	control+shift+b: Premješta fokus na popis u trenutačnom prozoru. Na
+*	kontrol+šift+b: Premješta fokus na popis u trenutačnom prozoru. Na
   primjer, korisno u prozoru pretrage, preuzimanja u prozoru transfera, itd.
-*	control+shift+o: Premješta fokus na polja za uređivanje koja su samo za
+*	kontrol+šift+o: Premješta fokus na polja za uređivanje koja su samo za
   čitanje u trenutačnom prozoru. Na primjer, IRC primljene poruke, dostupni
   poslužitelji, itd.
-*	control+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
+*	kontrol+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
   čitanje, otvara se dijalog za pretragu s NVDA naredbama za traženje
   teksta.
-*	control+shift+l: Premješta navigacijski objekt i miša na zaglavlja
+*	kontrol+šift+l: Premješta navigacijski objekt i miša na zaglavlja
   trenutačnog popisa.
-*	control+shift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
+*	kontrol+šift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
   nedavnoj aktivnosti.
-*	control+shift+w: Čita drugi objekt statusne trake; sadrži informacije o
+*	kontrol+šift+w: Čita drugi objekt statusne trake; sadrži informacije o
   datotekama i korisnicima na trenutačnom poslužitelju.
-*	control+shift+e: Čita treći objekt statusne trake; korisno, kad se želi
+*	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
   doznati brzina slanja/preuzimanja.
-*	control+shift+r: Čita četvrti objekt statusne trake; izvještava o
+*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
   povezivosti ed2k i Kad mreže.
 
 ## Upravljanje stupcima. ##
@@ -48,16 +48,17 @@ Kad se nalaziš unutar popisa, možeš premještati kursor između stupaca i
 redaka pomoću alt+control+strelice. U ovom dodatku su dostupni i slijedeći
 prečaci:
 
-*	nvda+control+1-0: Čita prvih deset stupaca.
-*	nvda+shift+1-0: Čita jedamaesti do dvadeseti stupac.
-*	nvda+shift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
+*	nvda+kontrol+1-0: Čita prvih deset stupaca.
+*	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
+*	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## Promjene u verziji 4.0 ##
+*	Zahtijeva NVDA 2019.3 ili noviju verziju.
 
 ## Promjene u verziji 2.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
+   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
+   nvda+kontrol+f.
 
 ## Promjene u verziji 2.0 ##
 *	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
