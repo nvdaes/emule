@@ -3,18 +3,19 @@
 [[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
+*	NVDA-Kompatibilität: 2019.3 oder höher.
 *	[Stabile Version herunterladen][1]
 *	[Entwicklerversion herunterladen][3]
-*	download [version compatible with NVDA 2017.3][4]
+*	[kompatible Version für NVDA 2017.3][4] herunterladen
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des
+weiteren stellt die Erweiterung außerdem Tastenkombinationen zum Navigieren
+zu verschiedenen Fenstern von Emule sowie weitere Informationen zur
+Verfügung.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie
+sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung
+verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten.
 
 Getestet mit [eMule][2] 0.50a.
 
@@ -55,12 +56,13 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## Änderungen in 4.0 ##
+*	Erfordert NVDA 2019.3 oder höher.
 
 ## Änderungen in 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+*	 Um Text in den schreibgeschützten Bearbeitungsfeldern zu suchen, kann das
+   Suchdialogfeld verwendet werden, z. B. nvda+control+f, um das
+   Suchdialogfeld zu aktivieren.
 
 ## Änderungen in 2.0 ##
 *	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.
