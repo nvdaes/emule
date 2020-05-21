@@ -1,18 +1,18 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	Scarica la [versione stabile][1]
-*	Scarica la [versione in sviluppo][3]
-*	download [version compatible with NVDA 2017.3][4]
+*	Compatibilità con NVDA: versione 2019.3 o successive.
+*	scarica la [versione stabile][1]
+*	scarica la [versione in sviluppo][3]
+*	scarica la [versione compatibile con NVDA 2017.3][4]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Questo componente aggiuntivo migliora l'accessibilità di Emule con
+NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
+schede e fornisce informazioni utili su Emule.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
+autrice. è necessario disinstallare la vecchia versione, se presente, prima
+di installare questa versione.
 
 Testato su [eMule][2] 0.50a.
 
@@ -21,29 +21,29 @@ Testato su [eMule][2] 0.50a.
 *	control+shift+h: sposta il focus e il mouse sulla barra degli strumenti
   principale.
 *	control+shift+t: Legge la finestra corrente.
-*	Control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova .
+*	control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova .
 *	Control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse
-  nell'elenco dei parametri di ricerca 
-*	control+shift+b: sposta il focus sull'elenco della finestra corrente. Per
+  nell'elenco dei parametri di ricerca.
+*	control+shift+b: sposta il focus sull'elenco nella finestra corrente. Per
   esempio, si sposta sui risultati nella finestra Cerca o nell'elenco dei
   download nella finestra Trasferimenti.
-*	control+shift+o: sposta il focus nel campo di sola lettura della finestra
-  corrente. Per esempio, si sposta nei messaggi ricevuti nella finestra IRC,
-  etc.
+*	control+shift+o: sposta il focus nel campo editazione di sola lettura
+  nella finestra corrente. Per esempio, si sposta nei messaggi ricevuti
+  nella finestra IRC, etc.
 *	control+NVDA+f: Se il cursore si trova in un campo editazione di sola
   lettura, apre la finestra di dialogo per la ricerca di testo di NVDA.
 *	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse
   sull'intestazione di una colonna all'interno di un elenco.
 *	control+shift+q: Legge attività recenti, primo elemento della barra di
-  stato:
-*	control+shift+w: Legge utenti e files, secondo elemento della barra di
-  stato:
-*	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
-  elemento della barra di stato:
-*	control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento
+  stato. 
+*	control+shift+w: Legge utenti e files del server attuale, secondo elemento
   della barra di stato:
+*	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
+  elemento della barra di stato.
+*	control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento
+  della barra di stato.
 
-## Esplorazione degli elenchi: ##
+## Esplorazione degli elenchi. ##
 
 Negli elenchi di eMule è possibile navigare tra le colonne e le righe usando
 alt+control+ frecce direzionali. In questo componente aggiuntivo sono
@@ -54,38 +54,39 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## Novità nella versione 4.0 ##
+*	Richiede NVDA 2019.3 o superiore.
 
-## Changes for 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+## Novità nella versione 3.0 ##
+*	 Per la ricerca di testo in campi di sola lettura , ora è possibile
+   utilizzare icomandi disponibili in NVDA.
 
-## Cambiamenti per la 2.0 ##
-*	 L'aiuto sul componente aggiuntivo è disponibile dalla gestione
-   componenti.
+## Novità nella versione 2.0 ##
+*	 L'aiuto sul componente aggiuntivo è disponibile dal gestore componenti
+   aggiuntivi.
 
-## Cambiamenti nella 1.2 ##
+## Novità nella versione 1.2 ##
 *	 Quando ci si sposta sui messaggi IRC , il testo selezionato viene
-   riportato correttamente. 
+   riportato correttamente.
 *	 Il comando rapido  utilizzato per spostarsi alla lista dei risultati di
    Ricerca è stato generalizzato per essere in grado di spostare il focus in
-   qualsiasi elenco nella finestra corrente. 
+   qualsiasi elenco nella finestra corrente.
 *	 Il comando utilizzato per focalizzare i messaggi IRC è stato
-   generalizzato per spostare il focus su qualsiasi campo di sola lettura,
-   il che rende possibile rivedere le informazioni di connessione nella
-   finestra Server. 
-*	 Quando si sposta il mouse e il focus sulla barra degli strumenti, in
-   alcuni casi veniva ripetuto due volte. Questo problema è stato risolto. 
+   generalizzato per spostare il focus su qualsiasi campo editazione di sola
+   lettura, il che rende possibile rivedere le informazioni di connessione
+   nella finestra Server. 
+*	 Spostando il mouse e il focus sulla barra degli strumenti, in alcuni casi
+   si aveva una doppia vocalizzazione. Questo problema è stato risolto.
 
-## Cambiamenti per la 1.1 ##
-*	 Fixed bug in eMule item under NVDA's help menu, when the user config
-   folder name contains non latin characters.
-*	 I tasti rapidi possono essere riassegnati utilizzando la finestra di
-   dialogo gesti di immissione di NVDA.
+## Novità nella versione 1.1 ##
+*	 Risolto un problema nella voce Emule del menu Aiuto di NVDA, che si
+   verificava quando il nome della cartella di configurazione utente
+   conteneva caratteri non latini.
+*	 I tasti rapidi possono ora essere riassegnati utilizzando la finestra di
+   dialogo gesti e tasti di immissione di NVDA.
 
-## Changes for 1.0 ##
-*	 Initial version.
+## Novità nella versione 1.0 ##
+*	 Versione iniziale.
 
 
 [[!tag dev stable]]
