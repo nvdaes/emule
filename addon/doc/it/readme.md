@@ -11,7 +11,7 @@ NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
 schede e fornisce informazioni utili su Emule.
 
 Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
-autrice. è necessario disinstallare la vecchia versione, se presente, prima
+autrice. E' necessario disinstallare la vecchia versione, se presente, prima
 di installare questa versione.
 
 Testato su [eMule][2] 0.50a.
@@ -22,7 +22,7 @@ Testato su [eMule][2] 0.50a.
   principale.
 *	control+shift+t: Legge la finestra corrente.
 *	control+Shift+n: Sposta il focus sul campo Nome nella finestra Trova .
-*	Control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse
+*	control+shift+p: Nella finestra di ricerca , sposta il focus e il mouse
   nell'elenco dei parametri di ricerca.
 *	control+shift+b: sposta il focus sull'elenco nella finestra corrente. Per
   esempio, si sposta sui risultati nella finestra Cerca o nell'elenco dei
@@ -35,9 +35,9 @@ Testato su [eMule][2] 0.50a.
 *	control+shift+l: Sposta il Navigatore ad Oggetti e il puntatore Mouse
   sull'intestazione di una colonna all'interno di un elenco.
 *	control+shift+q: Legge attività recenti, primo elemento della barra di
-  stato. 
+  stato.
 *	control+shift+w: Legge utenti e files del server attuale, secondo elemento
-  della barra di stato:
+  della barra di stato.
 *	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
   elemento della barra di stato.
 *	control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento
@@ -74,7 +74,7 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	 Il comando utilizzato per focalizzare i messaggi IRC è stato
    generalizzato per spostare il focus su qualsiasi campo editazione di sola
    lettura, il che rende possibile rivedere le informazioni di connessione
-   nella finestra Server. 
+   nella finestra Server.
 *	 Spostando il mouse e il focus sulla barra degli strumenti, in alcuni casi
    si aveva una doppia vocalizzazione. Questo problema è stato risolto.
 
