@@ -1,6 +1,4 @@
 # eMule #
-[[!meta title="eMule 0.50A"]]
-[[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
 *	NVDA-Kompatibilität: 2019.3 oder höher.
