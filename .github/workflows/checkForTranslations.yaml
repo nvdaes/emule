@@ -13,15 +13,26 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v2
-
-    - name: Merge stable branch
+      with:
+        path: main
+    - name: Checkout l10n
+      uses: actions/checkout@v2
+      with:
+        repository: nvdaaddons/emule
+        path: org
+        ref: stable
+    - name: Move documentation
       run: |
-        git remote add org https://github.com/nvdaaddons/readFeeds
-        git fetch org
+        Move-Item -Path l10n\addon\locale -Destination main\addon\locale
+        Move-Item -Path l10n\addon\doc -Destination main\addon\doc
+
+    - name: Push changes
+      run: |
+        cd main
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git checkout -b stable
-        git reset --hard org/stable
-        git checkout master
-        git merge stable
+        git add .
+        git commit -m "Update translations"
         git push
+        
+        
