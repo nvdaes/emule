@@ -24,7 +24,7 @@ jobs:
     - name: Move l10n
       run: |
         cd main
-        git mv org .
+        git mv org ..
 
     - name: Push changes
       run: |
