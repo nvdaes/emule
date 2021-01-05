@@ -19,12 +19,13 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: nvdaaddons/emule
-        path: org
+        path: main/org
         ref: stable
     - name: Move l10n
       run: |
-        git mv org/addon/doc main/addon/doc
-        git mv org/addon/locale main/addon/locale
+        cd main
+        git mv main/org/addon/doc main/addon/doc
+        git mv main/org/addon/locale main/addon/locale
 
 
     - name: Push changes
