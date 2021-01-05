@@ -1,0 +1,25 @@
+name: Check for l10n updates
+on:
+
+  push:
+  
+  schedule:
+    # * is a special character in YAML so you have to quote this string
+    - cron:  '1 * * * *'
+
+jobs:
+  update-translations:
+    runs-on: windows-latest
+    steps:
+    - name: Checkout main
+      uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+    - name: Merge stable branch
+      run: |
+        git remote add org https://github.com/nvdaaddons/readFeeds
+        git fetch org
+        git config user.name github-actions
+        git config user.email github-actions@github.com
+        git merge org/stable
+        git push
