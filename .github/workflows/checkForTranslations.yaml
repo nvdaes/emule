@@ -24,16 +24,17 @@ jobs:
     - name: Move l10n
       run: |
         cd main
-        git mv main/org/addon/doc main/addon/doc
-        git mv main/org/addon/locale main/addon/locale
+        git mv org/addon/doc addon/doc
+        git mv org/addon/locale addon/locale
 
 
     - name: Push changes
       run: |
-        cd main
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add .
+        git add addon/doc
+        git add addon/locale
+        
         git commit -m "Update translations"
         git push
         
