@@ -21,10 +21,10 @@ jobs:
         repository: nvdaaddons/emule
         path: org
         ref: stable
-    - name: Move documentation
+    - name: Move l10n
       run: |
-        Move-Item -Path org\addon\locale -Destination main\addon
-        Move-Item -Path org\addon\doc -Destination main\addon
+        Move-Item -Path org\addon\locale -Destination main\addon -Force
+        Move-Item -Path org\addon\doc -Destination main\addon -Force
 
     - name: Push changes
       run: |
