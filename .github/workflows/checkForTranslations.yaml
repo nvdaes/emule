@@ -23,10 +23,9 @@ jobs:
         ref: stable
     - name: Move l10n
       run: |
-        Remove-Item main\addon\doc\*
-        Remove-Item main\addon\locale\*
-        Move-Item -Path org\addon\doc\* -Destination main\addon\doc
-        Move-Item -Path org\addon\locale\* -Destination main\addon\locale
+        git mv org/addon/doc main/addon/doc
+        git mv org/addon/locale main/addon/locale
+
 
     - name: Push changes
       run: |
