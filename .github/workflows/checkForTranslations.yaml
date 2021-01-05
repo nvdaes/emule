@@ -24,8 +24,8 @@ jobs:
     - name: Move l10n
       run: |
         cd main
-        git mv org/addon/doc addon/doc
-        git mv org/addon/locale addon/locale
+        git mv org/addon/doc/. ... addon/doc
+        git mv org/addon/locale/. ... addon/locale
 
 
     - name: Push changes
