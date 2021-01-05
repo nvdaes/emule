@@ -13,14 +13,13 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v2
-      with:
-        fetch-depth: 0
+
     - name: Merge stable branch
       run: |
         git remote add org https://github.com/nvdaaddons/readFeeds
         git fetch org
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git branch -u org/stable
-        git pull
+        git merge org/stable --allow-unrelated-histories
+
         git push
