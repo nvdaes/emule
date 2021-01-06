@@ -19,7 +19,7 @@ jobs:
       uses: actions/checkout@v2
       with:
         repository: nvdaaddons/emule
-        path: main
+        path: l10n
         ref: stable
 
     - name: Push changes
@@ -27,8 +27,9 @@ jobs:
         cd main
         git config user.name github-actions
         git config user.email github-actions@github.com
-        git add addon/doc/.
-        git add addon/locale/.
+        git remote add l10n ../l10n
+        git merge l10n/master
+
         
         git commit -m "Update translations"
         git push
