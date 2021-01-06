@@ -13,14 +13,13 @@ jobs:
     steps:
     - name: Checkout main
       uses: actions/checkout@v2
-      git remote add l10n https://github.com/nvdaaddons/emule
-      git fetch l10n
-      git branch -u l10n/stable
-      git pull
+
+
 
     - name: Push changes
       run: |
-
+        git remote add l10n https://github.com/nvdaaddons/emule
+        git fetch l10n
         git config user.name github-actions
         git config user.email github-actions@github.com
 
