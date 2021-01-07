@@ -1,17 +1,18 @@
 # eMule #
 
 *	Auteurs: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	download [stabiele versie][1]
 *	download [ontwikkelversie][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Deze add-on helpt om de toegankelijkheid te verbeteren van eMule met nVDA.
-Biedt ook bijkomende sneltoetsen voor het bewegen in verschillende vensters
-en geeft nuttige informatie over eMule.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Het is gebaseerd op de eMuleNVDASupport add-on, ontwikkeld door dezelfde
-auteur. U moet de oude add-on eerst verwijderen om deze te kunnen gebruiken
-omdat beide gelijkaardige toetscombinaties en functies bevatten.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Getest op [eMule][2] 0.50a.
 
@@ -52,9 +53,12 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Veranderingen in 2.0 ##
 *	 Add-on help is beschikbaar via Add-ons beheren.
@@ -80,6 +84,7 @@ volgende sneltoetsen beschikbaar:
 
 ## Veranderingen in 1.0 ##
 *	 Eerste versie.
+
 
 [[!tag dev stable]]
 

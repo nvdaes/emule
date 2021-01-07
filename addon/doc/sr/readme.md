@@ -1,17 +1,18 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Preuzmi[stabilnu verziju][1]
 *	Preuzmi[verziju u razvoju][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Ovaj dodatak poboljšava pristupačnost programa eMule sa NVDA.  Takođe pruža
-dodatne komande za premeštanje na različite prozore i dobijanje korisnih
-informacija o eMule.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-Baziran je na dodatku eMuleNVDASupport, programiran od strane istog
-autora. Morate ukloniti taj dodatak kako biste koristili ovaj, zbog toga što
-oba dodatka imaju slične karakteristike i prečice.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Testirano na [eMule][2] 0.50a.
 
@@ -52,9 +53,12 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 *	nvda+shift+C: Kopira sadržaj zadnje pročitane kolone u privremenu
   memoriju.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Promene u 3.0 ##
-*	 Za pretragu teksta u poljima koja su samo za čitanje, sada možete
-   koristiti NVDA komande
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Promene u 2.0 ##
 *	 Pomoć za dodatak je dostupna iz menia za upravljanje dodacima.
@@ -76,6 +80,7 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 
 ## Promene u 1.0 ##
 *	 Prva verzija
+
 
 [[!tag dev stable]]
 

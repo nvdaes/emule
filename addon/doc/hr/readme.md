@@ -1,83 +1,89 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
-*	preuzmite [Stabilnu inačicu][1]
-*	preuzmite [razvojnu inačicu][3]
+*	NVDA kompatibilnost: 2019.3 i novija.
+*	Preuzmi [stabilnu verziju][1]
+*	Preuzmi [razvojnu verziju][3]
+*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
-Ovaj dodatak unaprjeđuje pristupačnostof eMule programa uz pomoć nVDA.
-također osigurava dodatne tipkovničke prečace za premještanje po različitim
-prozorima i daje korisne informacije u eMuleu.
+Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
+čitača. Također pruža dodatne tipkovničke prečace za premještanje po
+različitim prozorima i daje korisne informacije u eMuleu.
 
 Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
-autor. Trebali biste ukloniti taj stari dodatak kako biste mogli koristiti
-ovaj dodatak, zbog toga što oba dodatka imaju zajedničke tipkovničke prečace
-i značajke.
+autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
+dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
 
-testirano na [eMule][2] 0.50a.
+Testirano na [eMule][2] 0.50a.
 
-## Tipkovnički Prečaci: ##
+## Tipkovnički prečaci: ##
 
-*	control+shift+h: Premješta fokus i miš na glavnu alatnu traku.
-*	control+shift+t: Čita trenutni prozor.
-*	control+shift+n: premješta fokus na polje za upisivanje imena u prozoru
-  pretrage.
-*	control+shift+p: u prozoru traži, premješta fokus i miš na popis
-  parametara pretrage, i opcija uređivačkog polja.
-*	control+shift+b: Premješta fokus na popis u trenutnom prozoru. na primjer,
-  korisno u prozoru pretrage, preuzimanja u prozoru transferi, itd.
-*	control+shift+o: premjesti fokus na polja za uređivanje koja su samo za
-  čitanje u trenutnom prozoru. Na primjer, irc primljene poruke, dostupni
+*	kontrol+šift+h: Premješta fokus i miša na glavnu alatnu traku.
+*	kontrol+šift+t: Čita trenutačni prozor.
+*	kontrol+šift+n: Premješta fokus na polje za ime u prozoru pretrage.
+*	kontrol+šift+p: U prozoru pretrage, premješta fokus i miša na popis
+  parametara pretrage ili na opcije uređivačkog polja.
+*	kontrol+šift+b: Premješta fokus na popis u trenutačnom prozoru. Na
+  primjer, korisno u prozoru pretrage, preuzimanja u prozoru transfera, itd.
+*	kontrol+šift+o: Premješta fokus na polja za uređivanje koja su samo za
+  čitanje u trenutačnom prozoru. Na primjer, IRC primljene poruke, dostupni
   poslužitelji, itd.
-*	control+NVDA+f: ako se kursor nalazi u polju za uređivanje koje je samo za
-  čitanje, otvara se dijalog za pretragu.
-*	control+shift+l: premješta objekt navigacije i miš na zaglavlja trenutnog
-  popisa.
-*	control+shift+q: čita prvi objekt u statusnoj traci; daje informaciju o
+*	kontrol+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
+  čitanje, otvara se dijalog za pretragu s NVDA naredbama za traženje
+  teksta.
+*	kontrol+šift+l: Premješta navigacijski objekt i miša na zaglavlja
+  trenutačnog popisa.
+*	kontrol+šift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
   nedavnoj aktivnosti.
-*	control+shift+w: čita drugi objekt statusne trake; sadrži informacije o
-  datotekama i korisnicima na trenutnom poslužitelju.
-*	control+shift+e: čita treći objekt statusne trake; korisno kada se želi
-  doznati upload/DownLoad brzina.
-*	control+shift+r: čita četvrtu objekt statusne trake; izvještava o
+*	kontrol+šift+w: Čita drugi objekt statusne trake; sadrži informacije o
+  datotekama i korisnicima na trenutačnom poslužitelju.
+*	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
+  doznati brzina slanja/preuzimanja.
+*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
   povezivosti ed2k i Kad mreže.
 
-## upravljanje stupcima. ##
+## Upravljanje stupcima. ##
 
-Kad se nalazite unutar popisa, možete premještavati kursor između stupaca i
-redaka koristeći alt+control+ strelice.  u ovom dodatku slijedeće su prečice
-također dostupne:
+Kad se nalaziš unutar popisa, možeš premještati kursor između stupaca i
+redaka pomoću alt+control+strelice. U ovom dodatku su dostupni i slijedeći
+prečaci:
 
-*	nvda+control+1-0: čita prvih deset redaka.
-*	nvda+shift+1-0: čita od 11 do 20 retka.
-*	nvda+shift+C: kopira sadržaj zadnje pročitanog stupca u međuspremnik.
+*	nvda+kontrol+1-0: Čita prvih deset stupaca.
+*	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
+*	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
-## Promjene u inačici 2.0 ##
-*	 Za pretraživanje teksta u poljima koja su samo za čitanje, sada možete
-   koristiti dijaloški okvir i NVDA komande.
+## Promjene u verziji 4.0 ##
+*	Zahtijeva NVDA 2019.3 ili noviju verziju.
 
-## promjene u inačici 2.0 ##
-*	 Pomoč za dodatak dostupna je unutar upravitelja dodataka.
+## Promjene u verziji 2.0 ##
+*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
+   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
+   nvda+kontrol+f.
 
-## promjene u inačici 1.2 ##
-*	 Kada se premještate po porukama IRC, označeni se tekst čita ispravno.
-*	 Tipkovnički prečac za rezultate pretraživanja sada je poopćen kako bi se
-   fokus mogao pomicati do bilo kojeg dostupnog popisa u trenutnom prozoru.
-*	 Prečac koji se koristi za fokusiranje IRC porukka sada je poopćen kako
-   biste se mogli premještati na bilo koje polje za uređivanje koje je samo
-   za čitanje, što vam omogućuje pregled informacija o povezivosti u prozoru
-   poslužitelji.
-*	 Kad pomičete fokus ili miš na alatnu traku, u nekim slučajevima je ovo
-   bilo izgovoreno dvaput. ovo je sada ispravljeno.
+## Promjene u verziji 2.0 ##
+*	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
 
-## promjene u inačici 1.1 ##
+## Promjene u verziji 1.2 ##
+*	 Prilikom premještanja na IRC poruke, označeni se tekst čita ispravno.
+*	 Tipkovnički prečac za prijelaz na popis rezultata pretraživanja je sada
+   poopćen, kako bi se fokus mogao premjestiti na bilo koji dostupni popis u
+   trenutačnom prozoru.
+*	 Prečac koji se koristi za fokusiranje IRC poruka je sada poopćen, kako bi
+   se omogućilo premještanje na bilo koje polje za uređivanje koje je samo
+   za čitanje, čime se omogućuje pregled informacija o povezivosti u prozoru
+   Poslužitelji.
+*	 Prilikom premještanja miša ili fokusa na alatnu traku, u nekim se
+   slučajevima ovo izgovaralo dvaput. To je sada ispravljeno.
+
+## Promjene u verziji 1.1 ##
 *	 Ispravljena greška u e mule stavci izbornika unutar  NVDA izbornika
    pomoć, kada korisnička mapa konfiguracije sadrži nelatinične znakove.
-*	 Prečaci se sada mogu mjenjati koristeći dijaloški okvir ulazne geste u
-   nvda izborniku.
+*	 Prečace je sada moguće prenamijeniti, koristeći dijaloški okvir ulazne
+   geste u NVDA izborniku.
 
-## promjene u inačici1.0 ##
-*	 prva inačica.
+## Promjene u verziji1.0 ##
+*	 Prva verzija.
+
 
 [[!tag dev stable]]
 

@@ -1,25 +1,25 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
 # This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDREss>, YEAR.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2016-02-25 23:24-0800\n"
-"Last-Translator: Bernd Dorer <bernd_dorer@yahoo.de>\n"
-"Language-Team: Deutsch <bernd_dorer@yahoo.de>\n"
+"PO-Revision-Date: 2018-10-03 02:33+0200\n"
+"Last-Translator: Robert Hänggi <aarjay.robert@gmail.com>\n"
+"Language-Team: \n"
 "Language: de_CH\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 2.1.1\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
-msgstr "Gibt die angegebene Spalte des aktuellen Listeneintrages aus."
+msgstr "Liest die angegebene Spalte für das aktuelle Listenelement."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -29,63 +29,67 @@ msgstr "%s in die Zwischenablage kopiert."
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr ""
-"Kopiert die letzte ausgegebene Spalte des ausgewählten Listeneintrages in "
-"die Zwischenablage."
+"Kopiert die letzte Lesespalte des ausgewählten Listenelements in die "
+"Zwischenablage."
 
 #. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "Verschiebt den Systemfokus und die Maus in die Hauptsymbolleiste."
+msgstr "Bewegt den System-Fokus und die Maus auf die Hauptsymbolleiste."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 msgid "Reports the current window."
-msgstr "Gibt das aktuelle Fenster aus."
+msgstr "Liest das aktuelle Fenster vor."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Bewegt den Systemfokus zum Feld Name im Suchfenster."
+msgstr "Bewegt den System-Fokus in das Suchfeld des Fensters."
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus and mouse to the search parameters list or Edit field "
 "for each option, in the Search window."
-msgstr "Verschiebt den Fokus und die Maus in die Liste der Suchparameter."
+msgstr ""
+"Bewegt den System-Fokus und die Maus auf die Liste der Suchparameter oder "
+"das Feld Bearbeiten für jede Option im Suchfenster."
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus to the first list in the current window. For example "
 "the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
-"Bewegt den Systemfokus zur 1. Liste im aktuellen Fenster Beispielsweise zu "
-"den Suchresultaten im Suchfenster oder zu den Downloads im Transfer-Fenster."
+"Bewegt den System-Fokus auf die erste Liste im aktuellen Fenster. Zum "
+"Beispiel die Ergebnisliste im Suchfenster, Downloads im Transfer, etc."
 
 #. Translators: Message presented in input help mode.
 msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
 msgstr ""
-"Bewegt den Systemfokus zu nur-Lesen-Eingabefeldern im aktuellen Fenster wie "
-"den empfangenen IRC-Mitteilungen."
+"Bewegt den System-Fokus auf schreibgeschützte Eingabefelder im aktuellen "
+"Fenster. Zum Beispiel hat der IRC Nachrichten empfangen."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Bewegt den Navigator sowie die Maus zur aktuellen Listenüberschrift."
+msgstr ""
+"Bewegt das Navigat-Orobjekt und die Maus auf die aktuellen "
+"Listenüberschriften."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports first object of the Status Bar."
-msgstr "Gibt das ehrste Objekt der Statusleiste aus."
+msgstr "Liest das erste Objekt der Statusleiste vor."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports second object of the Status Bar."
-msgstr "Gibt das zweite Objekt der Statusleiste aus."
+msgstr "Liest das zweite Objekt der Statusleiste vor."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports third object of the Status Bar."
-msgstr "Gibt das dritte Objekt der Statusleiste aus."
+msgstr "Liest das dritte Objekt der Statusleiste vor."
 
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
-msgstr "Gibt das vierte Objekt der Statusleiste aus."
+msgstr "Liest das vierte Objekt der Statusleiste vor."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -94,7 +98,6 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -102,10 +105,9 @@ msgid ""
 "http://www.emule-project.net"
 msgstr ""
 "Verbessert die Zugänglichkeit von eMule mit NVDA.\n"
-"\teMule ist ein P2P-Programm, zum Suchen nach und Teilen von Dateien.\n"
-"\tWeitere Informationen dazu finden Sie unter:\n"
-"\thttps://www.emule-project.net/\n"
-"\t"
+"eMule ist ein P2P-Programm zum Suchen und Teilen von Dateien.\n"
+"Weitere Informationen zu eMule finden Sie unter https://www.emule-project."
+"net.."
 
 #~ msgid "text \"%s\" not found"
 #~ msgstr "Text \"%s\" konnte nicht gefunden werden."

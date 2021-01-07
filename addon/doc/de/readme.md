@@ -1,20 +1,19 @@
 # eMule #
-[[!meta title="eMule 0.50A"]]
-[[!meta title="eMule 0.50A"]]
 
 *	Authoren: Noelia, Chris, Alberto.
-*	NVDA-Kompatibilität: 2017.3 bis 2019.2
+*	NVDA-Kompatibilität: 2019.3 oder höher.
 *	[Stabile Version herunterladen][1]
 *	[Entwicklerversion herunterladen][3]
+*	[kompatible Version für NVDA 2017.3][4] herunterladen
 
-Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  NVDA
-stellt außerdem Tastenkombinationen zum Navigieren in verschiedene Fenster
-von Emule zur Verfügung. 
+Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des
+weiteren stellt die Erweiterung außerdem Tastenkombinationen zum Navigieren
+zu verschiedenen Fenstern von Emule sowie weitere Informationen zur
+Verfügung.
 
-Diese Erweiterung basiert auf EmuleNVDASupport. Sie sollten EmuleNVDASupport
-deinstallieren, bevor Sie diese Erweiterung verwenden. Ursache hierfür sind
-Überschneidungen bei der Verwendung von Tastenkombinationen und Funktionen
-bei beiden Erweiterungen.
+Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie
+sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung
+verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten.
 
 Getestet mit [eMule][2] 0.50a.
 
@@ -55,8 +54,13 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Änderungen in 4.0 ##
+*	Erfordert NVDA 2019.3 oder höher.
+
 ## Änderungen in 3.0 ##
-*	 Mit den NVDA-Befehlen können Sie jetzt auch die Suchergebnisse auslesen.
+*	 Um Text in den schreibgeschützten Bearbeitungsfeldern zu suchen, kann das
+   Suchdialogfeld verwendet werden, z. B. nvda+control+f, um das
+   Suchdialogfeld zu aktivieren.
 
 ## Änderungen in 2.0 ##
 *	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.
@@ -80,6 +84,7 @@ Befehle sind außerdem verfügbar:
 
 ## Änderungen in 1.0 ##
 *	 Ehrstveröffentlichung.
+
 
 [[!tag dev stable]]
 

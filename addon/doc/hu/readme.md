@@ -1,17 +1,18 @@
 # eMule #
 
 *	Készítők: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	Letöltés [stabil verzió][1]
 *	Letöltés [fejlesztői verzió][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-Ez a kiegészítő hatékonyabb hozzáférést biztosít az eMule
-programhoz. Billenytyűparancsokat ad a különböző ablakokban való
-navigáláshoz, és hasznos információkat tesz elérhetővé az eMule programban.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-A bővítmény az eMuleNVDASupport kiegészítőre épül, melyet szintén a jelen
-kiegészítő fejlesztője készített. Használat előtt kérjük távolítsa el a
-régebbi kiegészítőt.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 Tesztelve az [eMule][2] 0.50a programmal.
 
@@ -53,9 +54,12 @@ parancsok is elérhetőek:
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## A 3.0 verzió változásai ##
-*	 A csak olvasható szerkesztőmezőkben az NVDA-ban elérhető
-   billentyűparancsokkal kereshetünk.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Az 2.0 verzió változásai ##
 *	 A kiegészítő súgója elérhető a Bővitménykezelő párbeszédablakából is.
@@ -80,6 +84,7 @@ parancsok is elérhetőek:
 
 ## Az 1.0 verzió változásai ##
 *	 Az első kiadás.
+
 
 [[!tag dev stable]]
 

@@ -1,9 +1,10 @@
 # eMule #
 
 *	Tác giả: Noelia, Chris, Alberto.
-*	NVDA tương thích: 2017.3 đến 2019.2
+*	NVDA tương thích: 2019.3 trở lên.
 *	tải về [phiên bản chính thức][1]
 *	tải về [phiên bản thử nghiệm][3]
+*	tải về [phiên bản tương thích với NVDA 2017.3][4]
 
 Add-on này giúp cải thiện khả năng tiếp cận của eMule với NVDA.  Đồng thời
 cung cấp thêm các phím lệnh để chuyển đến các cửa sổ khác nhau và cung cấp
@@ -53,9 +54,13 @@ sau:
 *	nvda+shift+1-0: thông báo các cột từ 11 đến 20.
 *	nvda+shift+C: chép cột cuối cùng được đọc vào bộ nhớ tạm.
 
+## Các thay đổi cho phiên bản 4.0 ##
+*	Yêu cầu NVDA 2019.3 trở lên.
+
 ## Các thay đổi cho phiên bản 3.0 ##
-*	 Để tìm kiếm văn bản trong các trường nhập liệu có thuộc tính chỉ đọc, giờ
-   chúng ta có thể dùng hộp thoại và phím lệnh của NVDA.
+*	 Để tìm kiếm văn bản trong các trường nhập liệu có thuộc tính chỉ đọc, có
+   thể dùng hộp thoại tìm kiếm. Chẳng hạn như nvda+control+f để kích hoạt
+   hộp thoại này.
 
 ## Các thay đổi cho phiên bản 2.0 ##
 *	 Đã có trợ giúp cho add-on trong trình quản lý add-on.
@@ -80,6 +85,7 @@ sau:
 
 ## Các thay đổi cho phiên bản 1.0 ##
 *	 Phiên bản đầu tiên.
+
 
 [[!tag dev stable]]
 

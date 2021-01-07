@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
 "POT-Creation-Date: 2014-10-17 05:05+1000\n"
-"PO-Revision-Date: 2018-09-21 11:51+0100\n"
+"PO-Revision-Date: 2020-03-16 11:58+0000\n"
 "Last-Translator: Ângelo Miguel Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -99,7 +99,6 @@ msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-#, fuzzy
 msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
@@ -107,7 +106,7 @@ msgid ""
 "http://www.emule-project.net"
 msgstr ""
 "Melhora a acessibilidade do eMule com o NVDA.\n"
-"eMule é um programa P2P para pesquisar e partilhar ficheiros.\n"
+"O eMule é um programa P2P para pesquisar e partilhar ficheiros.\n"
 "Pode obter mais informações sobre o eMule em\n"
 "https://www.emule-project.net"
 

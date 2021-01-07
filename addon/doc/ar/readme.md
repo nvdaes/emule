@@ -1,17 +1,18 @@
 # eMule #
 
 *	مطورو الإضافة: Noelia, Chris, Alberto
-*	NVDA compatibility: 2017.3 to 2019.2
+*	NVDA compatibility: 2019.3 or later.
 *	تحميل [الإصدار النهائي][1]
 *	تحميل [الإصدار التجريبي][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-تساعد هذه الإضافة على تحسين إمكانية سهولة الوصول لبرنامج  eMule مع
-NVDA. علاوة على توفير مفاتيح اختصار إضافية للتنقل بين النوافذ المختلفة
-والحصول على المزيد من المعلومات. 
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-هذه الإضافة مبنية على إضافة أخرى قام بتطويرها نفس المطور باسم
-eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة قبل تنصيب الإضافة الجديدة
-حيث أن كلاهما يحتوي على خصائص ومفاتيح مختصرة متكررة. 
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
 وقد تم تجربة الإضافة مع الإصدار  [eMule][2] 0.50a.
 
@@ -50,9 +51,12 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
+
 ## Changes for 3.0 ##
-*	 To search text in readonly edit boxes, now we can use the dialog and
-   commands available in NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## مستجدات الإصدار  1.0 ##
 *	 إتاحة ملف المساعدة بمدير الإضافات البرمجية.
@@ -74,6 +78,7 @@ eMuleNVDASupport. ومن ثم يجب إزالة الإضافة القديمة ق
 
 ## تعديلات الإصدار  1.0 ##
 *	 نسخة أولية
+
 
 [[!tag dev stable]]
 
