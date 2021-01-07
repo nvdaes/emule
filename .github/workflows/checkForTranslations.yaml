@@ -20,8 +20,7 @@ jobs:
         git config --global user.email github-actions@github.com
         git remote add l10n https://github.com/nvdaaddons/emule
         git fetch l10n
-        git reset l10n/stable -- addon/doc
-        git reset l10n/stable -- addon/locale
+        git reset l10n/stable addon/doc addon/locale
         git commit -m "Update translations"
         git pull
         git push
