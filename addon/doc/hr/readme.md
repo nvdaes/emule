@@ -1,94 +1,169 @@
-# eMule #
+# Upravljanje sadržajem međuspremnika (Clip Contents Designer) #
 
-*	Autori: Noelia, Chris, Alberto.
-*	NVDA kompatibilnost: 2019.3 i novija.
+*	Authors: Noelia, Abdel.
+*	NVDA kompatibilnost: 2019.3 i novija
 *	Preuzmi [stabilnu verziju][1]
-*	Preuzmi [razvojnu verziju][3]
-*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
+*	Preuzmi [razvojnu verziju][2]
 
-Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
-čitača. Također pruža dodatne tipkovničke prečace za premještanje po
-različitim prozorima i daje korisne informacije u eMuleu.
+Ovaj se dodatak koristi za dodavanje teksta u međuspremnik, što može biti
+korisno kad se žele spojiti dijelovi teksta, koji su spremni za
+lijepljenje. Sadržaj međuspremnika se može i izbrisati te prikazati u modusu
+za čitanje.
 
-Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
-autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
-dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
+## Tipkovnički prečaci ##
+*	NVDA+windows+c: U međuspremnik dodaj označeni tekst, brajične znakove u
+  unikodu koji predstavljaju MathML objekte ili znakovni niz koji je označen
+  pomoću preglednog kursora.
+*	NVDA+windows+x: Obriši sadržaj međuspremnika.
+*	Nije dodijeljeno: Kopira u međuspremnik (ili se reže iz njega), s
+  mogućnošću da se prethodno od korisnika traži potvrda.
+*	Not assigned: Shows the clipboard text as HTML in browse mode, or
+  announces if clipboard is empty or has contents which can't be presented
+  in a browseable message, for instance if files or folders are been copied
+  from Windows Explorer.
+*	Not assigned: Shows the textual clipboard contents as plain text in browse
+  mode, or announces if clipboard is empty or has contents which can't be
+  presented in a browseable message, for instance if files or folders are
+  been copied from Windows Explorer.
 
-Testirano na [eMule][2] 0.50a.
 
-## Tipkovnički prečaci: ##
+## Clip Contents Designer settings ##
 
-*	kontrol+šift+h: Premješta fokus i miša na glavnu alatnu traku.
-*	kontrol+šift+t: Čita trenutačni prozor.
-*	kontrol+šift+n: Premješta fokus na polje za ime u prozoru pretrage.
-*	kontrol+šift+p: U prozoru pretrage, premješta fokus i miša na popis
-  parametara pretrage ili na opcije uređivačkog polja.
-*	kontrol+šift+b: Premješta fokus na popis u trenutačnom prozoru. Na
-  primjer, korisno u prozoru pretrage, preuzimanja u prozoru transfera, itd.
-*	kontrol+šift+o: Premješta fokus na polja za uređivanje koja su samo za
-  čitanje u trenutačnom prozoru. Na primjer, IRC primljene poruke, dostupni
-  poslužitelji, itd.
-*	kontrol+NVDA+f: Ako se kursor nalazi u polju za uređivanje koje je samo za
-  čitanje, otvara se dijalog za pretragu s NVDA naredbama za traženje
-  teksta.
-*	kontrol+šift+l: Premješta navigacijski objekt i miša na zaglavlja
-  trenutačnog popisa.
-*	kontrol+šift+q: Šita prvi objekt u statusnoj traci; pruža informacije o
-  nedavnoj aktivnosti.
-*	kontrol+šift+w: Čita drugi objekt statusne trake; sadrži informacije o
-  datotekama i korisnicima na trenutačnom poslužitelju.
-*	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
-  doznati brzina slanja/preuzimanja.
-*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
-  povezivosti ed2k i Kad mreže.
+This panel is available from NVDA's menu, Preferences submenu, Settings
+dialog.
 
-## Upravljanje stupcima. ##
+It contains the following controls:
 
-Kad se nalaziš unutar popisa, možeš premještati kursor između stupaca i
-redaka pomoću alt+control+strelice. U ovom dodatku su dostupni i slijedeći
-prečaci:
+* Type the string to be used as a separator between contents added to the
+  clipboard: Allows to set a separator which can be used to find the text
+  segments once the entire added text is pasted.
+* Add text before clip data: It's also possible to choose if the added text
+  will be appended or prepended.
+* Select the actions which require previous confirmation: You can choose,
+  for each action available, if it should be performed inmediately or after
+  confirmation. Available actions are: add text, clear clipboard, emulate
+  copy and emulate cut.
+* Request confirmation before performing the selected actions when: You can
+  select if confirmations will be requested always, just if text is
+  contained in the clipboard, or if clipboard is not empty (for example if
+  you've copied a file, not text).
+* Format to show the clipboard text as HTML in browse mode: If you're
+  learning HTML markup language, you may choose Preformatted text in HTML or
+  HTML as shown in a web browser, to have an idea of how your HTML code will
+  be rendered by NVDA in a browser. The difference between preformatted and
+  conventional HTML is that the first option will preserve consecutive
+  spaces and line breaks, and the second one will compact them.  For
+  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
+  the text to clipboard, and use clipContentsDesigner add-on to show the
+  text in a browseable message.
+* Maximum number of characters when showing clipboard text in browse mode:
+  Please, be aware that increasing this limit may produce issues if the
+  clipboard contains large strings of text. The default limit is 100000
+  characters.
 
-*	nvda+kontrol+1-0: Čita prvih deset stupaca.
-*	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
-*	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
+Napomene:
+
+*	Neće biti potrebno potvrditi, ako se neka NVDA poruka još uvijek
+  prikazuje. U tim će se slučajevima radnje izvršavati odmah.
+*	Emulate copy and emulate cut commands mean that, when these features are
+  enabled, the add-on will take control of control+c and control+x. This
+  will allow to select if a confirmation should be requested before
+  performing the actions corresponding to these keystrokes.
+
+## Changes for 13.0 
+* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
+  Bougot.
+* Improved documentation.
+* Added a Clip Contents Designer category to assign input gestures to all
+  commands available for this add-on.
+* Fixed bugs when using emulate copy in browsers if focus mode is active.
+* You can assign different gestures to show the clipboard textual contents
+  as raw text or formatted in HTML. The Format to show the clipboard text in
+  the settings panel has being modified accordingly, to select the two
+  options available for HTML format.
+
+## Promjene u verziji 12.0
+* Ispravljene su greške prilikom korištenja emulirajuće kopije u programima
+  poput LibreOffice Writer.
+
+## Promjene u verziji 11.0
+* Sada je moguće dodati tekst koji je označen preglednim kursorom, pomoću
+  standardnih naredbi NVDA (NVDA+f9 i NVDA+f10). NVDA+windows+f9 se više ne
+  koristi, radi boljw integracijw s novom naredbom NVDA+šift+f9.
+* Zahtijeva NVDA verziju 2019.3 ili noviju.
+
+## Promjene u verziji 10.0
+* Ispravljana je greška u dijaloškom okviru za prikaz teksta međuspremnika,
+  kad naslov sadrži ne-latinične znakove.
+* Ispravljena je greška kad se koriste funkcije simuliranja izrezivanja i
+  kopiranja s arapskim rasporedom tipkovnice. To je ispravio Abdel, dodan je
+  kao autor dodatka.
+
+## Promjene u verziji 9.0
+
+* Dodana je mogućnost prikazivanja teksta međuspremnika u modusu čitanja.
+* Dodana je opcija za potrebu potvrđivanja ako međuspremnik nije prazan, na
+  primjer, ako su kopirane datoteke ili mape.
+* Zahtijeva NVDA verziju 2018.4 ili noviju.
+
+## Promjene u verziji 8.0 ##
+
+* Postavke dodatka se prikazuju u odgovarajućoj kategoriji dijaloškog okvira
+  za NVDA Postavke.
+* Zahtijeva NVDA verziju 2018.2 ili noviju.
+* Ako treba, moguće je preuzeti [zadnju verziju kompatibilnu s NVDA
+  2017.3][3].
+
+## Promjene u verziji 7.0
+
+* U dijaloškom okviru za konfiguriranje funkcionalnosti Simuliraj kopiranje
+  i Simuliraj izrezivanje, ako se odabere „ne”, uklonit će se naredbe za ove
+  funkcije, tako da će biti moguće koristiti normalni način rada za
+  kontrol+c i kontrol+x.
+
+## Promjene u verziji 6.0
+
+*	Dodana je mogućnost za odluku o izvršavanju dostupnih radnji nakon potvrde.
+*	Dodane su naredbe Simuliraj kopiranje i Simuliraj izrezivanje, koje je moguće dodijeliti u dijaloškom okviru Ulazne geste.
+*	Dodan je dijaloški okvir za podešavanje naredbi Simuliraj kopiranje i Simuliraj izrezivanje, tijekom instaliranja. Ovo dozvoljava dodavanje naredbi kontrol+c i kontrol+x za kopiranje i izrezivanje, te postavljanjem pitanja, želiš li zamijeniti sadržaj međuspremnika pri korištenju ovih tipkovničkih prečaca.
+*	Riješena dokumentacija za script_add (Windows+NVDA+c).
+
+## Promjene u verziji 5.0 ##
+
+*	Vizualni prikaz dijaloških okvira je poboljašn, slično dijaloškim okvirima
+  koji su prikazani u programu NVDA.
+*	Zahtijeva NVDA verziju 2016.4 ili noviju.
 
 ## Promjene u verziji 4.0 ##
-*	Zahtijeva NVDA 2019.3 ili noviju verziju.
+*	Postavkama dodatka se upravlja NVDA konfiguracijom, tako da je moguće
+  koristiti standardne profile za spremanje raznih rastavljača te nije
+  potrebno kopirati postavke nakon reinstalacije.
+*	Sad je moguće izabrati, hoće li dodani tekst biti dodan ispred ili iza
+  postojećeg teksta, koristeći izborno polje „Dodaj tekst ispred podataka
+  međuspremnika” u postavkama dodatka.
+
+## Promjene u verziji 3.0 ##
+*	Brajičin prikaz MathML objekata se može dodati u privremenu memoriju, ako
+  je MathPlayer instaliran.
+*	Ako nema razdvajača, dodat će se samo jedan redak između dodanih segmenata
+  teksta.
+*	Moguće je odrediti prečac za otvaranje dijaloškog okvira za postavke
+  dodatka.
+*	U dijaloškom okviru za postavke je dodan potvrdni okvir, kojim se odlučuje
+  o tome, treba li razdvajač kopirati za uvoz nakon ponovnog instaliranja
+  dodatka.
 
 ## Promjene u verziji 2.0 ##
-*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
-   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
-   nvda+kontrol+f.
+*	Znakovi devanagari pisma se mogu koristiti kao rastavljači između dodanog
+  sadržaja.
 
-## Promjene u verziji 2.0 ##
-*	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
-
-## Promjene u verziji 1.2 ##
-*	 Prilikom premještanja na IRC poruke, označeni se tekst čita ispravno.
-*	 Tipkovnički prečac za prijelaz na popis rezultata pretraživanja je sada
-   poopćen, kako bi se fokus mogao premjestiti na bilo koji dostupni popis u
-   trenutačnom prozoru.
-*	 Prečac koji se koristi za fokusiranje IRC poruka je sada poopćen, kako bi
-   se omogućilo premještanje na bilo koje polje za uređivanje koje je samo
-   za čitanje, čime se omogućuje pregled informacija o povezivosti u prozoru
-   Poslužitelji.
-*	 Prilikom premještanja miša ili fokusa na alatnu traku, u nekim se
-   slučajevima ovo izgovaralo dvaput. To je sada ispravljeno.
-
-## Promjene u verziji 1.1 ##
-*	 Ispravljena greška u e mule stavci izbornika unutar  NVDA izbornika
-   pomoć, kada korisnička mapa konfiguracije sadrži nelatinične znakove.
-*	 Prečace je sada moguće prenamijeniti, koristeći dijaloški okvir ulazne
-   geste u NVDA izborniku.
-
-## Promjene u verziji1.0 ##
-*	 Prva verzija.
-
+## Promjene u verziji 1.0 ##
+*	Prva verzija.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=ccd
 
-[2]: https://www.emule-project.net
+[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o

@@ -1,26 +1,25 @@
-# Samensteller voor klembordinhoud #
+# क्लिप सामाग्री नमुनाकार #
 
-*	Auteurs: Noelia Ruiz Martínez.
-*	Download [stabiele versie][1]
-*	Download [ontwikkelversie][2]
+*	लेखकहरू: नोलिया रुइज्
+*	[स्थीर संस्करण][1] को अनुबहन
+*	[विकास संस्करण][2] को अनुबहन
 
 This add-on is used to add text to the clipboard, which can be useful when
 you want to join sections of text together ready for pasting.  The clipboard
 content can also be cleared.
 
-## Toetsenbordsneltoetsen ##
+## कुञ्जीपाटी आदेश ##
 *	NVDA+windows+c: Add selected text, Unicode braille characters which
   represent MathML objects, or the string which has been marked with the
   review cursor, to the clipboard.
-*	NVDA+windows+x: Inhoud van klembord wissen.
+*	नेत्रवाणी+windows+x: क्लिपमा रहेका सामाग्रिलाई मेटाउ ।
 *	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard.
     If you use nvda+F9, the text will not be added.
 
-Opmerking: De bovenstaande commando's kunnen worden gewijzigd via het
-NVDA-menu, Opties submenu, Invoerhandelingen koppelen dialoogvenster,
-Leesoverzicht categorie.
+टिप्पणी: उपरोक्त आदेशहरूलाई नेत्रवाणी मेनु, प्राथमिकताहरू उप-मेनु,लगानी
+सङ्केत पातोमा  रहेको पाठ समिक्षा वर्गीकरणमा गएर परिवर्तन गर्न सकिन्छ ।
 
-## Menu opties ##
+## प्राथमिकता मेनु ##
 *	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
 It's also possible to choose if the added text will be appended or prepended.
 
@@ -51,11 +50,11 @@ Input gestures dialog, Configuration category.
 *	Added a check box in the settings dialog, for choosing if the separator
   should be copied to be imported when reinstalling the add-on.
 
-## Veranderingen in 2.0 ##
+## २.० संस्करणमा गरिएका परिवर्तनहरू ##
 *	Hindi characters can be used as the separator between added contents.
 
-## Veranderingen in 1.0 ##
-*	Eerste versie.
+## १.० मा गरिएका परिवर्तनहरू ##
+*	सुरुको संस्करण
 
 [[!tag dev stable]]
 

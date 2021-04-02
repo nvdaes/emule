@@ -1,26 +1,24 @@
-# Samensteller voor klembordinhoud #
+# Clip Contents Designer #
 
-*	Auteurs: Noelia Ruiz Martínez.
-*	Download [stabiele versie][1]
-*	Download [ontwikkelversie][2]
+*	저자: 노엘리아 루이즈 마르티네스.
+*	다운로드 [출시판][1]
+*	다운로드 [개발판][2]
 
 This add-on is used to add text to the clipboard, which can be useful when
 you want to join sections of text together ready for pasting.  The clipboard
 content can also be cleared.
 
-## Toetsenbordsneltoetsen ##
+## 키보드 명령 목록 ##
 *	NVDA+windows+c: Add selected text, Unicode braille characters which
   represent MathML objects, or the string which has been marked with the
   review cursor, to the clipboard.
-*	NVDA+windows+x: Inhoud van klembord wissen.
+*	NVDA+windows+x: 클립보드 내용을 삭제합니다.
 *	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard.
     If you use nvda+F9, the text will not be added.
 
-Opmerking: De bovenstaande commando's kunnen worden gewijzigd via het
-NVDA-menu, Opties submenu, Invoerhandelingen koppelen dialoogvenster,
-Leesoverzicht categorie.
+주의: 위 명령들은 NVDA 설정 메뉴에 있는 단춧키 설정내 텍스트 리뷰 목록에서 변경할 수 있습니다.
 
-## Menu opties ##
+## 설정 메뉴 ##
 *	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
 It's also possible to choose if the added text will be appended or prepended.
 
@@ -51,11 +49,11 @@ Input gestures dialog, Configuration category.
 *	Added a check box in the settings dialog, for choosing if the separator
   should be copied to be imported when reinstalling the add-on.
 
-## Veranderingen in 2.0 ##
+## Changes for 2.0 ##
 *	Hindi characters can be used as the separator between added contents.
 
-## Veranderingen in 1.0 ##
-*	Eerste versie.
+## 버전 1.0 ##
+*	첫 출시판.
 
 [[!tag dev stable]]
 

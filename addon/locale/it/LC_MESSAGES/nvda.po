@@ -1,133 +1,252 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: eMule 1.0-dev\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2019-01-04 15:32+0100\n"
-"Last-Translator: Chris Leo Mameli <llajta2012@gmail.com>\n"
-"Language-Team: it <simone.dalmaso@juvox.it>\n"
-"Language: it\n"
+"Project-Id-Version: clipContentsDesigner 9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-12-31 08:59+0100\n"
+"PO-Revision-Date: 2021-02-13 17:26+0100\n"
+"Last-Translator: Fabrizio Marini <marini.carlo@fastwebnet.it>\n"
+"Language-Team: Translators <llajta@gmx.us>\n"
+"Language: it_IT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__\n"
+"X-Poedit-Basepath: C:/Users/user/Downloads/AppendText/globalPlugins\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: .\n"
 
-#. Translators: Message presented in input help mode.
-msgid "Reads the specified column for the current list item."
-msgstr "Legge la colonna specificata per la voce di elenco corrente."
-
-#. Translators: Message presented when the current column of the list item is copied to clipboard.
-#, python-format
-msgid "%s copied to clipboard"
-msgstr "%s copiato negli appunti"
-
-#. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr ""
-"Copia l'ultima colonna letta della voce di elenco selezionata negli appunti."
-
-#. Translators: Message presented in input help mode
-msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr ""
-"Sposta il focus di sistema ed il mouse nella barra degli strumenti principale"
-
-#. Translators: Message presented in input help mode.
-#. For instance: reads the search window, Statistics, IRC, etc.
-msgid "Reports the current window."
-msgstr "Annuncia la finestra corrente"
-
-#. Translators: Message presented in input help mode.
-msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Sposta il focus di sistema sul campo nome della finestra di ricerca"
-
-#. Translators: Message presented in input help mode.
+#. Translators: label of a dialog.
 msgid ""
-"Moves the system focus and mouse to the search parameters list or Edit field "
-"for each option, in the Search window."
+"This add-on allows to confirm if you want to copy and cut, replacing the "
+"clipboard contents,\n"
+"\t\twhen pressing control+c and control+x. This is named Emulate copy and "
+"cut.\n"
+"\t\tDo you want to configure Emulate copy and cut now? You may do or change "
+"this later."
 msgstr ""
-"Sposta il focus di sistema ed il mouse nell'elenco parametri di ricerca o "
-"nel campo modifica per ciascuna opzione, nella finestra di ricerca."
+"Questo componente aggiuntivo consente di richiedere una conferma prima di "
+"modificare il contenuto degli appunti eseguendo Copia o Taglia, quando si "
+"preme control-c o control-x. L'operazione viene chiamata emulazione di copia "
+"e taglia. Vuoi configurare emulazione copia e taglia adesso? Puoi farlo "
+"anche in un secondo momento."
 
-#. Translators: Message presented in input help mode.
+#. Translators: title of a dialog.
+msgid "Configure Emulate copy and cut"
+msgstr "Configura emulazione di copia e taglia"
+
+#. Translators: label of a dialog.
+msgid "Preformatted text in HTML"
+msgstr "Html preformattato"
+
+#. Translators: label of a dialog.
+msgid "HTML as shown in a web browser"
+msgstr "Html semplice"
+
+#. Translators: Text of the clipboard shown without being formatted.
+msgid "Plain text"
+msgstr "Testo semplice"
+
+#. Translators: message presented in input mode.
+msgid "Shows the Clip Contents Designer settings."
+msgstr "Visualizza le impostazioni di Clip Contents Designer."
+
+#. Translators: message presented when the clipboard content has been deleted.
+msgid "Clipboard cleared"
+msgstr "Appunti eliminati"
+
+#. Translators: message presented when the clipboard content cannot be deleted.
+msgid "Clipboard not cleared"
+msgstr "Appunti non eliminati"
+
+#. Translators: message presented when it's not possible to add text, since no text has been selected.
+msgid "No text to add"
+msgstr "Nessun testo aggiunto"
+
+#. Translators: Label of a dialog.
+msgid "Please, confirm if you want to add text to the clipboard"
+msgstr "Per favore, confermare di voler aggiungere testo negli appunti"
+
+#. Translators: Title of a dialog.
+msgid "Adding text to clipboard"
+msgstr "Aggiungi testo"
+
+#. Translators: message presented when the text has been added to the clipboard.
+msgid "Added"
+msgstr "Aggiunto"
+
+#. Translators: message presented when the text cannot be added to the clipboard.
+msgid "Cannot add"
+msgstr "Impossibile aggiungere testo"
+
+#. Translators: message presented in input mode.
 msgid ""
-"Moves the system focus to the first list in the current window. For example "
-"the results list in the Search window, downloads in Transfer, etc."
+"Retrieves the selected string or the text from the previously set start "
+"marker up to\n"
+"\t\tand including the current position of the review cursor, and adds it to "
+"the clipboard."
 msgstr ""
-"Sposta il focus di sistema sul primo elenco  della finestra corrente. Ad "
-"esempio l'elenco risultati nella finestra di ricerca, i download nella "
-"finestra trasferimenti, etc."
+"Recupera il testo selezionato, o il testo dal marcatore d'inizio alla "
+"posizione del cursore di controllo, e lo aggiunge agli appunti."
 
-#. Translators: Message presented in input help mode.
+#. Translators: Label of a dialog.
+msgid "Please, confirm if you want to clear the clipboard"
+msgstr "Per favore, confermare di voler eliminare gli appunti"
+
+#. Translators: Title of a dialog.
+msgid "Clearing clipboard"
+msgstr "Eliminazione appunti"
+
+#. Translators: message presented in input mode.
+msgid "Deletes the added text and the content of the clipboard."
+msgstr "Elimina il testo aggiunto e il contenuto degli appunti."
+
+#. Translators: Label of a dialog.
+msgid "Please, confirm if you want to copy to the clipboard"
+msgstr "Per favore, confermare di voler copiare il contenuto negli appunti"
+
+#. Translators: Title of a dialog.
+msgid "Copying to clipboard"
+msgstr "Copia negli appunti"
+
+#. Translators: message presented in input mode.
 msgid ""
-"Moves the system focus to read-only edit boxes in the current window. For "
-"example the IRC received messages."
+"Copies to the clipboard, with the possibility of being asked for a previous "
+"confirmation"
 msgstr ""
-"Sposta il focus di sistema sul campo di sola lettura della finestra "
-"corrente. Ad esempio i messaggi ricevuti via irc."
+"Copia negli appunti, con possibilità di ricevere una richiesta di conferma"
 
-#. Translators: Message presented in input help mode.
-msgid "Moves the navigator object and mouse to the current list headers."
+#. Translators: Label of a dialog.
+msgid "Please, confirm if you want to cut from the clipboard"
+msgstr "Per favore, confermare la volontà di tagliare dagli appunti"
+
+#. Translators: Title of a dialog.
+msgid "Cutting from clipboard"
+msgstr "Taglia negli appunti"
+
+#. Translators: message presented in input mode.
+msgid ""
+"Cuts from the clipboard, with the possibility of being asked for a previous "
+"confirmation"
 msgstr ""
-"Sposta il navigatore ad oggetti e il mouse sull'intestazione dell'elenco "
-"corrente"
+"Taglia dagli appunti, con possibilità di ricevere una richiesta di conferma"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports first object of the Status Bar."
-msgstr "Annuncia il primo oggetto della barra di stato."
+#. Translators: message presented in input mode.
+msgid "Shows the clipboard text as HTML in browse mode"
+msgstr ""
+"Mostra il testo presente negli appunti in modalità navigazione, come html"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports second object of the Status Bar."
-msgstr "Annuncia il secondo oggetto della barra di stato."
+#. Translators: presented when clipboard is not empty, but there is no text to show in browse mode.
+msgid "Clipboard is not empty, but there is no text to show"
+msgstr "Gli appunti non sono vuoti, ma non contengono testo"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports third object of the Status Bar."
-msgstr "Annuncia il terzo oggetto della barra di stato."
+#. Translators: presented when clipboard is empty.
+msgid "Clipboard is empty"
+msgstr "Nessun contenuto negli appunti"
 
-#. Translators: Message presented in input help mode.
-msgid "Reports fourth object of the Status Bar."
-msgstr "Annuncia il quarto oggetto della barra di stato."
+#. Translators: title of a browseable message.
+#, python-brace-format
+msgid "Clipboard text ({max}/{current} - {formatForTitle})"
+msgstr "Contenuto degli appunti ({max}/{current} - {formatForTitle})"
+
+#. Translators: message presented in input mode.
+msgid "Shows the clipboard textual contents as plain text in browse mode"
+msgstr ""
+"Mostra il testo presente negli appunti in modalità navigazione, come testo "
+"semplice"
+
+#. Translators: label of a dialog.
+msgid ""
+"Type the string to be used as a &separator between contents added to the "
+"clipboard."
+msgstr ""
+"Digitare il testo da usare come &separatore tra i contenuti aggiunti negli "
+"appunti."
+
+#. Translators: label of a dialog.
+msgid "&Add text before clip data"
+msgstr "&Aggiungi testo prima degli appunti"
+
+#. Translators: label of a dialog.
+msgid "Sele&ct the actions which require previous confirmation"
+msgstr "Seleziona le azioni che richiedono una &conferma"
+
+#. Translators: label of a dialog.
+msgid "Confirm to add text"
+msgstr "Quando si aggiunge testo negli appunti"
+
+#. Translators: label of a dialog.
+msgid "Confirm to clear clipboard"
+msgstr "Quando si elimina contenuto dagli appunti"
+
+#. Translators: label of a dialog.
+msgid "Confirm to emulate copy"
+msgstr "Quando si esegue Copia"
+
+#. Translators: label of a dialog.
+msgid "Confirm to emulate cut"
+msgstr "Quando si esegue Taglia"
+
+#. Translators: label of a dialog.
+msgid "&Request confirmation before performing the selected actions when:"
+msgstr "&Richiedi conferma prima di eseguire le azioni selezionate quando:"
+
+#. Translators: label of a dialog.
+msgid "Always"
+msgstr "Sempre"
+
+#. Translators: label of a dialog.
+msgid "If the clipboard contains text"
+msgstr "Solo Se è presente testo negli appunti"
+
+#. Translators: label of a dialog.
+msgid "If the clipboard is not empty"
+msgstr "Se è presente qualsiasi contenuto negli appunti"
+
+#. Translators: label of a dialog.
+msgid "&Format to show the clipboard text as HTML in browse mode:"
+msgstr ""
+"&Formato di visualizzazione degli appunti in Modalità Navigazione, come html:"
+
+#. Translators: label of a dialog.
+msgid ""
+"&Maximum number of characters when showing clipboard text in browse mode"
+msgstr ""
+"&Numero massimo di caratteri quando il testo degli appunti è visualizzato in "
+"modalità navigazione"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "eMule"
-msgstr "Emule"
+msgid "Clip Contents Designer"
+msgstr "Clip Contents Designer"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Improves eMule's accessibility with NVDA.\n"
-"eMule is a P2P program to search and share files.\n"
-"You can get more information about eMule at\n"
-"http://www.emule-project.net"
-msgstr ""
-"Migliora l'accessibilità di Emule con NVDA.\n"
-"Emule è un programma p2p usato per la ricerca e la condivisione di file.\n"
-"Si possono ottenere maggiori informazioni su Emule alla pagina:\n"
-"https://www.emule-project.net"
+msgid "Add-on for managing clipboard text."
+msgstr "Componente aggiuntivo per la gestione del testo negli appunti."
 
-#~ msgid "text \"%s\" not found"
-#~ msgstr "testo \"%s\" non trovato"
+#~ msgid "Start marker set"
+#~ msgstr "Marcatore del punto di inizio"
 
-#~ msgid "Find Error"
-#~ msgstr "Errore in ricerca"
-
-#~ msgid "Search for:"
-#~ msgstr "Ricerca"
-
-#~ msgid "eMule search"
-#~ msgstr "Ricerca Emule"
-
-#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgid ""
+#~ "Marks the current position of the review cursor as the start of text to "
+#~ "be appended to the clipboard."
 #~ msgstr ""
-#~ "Apre la finestra di dialogo trova in presenza di caselle di sola lettura"
+#~ "Marca la posizione corrente del cursore di controllo come punto di inizio "
+#~ "del testo da aggiungere."
 
-#~ msgid "Find next occurence."
-#~ msgstr "Trova occorrenza successiva"
+#~ msgid "No selection. No start marker set"
+#~ msgstr "Nessuna selezione. Nessun marcatore di inizio."
 
-#~ msgid "Find previous occurrence."
-#~ msgstr "Trova occorrenza precedente"
+#~ msgid "The start marker must reside within the same object"
+#~ msgstr "Il marcatore di inizio deve appartenere allo stesso oggetto"
+
+#~ msgid "&Text in clipboard to confirm"
+#~ msgstr "Testo negli appunti da confermare"
+
+#~ msgid "&Clip Contents Designer settings..."
+#~ msgstr "Impostazioni &Clip Contents Designer"
+
+#~ msgid "Clip Contents Designer settings"
+#~ msgstr "Impostazioni Clip Contents Designer"

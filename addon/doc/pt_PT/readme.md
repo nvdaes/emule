@@ -1,97 +1,171 @@
-# eMule #
+# Clip Contents Designer #
 
-*	Autores: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	baixar [versão estável] [1]
-*	baixar [versão de desenvolvimento] [3]
-*	download [version compatible with NVDA 2017.3][4]
+*	Authors: Noelia, Abdel.
+*	NVDA compatibility: 2019.3 or later
+*	Baixar a [versão estável][1]
+*	Baixar a [versão de desenvolvimento][2]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Este extra é usado para adicionar texto à área de transferência, o que lhe
+pode ser útil quando quiser juntar várias partes de textos num só, pronto
+para colar.  O conteúdo da área de transferência também pode ser visto no
+modo de navegação.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+## Comandos de teclado ##
+*	NVDA+windows+c: adiciona o texto seleccionado, os caracteres unicode em
+  Braille que representem objetos MathML, ou a cadeia que foi marcada com o
+  cursor de exploração, à área de transferência.
+*	NVDA+windows+x: limpa o conteúdo da área de transferência.
+*	Not assigned: Copies to (or cuts from) the clipboard, with the possibility
+  of being asked for a previous confirmation.
+*	Not assigned: Shows the clipboard text as HTML in browse mode, or
+  announces if clipboard is empty or has contents which can't be presented
+  in a browseable message, for instance if files or folders are been copied
+  from Windows Explorer.
+*	Not assigned: Shows the textual clipboard contents as plain text in browse
+  mode, or announces if clipboard is empty or has contents which can't be
+  presented in a browseable message, for instance if files or folders are
+  been copied from Windows Explorer.
 
-Testado no [eMule][2] 0.50a.
 
-## Comandos: ##
+## Clip Contents Designer settings ##
 
-*	control+shift+h: move o foco e o rato para a barra de ferramentas
-  principal.
-*	control+shift+t: lê a janela actual.
-*	control+shift+n: move o foco para o campo Nome na janela Localizar.
-*	control+shift+p: na janela Pesquisar, move o foco e o rato para a lista de
-  parâmetros de pesquisa ou edita as opções de campo.
-*	control+shift+b: move o foco para a lista na janela atual. Por exemplo,
-  utilizável na janela de pesquisa, downloads na janela de transferência,
-  etc.
-*	control+shift+o: move o foco para caixas de edição somente leitura na
-  janela actual. Por exemplo, o IRC recebeu mensagens, Servidores
-  disponíveis, etc.
-*	control+NVDA+f: se o cursor estiver localizado numa caixa de edição
-  somente leitura, abre uma caixa de diálogo de pesquisa para usar os
-  comandos para pesquisar texto disponível no NVDA.
-*	control+shift+l: move o objecto do navegador e o rato para os cabeçalhos
-  da lista actual.
-*	control+shift+q: lê o primeiro objecto na barra de status; fornece
-  informações sobre actividades recentes.
-*	control+shift+w: lê o segundo objecto da barra de status; contém
-  informações sobre ficheiros e utilizadores no servidor actual.
-*	control+shift+e: lê o terceiro objecto da barra de status; útil para
-  conhecer a velocidade de UpLoad / DownLoad.
-*	control+shift+r: lê o quarto objecto da barra de status; relatórios sobre
-  a conexão da rede eD2K e Kad.
+This panel is available from NVDA's menu, Preferences submenu, Settings
+dialog.
 
-## Gerir colunas: ##
+It contains the following controls:
 
-Quando numa lista, pode mover o cursor entre as linhas e colunas usando alt
-+ control + Setas. Neste extra, os seguintes comandos de teclas também estão
-disponíveis:
+* Type the string to be used as a separator between contents added to the
+  clipboard: Allows to set a separator which can be used to find the text
+  segments once the entire added text is pasted.
+* Add text before clip data: It's also possible to choose if the added text
+  will be appended or prepended.
+* Select the actions which require previous confirmation: You can choose,
+  for each action available, if it should be performed inmediately or after
+  confirmation. Available actions are: add text, clear clipboard, emulate
+  copy and emulate cut.
+* Request confirmation before performing the selected actions when: You can
+  select if confirmations will be requested always, just if text is
+  contained in the clipboard, or if clipboard is not empty (for example if
+  you've copied a file, not text).
+* Format to show the clipboard text as HTML in browse mode: If you're
+  learning HTML markup language, you may choose Preformatted text in HTML or
+  HTML as shown in a web browser, to have an idea of how your HTML code will
+  be rendered by NVDA in a browser. The difference between preformatted and
+  conventional HTML is that the first option will preserve consecutive
+  spaces and line breaks, and the second one will compact them.  For
+  example, write some HTML tags like h1, h2, li, pre, etc., select and copy
+  the text to clipboard, and use clipContentsDesigner add-on to show the
+  text in a browseable message.
+* Maximum number of characters when showing clipboard text in browse mode:
+  Please, be aware that increasing this limit may produce issues if the
+  clipboard contains large strings of text. The default limit is 100000
+  characters.
 
-*	Control+nvda+1-0: lê as 10 primeiras colunas.
-*	nvda+shift+1-0: lê as colunas de 11 a 20.
-*	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
-  transferência.
+Notas:
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+*	Confirmations won't be requested when a message box of NVDA is still
+  opened. In those cases, actions will be inmediately performed.
+*	Emulate copy and emulate cut commands mean that, when these features are
+  enabled, the add-on will take control of control+c and control+x. This
+  will allow to select if a confirmation should be requested before
+  performing the actions corresponding to these keystrokes.
 
-## Alterações para 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+## Changes for 13.0 
+* Fixed an issue in visual layout of the settings panel, thanks to Cyrille
+  Bougot.
+* Improved documentation.
+* Added a Clip Contents Designer category to assign input gestures to all
+  commands available for this add-on.
+* Fixed bugs when using emulate copy in browsers if focus mode is active.
+* You can assign different gestures to show the clipboard textual contents
+  as raw text or formatted in HTML. The Format to show the clipboard text in
+  the settings panel has being modified accordingly, to select the two
+  options available for HTML format.
 
-## Mudanças para 2.0 ##
-*	 A ajuda adicional está disponível no Gestor de extras.
+## Changes for 12.0
+* Fixed bugs when using emulate copy in applications like LibreOffice
+  Writer.
 
-## Alterações para 1.2 ##
-*	 Ao mudar para as mensagens do IRC, o texto seleccionado é lido
-   corretamente.
-*	 O comando de tecla usado para mover para a lista de resultados da
-   Pesquisa foi generalizado para poder mover o foco para qualquer lista
-   disponível na janela actual.
-*	 O comando usado para focar as mensagens do IRC foi generalizado para
-   mover para qualquer caixa de edição somente leitura, possibilitando a
-   revisão de informações de conexão na janela de Servidores.
-*	 Ao mover o rato e focar a barra de ferramentas, em alguns casos,  era
-   anunciado duas vezes. esse aspecto foi corrigido.
+## Changes for 11.0
+* Now it's possible to add text marked with the review cursor using standard
+  commands of NVDA (NVDA+f9 and NVDA+f10). NVDA+windows+f9 is no longer
+  used, for a better integration with the new NVDA+shift+f9 command.
+* Requires NVDA 2019.3 or later.
 
-## Alterações para 1.1 ##
-*	 Foi corrigido um bug no item do eMule no menu de ajuda do NVDA, quando o
-   nome da pasta de configuração do utilizador contém caracteres não
-   latinos.
-*	 Os atalhos agora podem ser reatribuídos usando a caixa de diálogo de
-   entrada de comandos do NVDA.
+## Changes for 10.0
+* Fixed a bug in the dialog used to show the clipboard text, when its title
+  contains non latin characters.
+* Fixed a bug when using the emulate cut and copy features with an Arabic
+  keyboard layout. This has been fixed by Abdel, added as an add-on author.
 
-## Alterações para 1.0 ##
-*	 Versão inicial.
+## Alterações para a versão 9.0
 
+* Adicionada a possibilidade de mostrar o texto da área de transferência no
+  modo de navegação.
+* Adicionada uma opção para escolher se as confirmações serão necessárias se
+  a área de transferência não estiver vazia, por exemplo, se os arquivos ou
+  pastas forem copiados.
+* Requer o NVDA 2018.4 ou posterior.
+
+## Alterações para a versão 8.0 ##
+
+* As configurações adicionais são mostradas na categoria correspondente da
+  caixa de diálogo Configurações do NVDA.
+* Requer o NVDA 2018.2 ou posterior.
+* Se for necessário, pode fazer o download da [última versão compatível com
+  o NVDA 2017.3] [3].
+
+## Alterações para a versão 7.0
+
+* Na caixa de diálogo da instalação para configurar as funcionalidades
+  Emular cópia e Emular corte, se escolher não, os comandos para esses
+  recursos serão removidos, para que possa restaurar o comportamento normal
+  para controle + c e controle + x.
+
+## Alterações para a versão 6.0
+
+*	 Adicionadas opções para escolher se as acções disponíveis devem ser executadas após confirmação.
+*	Adicionados os comandos emulação de copiar e emulação de cortar, que podem ser atribuídos no diálogo definir comandos.
+*	 Adicionado um diálogo para configurar as funções emulação de copiar e de cortar na instalação. Isso permite acrescentar os comandos control+c e control+x para copiar e cortar e ser questionado sobre se deseja substituir o conteúdo da área de transferência ao pressionar essas teclas.
+*	Corrigida a documentação para script_add (Windows+NVDA+c).
+
+## Alterações para a versão 5.0 ##
+
+*	A apresentação visual do diálogo foi melhorada, coincidindo com a
+  aparência dos diálogos mostrados no NVDA.
+*	Requer o NVDA 2016.4 ou posterior.
+
+## Alterações para a versão 4.0 ##
+*	As opções do extra são agora geridas directamente pela configuração do
+  NVDA, de modo que se pode usar perfis para salvar diferentes separadores e
+  não é necessário copiar as opções para importá-las quando numa
+  reinstalação.
+*	Agora é possível escolher se o texto será colocado depois ou antes do que
+  já lá está, usando a caixa de selecção  existente no diálogo de opções do
+  gestor de conteúdos da área de transferência.
+
+## Alterações para a versão 3.0 ##
+*	As representações braile de objectos MathML podem ser acrescentadas à área
+  de transferência, se o MathPlayer estiver instalado.
+*	Se não for definido qualquer separador, apenas será colocada uma linha
+  entre os vários fragmentos de texto adicionados.
+*	Pode criar-se uma tecla de atalho para abrir o diálogo de opções do gestor
+  do conteúdo de transferência.
+*	Acrescentada uma caixa de selecção ao diálogo de opções, a qual permite
+  escolher se o separador de fragmentos deve ser copiado para ser importado
+  ao reinstalar o extra.
+
+## Alterações para a versão 2.0 ##
+*	Os caracteres hindi podem ser usados como separador entre conteúdos
+  acrescentados.
+
+## Alterações para a versão 1.0 ##
+*	Versão inicial.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=ccd
 
-[2]: https://www.emule-project.net
+[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
