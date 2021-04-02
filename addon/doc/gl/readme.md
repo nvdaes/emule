@@ -1,173 +1,95 @@
-# Clip Contents Designer #
+# eMule #
 
-*	Autores: Noelia, Abdel.
+*	Autores: Noelia, Chris, Alberto.
 *	Compatibilidade con NVDA: 2019.3 ou posterior
-*	Descargar [versión estable][1]
-*	Descargar [versión de desenvolvemento][2]
+*	descarga [versión estable][1]
+*	descargar [versión de desenvolvemento][3]
+*	Descargar [versión compatible con NVDA 2017.3][4]
 
-Este complemento úsase para engadir texto ó portapapeis, que pode ser útil
-cando queras unir seccións de texto listas para pegarse xuntas.  O contido
-do portapapeis tamén pode limparse e amosarse en modo exploración.
+Este complemento axuda a mellorar a accesivilidade do eMule co nVDA.  Tamén
+proporciona ordes de teclado adicionais para moverte en diferentes ventás e
+dar información util do eMule.
 
-## Ordes de teclado ##
-*	NVDA+windows+c: engade o texto seleccionado, os caracteres braille Unicode
-  que representan obxectos MathML, ou a cadea que se marcou co cursor de
-  revisión, ao portapapeis.
-*	NVDA+windows+x: Limpa o contido do portapapeis.
-*	Sen asignar: Copia a (ou corta dende) o portapapeis, coa posibilidade de
-  que se che pregunte por unha confirmación previa.
-*	Sen asignar: amosa o texto do portapapeis como HTML en modo exploración,
-  ou anuncia se o portapapeis está vacío ou ten contido que non se pode
-  amosar nunha mensaxe navegable, se se están a copiar arquivos ou carpetas
-  do Explorador de Windows, por exemplo.
-*	Sen asignar: Amosa os contidos textuais do portapapeis como texto plano en
-  modo exploración, ou anuncia se o portapapeis está vacío ou ten contido
-  que non se pode amosar nunha mensaxe navegable, se se están a copiar
-  arquivos ou carpetas do Explorador de Windows, por exemplo.
+baséase no complemento eMuleNVDASupport, desenvolvido polo mesmo
+autor. Debes desinstalar o vello complemento para usar este, xa que ambos
+teñen as pulsacións de teclado e as características comúns.
 
+Probado no [eMule][2] 0.50a.
 
-## Opcións de Clip Contents Designer ##
+## Ordes de Teclado: ##
 
-Este panel está dispoñible dende o menú de NVDA, submenú Preferencias,
-diálogo Opcións.
+*	control+shift+h: Move o foco e o rato cara a barra de ferramentas
+  principal.
+*	control+shift+t: Le a ventá actual.
+*	control+shift+n: Move o foco cara o campo de nome na ventá procurar.
+*	control+shift+p: Na ventá de procurar, move o foco e o rato cara a lista
+  de parámetros de procuras, ou opcións do campo de edición.
+*	control+shift+b: Move o foco para a lista na ventá actual. Por exemplo
+  utilizable na ventá Buscar, descargas na ventá de transferencia, etc.
+*	control+shift+o: Move o foco para caixas  de só lectura no diálogo
+  actual. Por exemplo, as mensaxes recibidas no IRC , servidores
+  dispoñibles, etc.
+*	control+NVDA+f: se o cursor está localizado nunha Caixa de edición de só
+  lectura, abre un diálogo de busca para usar as ordes para procurar texto
+  disponibles no NVDA.
+*	control+shift+l: Move o navegador de obxectos e o rato cara as cabeceiras
+  da lista actual.
+*	control+shift+q: Le o primeiro obxecto na barra de estado; proporciona
+  información acerca da actividade recente.
+*	control+shift+w: Le o segundo obxecto da barra de estado; contén
+  información acerca de ficheiros e usuarios no servidor actual.
+*	control+shift+e: Le o terceiro obxecto da barra de estado; util para saber
+  a velocidade de subida e de baixada.
+*	control+shift+r: Le o carto obxecto da barra de estado; informa sobre a
+  conexión das redes Kad e eD2K.
 
-contén os seguintes controis:
+## Administrando columnas. ##
 
-* Escribe a cadea de texto que se utilizará como separador entre contido
-  engadido ao portapapeis: Permite establecer un separador que se pode
-  utilizar para buscar os segmentos de texto unha vez se pegue todo o texto
-  engadido.
-* Engadir texto tralos datos do portapapeis: Tamén é posible escoller se o
-  texto engadido se engadirá ó final ou ó principio.
-* Seleccionar as accións que requiren confirmación previa: Podes escoller,
-  para cada acción dispoñible, se se debe realizar inmediatamente ou previa
-  confirmación. As accións dispoñibles son: engadir texto, limpar
-  portapapeis, emular copiar e emular curtar.
-* Pedir confirmación antes das accións seleccionadas cando: Podes
-  seleccionar se as confirmacións se solicitarán sempre, só se o portapapeis
-  contén texto, ou se o portapapeis non está baleiro (por exemplo se
-  copiaches un arquivo, non texto).
-* Formato no que amosar o texto do portapapeis como HTML en modo
-  exploración: Se estás aprendendo a linguaxe de marcas HTML, podes escoller
-  Texto Preformateado en HTML ou HTML como se amosaría nun navegador web,
-  para ter unha idea de cómo o teu código HTML se tratará dende NVDA nun
-  navegador. A diferencia entre HTML preformateado e convencional é que a
-  primeira opción preservará os espazos e saltos de liña consecutivos, e o
-  segundo compactaraos.  Por exemplo, escribe algunhas etiquetas HTML como
-  h1, h2, li, pre, etc., selecciona e copia o texto ao portapapeis, e
-  utiliza o complemento ClipContentsDesigner para amosar o texto nunha
-  mensaxe navegable.
-* Número máximo de caracteres ao amosar texto do portapapeis en modo
-  exploración: Por favor, ten en conta que incrementar este límite podería
-  producir problemas se o portapapeis contén largas cadeas de texto. O
-  límite por defecto é de 100000 caracteres.
+Cando estás dentro dunha lista, podes mover o cursor entre as filas e as
+columnas usando alt+control+Flechas.  Neste complemento tamén están
+dispoñibles as seguintes ordes de teclado:
 
-Notas:
-
-*	Non se solicitarán confirmacións cando estea aberta unha Caixa de mensaxe
-  do NVDA. Neses casos, as accións realizaranse inmediatamente.
-*	As ordes emular copiar e emular curtar significan que, cando estas
-  características estean habilitadas, o complemento controlará control+c e
-  control+x. Isto permitirá seleccionar se se debería pedir unha
-  confirmación antes de realizar as accións de ditos atallos.
-
-## Cambios para 13.0 
-* Arranxado un problema no deseño visual do panel de opcións, grazas a
-  Cyrille Bougot.
-* Mellorada a documentación.
-* Engadida unha categoría Clip contents Designer para asignar xestos de
-  entrada a tódolas ordes dispoñibles neste complemento.
-* Arranxados erros ao usar emular copiar en en navegadores cando o modo foco
-  estaba activo.
-* Podes asignar diferentes xestos para amosar o contido textual do
-  portapapeis como texto plano ou formateado en HTML. O Formato no que
-  amosar o texto do portapapeis no panel de opcións modificouse en
-  consecuencia, para seleccionar as dúas opcións dispoñibles para o formato
-  HTML.
-
-## Cambios para 12.0
-* Arranxados erros ao usar emular copiar en aplicacións como LIbreOffice
-  Writer.
-
-## Cambios para 11.0
-* Agora é posible engadir texto marcado co cursor de revisión utilizando
-  ordes estándar do NVDA (NVDA+F9 e NVDA+F10). NVDA+Windows+F9 xa non se
-  usa, para unha mellor integración co novo atallo NVDA+Shift+F9.
-* Require NVDA 2019.3 ou posterior.
-
-## Cambios para 10.0
-* Arranxado un erro no diálogo utilizado para mostrar o texto do portapapeis
-  cando o seu título contiña caracteres non latinos.
-* Arranxado un erro ao utilizar as funcións emular curtar e copiar cunha
-  distribución de teclado árabe. Isto foi solucionado por Abdel, engadido
-  como un autor do complemento.
-
-## Cambios para 9.0
-
-* Engadida a posibilidade de amosar o texto do portapapeis en modo
-  exploración.
-* Engadida unha opción para elixir se se requerirán confirmacións se o
-  portapapeis non está vacío; por xemplo, se se están a copiar arquivos ou
-  cartafoles.
-* Requírese do NVDA 2018.4 ou posterior.
-
-## Cambios para 8.0 ##
-
-* A configuración do complemento amósase na categoría correspondente do
-  diálogo Opcións do NVDA.
-* Requírese do NVDA 2018.2 ou posterior.
-* Se fora necesario, podes descargar a [derradeira versión compatible co
-  NVDA 2017.3][3].
-
-## Cambios para 7.0
-
-* No diálogo para configurar as funcionalidades de Emular copiar e Emular
-  curtar na instalación, se elixes non, os comandos para estas
-  características eliminaranse, de xeito que poidas restaurar o
-  comportamento normal das teclas ctrl+c e ctrl+x.
-
-## Cambios para 6.0
-
-*	 Engadidas opcións para escoller se as accións dispoñibles se deberían realizar despois da confirmación.
-*	Engadíronse ordes Emular copiar e Emular cortar, qué poderían asignarse dende o diálogo Xestos de Entrada.
-*	 Engadido un diálogo para configurar as funcionalidades Emular copiar e Emular copiar na instalación. Esto permite engadir as ordes control+c e control+x para copiar e curtar, e ser preguntado se queres reemplazar os contidos do portapapeis ao premer estos atallos de teclado.
-*	Arranxada a documentación para script_add (Windows+NVDA+c).
-
-## Cambios para 5.0 ##
-
-*	A presentación visual do diálogo mellorouse, engadíndose á aparenza dos
-  diálogos amosados no NVDA.
-*	Requírese do NVDA 2016.4 ou posterior.
+*	nvda+control+1-0: Le as primeiras 10 columnas.
+*	nvda+shift+1-0: Le as columnas 11 a 20.
+*	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
 
 ## Cambios para 4.0 ##
-*	As opción do complemento adminístranse dende a configuración do NVDA, así
-  que os perfís estándar pódense usar para gardar diferentes separadores, e
-  non é necesario copiar as opcións para importalas na reinstalación.
-*	Agora é posible escoller se o texto engadido se anexará ou se anteporá,
-  usando a casilla de verificación Engadir texto antes de clip data dende o
-  diálogo Opcións do Clip Contents Designer.
+*	Require NVDA 2019.3 ou posterior.
 
 ## Cambios para 3.0 ##
-*	Pódese engadir a representación braille de obxectos MathML ó portapapeis
-  se MathPlayer está instalado.
-*	Se non se puxo un separador, porase una soa liña entre os segmentos de
-  texto engadido.
-*	Pódese asignar un atallo de teclado para abrir o diálogo de opcións do
-  Clip Contents Designer .
-*	Engadida unha caixa de verificación no diálogo de opcións, para escoller
-  se o separador se debería copiar para seren importado cando se reinstale o
-  complemento.
+*	 Para procurar texto en caixas de edición de só lectura, pódese utilizar o
+   diálogo buscar, como nvda+control+f para activar o diálogo buscar.
 
 ## Cambios para 2.0 ##
-*	Pódense usar caracteres Hindi como o separador entre contidos engadidos.
+*	 A axuda do complemento está dispoñible no Administrador de Complementos.
+
+## Cambios para 1.2 ##
+*	 Cando se cambia para as mensaxes de IRC, o texto seleccionado indícase
+   correctamente.
+*	 A combinación de teclas usada para pasar á lista de resultados de busca
+   foi xeneralizada para poder mover o foco para calquera lista dispoñible
+   na ventá actual.
+*	 A orde usada para concentrar as mensaxes de IRC foi xeneralizada para
+   desprazarse a calquera caixa de edición de só lectura, o que fai posible
+   revisar a información de conexión no diálogo de servidores.
+*	 Ó mover o rato e o foco a barra de tarefas, nalgúns casos anunciábase
+   dúas veces. Esto foi correxido.
+
+## Cambios para 1.1 ##
+*	 Correxido un erro no elemento eMule no menú de axuda do NVDA, cando o
+   nome do cartafol da configuración de usuario contén caracteres non
+   latinos.
+*	 Os atallos agora poden se reasignar utilizando o diálogo de xestos de
+   entrada do NVDA.
 
 ## Cambios para 1.0 ##
-*	Versión inicial.
+*	 Versión inicial.
+
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

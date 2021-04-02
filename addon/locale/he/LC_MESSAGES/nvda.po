@@ -5,10 +5,10 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: clipContentsDesigner 3.3\n"
+"Project-Id-Version: eMule 2.7\n"
 "Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
-"POT-Creation-Date: 2015-10-23 03:00+1000\n"
-"PO-Revision-Date: 2019-06-20 09:03+0200\n"
+"POT-Creation-Date: 2015-10-23 05:05+1000\n"
+"PO-Revision-Date: 2019-03-12 15:36+0200\n"
 "Last-Translator: shmuel naaman <shmuel_naaman@yahoo.com>\n"
 "Language-Team: \n"
 "Language: he\n"
@@ -18,233 +18,85 @@ msgstr ""
 "X-Generator: Poedit 1.6.10\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#. Translators: label of a dialog.
-#, fuzzy
+#. Translators: Message presented in input help mode.
+msgid "Reads the specified column for the current list item."
+msgstr "הקראת העמודה שצויינה עבור הפריט הנוכחי ברשימה."
+
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
+#, python-format
+msgid "%s copied to clipboard"
+msgstr "%s הועתק לזכרון"
+
+#. Translators: Message presented in input help mode.
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "העתקת העמודה האחרונה שנקראה עבור הפריט הנוכחי לזכרון."
+
+#. Translators: Message presented in input help mode
+msgid "Moves the system focus and mouse to the main Tool Bar."
+msgstr "העברת הפוקוס והעכבר לסרגל הכלים הראשי."
+
+#. Translators: Message presented in input help mode.
+#. For instance: reads the search window, Statistics, IRC, etc.
+msgid "Reports the current window."
+msgstr "הקראת החלון שבפוקוס."
+
+#. Translators: Message presented in input help mode.
+msgid "Moves the system focus to the Name field of the Search window."
+msgstr "העברת הסמן לתיבת העריכה של חלונית החיפוש."
+
+#. Translators: Message presented in input help mode.
 msgid ""
-"This add-on allows to confirm if you want to copy and cut, replacing the "
-"clipboard contents,\n"
-"\t\twhen pressing control+c and control+x. This is named Emulate copy and "
-"cut.\n"
-"\t\tDo you want to configure Emulate copy and cut now? You may do or change "
-"this later."
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
 msgstr ""
-"תוסף זה מאפשר לאשר אם אתה רוצה להעתיק ולחתוך, להחליף את תוכן הלוח הגזירים, "
-"בעת לחיצה על control  + C או control + x. זה נקרא לחקות להעתיק ולחתוך, "
-"כברירת מחדל זה עובד רק כאשר הלוח מכיל טקסט. האם ברצונך להגדיר את ההעתקה "
-"לחקות ולחתוך כעת? תוכל לעשות זאת או לשנות זאת במועד מאוחר יותר."
+"העברת הפוקוס והעכבר לרשימת הפרמטרים של החיפוש או לתיבת העריכה עבור כל "
+"אופציה, בחלונית החיפוש."
 
-#. Translators: title of a dialog.
-msgid "Configure Emulate copy and cut"
-msgstr "הגדר את האפשרות להעתיק ולחתוך"
-
-#. Translators: label of a dialog.
-msgid "Preformatted text in HTML"
-msgstr "טקסט מעוצב ב HTML"
-
-#. Translators: label of a dialog.
-msgid "HTML as shown in a web browser"
-msgstr "HTML כפי שמוצג בדפדפן אינטרנט"
-
-#. Translators: Text of the clipboard shown without being formatted.
-#, fuzzy
-msgid "Plain text"
-msgstr "טקסט גולמי"
-
-#. Translators: message presented in input mode.
-msgid "Shows the Clip Contents Designer settings."
-msgstr "מציג את תיבת הדו-שיח של הגדרות עורך הזכרון הזמני."
-
-#. Translators: message presented when the clipboard content has been deleted.
-msgid "Clipboard cleared"
-msgstr "לוח הגזירים אופס"
-
-#. Translators: message presented when the clipboard content cannot be deleted.
-msgid "Clipboard not cleared"
-msgstr "לוח הגזירים לא אופס"
-
-#. Translators: message presented when it's not possible to add text, since no text has been selected.
-msgid "No text to add"
-msgstr "אין טקסט להוספה"
-
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to add text to the clipboard"
-msgstr "אנא, אשר אם ברצונך להוסיף טקסט ללוח הגזירים"
-
-#. Translators: Title of a dialog.
-msgid "Adding text to clipboard"
-msgstr "הוספת טקסט ללוח הגזירים"
-
-#. Translators: message presented when the text has been added to the clipboard.
-msgid "Added"
-msgstr "הוסף"
-
-#. Translators: message presented when the text cannot be added to the clipboard.
-msgid "Cannot add"
-msgstr "לא ניתן לבצע הוספה"
-
-#. Translators: message presented in input mode.
-#, fuzzy
+#. Translators: Message presented in input help mode.
 msgid ""
-"Retrieves the selected string or the text from the previously set start "
-"marker up to\n"
-"\t\tand including the current position of the review cursor, and adds it to "
-"the clipboard."
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
 msgstr ""
-"מחזיר את המחרוזת או את הטקסט ממיקום סימניית ההתחלה אחורה עד למקום סמן הסריקה "
-"הנוכחי,  ומוסיף את המידע ללוח הזמינים."
+"העברת הפוקוס לפריט הראשון בחלון שבפוקוס , לדוגמה : לרשימת תוצאות החיפוש, "
+"ההורדות וההעברות, וכו'."
 
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to clear the clipboard"
-msgstr "אנא, אשר אם ברצונך למחוק את לוח הגזירים"
-
-#. Translators: Title of a dialog.
-msgid "Clearing clipboard"
-msgstr "ניקוי לוח הגזירים"
-
-#. Translators: message presented in input mode.
-msgid "Deletes the added text and the content of the clipboard."
-msgstr "מוחק את הטקסט שהוסף וכן את התוכן של לוח הגזירים."
-
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to copy to the clipboard"
-msgstr "אנא, אשר אם ברצונך להעתיק ללוח הגזירים"
-
-#. Translators: Title of a dialog.
-msgid "Copying to clipboard"
-msgstr "העתקה ללוח הגזירים"
-
-#. Translators: message presented in input mode.
+#. Translators: Message presented in input help mode.
 msgid ""
-"Copies to the clipboard, with the possibility of being asked for a previous "
-"confirmation"
-msgstr "עותקים ללוח הגזירים, עם אפשרות של בקשה לאישור קודם"
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
+msgstr ""
+"העברת הפוקוס לתיבת עריכה לקריאה בלבד בחלון שבפוקוס , לדוגמה : הודעות שנתקבלו."
 
-#. Translators: Label of a dialog.
-msgid "Please, confirm if you want to cut from the clipboard"
-msgstr "אנא, אשר אם ברצונך לחתוך את הלוח הגזירים"
+#. Translators: Message presented in input help mode.
+msgid "Moves the navigator object and mouse to the current list headers."
+msgstr "העברת הפוקוס והעכבר לכותרת הרשימה שבפוקוס."
 
-#. Translators: Title of a dialog.
-msgid "Cutting from clipboard"
-msgstr "חיתוך מלוח הגזירים"
+#. Translators: Message presented in input help mode.
+msgid "Reports first object of the Status Bar."
+msgstr "הקראת הפריט הראשון של שורת המצב."
 
-#. Translators: message presented in input mode.
-msgid ""
-"Cuts from the clipboard, with the possibility of being asked for a previous "
-"confirmation"
-msgstr "גזירה מלוח הגזירים, עם אפשרות של בקשה לאישור הקודם"
+#. Translators: Message presented in input help mode.
+msgid "Reports second object of the Status Bar."
+msgstr "הקראת הפריט השני של שורת המצב."
 
-#. Translators: message presented in input mode.
-#, fuzzy
-msgid "Shows the clipboard text as HTML in browse mode"
-msgstr "הצגת טקסט לוח הגזירים במצב גלישה"
+#. Translators: Message presented in input help mode.
+msgid "Reports third object of the Status Bar."
+msgstr "הקראת הפריט השלישי של שורת המצב."
 
-#. Translators: presented when clipboard is not empty, but there is no text to show in browse mode.
-msgid "Clipboard is not empty, but there is no text to show"
-msgstr "לוח הגזירים אינו ריק, אבל אין טקסט להציג"
-
-#. Translators: presented when clipboard is empty.
-msgid "Clipboard is empty"
-msgstr "לוח הגזירים ריק"
-
-#. Translators: title of a browseable message.
-#, python-brace-format
-msgid "Clipboard text ({max}/{current} - {formatForTitle})"
-msgstr "טקסט לוח הגזירים ({max}/{current} - {formatForTitle})"
-
-#. Translators: message presented in input mode.
-#, fuzzy
-msgid "Shows the clipboard textual contents as plain text in browse mode"
-msgstr "הצגת טקסט לוח הגזירים במצב גלישה"
-
-#. Translators: label of a dialog.
-msgid ""
-"Type the string to be used as a &separator between contents added to the "
-"clipboard."
-msgstr "נא להקיש את המחרוזת המהווה &הפרדה בין התכנים השונים של לוח הגזירים."
-
-#. Translators: label of a dialog.
-msgid "&Add text before clip data"
-msgstr "הו&ספת טקסט לפני תוכן הזכרון הזמני"
-
-#. Translators: label of a dialog.
-msgid "Sele&ct the actions which require previous confirmation"
-msgstr "&בחר את הפעולות שדורשות אישור מקדים"
-
-#. Translators: label of a dialog.
-#, fuzzy
-msgid "Confirm to add text"
-msgstr "&אשר להוספת טקסט"
-
-#. Translators: label of a dialog.
-#, fuzzy
-msgid "Confirm to clear clipboard"
-msgstr "&אשר למחיקת טקסט"
-
-#. Translators: label of a dialog.
-#, fuzzy
-msgid "Confirm to emulate copy"
-msgstr "& אשר כדי להפעיל את העתקה"
-
-#. Translators: label of a dialog.
-#, fuzzy
-msgid "Confirm to emulate cut"
-msgstr "& אשר לאשר לחקות לחתוך"
-
-#. Translators: label of a dialog.
-msgid "&Request confirmation before performing the selected actions when:"
-msgstr "&אישור הבקשה לפני ביצוע הפעולות שנבחרו כאשר:"
-
-#. Translators: label of a dialog.
-msgid "Always"
-msgstr "תמיד"
-
-#. Translators: label of a dialog.
-msgid "If the clipboard contains text"
-msgstr "אם לוח הגזירים מכיל טקסט"
-
-#. Translators: label of a dialog.
-msgid "If the clipboard is not empty"
-msgstr "אם לוח הגזירים אינו ריק"
-
-#. Translators: label of a dialog.
-#, fuzzy
-msgid "&Format to show the clipboard text as HTML in browse mode:"
-msgstr "&תבנית להצגת טקסט לוח הגזירים במצב דפדוף:"
-
-#. Translators: label of a dialog.
-msgid ""
-"&Maximum number of characters when showing clipboard text in browse mode"
-msgstr "מספר התווים המקסימלי בעת הצגת טקסט לוח הגזירים במצב גלישה"
+#. Translators: Message presented in input help mode.
+msgid "Reports fourth object of the Status Bar."
+msgstr "הקראת הפריט הרביעי של שורת המצב."
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
-msgid "Clip Contents Designer"
-msgstr "הגדרות עורך הזכרון הזמני"
+msgid "eMule"
+msgstr "eMule"
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid "Add-on for managing clipboard text."
-msgstr "תוסף מיועד לעריכת תוכן לוח הגזירים."
-
-#~ msgid "Start marker set"
-#~ msgstr "קביעת סימניית התחלה"
-
-#~ msgid ""
-#~ "Marks the current position of the review cursor as the start of text to "
-#~ "be appended to the clipboard."
-#~ msgstr "מסמן את מיקום סמן הסריקה כתחילת הטקסט שיתווסף ללוח הגזירים."
-
-#~ msgid "No selection. No start marker set"
-#~ msgstr "אין טקסט נבחר. לא נקבעה סימניית התחלת"
-
-#~ msgid "The start marker must reside within the same object"
-#~ msgstr "סמן ההתחלה חייב להיות ממוקם בתוך אותו אובייקט"
-
-#~ msgid "&Text in clipboard to confirm"
-#~ msgstr "&טקסט בלוח כדי לאשר"
-
-#~ msgid "&Clip Contents Designer settings..."
-#~ msgstr "הגדרות &עורך הזכרון הזמני..."
-
-#~ msgid "Clip Contents Designer settings"
-#~ msgstr "הגדרות עורך הזכרון הזמני"
+msgid ""
+"Improves eMule's accessibility with NVDA.\n"
+"eMule is a P2P program to search and share files.\n"
+"You can get more information about eMule at\n"
+"http://www.emule-project.net"
+msgstr "משפר את הנגישות של Emule תחת Nvd."

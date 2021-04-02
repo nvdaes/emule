@@ -1,64 +1,88 @@
-# Pano içerik düzenleyicisi #
+# eMule #
 
-*	Yazarlar: Noelia Ruiz Martínez.
-*	İndir [Kararlı Sürüm][1]
-*	İndir [Geliştirme sürümü][2]
+*	Yazarlar: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2019.3 or later.
+*	İndir [kararlı versiyon][1]
+*	İndir [geliştirme sürümü][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-## Klavye komutları ##
-*	NVDA+windows+c: Add selected text, Unicode braille characters which
-  represent MathML objects, or the string which has been marked with the
-  review cursor, to the clipboard.
-*	NVDA+windows+x: Pano içeriğini siler.
-*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard.
-    If you use nvda+F9, the text will not be added.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-Not: Yukarıdaki komutlar NVDA menüsünden, Tercihler altmenüsünden, girdi
-hareketleri iletişim kutusu içerisindeki Metin incelemesi kategorisi
-altından değiştirilebilir .
+[EMule] [2] 0.50a test edilmiştir.
 
-## Tercihler Menüsü ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended.
+## Tuş komutları: ##
 
-Note: The above command can be changed from NVDA menu, Preferences submenu,
-Input gestures dialog, Configuration category.
+*	control+shift+h: odak ve fareyi Ana araç çubuğuna  taşır.
+*	kontrol + shift + t: Geçerli pencereyi okur.
+*	kontrol + shift + n: Bul penceresinde odağı Ad alanınna taşır.
+*	kontrol + shift + p: Arama penceresinde, odağı ve fareyi arama
+  parametreleri listesine  veya alan düzenleme seçeneklerine taşır.
+*	control+shift+b: Move the focus to the list in the current window. For
+  example usable in the Search window, downloads in Transfer window, etc.
+*	control+shift+o: Move the focus to read-only edit boxes in the current
+  window. For example the IRC received messages, available Servers, etc.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
+*	kontrol + shift + l: Fare ve nesne sunucusunu Mevcut listenin başlıkları
+  üzerine taşır.
+*	kontrol + shift + q: durum çubuğunda ilk nesneyi okur; son etkinlik
+  hakkında bilgi verir.
+*	kontrol + shift + w: geçerli sunucu üzerinde dosya ve kullanıcılar
+  hakkında bilgi içeren durum çubuğunun ikinci nesnesini okur.
+*	kontrol + shift + e: yükleme ve indirme hızıyla ilgili bilgi veren durum
+  çubuğunun üçüncü nesnesini okur.
+*	kontrol + shift + r: eD2K ve Kad ağ bağlantı raporlarıyla ilgili durum
+  çubuğunun dördüncü nesnesini okur.
 
-## Changes for 5.0 ##
+## Sütunların yönetimi. ##
 
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+Bir liste içindeyken, alt + kontrol + yön tuşlarıyla satır ve sütunlar
+arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
+
+*	NVDA + kontrol 1-0: ilk 10 sütunu okur.
+*	NVDA + shift 1-0: 11-20 sütunları okur.
+*	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
 ## Changes for 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
+*	Requires NVDA 2019.3 or later.
 
 ## Changes for 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	If no separator is set, just a single line will be placed between the
-  added text segments.
-*	A shortcut can be assigned to open the Clip Contents Designer settings
-  dialog.
-*	Added a check box in the settings dialog, for choosing if the separator
-  should be copied to be imported when reinstalling the add-on.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Changes for 2.0 ##
-*	Hindi characters can be used as the separator between added contents.
+*	 Add-on help is available from the Add-ons Manager.
 
-## 1.0 için Değişiklikler ##
-*	İlk versiyon.
+## 1.2 için Değişiklikler ##
+*	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
+*	 The keystroke used for moving to the Search results list has been
+   generalized to be able to move focus to any available list in the current
+   window.
+*	 The command used to focus the IRC messages has been generalized to move
+   to any read-only edit box, making it possible to review connection
+   information in the Servers window.
+*	 When moving mouse and focus to the toolbar, in some cases it was
+   announced twice. This has been fixed.
+
+## 1.1 Değişiklikler ##
+*	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.
+*	 Kısayollar şimdi NVDA girdi hareketleri iletişim kutusu kullanılarak
+   yeniden atanabilir.
+
+## 1.0 Değişiklikler ##
+*	 İlk versiyon.
+
 
 [[!tag dev stable]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://www.emule-project.net
+
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

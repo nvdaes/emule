@@ -1,123 +1,91 @@
-# Clip Contents Designer #
+# eMule #
 
-*	Authors: Noelia, Abdel.
-*	NVDA compatibility: 2019.3 or later
-*	Загрузить [стабильную версию][1]
-*	Загрузить [разрабатываемую версию][2]
+*	Авторы: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2019.3 or later.
+*	загрузить [стабильную версию][1]
+*	загрузить [разрабатываемую версию][3]
+*	download [version compatible with NVDA 2017.3][4]
 
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared an shown in browse mode.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-## Команды клавиш ##
+Проверено на [eMule][2] 0.50a.
 
-* NVDA+windows+c: Добавить выделенный текст, символы юникода брайля,
-  представляющие объекты в MathML, или строку, которая была отмечена
-  просмотровым курсором в буфер обмена.
-* NVDA+windows+x: Очистить содержимое буфера обмена.
-* Not assigned: Copies to (or cuts from) the clipboard, with the possibility
-  of being asked for a previous confirmation.
-* Not assigned: Shows the clipboard text in browse mode, or announces if
-  clipboard is empty or has contents which can't be presented in a
-  browseable message, for instance if files or folders are been copied from
-  Windows Explorer.
+## Основные команды: ##
 
-Примечание: Эти команды могут быть изменены в меню NVDA, подменю Параметры,
-диалог Жесты ввода, категория просмотр текста.
+*	control+shift+h: перемещение фокуса и мыши к главной панели инструментов.
+*	control+shift+t: Чтение текущего окна.
+*	control+shift+n: Перемещение фокуса на поле Имя в окне поиска.
+*	control+shift+p: В окне поиска, перемещает фокус и мышь в список
+  параметров поиска или в поле редактирования вариантов.
+*	control+shift+b Перемещение фокуса в список в текущем окне. Например,
+  используется в окне поиска, загрузки в окне передачи и т.д.
+*	control+shift+o: Перемещение фокуса в поля редактирования только для
+  чтения в текущем окне. Например, полученные сообщения IRC, доступные
+  серверы и т.д.
+*	control+NVDA+f: Если курсор находится в поле редактирования только для
+  чтения, откроет диалог поиска, доступный в NVDA.
+*	control+shift+l: Перемещение объекта навигатора и мыши к заголовкам
+  текущего списка.
+*	control+shift+q: Читает первый объект в строке состояния; предоставляет
+  информацию о последних действиях.
+*	control+shift+w: Читает второй объект в строке состояния; содержит
+  информацию о файлах и пользователях на текущем сервере.
+*	control+shift+e: Читает третий объект строки состояния; полезно знать
+  скорость загрузки / выгрузки.
+*	control+shift+r: Читает четвёртый объект строки состояния; отчеты о
+  подключении к eD2K и Kad сетям.
 
-## Меню Настроек ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended, if available actions (add, clear clipboard, emulate copy and emulate cut) should be performed inmediately or after confirmation, and if confirmations will be requested always, just if text is contained in the clipboard, or if clipboard is not empty.
-Furthermore, it's possible to change the format and maximum number of characters of the clipboard text which will be shown in browse mode. Please, be aware that increasing this limit may produce issues if the clipboard contains large strings of text. The default limit is 100000 characters.
+## Управление столбцами. ##
 
-Примечания:
+Находясь в списке, можно перемещать курсор между строк и столбцов с помощью
+alt+ctrl+ стрелок. Следующие команды клавиш здесь также доступны:
 
-*	Приведенная выше команда может быть изменена из меню NVDA, подменю
-  параметры, диалог жесты ввода, категория конфигурация.
-*	Confirmations won't be requested when a message box of NVDA is still
-  opened. In those cases, actions will be inmediately performed.
+*	nvda+control+1-0: читает первые 10 столбцов.
+*	nvda+shift+1-0: читает столбцы с 11 по 20.
+*	nvda+shift+C: копирует содержимое последнего прочитанного столбца в буфер
+  обмена.
 
-## Changes for 12.0
-* Fixed bugs when using emulate copy in applications like LibreOffice
-  Writer.
+## Changes for 4.0 ##
+*	Requires NVDA 2019.3 or later.
 
-## Changes for 11.0
-* Now it's possible to add text marked with the review cursor using standard
-  commands of NVDA (NVDA+f9 and NVDA+f10). NVDA+windows+f9 is no longer
-  used, for a better integration with the new NVDA+shift+f9 command.
-* Requires NVDA 2019.3 or later.
+## Изменения в версии 3.0 ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
-## Changes for 10.0
-* Fixed a bug in the dialog used to show the clipboard text, when its title
-  contains non latin characters.
-* Fixed a bug when using the emulate cut and copy features with an Arabic
-  keyboard layout. This has been fixed by Abdel, added as an add-on author.
+## Изменения в версии 2.0 ##
+*	 Справка дополнения доступна в диспетчере дополнений.
 
-## Changes for 9.0
+## Изменения в версии 1.2 ##
+*	 При перемещении к сообщениям IRC, выделенный текст сообщается правильно.
+*	 Комбинации клавиш, использующихся для перемещения в список результатов
+   поиска, были обобщены, чтобы иметь возможность перемещать фокус на любой
+   доступный список текущего окна.
+*	 Команда, используемая для просмотра сообщений IRC, была обобщена, чтобы
+   переходить к любому полю редактирования только для чтения, что делает
+   возможным просмотреть информацию о соединении в окне сервера.
+*	 При перемещении мыши и фокуса на панель инструментов, в некоторых случаях
+   были двукратные объявления. Это было исправлено.
 
-* Added the possibility of showing the clipboard text in browse mode.
-* Added an option to choose if confirmations will be required if clipboard
-  is not empty, for instance, if files or folders are been copied.
-* Requires NVDA 2018.4 or later.
+## Изменения в версии 1.1 ##
+*	 Исправлена ошибка элемента меню eMule в пункте меню помощи NVDA, когда
+   имя папки конфигурации Пользователя содержит не латинские буквы.
+*	 Горячие клавиши могут теперь быть переназначены с помощью диалога жестов
+   ввода NVDA.
 
-## Changes for 8.0 ##
+## Изменения в версии 1.0 ##
+*	 Начальная версия.
 
-* The add-on settings are shown in the corresponding category of the NVDA
-  Settings dialog.
-* Requires NVDA 2018.2 or later.
-* If needed, you can download the [last version compatible with NVDA
-  2017.3][3].
-
-## Changes for 7.0
-
-* In the dialog to configure the Emulate copy and Emulate cut
-  functionalities at installation, if you choose no, the commands for these
-  features will be removed, so that you can restore the normal behavior for
-  control+c and control+x.
-
-## Изменения для 6.0
-
-*	 Added options to choose if available actions should be performed after confirmation.
-*	Added Emulate copy and Emulate cut commands, which could be assigned from the Input gestures dialog.
-*	 Added a dialog to configure the Emulate copy and Emulate cut functionalities at installation. This allows to add the control+c and control+x commands to copy and cut, and be asked if you want to replace the clipboard contents when pressing these keystrokes.
-*	Fixed documentation for script_add (Windows+NVDA+c).
-
-## Изменения для 5.0 ##
-
-*	Визуальное представление диалогов было модифицировано, придерживаясь
-  внешнего вида диалогов, отображаемых в NVDA.
-*	Требуется NVDA 2016.4 или позднее.
-
-## Изменения для 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
-
-## Изменения для 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	Если разделитель не выбран, между фрагментами текста будет добавляться
-  одна пустая строка.
-*	A shortcut can be assigned to open the Clip Contents Designer settings
-  dialog.
-*	Added a check box in the settings dialog, for choosing if the separator
-  should be copied to be imported when reinstalling the add-on.
-
-## Изменения для 2.0 ##
-*	Символы хинди могут использоваться в качестве разделителя между
-  добавляемым содержимым.
-
-## Изменения для 1.0 ##
-*	Первоначальная версия.
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: https://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=ccd-o
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev

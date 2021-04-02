@@ -1,81 +1,89 @@
-# Clip Contents Designer #
+# eMule #
 
-*	مطورو الإضافة: Noelia Ruiz Martínez.
-*	تحميل [الإصدار النهائي] [1]
-*	تحميل [الإصدار التجريبي] [2]
+*	مطورو الإضافة: Noelia, Chris, Alberto
+*	NVDA compatibility: 2019.3 or later.
+*	تحميل [الإصدار النهائي][1]
+*	تحميل [الإصدار التجريبي][3]
+*	download [version compatible with NVDA 2017.3][4]
 
-This add-on is used to add text to the clipboard, which can be useful when
-you want to join sections of text together ready for pasting.  The clipboard
-content can also be cleared.
+This add-on helps to improve accessibility of eMule with nVDA.  It also
+provides additional keyboard commands for moving in different windows and
+gives Useful information about eMule.
 
-## مفاتيح الاختصار ##
-*	NVDA+windows+c: Add selected text, Unicode braille characters which
-  represent MathML objects, or the string which has been marked with the
-  review cursor, to the clipboard.
-*	NVDA+windows+x: لمسح محتوى الحافظة
-*	NVDA+windows+f9: Mark the current position of the review cursor as the start of the text to be added to the clipboard. If you use nvda+F9, the text will not be added.
-*	 Not assigned: Copies to (or cuts from) the clipboard, with the possibility of being asked for a previous confirmation.
+It's based on the eMuleNVDASupport add-on, developed by the same author. You
+should uninstall that old add-on to use this one, since both have common
+keystrokes and features.
 
-ملحوظة: يمكنك تغيير الاختصارات المذكورة أعلاه من خلال الذهاب إلى قائمة NVDA
-الرئيسية, ثم قائمة التفضيلات, ثم تخصيص اختصارات NVDA, ثم فئة استعراض النص.
+وقد تم تجربة الإضافة مع الإصدار  [eMule][2] 0.50a.
 
-## قائمة التفضيلات ##
-*	Clip Contents Designer settings: Allows to set a separator which can be used to find the text segments once the entire added text is pasted.
-It's also possible to choose if the added text will be appended or prepended, if available actions (add, clear clipboard, emulate copy and emulate cut) should be performed inmediately or after confirmation, and if confirmations will be requested just if text is contained in the clipboard.
+## الأوامر والمفاتيح المختصرة ##
 
-Notes:
+*	control+shift+h: تحريك مؤشر الفأرة ومؤشر النظام تجاه شريط الأدوات
+  الرئيسي. 
+*	control+shift+t: لقراءة النافذة الحالية
+*	control+shift+n: لتحريك مؤشر النظام إلى حقل الاسم في نافذة البحث.
+*	control+shift+p: في نافذة البحث يحرك مؤشر الفأرة ومؤشر النظام تجاه قائمة
+  معطيات البحث أو خيارات حقول التحرير. 
+*	control+shift+b: لتحريك مؤشر النظام تجاه القائمة الموجودة بالنافذة
+  الحالية. كالانتقال إلى قوائم نتائج البحث, أو التحميلات بنافذة نقل الملفات,
+  وهكذا.
+*	control+shift+o: لتحريك مؤشر النظام تجاه مربعات التحرير المخصصة للقراءة
+  فقط في النافذة الحالية.  كمربعات تحرير استلام رسائل بروتوكول IRC, أو
+  الخوادم المتاحة, وهكذا.
+*	control+NVDA+f: If the caret is located in a read only edit box, opens a
+  find dialog to use the commands for searching text available in NVDA.
+*	control+shift+l: لتحريك مؤشر NVDA ومؤشر الفأرة تجاه رأس القائمة الحالية. 
+*	control+shift+q: لقراءة أول كائن في شريط الحالة. يعطي معلومات عن أحدث أمر
+  تم تنفيذه. 
+*	control+shift+w: لقراءة الكائن الثاني في شريط الحالة. ويحتوي على معلومات
+  عن الملفات والمستخدمين الحاليين على الخادم الحالي. 
+*	control+shift+e: لقراءة الكائن الثالث في شريط الحالة. مفيد في معرفة سرعة
+  الرفع والتنزيل. 
+*	control+shift+r: لقراءة الكائن الرابع في شريط الحالة. يستخدم للإعلام عن
+  الاتصال بشبكة eD2K و CAD
 
-*	The above command can be changed from NVDA menu, Preferences submenu,
-  Input gestures dialog, Configuration category.
-*	Confirmations won't be requested when a message box of NVDA is still
-  opened. In those cases, actions will be inmediately performed
+## إدارة العماويد ##
 
-## Changes for 7.0
+إذا كنت داخل القائمة يمكنك التنقل بين الصفوف والأعمدة باستخدام alt+control
+مع الأسهم.  وفي هذه الإضافة تتوفر أيضا مفاتيح الاختصار التالية:
 
-* In the dialog to configure the Emulate copy and Emulate cut
-  functionalities at installation, if you choose no, the commands for these
-  features will be removed, so that you can restore the normal behavior for
-  control+c and control+x.
-
-## Changes for 6.0
-
-*	 Added options to choose if available actions should be performed after confirmation.
-*	Added Emulate copy and Emulate cut commands, which could be assigned from the Input gestures dialog.
-*	 Added a dialog to configure the Emulate copy and Emulate cut functionalities at installation. This allows to add the control+c and control+x commands to copy and cut, and be asked if you want to replace the clipboard contents when pressing these keystrokes.
-*	Fixed documentation for script_add (Windows+NVDA+c).
-
-## Changes for 5.0 ##
-
-*	The visual presentation of the dialog has been enhanced, adhering to the
-  appearance of the dialogs shown in NVDA.
-*	Requires NVDA 2016.4 or later.
+*	nvda+control+1-0: لقراءة الأعمدة العشر الأولى. 
+*	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
+*	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
 ## Changes for 4.0 ##
-*	Add-on settings are managed from NVDA configuration, so that standard
-  profiles can be used to save different separators, and it's not needed to
-  copy the settings for importing at reinstallation.
-*	Now it's possible to choose if the added text will be appended or
-  prepended, using the Add text before clip data check box from the Clip
-  Contents Designer settings dialog.
+*	Requires NVDA 2019.3 or later.
 
-## مستجدات الإصدار 3.0 ##
-*	Braille representation of MathML objects can be added to the clipboard if
-  MathPlayer is installed.
-*	If no separator is set, just a single line will be placed between the
-  added text segments.
-*	يمكن تعيين اختصار لفتح محاورة إعدادات الإضافة.
-*	إضافة مربع تحديد لإعدادات الإضافة, للاختيار ما إذا كان ينبغي نسخ الفاصل
-  بين القطع النصية لاستيراده عند إعادة تثبيت الإضافة
+## Changes for 3.0 ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
-## مستجدات الإصدار 2.0 ##
-*	Hindi characters can be used as the separator between added contents.
+## مستجدات الإصدار  1.0 ##
+*	 إتاحة ملف المساعدة بمدير الإضافات البرمجية.
 
-## مستجدات الإصدار 1.0 ##
-*	إصدار أولي
+## مستجدات الإصدار 1.2 ##
+*	 عند التحرك على رسائل ال IRC, فإنه سيتم الإعلان عنها بشكل صحيح
+*	 لقد تم تعميم الاختصار الذي كان منوط بالانتقال إلى نتائج البحث حيث أصبح
+   ينتقل لأي قائمة موجودة بالنافذة الحالية.
+*	 لقد تم تعميم الأمر المخصص للانتقال للرسائل المستلمة ببروتوكول IRC حيث
+   أصبح ينتقل إلى أي مربع تحرير للقراءة فقط, وذلك أدى إلى إمكانية مراجعة
+   معلومات الاتصال بنافذة الخوادم.
+*	 معالجة نطق شريط الأدوات مرتين في بعض الأحوال عند تحريك الفأرة أو مؤشر
+   النظام إليه.
+
+## تعديلات الإصدار  1.1 ##
+*	 إصلاح خطأ برمجي بعنصر eMule بقائمة المساعدة ب NVDA, عندما يحتوي اسم ملف
+   إعدادات المستخدم على أحرف غير لاتينية.
+*	 يمكن إعادة تخصيص اختصارات الإضافة من خلال محاورة تخصيص اختصارات NVDA.
+
+## تعديلات الإصدار  1.0 ##
+*	 نسخة أولية
+
 
 [[!tag dev stable]]
-[[!tag dev]]
 
-[1]: http://addons.nvda-project.org/files/get.php?file=ccd
+[1]: https://addons.nvda-project.org/files/get.php?file=em
 
-[2]: http://addons.nvda-project.org/files/get.php?file=ccd-dev
+[2]: https://www.emule-project.net
+
+[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
