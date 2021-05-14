@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: eMule 2.8\n"
-"Report-Msgid-Bugs-To: nvda-translations@freelists.org\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2016-02-12 05:05+1000\n"
 "PO-Revision-Date: 2018-09-28 21:31+0300\n"
 "Last-Translator: Florian Ionașcu <florianionascu@hotmail.com>\n"
