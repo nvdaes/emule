@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # eMule app module
-#Copyright (C) 2012-2019 Noelia Ruiz Martínez, Alberto Buffolino
+# Copyright (C) 2012-2021 Noelia Ruiz Martínez, Alberto Buffolino, Javi Domínguez
 # Released under GPL 2
 
 import appModuleHandler
@@ -22,6 +22,7 @@ import tones
 
 addonHandler.initTranslation()
 
+
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
@@ -41,10 +42,12 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 		c = 1
 		try:
 			while True:
-				if self._getColumnLocation(c).width: # width = 0 indicates that the column is disabled and therefore, although it is accessible by NVDA, it is invisible on the screen
+				# width = 0 indicates that the column is disabled
+				# and therefore, although it is accessible by NVDA, it is invisible on the screen
+				if self._getColumnLocation(c).width:
 					self.enabledColumns.append(c)
 				c += 1
-		except IndexError: # Exceeding the last column ends the loop
+		except IndexError:  # Exceeding the last column ends the loop
 			pass
 
 	@script(
@@ -61,11 +64,11 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			self._savedColumnNumber = col
 
 	def script_readPreviousColumn(self, gesture):
-		if self.readColumn(self._savedColumnNumber-1):
+		if self.readColumn(self._savedColumnNumber - 1):
 			self._savedColumnNumber -= 1
 
 	def script_readNextColumn(self, gesture):
-		if self.readColumn(self._savedColumnNumber+1):
+		if self.readColumn(self._savedColumnNumber + 1):
 			self._savedColumnNumber += 1
 
 	@script(
@@ -83,7 +86,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			tones.beep(250, 50)
 			return None
 		try:
-			col = self.enabledColumns[col-1]
+			col = self.enabledColumns[col - 1]
 			header = self._getColumnHeader(col)
 			subitem = self._getColumnContent(col) if self._getColumnContent(col) else ""
 			column = ": ".join([header, subitem])
@@ -94,11 +97,13 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			tones.beep(250, 50)
 			return None
 
+
 class RichEditCursorManager(CursorManager):
 
 	def makeTextInfo(self, position):
-	# Fixes regression for issue 4291.
-		return EditTextInfo(self,position)
+		# Fixes regression for issue 4291.
+		return EditTextInfo(self, position)
+
 
 class AppModule(appModuleHandler.AppModule):
 
@@ -109,12 +114,14 @@ class AppModule(appModuleHandler.AppModule):
 			clsList.insert(0, EmuleRowWithFakeNavigation)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
-			
+
 	def getToolBar(self):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
-				windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, controlID=16127
-			), winUser.OBJID_CLIENT, 0)
+				windowUtils.findDescendantWindow(
+					api.getForegroundObject().windowHandle, visible=True, controlID=16127
+				), winUser.OBJID_CLIENT, 0
+			)
 		except LookupError:
 			return None
 		return obj
@@ -123,9 +130,9 @@ class AppModule(appModuleHandler.AppModule):
 		toolBar = self.getToolBar()
 		if toolBar is None:
 			return None
-		children=toolBar.children
+		children = toolBar.children
 		for child in children:
-			if child.IAccessibleStates==16:
+			if child.IAccessibleStates == 16:
 				return child
 
 	def getName(self):
@@ -134,15 +141,18 @@ class AppModule(appModuleHandler.AppModule):
 			return where.name
 
 	def getHeader(self):
-		obj=api.getFocusObject()
-		if not (obj and obj.windowClassName == 'SysListView32' and obj.IAccessibleRole==oleacc.ROLE_SYSTEM_LISTITEM):
+		obj = api.getFocusObject()
+		if not (
+			obj and obj.windowClassName == 'SysListView32'
+			and obj.IAccessibleRole == oleacc.ROLE_SYSTEM_LISTITEM
+		):
 			return
-		obj=obj.parent
+		obj = obj.parent
 		try:
-			(left,top,width,height) = obj.location
-			obj=NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
+			(left, top, width, height) = obj.location
+			obj = NVDAObjects.IAccessible.getNVDAObjectFromPoint(left, top)
 			return obj
-		except:
+		except Exception:
 			return None
 
 	def statusBarObj(self, pos):
@@ -161,7 +171,7 @@ class AppModule(appModuleHandler.AppModule):
 			if obj != api.getMouseObject():
 				api.moveMouseToNVDAObject(obj)
 				api.setMouseObject(obj)
-			if not controlTypes.STATE_FOCUSED in obj.states:
+			if controlTypes.STATE_FOCUSED not in obj.states:
 				obj.setFocus()
 			eventHandler.queueEvent("gainFocus", obj)
 
@@ -185,19 +195,24 @@ class AppModule(appModuleHandler.AppModule):
 	def script_name(self, gesture):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
-				windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, controlID=2183
-			), winUser.OBJID_CLIENT, 0)
+				windowUtils.findDescendantWindow(
+					api.getForegroundObject().windowHandle, visible=True, controlID=2183
+				), winUser.OBJID_CLIENT, 0
+			)
 		except LookupError:
 			return
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
 
 	@script(
-		# Translators: Message presented in input help mode.
-		description=_("Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."),
+		description=_(
+			# Translators: Message presented in input help mode.
+			"Moves the system focus and mouse to the search parameters list or Edit field for each option,"
+			" in the Search window."
+		),
 		gesture="kb:control+shift+p"
 	)
 	def script_searchList(self, gesture):
@@ -206,37 +221,47 @@ class AppModule(appModuleHandler.AppModule):
 			return
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
-				windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, controlID=2833
-			), winUser.OBJID_CLIENT, 0)
+				windowUtils.findDescendantWindow(
+					api.getForegroundObject().windowHandle, controlID=2833
+				), winUser.OBJID_CLIENT, 0
+			)
 		except LookupError:
 			return
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
 
 	@script(
-		# Translators: Message presented in input help mode.
-		description=_("Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc."),
+		description=_(
+			# Translators: Message presented in input help mode.
+			"Moves the system focus to the first list in the current window."
+			" For example the results list in the Search window, downloads in Transfer, etc."
+		),
 		gesture="kb:control+shift+b"
 	)
 	def script_list(self, gesture):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
-				windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, className="SysListView32"
-			), winUser.OBJID_CLIENT, 0)
+				windowUtils.findDescendantWindow(
+					api.getForegroundObject().windowHandle, visible=True, className="SysListView32"
+				), winUser.OBJID_CLIENT, 0
+			)
 		except LookupError:
 			return
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
 
 	@script(
 		# Translators: Message presented in input help mode.
-		description=_("Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages."),
+		description=_(
+			"Moves the system focus to read-only edit boxes in the current window."
+			" For example the IRC received messages."
+		),
 		gesture="kb:control+shift+o"
 	)
 	def script_readOnlyEdit(self, gesture):
@@ -247,15 +272,17 @@ class AppModule(appModuleHandler.AppModule):
 			cID = None
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
-				windowUtils.findDescendantWindow(api.getForegroundObject().windowHandle, visible=True, className="RichEdit20W", controlID=cID
-			), winUser.OBJID_CLIENT, 0)
+				windowUtils.findDescendantWindow(
+					api.getForegroundObject().windowHandle, visible=True, className="RichEdit20W", controlID=cID
+				), winUser.OBJID_CLIENT, 0
+			)
 		except LookupError:
 			return
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN,0,0,None,None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP,0,0,None,None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
+			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
 
 	@script(
 		# Translators: Message presented in input help mode.
