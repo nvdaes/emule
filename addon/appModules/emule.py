@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # eMule app module
-# Copyright (C) 2012-2021 Noelia Ruiz Martínez, Alberto Buffolino, Javi Domínguez
+# Copyright (C) 2012-2021 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
 
 import appModuleHandler
