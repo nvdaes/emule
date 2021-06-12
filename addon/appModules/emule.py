@@ -18,7 +18,6 @@ from NVDAObjects.behaviors import RowWithFakeNavigation
 from cursorManager import CursorManager
 from NVDAObjects.window.edit import EditTextInfo
 from scriptHandler import script
-import tones
 
 addonHandler.initTranslation()
 
@@ -34,21 +33,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 				gesture = "kb:NVDA+{mod}+{num}".format(mod=modifier, num=n)
 				self.bindGesture(gesture, "readColumn")
 		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
-		self.bindGesture("kb:rightArrow", "readNextColumn")
-		self.bindGesture("kb:leftArrow", "readPreviousColumn")
-		self._savedColumnNumber = 0
-		# Get a list of visible columns for avoid showing disabled columns
-		self.enabledColumns = []
-		c = 1
-		try:
-			while True:
-				# width = 0 indicates that the column is disabled
-				# and therefore, although it is accessible by NVDA, it is invisible on the screen
-				if self._getColumnLocation(c).width:
-					self.enabledColumns.append(c)
-				c += 1
-		except IndexError:  # Exceeding the last column ends the loop
-			pass
+
 
 	@script(
 		# Translators: Message presented in input help mode.
@@ -60,42 +45,22 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			col += 10
 		if "shift" in gesture.modifierNames:
 			col += 10
-		if self.readColumn(col):
-			self._savedColumnNumber = col
-
-	def script_readPreviousColumn(self, gesture):
-		if self.readColumn(self._savedColumnNumber - 1):
-			self._savedColumnNumber -= 1
-
-	def script_readNextColumn(self, gesture):
-		if self.readColumn(self._savedColumnNumber + 1):
-			self._savedColumnNumber += 1
+		self._moveToColumnNumber(col)
 
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Copies the last read column of the selected list item to clipboard.")
 	)
 	def script_copyColumn(self, gesture):
-		column = self.readColumn(self._savedColumnNumber, False)
+		try:
+					header = self._getColumnHeader(col)
+			subitem = self._getColumnContent(col)
+			column = ": ".join([header, subitem])
+		except:
+			return
 		if api.copyToClip(column):
 			# Translators: Message presented when the current column of the list item is copied to clipboard.
 			ui.message(_("%s copied to clipboard") % column)
-
-	def readColumn(self, col, verbose=True):
-		if col <= 0:
-			tones.beep(250, 50)
-			return None
-		try:
-			col = self.enabledColumns[col - 1]
-			header = self._getColumnHeader(col)
-			subitem = self._getColumnContent(col) if self._getColumnContent(col) else ""
-			column = ": ".join([header, subitem])
-			if verbose:
-				ui.message(column)
-			return column
-		except IndexError:
-			tones.beep(250, 50)
-			return None
 
 
 class RichEditCursorManager(CursorManager):
