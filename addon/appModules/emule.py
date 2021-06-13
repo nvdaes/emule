@@ -34,7 +34,6 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 				self.bindGesture(gesture, "readColumn")
 		self.bindGesture("kb:NVDA+shift+c", "copyColumn")
 
-
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Reads the specified column for the current list item.")
@@ -53,10 +52,14 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	)
 	def script_copyColumn(self, gesture):
 		try:
-					header = self._getColumnHeader(col)
+			col = api.getNavigatorObject().columnNumber
+		except NotImplementedError:
+			pass
+		try:
+			header = self._getColumnHeader(col)
 			subitem = self._getColumnContent(col)
 			column = ": ".join([header, subitem])
-		except:
+		except Exception:
 			return
 		if api.copyToClip(column):
 			# Translators: Message presented when the current column of the list item is copied to clipboard.
