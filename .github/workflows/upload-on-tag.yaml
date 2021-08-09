@@ -42,11 +42,9 @@ jobs:
     - name: Calculate sha256
       run: sha256sum *.nvda-addon >> changelog.md
     - name: Release
-      uses: softprops/action-gh-release@v1
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      uses: ncipollo/release-action@v1
       with:
-        files: |
-          *.nvda-addon
-        body_path: changelog.md
+        artifacts: "*.nvda-addon"
+        bodyFile: "changelog.md"
+        token: ${{ secrets.GITHUB_TOKEN }}
         prerelease: ${{ endsWith(github.ref, '-dev') }}
