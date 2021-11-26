@@ -54,6 +54,9 @@ sau:
 *	nvda+shift+1-0: thông báo các cột từ 11 đến 20.
 *	nvda+shift+C: chép cột cuối cùng được đọc vào bộ nhớ tạm.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Các thay đổi cho phiên bản 4.0 ##
 *	Yêu cầu NVDA 2019.3 trở lên.
 

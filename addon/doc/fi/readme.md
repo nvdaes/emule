@@ -52,6 +52,9 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Vaihto+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Muutokset versiossa 5.0
+*	Yhteensopiva NVDA 2021.1:n kanssa.
+
 ## Muutokset versiossa 4.0 ##
 *	Edellyttää NVDA 2019.3:a tai uudempaa.
 

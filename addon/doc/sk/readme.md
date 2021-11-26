@@ -48,6 +48,9 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Zmeny vo verzii 4.0 ##
 *	Vyžaduje NVDA od verzie 2019.3.
 

@@ -54,6 +54,9 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Novità nella versione 4.0 ##
 *	Richiede NVDA 2019.3 o superiore.
 

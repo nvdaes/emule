@@ -53,6 +53,9 @@ sunt de asemenea disponibile:
 *	nvda+shift+1-0: Citește coloanele de la 11 până la 20.
 *	nvda+shift+C: Copiază conținutul ultimei coloane citite pe planșetă.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 

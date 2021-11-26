@@ -54,6 +54,9 @@ parancsok is elérhetőek:
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 

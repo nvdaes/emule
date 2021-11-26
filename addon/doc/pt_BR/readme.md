@@ -53,6 +53,9 @@ seguintes teclas de comando:
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Mudanças na 4.0 ##
 *	Requer NVDA 2019.3 ou posterior.
 

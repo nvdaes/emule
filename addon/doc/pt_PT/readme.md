@@ -55,6 +55,9 @@ disponíveis:
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 

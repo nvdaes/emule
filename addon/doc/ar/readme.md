@@ -51,6 +51,9 @@ keystrokes and features.
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 

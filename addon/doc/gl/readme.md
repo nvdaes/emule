@@ -1,16 +1,16 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Compatibilidade con NVDA: 2019.3 ou posterior
+*	Compatibilidade con NVDA: 2019.3 ou posterior.
 *	descarga [versión estable][1]
 *	descargar [versión de desenvolvemento][3]
-*	Descargar [versión compatible con NVDA 2017.3][4]
+*	descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento axuda a mellorar a accesivilidade do eMule co nVDA.  Tamén
 proporciona ordes de teclado adicionais para moverte en diferentes ventás e
 dar información util do eMule.
 
-baséase no complemento eMuleNVDASupport, desenvolvido polo mesmo
+Baséase no complemento eMuleNVDASupport, desenvolvido polo mesmo
 autor. Debes desinstalar o vello complemento para usar este, xa que ambos
 teñen as pulsacións de teclado e as características comúns.
 
@@ -52,6 +52,9 @@ dispoñibles as seguintes ordes de teclado:
 *	nvda+control+1-0: Le as primeiras 10 columnas.
 *	nvda+shift+1-0: Le as columnas 11 a 20.
 *	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
+
+## Cambios para 5.0
+*	Compatible con NVDA 2021.1.
 
 ## Cambios para 4.0 ##
 *	Require NVDA 2019.3 ou posterior.

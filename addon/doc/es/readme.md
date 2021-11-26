@@ -55,6 +55,9 @@ están disponibles las siguientes órdenes de teclado:
 *	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 5.0
+*	Compatible con NVDA 2021.1.
+
 ## Cambios para 4.0 ##
 *	Se requiere NVDA 2019.3 o posterior.
 

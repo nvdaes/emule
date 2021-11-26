@@ -54,6 +54,9 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Änderungen in 5.0
+*	Kompatibel mit NVDA 2021.1.
+
 ## Änderungen in 4.0 ##
 *	Erfordert NVDA 2019.3 oder höher.
 

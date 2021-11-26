@@ -53,6 +53,9 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 *	nvda+shift+C: Kopira sadržaj zadnje pročitane kolone u privremenu
   memoriju.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 
