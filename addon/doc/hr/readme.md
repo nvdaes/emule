@@ -52,6 +52,9 @@ prečaci:
 *	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
 *	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Promjene u verziji 4.0 ##
 *	Zahtijeva NVDA 2019.3 ili noviju verziju.
 

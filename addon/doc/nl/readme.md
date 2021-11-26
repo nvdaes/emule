@@ -53,6 +53,9 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 

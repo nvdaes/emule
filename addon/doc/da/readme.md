@@ -52,6 +52,9 @@ følgende tastaturkommandoer:
 *	NVDA+Shift+c: Kopierer indholdet i den sidst læste kolonne til
   udklipsholderen.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Ændringer i4.0 ##
 *	Kræver NVDA 2019.3 eller nyere.
 

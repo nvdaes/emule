@@ -35,6 +35,9 @@
 *	nvda+shift+1到0： 朗读第11到20列。
 *	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## 版本4.0 ##
 *	需要NVDA 2019.3或更高版本。
 
