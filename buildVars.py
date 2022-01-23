@@ -26,7 +26,7 @@ http://www.emule-project.net"""),
 	# Author(s)
 	"addon_author": u"Noelia <nrm1977@gmail.com>, Chris <llajta2012@gmail.com>, Alberto <a.buffolino@gmail.com>",
 	# URL for the add-on documentation support
-	"addon_url": "https://github.com/nvdaes/eMule",
+	"addon_url": "https://github.com/nvdaes/emule",
 	# Documentation file name
 	"addon_docFileName": "readme.html",
 	# Minimum NVDA version supported (e.g. "2018.3")
