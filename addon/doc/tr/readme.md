@@ -1,18 +1,19 @@
 # eMule #
 
 *	Yazarlar: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
+*	NVDA uyumluluğu: 2019.3 veya üstü.
 *	İndir [kararlı versiyon][1]
 *	İndir [geliştirme sürümü][3]
-*	download [version compatible with NVDA 2017.3][4]
+*	[NVDA 2017.3 ile uyumlu sürümü][4] indirin
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Bu eklenti NVDA ile eMule erişilebilirliğinin geliştirilmesine yardımcı
+olur. Ayrıca farklı pencerelerde hareket için ek klavye komutları sağlar ve
+eMule ile ilgili faydalı bilgi verir.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Bu eklenti aynı yazar tarafından geliştirilen eMuleNVDASupport adlı
+eklentiye dayanılarak geliştirildi. Her ikisin ortak tuş komutlarına ve
+benzer özelliklere sahip olduğu için bunu kurmadan önce eskisini
+kaldırmalısınız.
 
 [EMule] [2] 0.50a test edilmiştir.
 
@@ -23,12 +24,13 @@ keystrokes and features.
 *	kontrol + shift + n: Bul penceresinde odağı Ad alanınna taşır.
 *	kontrol + shift + p: Arama penceresinde, odağı ve fareyi arama
   parametreleri listesine  veya alan düzenleme seçeneklerine taşır.
-*	control+shift+b: Move the focus to the list in the current window. For
-  example usable in the Search window, downloads in Transfer window, etc.
-*	control+shift+o: Move the focus to read-only edit boxes in the current
-  window. For example the IRC received messages, available Servers, etc.
-*	control+NVDA+f: If the caret is located in a read only edit box, opens a
-  find dialog to use the commands for searching text available in NVDA.
+*	control+shift+b: Odağı geçerli penceredeki listeye taşır. Örneğin, Arama
+  penceresinde kullanılabilir, transfer penceresinde indirilenler vb.
+*	control+shift+o: Odağı geçerli penceredeki salt okunur düzenleme
+  kutularına taşır. Örneğin, IRC alınan mesajlar, mevcut Sunucular vb.
+*	control+NVDA+f: İmleç salt okunur bir düzenleme kutusunda bulunuyorsa,
+  NVDA'da bulunan metin arama komutlarını kullanmak için bir bul iletişim
+  kutusu açar.
 *	kontrol + shift + l: Fare ve nesne sunucusunu Mevcut listenin başlıkları
   üzerine taşır.
 *	kontrol + shift + q: durum çubuğunda ilk nesneyi okur; son etkinlik
@@ -49,26 +51,31 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA + shift 1-0: 11-20 sütunları okur.
 *	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## 5.0 için değişiklikler
+*	NVDA 2021.1 ile uyumlu.
 
-## Changes for 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+## 4.0 için değişiklikler ##
+*	NVDA 2019.3 veya sonraki sürümünü gerektirir.
 
-## Changes for 2.0 ##
-*	 Add-on help is available from the Add-ons Manager.
+## 3.0 için değişiklikler ##
+*	 Salt okunur düzenleme kutularında metin aramak için, bul iletişim
+   kutusunu etkinleştirmek için nvda+control+f gibi bul iletişim kutusu
+   kullanılabilir.
+
+## 2.0 için değişiklikler ##
+*	 Eklenti yardımı, Eklenti Yöneticisinden edinilebilir.
 
 ## 1.2 için Değişiklikler ##
 *	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
-*	 The keystroke used for moving to the Search results list has been
-   generalized to be able to move focus to any available list in the current
-   window.
-*	 The command used to focus the IRC messages has been generalized to move
-   to any read-only edit box, making it possible to review connection
-   information in the Servers window.
-*	 When moving mouse and focus to the toolbar, in some cases it was
-   announced twice. This has been fixed.
+*	 Arama sonuçları listesine gitmek için kullanılan Kısayol tuşu, odağı
+   geçerli pencerede mevcut herhangi bir listeye taşıyabilecek şekilde
+   genelleştirilmiştir.
+*	 IRC mesajlarına odaklanmak için kullanılan komut, herhangi bir salt
+   okunur düzenleme kutusuna taşınacak şekilde genelleştirildi, bu da
+   Sunucular penceresinde bağlantı bilgilerinin gözden geçirilmesini mümkün
+   kıldı.
+*	 Fare ve odak araç çubuğuna taşınırken, bazı durumlarda iki kez anons
+   ediliyordu. Bu düzeltildi.
 
 ## 1.1 Değişiklikler ##
 *	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.

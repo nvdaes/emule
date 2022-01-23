@@ -53,6 +53,9 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
 
+## Changes for 5.0
+*	Compatible with NVDA 2021.1.
+
 ## Changes for 4.0 ##
 *	Requires NVDA 2019.3 or later.
 
