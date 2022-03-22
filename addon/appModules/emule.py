@@ -223,8 +223,8 @@ class AppModule(appModuleHandler.AppModule):
 			mouseHandler.doPrimaryClick()
 
 	@script(
-		# Translators: Message presented in input help mode.
 		description=_(
+			# Translators: Message presented in input help mode.
 			"Moves the system focus to read-only edit boxes in the current window."
 			" For example the IRC received messages."
 		),
