@@ -1,11 +1,12 @@
 # -*- coding: UTF-8 -*-
 # eMule app module
-# Copyright (C) 2012-2021 Noelia Ruiz Martínez, Alberto Buffolino
+# Copyright (C) 2012-2022 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
 
 import appModuleHandler
 import addonHandler
 import eventHandler
+import mouseHandler
 import api
 import ui
 import speech
@@ -78,7 +79,7 @@ class AppModule(appModuleHandler.AppModule):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == controlTypes.ROLE_LISTITEM:
+		if obj.role == controlTypes.Role.LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
@@ -139,7 +140,7 @@ class AppModule(appModuleHandler.AppModule):
 			if obj != api.getMouseObject():
 				api.moveMouseToNVDAObject(obj)
 				api.setMouseObject(obj)
-			if controlTypes.STATE_FOCUSED not in obj.states:
+			if controlTypes.State.FOCUSED not in obj.states:
 				obj.setFocus()
 			eventHandler.queueEvent("gainFocus", obj)
 
@@ -172,8 +173,7 @@ class AppModule(appModuleHandler.AppModule):
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
+			mouseHandler.doPrimaryClick()
 
 	@script(
 		description=_(
@@ -198,8 +198,7 @@ class AppModule(appModuleHandler.AppModule):
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
+			mouseHandler.doPrimaryClick()
 
 	@script(
 		description=_(
@@ -221,12 +220,11 @@ class AppModule(appModuleHandler.AppModule):
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
+			mouseHandler.doPrimaryClick()
 
 	@script(
-		# Translators: Message presented in input help mode.
 		description=_(
+			# Translators: Message presented in input help mode.
 			"Moves the system focus to read-only edit boxes in the current window."
 			" For example the IRC received messages."
 		),
@@ -249,8 +247,7 @@ class AppModule(appModuleHandler.AppModule):
 		if obj != api.getFocusObject():
 			api.moveMouseToNVDAObject(obj)
 			api.setMouseObject(obj)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTDOWN, 0, 0, None, None)
-			winUser.mouse_event(winUser.MOUSEEVENTF_LEFTUP, 0, 0, None, None)
+			mouseHandler.doPrimaryClick()
 
 	@script(
 		# Translators: Message presented in input help mode.
