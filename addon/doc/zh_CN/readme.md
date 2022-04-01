@@ -1,4 +1,4 @@
-# eMule-NVDA电骡支持插件 #
+# eMule - 电骡支持插件 #
 
 *	作者： Noelia, Chris, Alberto.
 *	NVDA兼容版本: 2019.3或更高版本。
@@ -35,8 +35,8 @@
 *	nvda+shift+1到0： 朗读第11到20列。
 *	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
-## Changes for 5.0
-*	Compatible with NVDA 2021.1.
+## 版本5.0
+*	兼容 NVDA 2021.1。
 
 ## 版本4.0 ##
 *	需要NVDA 2019.3或更高版本。
