@@ -2,8 +2,8 @@
 
 *	Authors: Noelia, Chris, Alberto.
 *	NVDA compatibility: 2022.1 or later.
-*	download [stable version][1]
-*	download [development version][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.
