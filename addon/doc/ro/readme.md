@@ -1,9 +1,8 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	Descărcați [versiunea stabilă][1]
-*	Descărcați [versiunea în dezvoltare][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -53,6 +52,9 @@ sunt de asemenea disponibile:
 *	nvda+shift+1-0: Citește coloanele de la 11 până la 20.
 *	nvda+shift+C: Copiază conținutul ultimei coloane citite pe planșetă.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -86,7 +88,6 @@ sunt de asemenea disponibile:
 
 ## Modificări aduse în versiunea 1.0 ##
 *	 Versiunea inițială.
-
 
 [[!tag dev stable]]
 

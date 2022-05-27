@@ -1,9 +1,8 @@
 # eMule #
 
 *	Készítők: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	Letöltés [stabil verzió][1]
-*	Letöltés [fejlesztői verzió][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -54,6 +53,9 @@ parancsok is elérhetőek:
 *	nvda+shift+C: az utoljára felolvasott oszlop tartalmát a vágólapra
   másolja.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -87,7 +89,6 @@ parancsok is elérhetőek:
 
 ## Az 1.0 verzió változásai ##
 *	 Az első kiadás.
-
 
 [[!tag dev stable]]
 

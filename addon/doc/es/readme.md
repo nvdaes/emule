@@ -1,9 +1,9 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	Compatibilidad con NVDA: 2019.3 o posterior.
-*	descarga [versión estable][1]
-*	descargar [versión de desarrollo][3]
+*	descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
+*	descargar [versión de desarrollo][3] (compatible desde NVDA 2022.1 en
+  adelante)
 *	descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento te ayuda a mejorar la accesibilidad de eMule con
@@ -55,6 +55,9 @@ están disponibles las siguientes órdenes de teclado:
 *	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 6.0
+*	Se requiere NVDA 2022.1 o posterior.
+
 ## Cambios para 5.0
 *	Compatible con NVDA 2021.1.
 
@@ -90,7 +93,6 @@ están disponibles las siguientes órdenes de teclado:
 
 ## Cambios para 1.0 ##
 *	 Versión inicial.
-
 
 [[!tag dev stable]]
 

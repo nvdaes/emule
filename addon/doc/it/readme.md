@@ -1,9 +1,8 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	Compatibilità con NVDA: versione 2019.3 o successive.
-*	scarica la [versione stabile][1]
-*	scarica la [versione in sviluppo][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	scarica la [versione compatibile con NVDA 2017.3][4]
 
 Questo componente aggiuntivo migliora l'accessibilità di Emule con
@@ -54,6 +53,9 @@ disponibili inoltre i seguenti comandi da tastiera:
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -90,7 +92,6 @@ disponibili inoltre i seguenti comandi da tastiera:
 
 ## Novità nella versione 1.0 ##
 *	 Versione iniziale.
-
 
 [[!tag dev stable]]
 
