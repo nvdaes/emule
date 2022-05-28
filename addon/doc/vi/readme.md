@@ -1,9 +1,8 @@
 # eMule #
 
 *	Tác giả: Noelia, Chris, Alberto.
-*	NVDA tương thích: 2019.3 trở lên.
-*	tải về [phiên bản chính thức][1]
-*	tải về [phiên bản thử nghiệm][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	tải về [phiên bản tương thích với NVDA 2017.3][4]
 
 Add-on này giúp cải thiện khả năng tiếp cận của eMule với NVDA.  Đồng thời
@@ -54,6 +53,9 @@ sau:
 *	nvda+shift+1-0: thông báo các cột từ 11 đến 20.
 *	nvda+shift+C: chép cột cuối cùng được đọc vào bộ nhớ tạm.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -88,7 +90,6 @@ sau:
 
 ## Các thay đổi cho phiên bản 1.0 ##
 *	 Phiên bản đầu tiên.
-
 
 [[!tag dev stable]]
 

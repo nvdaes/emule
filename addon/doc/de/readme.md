@@ -1,9 +1,9 @@
 # eMule #
 
 *	Authoren: Noelia, Chris, Alberto.
-*	NVDA-Kompatibilität: 2019.3 oder höher.
-*	[Stabile Version herunterladen][1]
-*	[Entwicklerversion herunterladen][3]
+*	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
+*	[Entwicklerversion herunterladen][3] (kompatibel mit NVDA 2022.1 und
+  neuer)
 *	[kompatible Version für NVDA 2017.3][4] herunterladen
 
 Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des
@@ -54,6 +54,9 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Änderungen in 6.0
+*	Benötigt NVDA 2022.1 oder neuer.
+
 ## Änderungen in 5.0
 *	Kompatibel mit NVDA 2021.1.
 
@@ -87,7 +90,6 @@ Befehle sind außerdem verfügbar:
 
 ## Änderungen in 1.0 ##
 *	 Ehrstveröffentlichung.
-
 
 [[!tag dev stable]]
 

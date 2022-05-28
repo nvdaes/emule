@@ -1,9 +1,8 @@
 # eMule #
 
 *	Auteurs: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	download [stabiele versie][1]
-*	download [ontwikkelversie][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -53,6 +52,9 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -87,7 +89,6 @@ volgende sneltoetsen beschikbaar:
 
 ## Veranderingen in 1.0 ##
 *	 Eerste versie.
-
 
 [[!tag dev stable]]
 

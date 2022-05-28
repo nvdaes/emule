@@ -1,9 +1,8 @@
 # eMule #
 
 *	Авторы: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	загрузить [стабильную версию][1]
-*	загрузить [разрабатываемую версию][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -51,6 +50,9 @@ alt+ctrl+ стрелок. Следующие команды клавиш зде�
 *	nvda+shift+C: копирует содержимое последнего прочитанного столбца в буфер
   обмена.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -83,7 +85,6 @@ alt+ctrl+ стрелок. Следующие команды клавиш зде�
 
 ## Изменения в версии 1.0 ##
 *	 Начальная версия.
-
 
 [[!tag dev stable]]
 

@@ -1,9 +1,8 @@
 # eMule #
 
 *	مطورو الإضافة: Noelia, Chris, Alberto
-*	NVDA compatibility: 2019.3 or later.
-*	تحميل [الإصدار النهائي][1]
-*	تحميل [الإصدار التجريبي][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -51,6 +50,9 @@ keystrokes and features.
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -81,7 +83,6 @@ keystrokes and features.
 
 ## تعديلات الإصدار  1.0 ##
 *	 نسخة أولية
-
 
 [[!tag dev stable]]
 

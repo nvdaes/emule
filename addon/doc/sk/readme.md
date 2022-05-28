@@ -1,9 +1,8 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	Funguje s NVDA od verzie 2019.3.
-*	Stiahnuť [stabilnú verzia][1]
-*	Stiahnuť [Vývojovú verzia][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	Stiahnuť [Verziu pre NVDA 2017.3][4]
 
 Tento doplnok zlepšuje prístupnosť programu eMule s NVDA. Poskytuje užitočné
@@ -48,6 +47,9 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -78,7 +80,6 @@ doplnku sú dostupné aj tieto skratky:
 
 ## Zmeny vo verzii 1.0 ##
 *	 prvé vydanie.
-
 
 [[!tag dev stable]]
 

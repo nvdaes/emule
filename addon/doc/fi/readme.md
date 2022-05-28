@@ -1,9 +1,8 @@
 # eMule #
 
 *	Tekijät: Noelia, Chris, Alberto.
-*	Yhteensopivuus: NVDA 2019.3 tai uudempi
-*	Lataa [vakaa versio][1]
-*	Lataa [kehitysversio][3]
+*	Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
+*	Lataa [kehitysversio][3] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 *	Lataa [versio, joka on yhteensopiva NVDA 2017.3:n kanssa][4]
 
 Tämä lisäosa parantaa eMulen saavutettavuutta NVDA:lla käytettäessä.
@@ -52,6 +51,9 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Vaihto+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Muutokset versiossa 6.0
+*	Edellyttää NVDA 2022.1:tä tai uudempaa.
+
 ## Muutokset versiossa 5.0
 *	Yhteensopiva NVDA 2021.1:n kanssa.
 
@@ -84,7 +86,6 @@ lisäksi seuraavat näppäinkomennot:
 
 ## Muutokset versiossa 1.0 ##
 *	 Ensimmäinen versio.
-
 
 [[!tag dev stable]]
 

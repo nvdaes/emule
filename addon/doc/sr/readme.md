@@ -1,9 +1,8 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2019.3 or later.
-*	Preuzmi[stabilnu verziju][1]
-*	Preuzmi[verziju u razvoju][3]
+*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
+*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
@@ -53,6 +52,9 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 *	nvda+shift+C: Kopira sadržaj zadnje pročitane kolone u privremenu
   memoriju.
 
+## Changes for 6.0
+*	Requires NVDA 2022.1 or later.
+
 ## Changes for 5.0
 *	Compatible with NVDA 2021.1.
 
@@ -83,7 +85,6 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 
 ## Promene u 1.0 ##
 *	 Prva verzija
-
 
 [[!tag dev stable]]
 
