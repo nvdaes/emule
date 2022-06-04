@@ -1,17 +1,17 @@
 # eMule #
 
 *	Autorzy: Noelia, Chris, Alberto.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
-*	download [version compatible with NVDA 2017.3][4]
+*	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
+*	pobierz [wersja rozwojowa][3] (kompatybilna z NVDA 2022.1 i nowszymi)
+*	pobierz [wersja kompatybilna z NVDA 2017.3][4]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Ten dodatek pomaga poprawić dostępność eMule z nVDA.  Zawiera również
+dodatkowe polecenia klawiaturowe do poruszania się w różnych oknach i daje
+Przydatne informacje o eMule.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Opiera się na dodatku eMuleNVDASupport, opracowanym przez tego samego
+autora. Powinieneś odinstalować ten stary dodatek, aby użyć tego, ponieważ
+oba mają wspólne naciśnięcia i funkcje.
 
 Przetestowany na [eMule][2] 0.50a.
 
@@ -28,9 +28,9 @@ Przetestowany na [eMule][2] 0.50a.
 *	control+shift+o: przenosi punkt uwagi do pól edycji tylko do odczytu,
   znajdujących się w aktualnym oknie, np. otrzymane wiadomości IRC, dostępne
   serwery itd.
-*	control+NVDA+f: jeśli kursor systemowy znajduje się w polu edycji tylko do
-  odczytu, otwiera okno Znajdź, aby móc użyć komend do wyszukiwania tekstu w
-  NVDA. 
+*	control+NVDA+f: Jeśli karetka znajduje się w polu edycji tylko do odczytu,
+  otwiera okno dialogowe znajdowania, aby użyć poleceń do wyszukiwania
+  tekstu dostępnych w NVDA.
 *	control+shift+l: przenosi obiekt nawigatora i wskaźnik myszy do nagłówków
   aktualnej listy.
 *	control+shift+q: odczytuje pierwszy obiekt na pasku stanu; dostarcza
@@ -52,18 +52,19 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
 
-## Changes for 6.0
-*	Requires NVDA 2022.1 or later.
+## Zmiany w wersji 6.0
+*	Wymaga NVDA 2022.1 lub nowszego.
 
-## Changes for 5.0
-*	Compatible with NVDA 2021.1.
+## Zmiany dla wersji 5.0
+*	Kompatybilny z NVDA 2021.1.
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## Zmiany dla wersji 4.0 ##
+*	Wymaga NVDA w wersji 2019.3 lub nowszej.
 
 ## Zmiany dla 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+*	 Aby wyszukać tekst w polach edycji tylko do odczytu, można użyć okna
+   dialogowego znajdowania, takiego jak nvda + control + f, aby aktywować
+   okno dialogowe wyszukiwania.
 
 ## Zmiany dla 2.0 ##
 *	 Pomoc dodatku dostępna w oknie zarządzania dodatkami.

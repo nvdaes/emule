@@ -1,8 +1,8 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
+*	Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom)
+*	Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2022.1 i novijom)
 *	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
 Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
@@ -51,11 +51,11 @@ prečaci:
 *	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
 *	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
 
-## Changes for 6.0
-*	Requires NVDA 2022.1 or later.
+## Promjene u verziji 6.0
+*	Zahtijeva NVDA 2022.1 ili noviju verziju.
 
-## Changes for 5.0
-*	Compatible with NVDA 2021.1.
+## Promjene u verziji 5.0
+*	Kompatibilno s NVDA 2021.1.
 
 ## Promjene u verziji 4.0 ##
 *	Zahtijeva NVDA 2019.3 ili noviju verziju.
