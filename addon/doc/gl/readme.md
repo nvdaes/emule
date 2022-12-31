@@ -1,8 +1,9 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
+*	descargar [versión estable][1] (compatible con NVDA 2022.1 e posterior)
+*	descargar [versión de desenvolvemento][2] (compatible con NVDA 2022.1 e
+  posterior)
 *	descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento axuda a mellorar a accesivilidade do eMule co nVDA.  Tamén
@@ -52,8 +53,8 @@ dispoñibles as seguintes ordes de teclado:
 *	nvda+shift+1-0: Le as columnas 11 a 20.
 *	nvda+shift+C: Copia o contido da última columna lida ó portapapeis.
 
-## Changes for 6.0
-*	Requires NVDA 2022.1 or later.
+## Cambios para 6.0
+*	Require NVDA 2022.1 ou posterior.
 
 ## Cambios para 5.0
 *	Compatible con NVDA 2021.1.
