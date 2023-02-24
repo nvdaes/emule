@@ -1,6 +1,7 @@
 # eMule #
 
 *	Autores: Noelia, Chris, Alberto.
+*	Compatibilidad con NVDA: de 2022.1 en adelante.
 *	descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
 *	descargar [versión de desarrollo][3] (compatible desde NVDA 2022.1 en
   adelante)
@@ -55,6 +56,9 @@ están disponibles las siguientes órdenes de teclado:
 *	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
 
+## Cambios para 7.0
+* Compatible con NVDA 2023.1.
+
 ## Cambios para 6.0
 *	Se requiere NVDA 2022.1 o posterior.
 
@@ -101,3 +105,5 @@ están disponibles las siguientes órdenes de teclado:
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o

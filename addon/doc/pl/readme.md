@@ -1,6 +1,7 @@
 # eMule #
 
 *	Autorzy: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2022.1 or later.
 *	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
 *	pobierz [wersja rozwojowa][3] (kompatybilna z NVDA 2022.1 i nowszymi)
 *	pobierz [wersja kompatybilna z NVDA 2017.3][4]
@@ -52,6 +53,9 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
 
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
+
 ## Zmiany w wersji 6.0
 *	Wymaga NVDA 2022.1 lub nowszego.
 
@@ -97,3 +101,5 @@ następujące polecenia klawiszowe w tym dodatku:
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o
