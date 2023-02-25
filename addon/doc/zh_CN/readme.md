@@ -1,6 +1,7 @@
 # eMule - 电骡支持插件 #
 
 *	作者： Noelia, Chris, Alberto.
+*	NVDA compatibility: 2022.1 or later.
 *	下载[稳定版][1（兼容NVDA 2022.1及更高版本）
 *	下载[开发版][3]（兼容NVDA 2022.1及更高版本）
 *	下载 [与NVDA 2017.3兼容的旧版本插件][4]
@@ -33,6 +34,9 @@
 *	nvda+control+1到0： 朗读前十列。
 *	nvda+shift+1到0： 朗读第11到20列。
 *	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
+
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
 
 ## 版本6.0
 *	需要 NVDA 2022.1 或更高版本。
@@ -69,3 +73,5 @@
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o

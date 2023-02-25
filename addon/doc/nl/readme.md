@@ -1,6 +1,7 @@
 # eMule #
 
 *	Auteurs: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2022.1 or later.
 *	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 *	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	download [version compatible with NVDA 2017.3][4]
@@ -52,6 +53,9 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
 
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
+
 ## Changes for 6.0
 *	Requires NVDA 2022.1 or later.
 
@@ -97,3 +101,5 @@ volgende sneltoetsen beschikbaar:
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o

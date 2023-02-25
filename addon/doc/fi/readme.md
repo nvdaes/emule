@@ -1,6 +1,7 @@
 # eMule #
 
 *	Tekijät: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2022.1 or later.
 *	Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 *	Lataa [kehitysversio][3] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
 *	Lataa [versio, joka on yhteensopiva NVDA 2017.3:n kanssa][4]
@@ -51,6 +52,9 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Vaihto+1-0: Lukee sarakkeet väliltä 11-20.
 *	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
+
 ## Muutokset versiossa 6.0
 *	Edellyttää NVDA 2022.1:tä tai uudempaa.
 
@@ -94,3 +98,5 @@ lisäksi seuraavat näppäinkomennot:
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o

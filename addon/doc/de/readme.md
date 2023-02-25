@@ -1,6 +1,7 @@
 # eMule #
 
 *	Authoren: Noelia, Chris, Alberto.
+*	NVDA compatibility: 2022.1 or later.
 *	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
 *	[Entwicklerversion herunterladen][3] (kompatibel mit NVDA 2022.1 und
   neuer)
@@ -54,6 +55,9 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
 
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
+
 ## Änderungen in 6.0
 *	Benötigt NVDA 2022.1 oder neuer.
 
@@ -98,3 +102,5 @@ Befehle sind außerdem verfügbar:
 [2]: https://www.emule-project.net
 
 [3]: https://addons.nvda-project.org/files/get.php?file=em-dev
+
+[4]: http://addons.nvda-project.org/files/get.php?file=em-o
