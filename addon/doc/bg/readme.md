@@ -4,8 +4,6 @@
 *	Съвместимост с NVDA: от 2022.1 и по-нови версии.
 *	Изтегляне на [стабилна версия][1] (съвместима с NVDA 2022.1 и по-нови
   версии)
-*	Изтегляне на [тестова версия][3] (съвместима с NVDA 2022.1 и по-нови
-  версии)
 *	Изтегляне на [версия, съвместима с NVDA 2017.3][4]
 
 Тази добавка допринася за подобряване на достъпността на eMule с NVDA.  Също
@@ -99,10 +97,9 @@
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=eMule
 
 [2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o

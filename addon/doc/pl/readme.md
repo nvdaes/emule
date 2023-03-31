@@ -3,7 +3,6 @@
 *	Autorzy: Noelia, Chris, Alberto.
 *	NVDA compatibility: 2022.1 or later.
 *	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
-*	pobierz [wersja rozwojowa][3] (kompatybilna z NVDA 2022.1 i nowszymi)
 *	pobierz [wersja kompatybilna z NVDA 2017.3][4]
 
 Ten dodatek pomaga poprawić dostępność eMule z nVDA.  Zawiera również
@@ -96,10 +95,9 @@ następujące polecenia klawiszowe w tym dodatku:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=eMule
 
 [2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o

@@ -4,8 +4,6 @@
 *	NVDA kompatibilnost: 2022.1 i novija.
 *	Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom
   verzijom)
-*	Preuzmi [razvojnu verziju][2] (kompatibilna s NVDA 2022.1 i novijom
-  verzijom)
 *	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
 Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
@@ -97,10 +95,9 @@ prečaci:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=eMule
 
 [2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o

@@ -3,7 +3,6 @@
 *	Autores: Noelia, Chris, Alberto.
 *	NVDA compatibility: 2022.1 or later.
 *	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
 *	baixe [versão compatível com NVDA 2017.3][4]
 
 Esse complemento ajuda a melhorar a acessibilidade do eMule com nVDA. Ele
@@ -96,10 +95,9 @@ seguintes teclas de comando:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=eMule
 
 [2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o

@@ -3,8 +3,6 @@
 *	Authoren: Noelia, Chris, Alberto.
 *	NVDA compatibility: 2022.1 or later.
 *	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
-*	[Entwicklerversion herunterladen][3] (kompatibel mit NVDA 2022.1 und
-  neuer)
 *	[kompatible Version für NVDA 2017.3][4] herunterladen
 
 Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des
@@ -97,10 +95,9 @@ Befehle sind außerdem verfügbar:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=em
+[1]: https://addons.nvda-project.org/files/get.php?file=eMule
 
 [2]: https://www.emule-project.net
 
-[3]: https://addons.nvda-project.org/files/get.php?file=em-dev
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o
