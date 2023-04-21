@@ -91,9 +91,8 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 
 [[!tag dev stable]]
 
-[1]: https://addons.nvda-project.org/files/get.php?file=eMule
+[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
 
 [4]: http://addons.nvda-project.org/files/get.php?file=em-o
