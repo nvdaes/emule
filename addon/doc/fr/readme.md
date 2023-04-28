@@ -1,17 +1,17 @@
 # eMule #
 
 *	Autheurs : Noelia, Chris, Alberto.
-*	NVDA compatibility: 2022.1 or later.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [version compatible with NVDA 2017.3][4]
+*	Compatibilité NVDA : 2022.1 ou version ultérieure.
+*	Télécharger [version stable][1] (compatible avec NVDA 2022.1 et au-delà)
+*	Télécharger [version compatible avec NVDA 2017.3][4]
 
-This add-on helps to improve accessibility of eMule with nVDA.  It also
-provides additional keyboard commands for moving in different windows and
-gives Useful information about eMule.
+Cette extension permet d'améliorer l'accessibilité d'eMule avec NVDA. Elle
+fournit également des commandes clavier supplémentaires pour se déplacer
+sous différentes fenêtres et donne des informations utiles sur eMule.
 
-It's based on the eMuleNVDASupport add-on, developed by the same author. You
-should uninstall that old add-on to use this one, since both have common
-keystrokes and features.
+Elle est basée sur l'extension eMuleNVDASupport, développé par le même
+auteur. Vous devez désinstaller cette ancienne extension pour utiliser
+celle-ci, car les deux ont des touches et des fonctionnalités communes.
 
 Testé avec [eMule][2] 0.50a.
 
@@ -56,21 +56,22 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
-## Changes for 7.0
-* Compatible with NVDA 2023.1.
+## Changements pour la version 7.0
+* Compatible avec NVDA 2023.1.
 
-## Changes for 6.0
-*	Requires NVDA 2022.1 or later.
+## Changements pour la version 6.0
+*	Nécessite NVDA 2022.1 ou version ultérieure.
 
-## Changes for 5.0
-*	Compatible with NVDA 2021.1.
+## Changements pour la version 5.0
+*	Compatible avec NVDA 2021.1.
 
-## Changes for 4.0 ##
-*	Requires NVDA 2019.3 or later.
+## Changements pour la version 4.0 ##
+*	Nécessite NVDA 2019.3 ou version ultérieure.
 
 ## Changements pour la version 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+*	 Pour rechercher du texte dans les zones d'édition en lecture seule, le
+   dialogue Rechercher peut être utilisée, tel comme nvda+control+f pour
+   activer le dialogue Rechercher.
 
 ## Changements pour la version 2.0 ##
 *	 L'aide de l'extension est disponible à partir du Gestionnaire
