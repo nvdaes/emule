@@ -3,8 +3,6 @@
 *	Authors: Noelia, Chris, Alberto.
 
 *	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [development version][3] (compatible with NVDA 2022.1 and beyond)
-*	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.
 It also provides additional keyboard commands for moving in different windows and gives Useful information about eMule.
@@ -71,7 +69,3 @@ In this Add-on the following key commands are also available:
 [1]: http://addons.nvda-project.org/files/get.php?file=em
 
 [2]: http://www.emule-project.net
-
-[3]: http://addons.nvda-project.org/files/get.php?file=em-dev
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o
