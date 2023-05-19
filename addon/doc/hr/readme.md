@@ -4,7 +4,6 @@
 *	NVDA kompatibilnost: 2022.1 i novija.
 *	Preuzmi [stabilnu verziju][1] (kompatibilna s NVDA 2022.1 i novijom
   verzijom)
-*	Preuzmi [kompatibilna verzija s NVDA 2017.3][4]
 
 Ovaj dodatak poboljšava pristupačnostof eMule programa uz pomoć NVDA
 čitača. Također pruža dodatne tipkovničke prečace za premještanje po
@@ -98,5 +97,3 @@ prečaci:
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o

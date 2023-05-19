@@ -3,7 +3,6 @@
 *	Tekijät: Noelia, Chris, Alberto.
 *	Yhteensopivuus: NVDA 2022.1 tai uudempi
 *	Lataa [vakaa versio][1] (yhteensopiva NVDA 2022.1:n ja uudempien kanssa)
-*	Lataa [versio, joka on yhteensopiva NVDA 2017.3:n kanssa][4]
 
 Tämä lisäosa parantaa eMulen saavutettavuutta NVDA:lla käytettäessä.
 Lisäksi se tarjoaa lisänäppäinkomentoja eMulen eri ikkunoissa liikkumiseen
@@ -95,5 +94,3 @@ lisäksi seuraavat näppäinkomennot:
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o

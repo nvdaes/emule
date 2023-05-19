@@ -3,7 +3,6 @@
 *	مطورو الإضافة: Noelia, Chris, Alberto
 *	NVDA compatibility: 2022.1 or later.
 *	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	download [version compatible with NVDA 2017.3][4]
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
 provides additional keyboard commands for moving in different windows and
@@ -92,5 +91,3 @@ keystrokes and features.
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o
