@@ -3,7 +3,6 @@
 *	Autores: Noelia, Chris, Alberto.
 *	Compatibilidad con NVDA: de 2022.1 en adelante.
 *	descargar [versión estable][1] (compatible desde NVDA 2022.1 en adelante)
-*	descargar [versión compatible con NVDA 2017.3][4]
 
 Este complemento te ayuda a mejorar la accesibilidad de eMule con
 NVDA. También proporciona comandos de teclado adicionales para moverse en
@@ -101,5 +100,3 @@ están disponibles las siguientes órdenes de teclado:
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o

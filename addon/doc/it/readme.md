@@ -3,7 +3,6 @@
 *	Autori: Noelia, Chris, Alberto.
 *	NVDA compatibility: 2022.1 or later.
 *	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
-*	scarica la [versione compatibile con NVDA 2017.3][4]
 
 Questo componente aggiuntivo migliora l'accessibilità di Emule con
 NVDA. Contiene alcuni tasti rapidi per spostarsi all'interno delle varie
@@ -101,5 +100,3 @@ disponibili inoltre i seguenti comandi da tastiera:
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o

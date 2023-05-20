@@ -3,7 +3,6 @@
 *	Autheurs : Noelia, Chris, Alberto.
 *	Compatibilité NVDA : 2022.1 ou version ultérieure.
 *	Télécharger [version stable][1] (compatible avec NVDA 2022.1 et au-delà)
-*	Télécharger [version compatible avec NVDA 2017.3][4]
 
 Cette extension permet d'améliorer l'accessibilité d'eMule avec NVDA. Elle
 fournit également des commandes clavier supplémentaires pour se déplacer
@@ -105,5 +104,3 @@ touches de raccourci suivantes sont également disponibles :
 [1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
-
-[4]: http://addons.nvda-project.org/files/get.php?file=em-o
