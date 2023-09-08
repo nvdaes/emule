@@ -1,8 +1,6 @@
 # eMule #
 
 *	Authoren: Noelia, Chris, Alberto.
-*	NVDA-Kompatibilität: 2022.1 oder neuer.
-*	[Stabile Version herunterladen][1] (kompatibel mit NVDA 2022.1 und neuer)
 
 Diese Erweiterung verbessert die Zugänglichkeit von Emule mit NVDA.  Des
 weiteren stellt die Erweiterung außerdem Tastenkombinationen zum Navigieren
@@ -93,7 +91,5 @@ Befehle sind außerdem verfügbar:
 *	 Ehrstveröffentlichung.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net

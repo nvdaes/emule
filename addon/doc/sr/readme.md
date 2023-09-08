@@ -1,8 +1,6 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2022.1 or later.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 This add-on helps to improve accessibility of eMule with nVDA.  It also
 provides additional keyboard commands for moving in different windows and
@@ -89,7 +87,5 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 *	 Prva verzija
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
