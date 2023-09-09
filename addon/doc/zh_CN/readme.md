@@ -1,8 +1,6 @@
 # eMule - 电骡支持插件 #
 
 *	作者： Noelia, Chris, Alberto.
-*	NVDA compatibility: 2022.1 or later.
-*	下载[稳定版][1（兼容NVDA 2022.1及更高版本）
 
 此插件有助于提高eMule与nVDA的可访问性。它还提供了用于在不同窗口中移动的其他键盘命令，并提供了有关eMule的有用信息。
 
@@ -65,7 +63,5 @@
 *	 初始版本。
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net

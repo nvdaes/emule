@@ -1,8 +1,6 @@
 # eMule #
 
 *	Autori: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2022.1 or later.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Tento doplnok zlepšuje prístupnosť programu eMule s NVDA. Poskytuje užitočné
 klávesové skratky a informácie z okien a prostredia Emule.
@@ -84,7 +82,5 @@ doplnku sú dostupné aj tieto skratky:
 *	 prvé vydanie.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net

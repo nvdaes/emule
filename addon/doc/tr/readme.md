@@ -1,8 +1,6 @@
 # eMule #
 
 *	Yazarlar: Noelia, Chris, Alberto.
-*	NVDA uyumluluğu: 2022.1 veya üstü.
-*	[kararlı sürümü indir][1] (NVDA 2022.1 ve sonrası ile uyumlu)
 
 Bu eklenti NVDA ile eMule erişilebilirliğinin geliştirilmesine yardımcı
 olur. Ayrıca farklı pencerelerde hareket için ek klavye komutları sağlar ve
@@ -45,9 +43,9 @@ kaldırmalısınız.
 Bir liste içindeyken, alt + kontrol + yön tuşlarıyla satır ve sütunlar
 arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 
-*	NVDA + kontrol 1-0: ilk 10 sütunu okur.
-*	NVDA + shift 1-0: 11-20 sütunları okur.
-*	NVDA + shift + C: son okunan sütunun içeriğini panoya kopyalar .
+*	nvda + kontrol 1-0: ilk 10 sütunu okur.
+*	nvda + shift 1-0: 11-20 sütunları okur.
+*	nvda + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
 ## 7.0 için değişiklikler
 * NVDA 2023.1 ile uyumlu.
@@ -90,7 +88,5 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	 İlk versiyon.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net

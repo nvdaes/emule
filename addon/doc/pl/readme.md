@@ -1,8 +1,6 @@
 # eMule #
 
 *	Autorzy: Noelia, Chris, Alberto.
-*	Zgodność z NVDA: 2022.1 lub nowszy.
-*	Pobierz [stabilna wersja][1] (kompatybilna z NVDA 2022.1 i nowszymi)
 
 Ten dodatek pomaga poprawić dostępność eMule z nVDA.  Zawiera również
 dodatkowe polecenia klawiaturowe do poruszania się w różnych oknach i daje
@@ -93,7 +91,5 @@ następujące polecenia klawiszowe w tym dodatku:
 *	 Pierwsza wersja.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net

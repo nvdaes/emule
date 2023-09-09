@@ -1,8 +1,6 @@
 # eMule #
 
 *	Forfattere: Noelia, Chris, Alberto.
-*	NVDA compatibility: 2022.1 or later.
-*	download [stable version][1] (compatible with NVDA 2022.1 and beyond)
 
 Dette tilføjelsesprogram hjælper med at forbedre tilgængeligheden til eMule
 med NVDA. Det igver også ekstra tastaturkommandoer til at flytte rundt i
@@ -92,7 +90,5 @@ følgende tastaturkommandoer:
 *	 Første version.
 
 [[!tag dev stable]]
-
-[1]: https://www.nvaccess.org/addonStore/legacy?file=eMule
 
 [2]: https://www.emule-project.net
