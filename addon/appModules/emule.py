@@ -148,7 +148,8 @@ class AppModule(appModuleHandler.AppModule):
 		# Translators: Message presented in input help mode.
 		# For instance: reads the search window, Statistics, IRC, etc.
 		description=_("Reports the current window."),
-		gesture="kb:control+shift+t"
+		gesture="kb:control+shift+t",
+		speakOnDemand=True
 	)
 	def script_where(self, gesture):
 		name = self.getName()
@@ -266,7 +267,8 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Reports first object of the Status Bar."),
-		gesture="kb:control+shift+q"
+		gesture="kb:control+shift+q",
+		speakOnDemand=True
 	)
 	def script_statusBarFirstChild(self, gesture):
 		if self.statusBarObj(0) is not None:
@@ -275,7 +277,8 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Reports second object of the Status Bar."),
-		gesture="kb:control+shift+w"
+		gesture="kb:control+shift+w",
+		speakOnDemand=True
 	)
 	def script_statusBarSecondChild(self, gesture):
 		if self.statusBarObj(1) is not None:
@@ -284,7 +287,8 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Reports third object of the Status Bar."),
-		gesture="kb:control+shift+e"
+		gesture="kb:control+shift+e",
+		speakOnDemand=True
 	)
 	def script_statusBarThirdChild(self, gesture):
 		if self.statusBarObj(2) is not None:
@@ -293,7 +297,8 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Reports fourth object of the Status Bar."),
-		gesture="kb:control+shift+r"
+		gesture="kb:control+shift+r",
+		speakOnDemand=True
 	)
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is not None:
