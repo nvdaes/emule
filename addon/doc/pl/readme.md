@@ -62,9 +62,8 @@ następujące polecenia klawiszowe w tym dodatku:
 *	Wymaga NVDA w wersji 2019.3 lub nowszej.
 
 ## Zmiany dla 3.0 ##
-*	 Aby wyszukać tekst w polach edycji tylko do odczytu, można użyć okna
-   dialogowego znajdowania, takiego jak nvda + control + f, aby aktywować
-   okno dialogowe wyszukiwania.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Zmiany dla 2.0 ##
 *	 Pomoc dodatku dostępna w oknie zarządzania dodatkami.

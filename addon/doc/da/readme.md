@@ -61,8 +61,8 @@ følgende tastaturkommandoer:
 *	Kræver NVDA 2019.3 eller nyere.
 
 ## Ændringer i 3.0 ##
-*	 For at søge efter tekst i skrivebeskyttede redigeringsbokse, kan vi nu
-   bruge dialogboksen og kommandoer tilgængelige i NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Ændringer i 2.0 ##
 *	 Hjælp til tilføjelsesprogrammet er til rådighed fra styring af

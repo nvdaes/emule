@@ -62,8 +62,8 @@
 *	Изисква се NVDA 2019.3 или по-нова версия.
 
 ## Промени във версия 3.0 ##
-*	 За търсене на текст в нередактируемите текстови полета, може да се
-   използва диалоговият прозорец за търсене, извикван с NVDA+Control+F.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Промени във версия 2.0 ##
 *	 Помощта за добавката е достъпна от мениджъра на добавките.

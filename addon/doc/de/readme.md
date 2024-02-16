@@ -63,9 +63,8 @@ Befehle sind außerdem verfügbar:
 *	Erfordert NVDA 2019.3 oder höher.
 
 ## Änderungen in 3.0 ##
-*	 Um Text in den schreibgeschützten Bearbeitungsfeldern zu suchen, kann das
-   Suchdialogfeld verwendet werden, z. B. nvda+control+f, um das
-   Suchdialogfeld zu aktivieren.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Änderungen in 2.0 ##
 *	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.

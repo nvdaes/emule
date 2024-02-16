@@ -44,7 +44,8 @@
 *	需要NVDA 2019.3或更高版本。
 
 ## 版本3.0 ##
-*	 要在只读编辑框中搜索文本，可以使用查找对话框，例如nvda + control + f来激活查找对话框。
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## 版本2.0 ##
 *	 插件管理器现在已提供了插件的帮助。

@@ -60,9 +60,9 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	NVDA 2019.3 veya sonraki sürümünü gerektirir.
 
 ## 3.0 için değişiklikler ##
-*	 Salt okunur düzenleme kutularında metin aramak için, bul iletişim
-   kutusunu etkinleştirmek için nvda+control+f gibi bul iletişim kutusu
-   kullanılabilir.
+*	 Salt okunur düzenleme kutularında metin aramak için bulma iletişim
+   kutusunu etkinleştirmek amacıyla nvda+control+f gibi bulma iletişim
+   kutusu kullanılabilir.
 
 ## 2.0 için değişiklikler ##
 *	 Eklenti yardımı, Eklenti Yöneticisinden edinilebilir.

@@ -61,8 +61,8 @@ lisäksi seuraavat näppäinkomennot:
 *	Edellyttää NVDA 2019.3:a tai uudempaa.
 
 ## Muutokset versiossa 3.0 ##
-*	 Etsi tekstiä vain luku -tyyppisistä muokkausruuduista NVDA:n
-   Etsi-valintaikkunaa, NVDA+Ctrl+F, käyttäen.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Muutokset versiossa 2.0 ##
 *	 Ohje on käytettävissä Lisäosien hallinnasta.

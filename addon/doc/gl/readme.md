@@ -62,8 +62,8 @@ dispoñibles as seguintes ordes de teclado:
 *	Require NVDA 2019.3 ou posterior.
 
 ## Cambios para 3.0 ##
-*	 Para procurar texto en caixas de edición de só lectura, pódese utilizar o
-   diálogo buscar, como nvda+control+f para activar o diálogo buscar.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Cambios para 2.0 ##
 *	 A axuda do complemento está dispoñible no Administrador de Complementos.

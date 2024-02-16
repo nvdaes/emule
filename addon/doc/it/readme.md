@@ -63,8 +63,8 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	Richiede NVDA 2019.3 o superiore.
 
 ## Novità nella versione 3.0 ##
-*	 Per la ricerca di testo in campi di sola lettura , ora è possibile
-   utilizzare icomandi disponibili in NVDA.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Novità nella versione 2.0 ##
 *	 L'aiuto sul componente aggiuntivo è disponibile dal gestore componenti

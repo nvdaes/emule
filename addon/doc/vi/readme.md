@@ -63,9 +63,8 @@ sau:
 *	Yêu cầu NVDA 2019.3 trở lên.
 
 ## Các thay đổi cho phiên bản 3.0 ##
-*	 Để tìm kiếm văn bản trong các trường nhập liệu có thuộc tính chỉ đọc, có
-   thể dùng hộp thoại tìm kiếm. Chẳng hạn như nvda+control+f để kích hoạt
-   hộp thoại này.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Các thay đổi cho phiên bản 2.0 ##
 *	 Đã có trợ giúp cho add-on trong trình quản lý add-on.
