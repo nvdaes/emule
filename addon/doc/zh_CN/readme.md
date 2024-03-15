@@ -6,7 +6,7 @@
 
 当前插件基于同一作者开发的eMuleNVDASupport插件。您应该卸载该旧插件以使用此插件，因为两者都有共同的按键和功能。
 
-经[eMule][2] 0.50a的测试。
+Tested on [eMule][1] 0.50a.
 
 ## 快捷键: ##
 
@@ -65,4 +65,4 @@
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

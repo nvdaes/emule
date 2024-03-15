@@ -11,7 +11,7 @@ Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie
 sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung
 verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten.
 
-Getestet mit [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Tastenbefehle: ##
 
@@ -91,4 +91,4 @@ Befehle sind außerdem verfügbar:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

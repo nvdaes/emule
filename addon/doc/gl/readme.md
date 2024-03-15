@@ -10,7 +10,7 @@ Baséase no complemento eMuleNVDASupport, desenvolvido polo mesmo
 autor. Debes desinstalar o vello complemento para usar este, xa que ambos
 teñen as pulsacións de teclado e as características comúns.
 
-Probado no [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Ordes de Teclado: ##
 
@@ -92,4 +92,4 @@ dispoñibles as seguintes ordes de teclado:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

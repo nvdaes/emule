@@ -10,7 +10,7 @@ Elle est basée sur l'extension eMuleNVDASupport, développé par le même
 auteur. Vous devez désinstaller cette ancienne extension pour utiliser
 celle-ci, car les deux ont des touches et des fonctionnalités communes.
 
-Testé avec [eMule][2] 0.50a.
+Testé avec [eMule][1] 0.50a.
 
 ## Touches de raccourcis : ##
 
@@ -99,4 +99,4 @@ touches de raccourci suivantes sont également disponibles :
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

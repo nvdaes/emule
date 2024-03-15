@@ -11,7 +11,7 @@ udviklet af samme forfatter. Du skal afinstallere det gamle
 tilføjelsesprogram for at kunne bruge denne version, da de har kommandoer og
 funktioner til fælles.
 
-Testet på [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Tastaturkommandoer ##
 
@@ -91,4 +91,4 @@ følgende tastaturkommandoer:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

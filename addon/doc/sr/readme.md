@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-Testirano na [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Glavne prečice ##
 
@@ -88,4 +88,4 @@ alt+control+ strelice.  U ovom dodatku sledeće komande su takođe dostupne:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

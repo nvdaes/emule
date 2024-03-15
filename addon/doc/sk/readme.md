@@ -9,7 +9,7 @@ Je postavený na staršom aplikačnom module pre eMule od toho istého
 autora. odporúčame vám starý aplikačný modul odstrániť, keďže majú spoločné
 klávesové skratky a funkcie.
 
-Testované s [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## klávesové skratky: ##
 
@@ -83,4 +83,4 @@ doplnku sú dostupné aj tieto skratky:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

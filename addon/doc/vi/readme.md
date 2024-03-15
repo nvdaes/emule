@@ -10,7 +10,7 @@ Add-on này dựa trên add-on eMuleNVDASupport, phát triển bởi cùng tác
 giả. Bạn nên gỡ bỏ add-on đó để dùng add-on này vì chúng có cùng các phím
 tắt và tính năng phổ biến.
 
-Đã thử nghiệm trên [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Các phím lệnh: ##
 
@@ -92,4 +92,4 @@ sau:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

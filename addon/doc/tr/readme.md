@@ -11,7 +11,7 @@ eklentiye dayanılarak geliştirildi. Her ikisin ortak tuş komutlarına ve
 benzer özelliklere sahip olduğu için bunu kurmadan önce eskisini
 kaldırmalısınız.
 
-[EMule] [2] 0.50a test edilmiştir.
+[eMule][1] 0.50a test edilmiştir.
 
 ## Tuş komutları: ##
 
@@ -89,4 +89,4 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

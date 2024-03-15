@@ -10,7 +10,7 @@ janelas e fornece informações úteis sobre o eMule.
 autor. Você deve desinstalar esse complemento antigo para usá-lo, pois ambos
 possuem pressionamentos de tecla e recursos comuns.
 
-Testado no [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Teclas de comando: ##
 
@@ -91,4 +91,4 @@ seguintes teclas de comando:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

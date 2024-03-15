@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-وقد تم تجربة الإضافة مع الإصدار  [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## الأوامر والمفاتيح المختصرة ##
 
@@ -86,4 +86,4 @@ keystrokes and features.
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

@@ -10,7 +10,7 @@ Opiera się na dodatku eMuleNVDASupport, opracowanym przez tego samego
 autora. Powinieneś odinstalować ten stary dodatek, aby użyć tego, ponieważ
 oba mają wspólne naciśnięcia i funkcje.
 
-Przetestowany na [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Skróty klawiszowe: ##
 
@@ -91,4 +91,4 @@ następujące polecenia klawiszowe w tym dodatku:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

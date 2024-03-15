@@ -10,7 +10,7 @@ Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
 autrice. E' necessario disinstallare la vecchia versione, se presente, prima
 di installare questa versione.
 
-Testato su [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Comandi rapidi: ##
 
@@ -95,4 +95,4 @@ disponibili inoltre i seguenti comandi da tastiera:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net
