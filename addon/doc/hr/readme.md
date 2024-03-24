@@ -10,7 +10,7 @@ Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
 autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
 dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
 
-Testirano na [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Tipkovnički prečaci: ##
 
@@ -61,9 +61,8 @@ prečaci:
 *	Zahtijeva NVDA 2019.3 ili noviju verziju.
 
 ## Promjene u verziji 2.0 ##
-*	 Za pretraživanje teksta u poljima koja su samo za čitanje, moguće je
-   koristiti dijaloški okvir pretrage, odnosno aktivirati ga pomoću tipki
-   nvda+kontrol+f.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Promjene u verziji 2.0 ##
 *	 Pomoć za dodatak je dostupna unutar upravljača dodataka.
@@ -91,4 +90,4 @@ prečaci:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

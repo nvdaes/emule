@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-Tesztelve az [eMule][2] 0.50a programmal.
+Tested on [eMule][1] 0.50a.
 
 ## Billentyűparancsok: ##
 
@@ -92,4 +92,4 @@ parancsok is elérhetőek:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

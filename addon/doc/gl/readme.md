@@ -10,7 +10,7 @@ Baséase no complemento eMuleNVDASupport, desenvolvido polo mesmo
 autor. Debes desinstalar o vello complemento para usar este, xa que ambos
 teñen as pulsacións de teclado e as características comúns.
 
-Probado no [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Ordes de Teclado: ##
 
@@ -62,8 +62,8 @@ dispoñibles as seguintes ordes de teclado:
 *	Require NVDA 2019.3 ou posterior.
 
 ## Cambios para 3.0 ##
-*	 Para procurar texto en caixas de edición de só lectura, pódese utilizar o
-   diálogo buscar, como nvda+control+f para activar o diálogo buscar.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Cambios para 2.0 ##
 *	 A axuda do complemento está dispoñible no Administrador de Complementos.
@@ -92,4 +92,4 @@ dispoñibles as seguintes ordes de teclado:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

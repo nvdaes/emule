@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-Проверено на [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Основные команды: ##
 
@@ -88,4 +88,4 @@ alt+ctrl+ стрелок. Следующие команды клавиш зде�
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

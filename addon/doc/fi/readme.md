@@ -10,7 +10,7 @@ Perustuu saman tekijän kehittämään eMuleNVDASupport-lisäosaan. Sinun tulisi
 poistaa se tämän version käyttämiseksi, sillä molemmissa on yhteisiä
 näppäinkomentoja ja ominaisuuksia.
 
-Testattu [eMule][2]n 0.50a-versiossa.
+Tested on [eMule][1] 0.50a.
 
 ## Näppäinkomennot: ##
 
@@ -89,4 +89,4 @@ lisäksi seuraavat näppäinkomennot:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

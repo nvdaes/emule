@@ -9,7 +9,7 @@ Je postavený na staršom aplikačnom module pre eMule od toho istého
 autora. odporúčame vám starý aplikačný modul odstrániť, keďže majú spoločné
 klávesové skratky a funkcie.
 
-Testované s [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## klávesové skratky: ##
 
@@ -57,8 +57,8 @@ doplnku sú dostupné aj tieto skratky:
 *	Vyžaduje NVDA od verzie 2019.3.
 
 ## Zmeny vo verzii 3.0 ##
-*	 Na vyhľadávanie textu v neprepisovateľných poliach je odteraz možné
-   použiť štandardné príkazy NVDA a skratku nvda+ctrl+f.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Zmeny vo verzii 2.0 ##
 *	 Návod k doplnku nájdete v správcovi doplnkov.
@@ -83,4 +83,4 @@ doplnku sú dostupné aj tieto skratky:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

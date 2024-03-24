@@ -11,7 +11,7 @@ Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie
 sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung
 verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten.
 
-Getestet mit [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Tastenbefehle: ##
 
@@ -63,9 +63,8 @@ Befehle sind außerdem verfügbar:
 *	Erfordert NVDA 2019.3 oder höher.
 
 ## Änderungen in 3.0 ##
-*	 Um Text in den schreibgeschützten Bearbeitungsfeldern zu suchen, kann das
-   Suchdialogfeld verwendet werden, z. B. nvda+control+f, um das
-   Suchdialogfeld zu aktivieren.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Änderungen in 2.0 ##
 *	 Die Hilfe zur Erweiterung ist über die Erweiterungsverwaltung verfügbar.
@@ -92,4 +91,4 @@ Befehle sind außerdem verfügbar:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

@@ -10,7 +10,7 @@ Opiera się na dodatku eMuleNVDASupport, opracowanym przez tego samego
 autora. Powinieneś odinstalować ten stary dodatek, aby użyć tego, ponieważ
 oba mają wspólne naciśnięcia i funkcje.
 
-Przetestowany na [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Skróty klawiszowe: ##
 
@@ -62,9 +62,8 @@ następujące polecenia klawiszowe w tym dodatku:
 *	Wymaga NVDA w wersji 2019.3 lub nowszej.
 
 ## Zmiany dla 3.0 ##
-*	 Aby wyszukać tekst w polach edycji tylko do odczytu, można użyć okna
-   dialogowego znajdowania, takiego jak nvda + control + f, aby aktywować
-   okno dialogowe wyszukiwania.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Zmiany dla 2.0 ##
 *	 Pomoc dodatku dostępna w oknie zarządzania dodatkami.
@@ -92,4 +91,4 @@ następujące polecenia klawiszowe w tym dodatku:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

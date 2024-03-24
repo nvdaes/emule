@@ -10,7 +10,7 @@ Add-on này dựa trên add-on eMuleNVDASupport, phát triển bởi cùng tác
 giả. Bạn nên gỡ bỏ add-on đó để dùng add-on này vì chúng có cùng các phím
 tắt và tính năng phổ biến.
 
-Đã thử nghiệm trên [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Các phím lệnh: ##
 
@@ -63,9 +63,8 @@ sau:
 *	Yêu cầu NVDA 2019.3 trở lên.
 
 ## Các thay đổi cho phiên bản 3.0 ##
-*	 Để tìm kiếm văn bản trong các trường nhập liệu có thuộc tính chỉ đọc, có
-   thể dùng hộp thoại tìm kiếm. Chẳng hạn như nvda+control+f để kích hoạt
-   hộp thoại này.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Các thay đổi cho phiên bản 2.0 ##
 *	 Đã có trợ giúp cho add-on trong trình quản lý add-on.
@@ -93,4 +92,4 @@ sau:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

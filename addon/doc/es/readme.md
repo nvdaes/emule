@@ -10,7 +10,7 @@ Se basa en el complemento eMuleNVDASupport, desarrollado por el mismo
 autor. Debes desinstalar el viejo complemento para usar este, ya que ambos
 tienen atajos de teclado y características en común.
 
-Probado en [eMule] [2] 0.50A.
+Probado en [eMule] [1] 0.50A.
 
 ## Órdenes de teclado: ##
 
@@ -95,4 +95,4 @@ están disponibles las siguientes órdenes de teclado:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net

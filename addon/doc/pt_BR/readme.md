@@ -10,7 +10,7 @@ janelas e fornece informações úteis sobre o eMule.
 autor. Você deve desinstalar esse complemento antigo para usá-lo, pois ambos
 possuem pressionamentos de tecla e recursos comuns.
 
-Testado no [eMule][2] 0.50a.
+Tested on [eMule][1] 0.50a.
 
 ## Teclas de comando: ##
 
@@ -62,9 +62,8 @@ seguintes teclas de comando:
 *	Requer NVDA 2019.3 ou posterior.
 
 ## Mudanças na 3.0 ##
-*	 Para pesquisar texto nas caixas de edição somente leitura, a caixa de
-   diálogo Localizar pode ser usada, como nvda+control+f para ativar o
-   diálogo Localizar.
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
 ## Mudanças na 2.0 ##
 *	 A ajuda do complemento está disponível no gestor de complementos.
@@ -92,4 +91,4 @@ seguintes teclas de comando:
 
 [[!tag dev stable]]
 
-[2]: https://www.emule-project.net
+[1]: https://www.emule-project.net
