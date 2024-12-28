@@ -10,7 +10,7 @@ janelas e fornece informações úteis sobre o eMule.
 autor. Você deve desinstalar esse complemento antigo para usá-lo, pois ambos
 possuem pressionamentos de tecla e recursos comuns.
 
-Tested on [eMule][1] 0.50a.
+Testado no [eMule][1] 0.50a.
 
 ## Teclas de comando: ##
 
@@ -49,21 +49,22 @@ seguintes teclas de comando:
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
 
-## Changes for 7.0
-* Compatible with NVDA 2023.1.
+## Mudanças na 7.0
+* Compatível com o NVDA 2023.1.
 
-## Changes for 6.0
-*	Requires NVDA 2022.1 or later.
+## Mudanças na 6.0
+*	Requer NVDA 2022.1 ou posterior.
 
-## Changes for 5.0
-*	Compatible with NVDA 2021.1.
+## Mudanças na 5.0
+*	Compatível com o NVDA 2021.1.
 
 ## Mudanças na 4.0 ##
 *	Requer NVDA 2019.3 ou posterior.
 
 ## Mudanças na 3.0 ##
-*	 To search text in the readonly edit boxes,  the find dialog  can be used,
-   such as nvda+control+f to activate the find dialog.
+*	 Para pesquisar texto nas caixas de edição somente leitura, a caixa de
+   diálogo localizar pode ser usada, como nvda+control+f para ativar a caixa
+   de diálogo localizar.
 
 ## Mudanças na 2.0 ##
 *	 A ajuda do complemento está disponível no gestor de complementos.
