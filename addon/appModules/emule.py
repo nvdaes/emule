@@ -27,7 +27,6 @@ addonHandler.initTranslation()
 
 
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
-
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
 
 	def initOverlayClass(self):
@@ -40,7 +39,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	@script(
 		# Translators: Message presented in input help mode.
-		description=_("Reads the specified column for the current list item.")
+		description=_("Reads the specified column for the current list item."),
 	)
 	def script_readColumn(self, gesture):
 		col = int(gesture.mainKeyName[-1])
@@ -52,7 +51,7 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 	@script(
 		# Translators: Message presented in input help mode.
-		description=_("Copies the last read column of the selected list item to clipboard.")
+		description=_("Copies the last read column of the selected list item to clipboard."),
 	)
 	def script_copyColumn(self, gesture):
 		try:
@@ -71,14 +70,12 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 
 class RichEditCursorManager(CursorManager):
-
 	def makeTextInfo(self, position):
 		# Fixes regression for issue 4291.
 		return EditTextInfo(self, position)
 
 
 class AppModule(appModuleHandler.AppModule):
-
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
@@ -89,7 +86,8 @@ class AppModule(appModuleHandler.AppModule):
 
 	def event_gainFocus(self, obj, nextHandler):
 		possibleRoles = (
-			Role.EDITABLETEXT, Role.SLIDER,
+			Role.EDITABLETEXT,
+			Role.SLIDER,
 		)
 		if obj.role in possibleRoles and not obj.name:
 			obj.name = getLabel(obj)
@@ -99,8 +97,12 @@ class AppModule(appModuleHandler.AppModule):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
 				windowUtils.findDescendantWindow(
-					api.getForegroundObject().windowHandle, visible=True, controlID=16127
-				), winUser.OBJID_CLIENT, 0
+					api.getForegroundObject().windowHandle,
+					visible=True,
+					controlID=16127,
+				),
+				winUser.OBJID_CLIENT,
+				0,
 			)
 		except LookupError:
 			return None
@@ -123,7 +125,8 @@ class AppModule(appModuleHandler.AppModule):
 	def getHeader(self):
 		obj = api.getFocusObject()
 		if not (
-			obj and obj.windowClassName == 'SysListView32'
+			obj
+			and obj.windowClassName == "SysListView32"
 			and obj.IAccessibleRole == oleacc.ROLE_SYSTEM_LISTITEM
 		):
 			return
@@ -143,7 +146,7 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Moves the system focus and mouse to the main Tool Bar."),
-		gesture="kb:control+shift+h"
+		gesture="kb:control+shift+h",
 	)
 	def script_toolBar(self, gesture):
 		obj = self.getToolBar()
@@ -160,7 +163,7 @@ class AppModule(appModuleHandler.AppModule):
 		# For instance: reads the search window, Statistics, IRC, etc.
 		description=_("Reports the current window."),
 		gesture="kb:control+shift+t",
-		speakOnDemand=True
+		speakOnDemand=True,
 	)
 	def script_where(self, gesture):
 		name = self.getName()
@@ -171,14 +174,18 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Moves the system focus to the Name field of the Search window."),
-		gesture="kb:control+shift+n"
+		gesture="kb:control+shift+n",
 	)
 	def script_name(self, gesture):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
 				windowUtils.findDescendantWindow(
-					api.getForegroundObject().windowHandle, visible=True, controlID=2183
-				), winUser.OBJID_CLIENT, 0
+					api.getForegroundObject().windowHandle,
+					visible=True,
+					controlID=2183,
+				),
+				winUser.OBJID_CLIENT,
+				0,
 			)
 		except LookupError:
 			return
@@ -191,9 +198,9 @@ class AppModule(appModuleHandler.AppModule):
 		description=_(
 			# Translators: Message presented in input help mode.
 			"Moves the system focus and mouse to the search parameters list or Edit field for each option,"
-			" in the Search window."
+			" in the Search window.",
 		),
-		gesture="kb:control+shift+p"
+		gesture="kb:control+shift+p",
 	)
 	def script_searchList(self, gesture):
 		where = self.getWhere()
@@ -202,8 +209,11 @@ class AppModule(appModuleHandler.AppModule):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
 				windowUtils.findDescendantWindow(
-					api.getForegroundObject().windowHandle, controlID=2833
-				), winUser.OBJID_CLIENT, 0
+					api.getForegroundObject().windowHandle,
+					controlID=2833,
+				),
+				winUser.OBJID_CLIENT,
+				0,
 			)
 		except LookupError:
 			return
@@ -216,16 +226,20 @@ class AppModule(appModuleHandler.AppModule):
 		description=_(
 			# Translators: Message presented in input help mode.
 			"Moves the system focus to the first list in the current window."
-			" For example the results list in the Search window, downloads in Transfer, etc."
+			" For example the results list in the Search window, downloads in Transfer, etc.",
 		),
-		gesture="kb:control+shift+b"
+		gesture="kb:control+shift+b",
 	)
 	def script_list(self, gesture):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
 				windowUtils.findDescendantWindow(
-					api.getForegroundObject().windowHandle, visible=True, className="SysListView32"
-				), winUser.OBJID_CLIENT, 0
+					api.getForegroundObject().windowHandle,
+					visible=True,
+					className="SysListView32",
+				),
+				winUser.OBJID_CLIENT,
+				0,
 			)
 		except LookupError:
 			return
@@ -238,9 +252,9 @@ class AppModule(appModuleHandler.AppModule):
 		description=_(
 			# Translators: Message presented in input help mode.
 			"Moves the system focus to read-only edit boxes in the current window."
-			" For example the IRC received messages."
+			" For example the IRC received messages.",
 		),
-		gesture="kb:control+shift+o"
+		gesture="kb:control+shift+o",
 	)
 	def script_readOnlyEdit(self, gesture):
 		where = self.getWhere()
@@ -251,8 +265,13 @@ class AppModule(appModuleHandler.AppModule):
 		try:
 			obj = NVDAObjects.IAccessible.getNVDAObjectFromEvent(
 				windowUtils.findDescendantWindow(
-					api.getForegroundObject().windowHandle, visible=True, className="RichEdit20W", controlID=cID
-				), winUser.OBJID_CLIENT, 0
+					api.getForegroundObject().windowHandle,
+					visible=True,
+					className="RichEdit20W",
+					controlID=cID,
+				),
+				winUser.OBJID_CLIENT,
+				0,
 			)
 		except LookupError:
 			return
@@ -264,7 +283,7 @@ class AppModule(appModuleHandler.AppModule):
 	@script(
 		# Translators: Message presented in input help mode.
 		description=_("Moves the navigator object and mouse to the current list headers."),
-		gesture="kb:control+shift+l"
+		gesture="kb:control+shift+l",
 	)
 	def script_header(self, gesture):
 		obj = self.getHeader()
@@ -279,7 +298,7 @@ class AppModule(appModuleHandler.AppModule):
 		# Translators: Message presented in input help mode.
 		description=_("Reports first object of the Status Bar."),
 		gesture="kb:control+shift+q",
-		speakOnDemand=True
+		speakOnDemand=True,
 	)
 	def script_statusBarFirstChild(self, gesture):
 		if self.statusBarObj(0) is not None:
@@ -289,7 +308,7 @@ class AppModule(appModuleHandler.AppModule):
 		# Translators: Message presented in input help mode.
 		description=_("Reports second object of the Status Bar."),
 		gesture="kb:control+shift+w",
-		speakOnDemand=True
+		speakOnDemand=True,
 	)
 	def script_statusBarSecondChild(self, gesture):
 		if self.statusBarObj(1) is not None:
@@ -299,7 +318,7 @@ class AppModule(appModuleHandler.AppModule):
 		# Translators: Message presented in input help mode.
 		description=_("Reports third object of the Status Bar."),
 		gesture="kb:control+shift+e",
-		speakOnDemand=True
+		speakOnDemand=True,
 	)
 	def script_statusBarThirdChild(self, gesture):
 		if self.statusBarObj(2) is not None:
@@ -309,7 +328,7 @@ class AppModule(appModuleHandler.AppModule):
 		# Translators: Message presented in input help mode.
 		description=_("Reports fourth object of the Status Bar."),
 		gesture="kb:control+shift+r",
-		speakOnDemand=True
+		speakOnDemand=True,
 	)
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is not None:
