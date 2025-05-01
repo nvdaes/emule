@@ -33,6 +33,10 @@ In this Add-on the following key commands are also available:
 *	nvda+shift+1-0: Reads columns 11 to 20. 
 *	nvda+shift+C: Copies the contents of the last read column to the clipboard.
 
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the [labelAutofinderCore project](https://github.com/ABuffEr/labelAutofinderCore) developed by Alberto Buffolino, one of the authors of this add-on.
+
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
 

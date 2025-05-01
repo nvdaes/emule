@@ -1,6 +1,6 @@
 # -*- coding: UTF-8 -*-
 # eMule app module
-# Copyright (C) 2012-2022 Noelia Ruiz Martínez, Alberto Buffolino
+# Copyright (C) 2012-2025 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
 
 import appModuleHandler
@@ -14,11 +14,14 @@ import oleacc
 import winUser
 import windowUtils
 import controlTypes
+from controlTypes import Role
 import NVDAObjects.IAccessible
 from NVDAObjects.behaviors import RowWithFakeNavigation
 from cursorManager import CursorManager
 from NVDAObjects.window.edit import EditTextInfo
 from scriptHandler import script
+
+from .labelAutofinderCore import getLabel
 
 addonHandler.initTranslation()
 
@@ -79,10 +82,18 @@ class AppModule(appModuleHandler.AppModule):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
 
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
-		if obj.role == controlTypes.Role.LISTITEM:
+		if obj.role == Role.LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
+
+	def event_gainFocus(self, obj, nextHandler):
+		possibleRoles = (
+			Role.EDITABLETEXT, Role.SLIDER,
+		)
+		if obj.role in possibleRoles and not obj.name:
+			obj.name = getLabel(obj)
+		nextHandler()
 
 	def getToolBar(self):
 		try:
