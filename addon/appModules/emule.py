@@ -70,7 +70,6 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
-
 	def _get_value(self):
 		config = SearchConfig(directions=SearchDirections.TOP)
 		value = getLabel(self, config)
