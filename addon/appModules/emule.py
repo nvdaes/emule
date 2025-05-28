@@ -21,7 +21,7 @@ from cursorManager import CursorManager
 from NVDAObjects.window.edit import EditTextInfo
 from scriptHandler import script
 
-from .labelAutofinderCore import getLabel
+from .labelAutofinderCore import getLabel, SearchConfig, SearchDirections
 
 addonHandler.initTranslation()
 
@@ -69,6 +69,13 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 			ui.message(_("%s copied to clipboard") % column)
 
 
+class BetterSlider(NVDAObjects.IAccessible.IAccessible):
+	def _get_value(self):
+		config = SearchConfig(directions=SearchDirections.TOP)
+		value = getLabel(self, config)
+		return value
+
+
 class RichEditCursorManager(CursorManager):
 	def makeTextInfo(self, position):
 		# Fixes regression for issue 4291.
@@ -81,15 +88,13 @@ class AppModule(appModuleHandler.AppModule):
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == Role.LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
+		elif obj.role == Role.SLIDER and not obj.name:
+			clsList.insert(0, BetterSlider)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
 
 	def event_gainFocus(self, obj, nextHandler):
-		possibleRoles = (
-			Role.EDITABLETEXT,
-			Role.SLIDER,
-		)
-		if obj.role in possibleRoles and not obj.name:
+		if obj.role == Role.EDITABLETEXT and not obj.name:
 			obj.name = getLabel(obj)
 		nextHandler()
 
