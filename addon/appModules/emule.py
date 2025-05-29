@@ -70,15 +70,13 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
+
 	def _get_value(self):
-		config = SearchConfig(directions=SearchDirections.TOP)
-		value = getLabel(self, config)
 		if self.name:
-			return value
-		# Slider in Preferences, General
-		if self.simpleNext:
-			return f"{super()._get_value()} {self.simpleNext.name}"
-		return super()._get_value()
+			return super()._get_value()
+		config = SearchConfig(directions=SearchDirections.LEFT_TOP, maxHorizontalDistance=77)
+		value = getLabel(self, config)
+		return value if value else super()._get_value()
 
 
 class RichEditCursorManager(CursorManager):
