@@ -73,7 +73,12 @@ class BetterSlider(NVDAObjects.IAccessible.IAccessible):
 	def _get_value(self):
 		config = SearchConfig(directions=SearchDirections.TOP)
 		value = getLabel(self, config)
-		return value
+		if self.name:
+			return value
+		# Slider in Preferences, General
+		if self.simpleNext:
+			return f"{super()._get_value()} {self.simpleNext.name}"
+		return super()._get_value()
 
 
 class RichEditCursorManager(CursorManager):
@@ -88,7 +93,7 @@ class AppModule(appModuleHandler.AppModule):
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == Role.LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
-		elif obj.role == Role.SLIDER and not obj.name:
+		elif obj.role == Role.SLIDER:
 			clsList.insert(0, BetterSlider)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
