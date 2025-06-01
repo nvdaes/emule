@@ -363,7 +363,6 @@ class AppModule(appModuleHandler.AppModule):
 		if self.statusBarObj(3) is not None:
 			ui.message(self.statusBarObj(3))
 
-
 	@script(
 		# Translators: Message resented in input help mode.
 		description=_("Toggles on and off the usage of an alternative approach to read sliders"),
