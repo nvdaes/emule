@@ -374,6 +374,6 @@ class AppModule(appModuleHandler.AppModule):
 			"alternativeGetValue",
 			# Translators: Reported when usage of alternative approach for slides is on.
 			_("Use alternative approach to read slides on"),
-			# Translators: Reported when usage of alternative approach for slides is on.
+			# Translators: Reported when usage of alternative approach for slides is off.
 			_("Use alternative approach to read slides off"),
 		)
