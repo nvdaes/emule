@@ -4,7 +4,8 @@
 
 import appModuleHandler
 import addonHandler
-import config
+from config import conf
+
 import eventHandler
 import mouseHandler
 import api
@@ -28,7 +29,7 @@ addonHandler.initTranslation()
 confspec: dict[str:str] = {
 	"alternativeGetValue": "boolean(default=False)",
 }
-config.conf.spec["eMule"] = confspec
+conf.spec["eMule"] = confspec
 
 
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
@@ -86,7 +87,7 @@ class BetterSlider(NVDAObjects.IAccessible.IAccessible):
 		return super()._get_value()
 
 	def _get_value(self):
-		if config.conf["eMule"]["alternativeGetValue"]:
+		if conf["eMule"]["alternativeGetValue"]:
 			value = self.alternativeGetValue()
 			return value
 		if self.name:
