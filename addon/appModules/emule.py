@@ -25,10 +25,11 @@ from .labelAutofinderCore import getLabel, SearchConfig, SearchDirections
 
 addonHandler.initTranslation()
 
-confspec: dict[str: str] = {
+confspec: dict[str:str] = {
 	"alternativeGetValue": "boolean(default=False)",
 }
 config.conf.spec["eMule"] = confspec
+
 
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
