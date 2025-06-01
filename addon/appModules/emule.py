@@ -1,10 +1,10 @@
-# -*- coding: UTF-8 -*-
 # eMule app module
 # Copyright (C) 2012-2025 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
 
 import appModuleHandler
 import addonHandler
+import config
 import eventHandler
 import mouseHandler
 import api
@@ -25,6 +25,10 @@ from .labelAutofinderCore import getLabel, SearchConfig, SearchDirections
 
 addonHandler.initTranslation()
 
+confspec: dict[str: str] = {
+	"alternativeGetValue": "boolean(default=False)",
+}
+config.conf.spec["eMule"] = confspec
 
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 	scriptCategory = addonHandler.getCodeAddon().manifest["summary"]
@@ -70,12 +74,12 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
-	def _get_value(self):
+	def alternativeGetValue(self):
 		config = SearchConfig(directions=SearchDirections.TOP)
 		value = getLabel(self, config)
 		if self.name:
 			return value
-		# Slider in Preferences, General
+		# Slider in Preferences, General, in some systems.
 		if self.simpleNext:
 			return f"{super()._get_value()} {self.simpleNext.name}"
 		return super()._get_value()
