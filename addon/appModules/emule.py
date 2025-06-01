@@ -71,9 +71,11 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
 	def _get_value(self):
-		config = SearchConfig(directions=SearchDirections.TOP)
+		if self.name:
+			return super()._get_value()
+		config = SearchConfig(directions=SearchDirections.LEFT_TOP, maxHorizontalDistance=77)
 		value = getLabel(self, config)
-		return value
+		return value if value else super()._get_value()
 
 
 class RichEditCursorManager(CursorManager):
@@ -88,7 +90,7 @@ class AppModule(appModuleHandler.AppModule):
 	def chooseNVDAObjectOverlayClasses(self, obj, clsList):
 		if obj.role == Role.LISTITEM:
 			clsList.insert(0, EmuleRowWithFakeNavigation)
-		elif obj.role == Role.SLIDER and not obj.name:
+		elif obj.role == Role.SLIDER:
 			clsList.insert(0, BetterSlider)
 		elif obj.windowClassName == "RichEdit20W":
 			clsList.insert(0, RichEditCursorManager)
