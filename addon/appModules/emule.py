@@ -84,6 +84,16 @@ class BetterSlider(NVDAObjects.IAccessible.IAccessible):
 			return f"{super()._get_value()} {self.simpleNext.name}"
 		return super()._get_value()
 
+	def _get_value(self):
+		if config.conf["eMule"]["alternativeGetValue"]:
+			value = self.alternativeGetValue()
+			return value
+		if self.name:
+			return super()._get_value()
+		config = SearchConfig(directions=SearchDirections.LEFT_TOP, maxHorizontalDistance=77)
+		value = getLabel(self, config)
+		return value if value else super()._get_value()
+
 
 class RichEditCursorManager(CursorManager):
 	def makeTextInfo(self, position):

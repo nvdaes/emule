@@ -84,7 +84,7 @@ touches de raccourci suivantes sont également disponibles :
    généralisée pour se déplacer sur toutes les zones d'édition en lecture
    seule, ce qui permet de consulter les informations de connexion dans la
    fenêtre des serveurs.
-*	 lors du déplacement de la souris et le focus à la barre d'outils, dans
+*	 Lors du déplacement de la souris et le focus à la barre d'outils, dans
    certains cas, il a été annoncé deux fois. Ce problème a été corrigé.
 
 ## Changements pour la version 1.1 ##
