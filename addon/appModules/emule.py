@@ -5,6 +5,7 @@
 import appModuleHandler
 import addonHandler
 from config import conf
+from globalCommands import toggleBooleanValue
 
 import eventHandler
 import mouseHandler
@@ -77,9 +78,11 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
 	def alternativeGetValue(self):
-		config = SearchConfig(directions=SearchDirections.TOP)
-		value = getLabel(self, config)
 		if self.name:
+			config = SearchConfig(directions=SearchDirections.TOP)
+			value = getLabel(self, config)
+			if ": " in value:
+				return value.split(": ")[1]
 			return value
 		# Slider in Preferences, General, in some systems.
 		if self.simpleNext:
@@ -359,3 +362,19 @@ class AppModule(appModuleHandler.AppModule):
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is not None:
 			ui.message(self.statusBarObj(3))
+
+
+	@script(
+		# Translators: Message resented in input help mode.
+		description=_("Toggles on and off the usage of an alternative approach to read sliders"),
+		speakOnDemand=True,
+	)
+	def script_toggleAlternativeSlideValue(self, gesture):
+		toggleBooleanValue(
+			"eMule",
+			"alternativeGetValue",
+			# Translators: Reported when usage of alternative approach for slides is on.
+			_("Use alternative approach to read slides on"),
+			# Translators: Reported when usage of alternative approach for slides is on.
+			_("Use alternative approach to read slides off"),
+		)
