@@ -1,10 +1,12 @@
-# -*- coding: UTF-8 -*-
 # eMule app module
 # Copyright (C) 2012-2025 Noelia Ruiz Martínez, Alberto Buffolino
 # Released under GPL 2
 
 import appModuleHandler
 import addonHandler
+from config import conf
+from globalCommands import toggleBooleanValue
+
 import eventHandler
 import mouseHandler
 import api
@@ -24,6 +26,11 @@ from scriptHandler import script
 from .labelAutofinderCore import getLabel, SearchConfig, SearchDirections
 
 addonHandler.initTranslation()
+
+confspec: dict[str:str] = {
+	"alternativeGetValue": "boolean(default=False)",
+}
+conf.spec["eMule"] = confspec
 
 
 class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
@@ -70,7 +77,22 @@ class EmuleRowWithFakeNavigation(RowWithFakeNavigation):
 
 
 class BetterSlider(NVDAObjects.IAccessible.IAccessible):
+	def alternativeGetValue(self):
+		if self.name:
+			config = SearchConfig(directions=SearchDirections.TOP)
+			value = getLabel(self, config)
+			if ": " in value:
+				return value.split(": ")[1]
+			return value
+		# Slider in Preferences, General, in some systems.
+		if self.simpleNext:
+			return f"{super()._get_value()} {self.simpleNext.name}"
+		return super()._get_value()
+
 	def _get_value(self):
+		if conf["eMule"]["alternativeGetValue"]:
+			value = self.alternativeGetValue()
+			return value
 		if self.name:
 			return super()._get_value()
 		config = SearchConfig(directions=SearchDirections.LEFT_TOP, maxHorizontalDistance=77)
@@ -340,3 +362,18 @@ class AppModule(appModuleHandler.AppModule):
 	def script_statusBarForthChild(self, gesture):
 		if self.statusBarObj(3) is not None:
 			ui.message(self.statusBarObj(3))
+
+	@script(
+		# Translators: Message resented in input help mode.
+		description=_("Toggles on and off the usage of an alternative approach to read sliders"),
+		speakOnDemand=True,
+	)
+	def script_toggleAlternativeSlideValue(self, gesture):
+		toggleBooleanValue(
+			"eMule",
+			"alternativeGetValue",
+			# Translators: Reported when usage of alternative approach for slides is on.
+			_("Use alternative approach to read slides on"),
+			# Translators: Reported when usage of alternative approach for slides is off.
+			_("Use alternative approach to read slides off"),
+		)
