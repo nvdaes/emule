@@ -10,7 +10,7 @@ Opiera się na dodatku eMuleNVDASupport, opracowanym przez tego samego
 autora. Powinieneś odinstalować ten stary dodatek, aby użyć tego, ponieważ
 oba mają wspólne naciśnięcia i funkcje.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Skróty klawiszowe: ##
 
@@ -36,8 +36,8 @@ Tested on [eMule][1] 0.50a.
   o plikach i użytkownikach na aktualnym serwerze.
 *	control+shift+e: odczytuje trzeci obiekt na pasku stanu; użyteczne aby
   poznać prędkość pobierania i wysyłania.
-*	control+shift+r: odczytuje czwarty obiekt na pasku stanu; raport z
-  połączenia z siecią eD2K i Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Zarządzanie kolumnami. ##
 
@@ -48,6 +48,15 @@ następujące polecenia klawiszowe w tym dodatku:
 *	nvda+control+1-0: czyta pierwsze 10 kolumn.
 *	nvda+shift+1-0: czyta kolumny do 20.
 *	nvda+shift+C: kopiuje do schowka treść ostatnio przeczytanej kolumny.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Zmiany w wersji 6.0
 * Kompatybilny z NVDA 2023.1.
@@ -88,6 +97,8 @@ następujące polecenia klawiszowe w tym dodatku:
 
 ## Zmiany dla 1.0 ##
 *	 Pierwsza wersja.
+
+
 
 [[!tag dev stable]]
 

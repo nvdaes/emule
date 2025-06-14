@@ -10,7 +10,7 @@ Deriva dal componente aggiuntivo eMuleNVDASupport, sviluppato dalla stessa
 autrice. E' necessario disinstallare la vecchia versione, se presente, prima
 di installare questa versione.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Comandi rapidi: ##
 
@@ -36,8 +36,8 @@ Tested on [eMule][1] 0.50a.
   della barra di stato.
 *	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
   elemento della barra di stato.
-*	control+shift+r: Legge connettività alle reti eD2K e Kad, quarto elemento
-  della barra di stato.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Esplorazione degli elenchi. ##
 
@@ -49,6 +49,15 @@ disponibili inoltre i seguenti comandi da tastiera:
 *	nvda+shift+1-0: Consente di leggere le colonne corrispondenti, dalla
   undicesima alla ventesima.
 *	nvda+shift+C: Copia negli appunti il contenuto dell'ultima colonna letta.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -92,6 +101,8 @@ disponibili inoltre i seguenti comandi da tastiera:
 
 ## Novità nella versione 1.0 ##
 *	 Versione iniziale.
+
+
 
 [[!tag dev stable]]
 

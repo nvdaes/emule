@@ -10,7 +10,7 @@ Elle est basée sur l'extension eMuleNVDASupport, développé par le même
 auteur. Vous devez désinstaller cette ancienne extension pour utiliser
 celle-ci, car les deux ont des touches et des fonctionnalités communes.
 
-Testé avec [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Touches de raccourcis : ##
 
@@ -39,8 +39,8 @@ Testé avec [eMule][1] 0.50a.
   informations sur les fichiers et les utilisateurs sur le serveur actuel.
 *	Ctrl + Maj + E: Lit le troisième objet de la barre d'état; utile pour
   connaître la vitesse d'Envoi / Téléchargement.
-*	Ctrl + Maj + r: Affiche Le quatrième objet de la barre d'état, les
-  rapports sur la connexion de réseau eD2K et Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Gestion des colonnes. ##
 
@@ -52,6 +52,15 @@ touches de raccourci suivantes sont également disponibles :
 *	NVDA + maj +1-0 : Lit colonnes 11 à 20.
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changements pour la version 7.0
 * Compatible avec NVDA 2023.1.
@@ -96,6 +105,8 @@ touches de raccourci suivantes sont également disponibles :
 
 ## Changements pour la version 1.0 ##
 *	 Première version.
+
+
 
 [[!tag dev stable]]
 

@@ -9,7 +9,7 @@ Je postavený na staršom aplikačnom module pre eMule od toho istého
 autora. odporúčame vám starý aplikačný modul odstrániť, keďže majú spoločné
 klávesové skratky a funkcie.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## klávesové skratky: ##
 
@@ -32,8 +32,8 @@ Tested on [eMule][1] 0.50a.
   súboroch a používateľoch na aktuálnom serveri.
 *	ctrl+shift+e: prečíta tretí objekt na stavovom riadku; rýchlosť sťahovania
   a posielania.
-*	ctrl+shift+r: prečíta štvrtý objekt na stavovom riadku; Oznámy stav
-  pripájania do siete eD2K a Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## práca so stĺpcami. ##
 
@@ -43,6 +43,15 @@ doplnku sú dostupné aj tieto skratky:
 *	nvda+ctrl+1-0: Prečíta prvých 10 stĺpcov.
 *	nvda+shift+1-0: Číta stĺpce 11-20.
 *	nvda+shift+C: Skopíruje posledný prečítaný stĺpec do schránky.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -80,6 +89,8 @@ doplnku sú dostupné aj tieto skratky:
 
 ## Zmeny vo verzii 1.0 ##
 *	 prvé vydanie.
+
+
 
 [[!tag dev stable]]
 

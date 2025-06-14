@@ -10,7 +10,7 @@ Se basa en el complemento eMuleNVDASupport, desarrollado por el mismo
 autor. Debes desinstalar el viejo complemento para usar este, ya que ambos
 tienen atajos de teclado y características en común.
 
-Probado en [eMule] [1] 0.50A.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Órdenes de teclado: ##
 
@@ -37,8 +37,8 @@ Probado en [eMule] [1] 0.50A.
   información acerca de ficheros y usuarios en el servidor actual.
 *	control+shift+e: Lee el tercer objeto de la barra de estado; útil para
   saber la velocidad de subida y bajada.
-*	control+shift+r: Lee el cuarto objeto de la barra de estado; informa sobre
-  la conexión de las redes Kad y eD2K.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Administrando columnas. ##
 
@@ -50,6 +50,15 @@ están disponibles las siguientes órdenes de teclado:
 *	nvda+shift+1-0: Lee las columnas 11 a 20.
 *	nvda+shift+C: Copia el contenido de la última columna leída al
   portapapeles.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Cambios para 7.0
 * Compatible con NVDA 2023.1.
@@ -92,6 +101,8 @@ están disponibles las siguientes órdenes de teclado:
 
 ## Cambios para 1.0 ##
 *	 Versión inicial.
+
+
 
 [[!tag dev stable]]
 

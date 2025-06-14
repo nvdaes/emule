@@ -21,18 +21,18 @@ msgstr ""
 msgid "Reads the specified column for the current list item."
 msgstr "Lee la columna especificada para el elemento de lista actual."
 
-#. Translators: Message presented when the current column of the list item is copied to clipboard.
-#, python-format
-msgid "%s copied to clipboard"
-msgstr "%s copiado al portapapeles"
-
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr ""
 "Copia la última columna leída del elemento de lista seleccionado al "
 "portapapeles."
 
-#. Translators: Message presented in input help mode
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
+#, python-format
+msgid "%s copied to clipboard"
+msgstr "%s copiado al portapapeles"
+
+#. Translators: Message presented in input help mode.
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr ""
 "Mueve el foco del sistema y el ratón a la barra de herramientas principal."
@@ -94,36 +94,17 @@ msgstr "Informa sobre el tercer objeto de la barra de estado."
 msgid "Reports fourth object of the Status Bar."
 msgstr "Informa sobre el cuarto objeto de la barra de estado."
 
-#. Translators: Label of a dialog presented when the specified string of text is not found.
-#, python-format
-msgid "text \"%s\" not found"
-msgstr "texto \"%s\" no encontrado"
-
-#. Translators: Title of a dialog presented when the specified string of text is not found.
-msgid "Find Error"
-msgstr "Error de Búsqeda"
-
-#. Translators: Label for a search box.
-msgid "Search for:"
-msgstr "Buscar:"
-
-#. Translators: title for the search dialog.
-msgid "eMule search"
-msgstr "Búsqueda de eMule"
-
-#. Translators: Message presented in input help mode
-msgid "Opens the find dialog when in read only edit boxes."
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
-"Abre el diálogo de búsqueda, cuando se está en cuadros de edición de sólo "
-"lectura."
 
-#. Translators: Message presented in input help mode.
-msgid "Find next occurence."
-msgstr "Buscar la siguiente aparición."
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
 
-#. Translators: Message presented in input help mode.
-msgid "Find previous occurrence."
-msgstr "Buscar la aparición anterior."
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -137,10 +118,34 @@ msgid ""
 "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
 "You can get more information about eMule at\n"
-"https://www.emule-project.net"
+"http://www.emule-project.net"
 msgstr ""
 "Mejora la accesibilidad de eMule con NVDA.\n"
 "\teMule es un programa P2P para buscar archivos y compartir.\n"
 "\tPuedes obtener más información acerca de eMule en\n"
 "\thttps://www.emule-project.net\n"
 "\t"
+
+#, python-format
+#~ msgid "text \"%s\" not found"
+#~ msgstr "texto \"%s\" no encontrado"
+
+#~ msgid "Find Error"
+#~ msgstr "Error de Búsqeda"
+
+#~ msgid "Search for:"
+#~ msgstr "Buscar:"
+
+#~ msgid "eMule search"
+#~ msgstr "Búsqueda de eMule"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr ""
+#~ "Abre el diálogo de búsqueda, cuando se está en cuadros de edición de sólo "
+#~ "lectura."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Buscar la siguiente aparición."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Buscar la aparición anterior."

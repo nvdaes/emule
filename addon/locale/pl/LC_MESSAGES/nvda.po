@@ -21,17 +21,17 @@ msgstr ""
 msgid "Reads the specified column for the current list item."
 msgstr "Odczytuje określoną kolumnę dla aktualnego elementu listy."
 
+#. Translators: Message presented in input help mode.
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr ""
+"Kopiuje do schowka ostatnio odczytaną kolumnę zaznaczonego elementu listy."
+
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s skopiowane do schowka"
 
 #. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr ""
-"Kopiuje do schowka ostatnio odczytaną kolumnę zaznaczonego elementu listy."
-
-#. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "Przenosi punkt uwagi i kursor myszy do głównego paska narzędzi."
 
@@ -88,6 +88,18 @@ msgstr "Odczytuje trzeci obiekt paska statusu."
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "Odczytuje czwarty obiekt paska statusu."
+
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

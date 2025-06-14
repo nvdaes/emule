@@ -11,7 +11,7 @@ Diese Erweiterung basiert auf EmuleNVDASupport des selben Autors. Sie
 sollten die alte Erweiterung deinstallieren, bevor Sie diese Erweiterung
 verwenden, da beide die gleichen Tastenkombinationen und Funktionen bieten.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Tastenbefehle: ##
 
@@ -36,8 +36,8 @@ Tested on [eMule][1] 0.50a.
   und Nutzer auf dem aktuellen Server).
 *	Strg+Umschalt+E: Zeigt das dritte Element der Statuszeile an (die
   Datenübertragungsraten).
-*	Strg+Umschalt+R: Zeigt das vierte Element der Statuszeile an
-  (Informationen zu Verbindungen mit ed2k- und Kademia-Netzwerken).
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Spalten verwalten. ##
 
@@ -49,6 +49,15 @@ Befehle sind außerdem verfügbar:
 *	NVDA+Umschalt+1-0: Liest die Spalten 11 bis 20.
 *	NVDA+Umschalt+C: Kopiert die Inhalte der zuletzt gesprochenen Spalte in
   die Zwischenablage.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Änderungen in 7.0
 * Kompatibel mit NVDA 2023.1.
@@ -88,6 +97,8 @@ Befehle sind außerdem verfügbar:
 
 ## Änderungen in 1.0 ##
 *	 Ehrstveröffentlichung.
+
+
 
 [[!tag dev stable]]
 

@@ -11,7 +11,7 @@ udviklet af samme forfatter. Du skal afinstallere det gamle
 tilføjelsesprogram for at kunne bruge denne version, da de har kommandoer og
 funktioner til fælles.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Tastaturkommandoer ##
 
@@ -34,8 +34,8 @@ Tested on [eMule][1] 0.50a.
   oplysning om filer og brugere på den aktuelle server.
 *	Control+Shift+e: Læser tredje objekt på statuslinjen;
   Upload/download-hastighed.
-*	Control+Shift+r: Læser fjerde objekt på statuslinjen: Annoncerer
-  oplysninger om forbindelse til eD2K- og Kad-netværk.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Styring af kolonner. ##
 
@@ -47,6 +47,15 @@ følgende tastaturkommandoer:
 *	NVDA+Shift+1-0: Læser kolonne 11-20.
 *	NVDA+Shift+c: Kopierer indholdet i den sidst læste kolonne til
   udklipsholderen.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -88,6 +97,8 @@ følgende tastaturkommandoer:
 
 ## Ændringer i 1.0 ##
 *	 Første version.
+
+
 
 [[!tag dev stable]]
 

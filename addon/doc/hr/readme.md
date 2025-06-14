@@ -10,7 +10,7 @@ Ovaj je dodatak baziran na dodatku eMuleNVDASupport, kojeg je razvio isti
 autor. Stari se dodatak mora deinstalirati, kako bi se mogao koristiti ovaj
 dodatak, jer oba dodatka imaju zajedničke tipkovničke prečace i značajke.
 
-Testirano na [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Tipkovnički prečaci: ##
 
@@ -35,8 +35,8 @@ Testirano na [eMule][1] 0.50a.
   datotekama i korisnicima na trenutačnom poslužitelju.
 *	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
   doznati brzina slanja/preuzimanja.
-*	kontrol+šift+r: Čita četvrti objekt statusne trake; izvještava o
-  povezivosti ed2k i Kad mreže.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Upravljanje stupcima. ##
 
@@ -47,6 +47,15 @@ prečaci:
 *	nvda+kontrol+1-0: Čita prvih deset stupaca.
 *	nvda+šift+1-0: Čita jedamaesti do dvadeseti stupac.
 *	nvda+šift+C: Kopira sadržaj zadnje pročitanog stupca u međuspremnik.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Promjene u verziji 7.0
 * Kompatibilno s NVDA 2023.1.
@@ -88,6 +97,8 @@ prečaci:
 
 ## Promjene u verziji1.0 ##
 *	 Prva verzija.
+
+
 
 [[!tag dev stable]]
 

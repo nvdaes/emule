@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Comenzi de taste: ##
 
@@ -36,8 +36,8 @@ Tested on [eMule][1] 0.50a.
   informații despre fișiere și utilizatori pe serverul curent.
 *	control+shift+e: Citește al treilea obiect al barei de stare; util pentru
   a ști viteza de încărcare/descărcare.
-*	Control + Shift + R: Citește Al patrulea obiect al barei de stare;
-  rapoarte privind conectarea rețelei ed2k și Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Gestionare coloane ##
 
@@ -48,6 +48,15 @@ sunt de asemenea disponibile:
 *	nvda+control+1-0: Citește primele 10 coloane.
 *	nvda+shift+1-0: Citește coloanele de la 11 până la 20.
 *	nvda+shift+C: Copiază conținutul ultimei coloane citite pe planșetă.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -88,6 +97,8 @@ sunt de asemenea disponibile:
 
 ## Modificări aduse în versiunea 1.0 ##
 *	 Versiunea inițială.
+
+
 
 [[!tag dev stable]]
 

@@ -21,18 +21,18 @@ msgstr ""
 msgid "Reads the specified column for the current list item."
 msgstr "Lee la columna especificada para el elemento de lista actual."
 
-#. Translators: Message presented when the current column of the list item is copied to clipboard.
-#, python-format
-msgid "%s copied to clipboard"
-msgstr "%s copiado al portapapeles"
-
 #. Translators: Message presented in input help mode.
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr ""
 "Copia la última columna leída del elemento de lista seleccionado al "
 "portapapeles."
 
-#. Translators: Message presented in input help mode
+#. Translators: Message presented when the current column of the list item is copied to clipboard.
+#, python-format
+msgid "%s copied to clipboard"
+msgstr "%s copiado al portapapeles"
+
+#. Translators: Message presented in input help mode.
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr ""
 "Mueve el foco del sistema y el ratón a la barra de herramientas principal."
@@ -93,6 +93,18 @@ msgstr "Informa sobre el tercer objeto de la barra de estado."
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "Informa sobre el cuarto objeto de la barra de estado."
+
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

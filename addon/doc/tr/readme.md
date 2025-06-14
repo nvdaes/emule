@@ -11,7 +11,7 @@ eklentiye dayanılarak geliştirildi. Her ikisin ortak tuş komutlarına ve
 benzer özelliklere sahip olduğu için bunu kurmadan önce eskisini
 kaldırmalısınız.
 
-[eMule][1] 0.50a test edilmiştir.
+[eMule][1] 0.50a ve 70b test edilmiştir.
 
 ## Tuş komutları: ##
 
@@ -35,8 +35,8 @@ kaldırmalısınız.
   hakkında bilgi içeren durum çubuğunun ikinci nesnesini okur.
 *	kontrol + shift + e: yükleme ve indirme hızıyla ilgili bilgi veren durum
   çubuğunun üçüncü nesnesini okur.
-*	kontrol + shift + r: eD2K ve Kad ağ bağlantı raporlarıyla ilgili durum
-  çubuğunun dördüncü nesnesini okur.
+*\ tKontrol+Shift+R: Durum çubuğunun dördüncü nesnesini okur; ED2K ve KAD Network'ün bağlanmasına ilişkin raporlar.
+* Atanmamış: Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını değiştirir.
 
 ## Sütunların yönetimi. ##
 
@@ -46,6 +46,15 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 *	nvda + kontrol 1-0: ilk 10 sütunu okur.
 *	nvda + shift 1-0: 11-20 sütunları okur.
 *	nvda + shift + C: son okunan sütunun içeriğini panoya kopyalar .
+
+
+## 20.0.0 için değişiklikler
+* Bu eklentinin yazarlarından Alberto Buffolino tarafından geliştirilen
+  [LabelautofinderCore Projesi]
+  (https://github.com/abuffer/labelautofindercore) sayesinde bazı düzenleme
+  kutuları ve kaydırıcılar etiketlenmiştir.
+* Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını
+  değiştirmek için bir komut (atanmamış) eklendi (varsayılan olarak kapalı).
 
 ## 7.0 için değişiklikler
 * NVDA 2023.1 ile uyumlu.
@@ -86,6 +95,8 @@ arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 
 ## 1.0 Değişiklikler ##
 *	 İlk versiyon.
+
+
 
 [[!tag dev stable]]
 

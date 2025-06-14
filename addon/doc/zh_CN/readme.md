@@ -6,7 +6,7 @@
 
 当前插件基于同一作者开发的eMuleNVDASupport插件。您应该卸载该旧插件以使用此插件，因为两者都有共同的按键和功能。
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## 快捷键: ##
 
@@ -21,7 +21,8 @@ Tested on [eMule][1] 0.50a.
 *	control+shift+q： 朗读状态栏的第一个对象，提供最近一次活动的信息。
 *	control+shift+w: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
 *	control+shift+e： 查看第三个状态栏的对象，常用来了解上传和下载速度。
-*	control+shift+r： 查看状态栏的第四个对象，用来了解 ED2K 和 KAD 网络的连接情况。
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## 管理列。 ##
 
@@ -30,6 +31,15 @@ Tested on [eMule][1] 0.50a.
 *	nvda+control+1到0： 朗读前十列。
 *	nvda+shift+1到0： 朗读第11到20列。
 *	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -62,6 +72,8 @@ Tested on [eMule][1] 0.50a.
 
 ## 版本1.0 ##
 *	 初始版本。
+
+
 
 [[!tag dev stable]]
 

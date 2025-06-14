@@ -21,16 +21,16 @@ msgstr ""
 msgid "Reads the specified column for the current list item."
 msgstr "Felolvassa a megadott oszlopban az aktuális lista elemet."
 
+#. Translators: Message presented in input help mode.
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "Az utoljára felolvasott oszlop tartalmát a vágólapra másolja."
+
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s a vágólapra másolva"
 
 #. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Az utoljára felolvasott oszlop tartalmát a vágólapra másolja."
-
-#. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "A fókuszt és az egérkurzort a fő eszköztárhoz helyezi."
 
@@ -86,6 +86,18 @@ msgstr "Felolvassa a harmadik elemet az állapotsoron."
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "Felolvassa a negyedik elemet az állapotsoron."
+
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

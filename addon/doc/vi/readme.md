@@ -10,7 +10,7 @@ Add-on này dựa trên add-on eMuleNVDASupport, phát triển bởi cùng tác
 giả. Bạn nên gỡ bỏ add-on đó để dùng add-on này vì chúng có cùng các phím
 tắt và tính năng phổ biến.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Các phím lệnh: ##
 
@@ -37,8 +37,8 @@ Tested on [eMule][1] 0.50a.
   thông tin về những tập tin và người dùng trên máy chủ hiện tại.
 *	control+shift+e: Thông báo đối tượng thứ ba của thanh trạng thái; hữu ích
   khi muốn biết tốc độ tải lên / tải xuống.
-*	control+shift+r: thông báo đối tượng thứ tư của thanh trạng thái; thông
-  báo kết nối của mạng eD2K và Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Quản lý các cột. ##
 
@@ -49,6 +49,15 @@ sau:
 *	nvda+control+1-0: thông báo các cột từ 1 đến 10..
 *	nvda+shift+1-0: thông báo các cột từ 11 đến 20.
 *	nvda+shift+C: chép cột cuối cùng được đọc vào bộ nhớ tạm.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -89,6 +98,8 @@ sau:
 
 ## Các thay đổi cho phiên bản 1.0 ##
 *	 Phiên bản đầu tiên.
+
+
 
 [[!tag dev stable]]
 

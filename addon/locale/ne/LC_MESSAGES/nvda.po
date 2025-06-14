@@ -21,16 +21,16 @@ msgstr ""
 msgid "Reads the specified column for the current list item."
 msgstr "चालू सूची सामाग्रीको निर्दिष्ट महल पढ्ने छ ।"
 
+#. Translators: Message presented in input help mode.
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "चयनीत सूची सामाग्री अन्तिम पटक पढेको महललाइ क्लिपपाटीमा उतार्ने छ ।"
+
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s लाई क्लिप पाटीमा उतारियो ।"
 
 #. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "चयनीत सूची सामाग्री अन्तिम पटक पढेको महललाइ क्लिपपाटीमा उतार्ने छ ।"
-
-#. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "पद्धति केन्द्रीयता र सुलसुलेलाई मुख्य औजार पट्टीमा लेजान्छ ।"
 
@@ -86,6 +86,18 @@ msgstr "स्थिति पट्टीको तेस्रो सामा
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "स्थिति पट्टीको चौथो सामाग्री बताउने छ ।"
+
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

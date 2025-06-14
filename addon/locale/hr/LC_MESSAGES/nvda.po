@@ -17,12 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 2.2.4\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
-"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
 msgstr "Čita određeni stupac trenutačne stavke popisa."
+
+#. Translators: Message presented in input help mode.
+msgid "Copies the last read column of the selected list item to clipboard."
+msgstr "Kopira zadnji pročitani stupac odabrane stavke popisa u međuspremnik."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #, python-format
@@ -30,10 +34,6 @@ msgid "%s copied to clipboard"
 msgstr "%s kopirano u međuspremnik"
 
 #. Translators: Message presented in input help mode.
-msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Kopira zadnji pročitani stupac odabrane stavke popisa u međuspremnik."
-
-#. Translators: Message presented in input help mode
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "Premješta sustavski fokus i miša na glavnu alatnu traku."
 
@@ -89,6 +89,18 @@ msgstr "Čita treći objekt statusne trake."
 #. Translators: Message presented in input help mode.
 msgid "Reports fourth object of the Status Bar."
 msgstr "Čita četvrti objekt statusne trake."
+
+#. Translators: Message resented in input help mode.
+msgid "Toggles on and off the usage of an alternative approach to read sliders"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is on.
+msgid "Use alternative approach to read slides on"
+msgstr ""
+
+#. Translators: Reported when usage of alternative approach for slides is off.
+msgid "Use alternative approach to read slides off"
+msgstr ""
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

@@ -10,7 +10,7 @@
 автор. Препоръчваме ви да премахнете старата добавка и да използвате тази,
 тъй като и двете предоставят сходни клавишни команди и възможности.
 
-Тествана е на [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Клавишни команди: ##
 
@@ -35,8 +35,8 @@
   информация за файлове и потребители на текущия сървър.
 *	control+shift+e: Прочита третия обект в лентата на състоянието; полезна,
   ако искате да разберете скоростта на качване/сваляне.
-*	control+shift+r: Прочита четвъртия обект в лентата на състоянието;
-  докладва при свързване към eD2K и Kad мрежи.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Управление на колоните. ##
 
@@ -48,6 +48,15 @@
 *	nvda+shift+1-0: Прочита колоните с поредност от 11 до 20.
 *	nvda+shift+C: Копира съдържанието на последно прочетената колона в
   клипборда.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Промени във версия 7.0
 * Добавката е съвместима с NVDA 2023.1.
@@ -90,6 +99,8 @@
 
 ## Промени във версия 1.0 ##
 *	 Първоначално издание.
+
+
 
 [[!tag dev stable]]
 

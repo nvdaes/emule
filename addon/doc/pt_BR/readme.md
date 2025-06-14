@@ -10,7 +10,7 @@ janelas e fornece informações úteis sobre o eMule.
 autor. Você deve desinstalar esse complemento antigo para usá-lo, pois ambos
 possuem pressionamentos de tecla e recursos comuns.
 
-Testado no [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Teclas de comando: ##
 
@@ -35,8 +35,8 @@ Testado no [eMule][1] 0.50a.
   arquivos e usuários no servidor atual.
 *	control+shift+e: Lê o terceiro objeto da barra de status; útil para saber
   a velocidade de UpLoad/DownLoad.
-*	control+shift+r: Lê o quarto objeto da barra de status; anuncia como estão
-  as conexões às redes eD2K e Kad.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Gerenciando colunas. ##
 
@@ -48,6 +48,15 @@ seguintes teclas de comando:
 *	nvda+shift+1-0: Lê as colunas de 11 a 20.
 *	nvda+shift+C: Copia o conteúdo da última coluna lida para a área de
   transferência.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Mudanças na 7.0
 * Compatível com o NVDA 2023.1.
@@ -89,6 +98,8 @@ seguintes teclas de comando:
 
 ## Mudanças na 1.0 ##
 *	 Versão inicial.
+
+
 
 [[!tag dev stable]]
 

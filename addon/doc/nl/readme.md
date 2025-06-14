@@ -10,7 +10,7 @@ It's based on the eMuleNVDASupport add-on, developed by the same author. You
 should uninstall that old add-on to use this one, since both have common
 keystrokes and features.
 
-Tested on [eMule][1] 0.50a.
+Tested on [eMule][1] 0.50a and 70b.
 
 ## Sneltoetsen: ##
 
@@ -35,8 +35,8 @@ Tested on [eMule][1] 0.50a.
   informatie over bestanden en gebruikers op de huidige server.
 *	control+shift+e: Leest het derde object van de statusbalk; nuttig om de
   UpLoad-/DownLoadsnelheid te kennen.
-*	control+shift+r: Leest het vierde object van de statusbalk; meld over
-  verbinding met eD2K en Kad netwerk.
+*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
+* Not assigned: Toggles the usage of an alternative approach to read sliders.
 
 ## Kolommen beheren. ##
 
@@ -48,6 +48,15 @@ volgende sneltoetsen beschikbaar:
 *	nvda+shift+1-0: Leest kolommen 11 tot 20.
 *	nvda+shift+C: Kopieer de inhoud van de laatstgelezen kolom naar het
   klembord.
+
+
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
 ## Changes for 7.0
 * Compatible with NVDA 2023.1.
@@ -89,6 +98,8 @@ volgende sneltoetsen beschikbaar:
 
 ## Veranderingen in 1.0 ##
 *	 Eerste versie.
+
+
 
 [[!tag dev stable]]
 
