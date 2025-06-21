@@ -10,7 +10,7 @@ Perustuu saman tekijän kehittämään eMuleNVDASupport-lisäosaan. Sinun tulisi
 poistaa se tämän version käyttämiseksi, sillä molemmissa on yhteisiä
 näppäinkomentoja ja ominaisuuksia.
 
-Tested on [eMule][1] 0.50a and 70b.
+Testattu [eMulen][1] versioissa 0.50a ja 70b.
 
 ## Näppäinkomennot: ##
 
@@ -35,8 +35,10 @@ Tested on [eMule][1] 0.50a and 70b.
   tietoja nykyisellä palvelimella olevista tiedostoista ja käyttäjistä.
 *	Ctrl+Vaihto+E: Lukee tilarivillä kolmantena olevan objektin, joka sisältää
   lähetys- ja latausnopeudet.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	Ctrl+Vaihto+R: Lukee tilarivillä neljäntenä olevan objektin, jossa on
+  tietoa eD2K- ja Kad-verkkojen yhteyden tilasta.
+*	Ei määritetty: Ottaa käyttöön vaihtoehtoisen liukusäädinten lukutavan tai
+  poistaa sen käytöstä.
 
 ## Sarakkeiden hallinta ##
 
@@ -49,13 +51,14 @@ lisäksi seuraavat näppäinkomennot:
 *	NVDA+Vaihto+C: Kopioi viimeksi luetun sarakkeen sisällön leikepöydälle.
 
 
-## Changes for 20.0.0
-* Some edit boxes and sliders are labelled, thanks to the
-  [labelAutofinderCore
-  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
-  Alberto Buffolino, one of the authors of this add-on.
-* A command (not assigned) has been added to toggle the usage of an
-  alternative approach to read sliders (off by default).
+## Muutokset versiossa 20.0.0
+* Osa muokkauskentistä ja liukusäätimistä on nimetty Alberto Buffolinon
+  kehittämää
+  [labelAutofinderCore-projektia](https://github.com/ABuffEr/labelAutofinderCore)
+  hyödyntäen.
+* Lisätty määrittämätön komento vaihtoehtoisen liukusäädinten lukutavan
+  käyttöön ottamista tai käytöstä poistamista varten (oletuksena pois
+  käytöstä).
 
 ## Muutokset versiossa 7.0
 * Yhteensopiva NVDA 2023.1:n kanssa.

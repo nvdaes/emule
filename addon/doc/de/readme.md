@@ -36,8 +36,10 @@ Tested on [eMule][1] 0.50a and 70b.
   und Nutzer auf dem aktuellen Server).
 *	Strg+Umschalt+E: Zeigt das dritte Element der Statuszeile an (die
   Datenübertragungsraten).
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Spalten verwalten. ##
 

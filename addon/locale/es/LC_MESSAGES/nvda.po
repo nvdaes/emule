@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2018-10-04 11:20+0200\n"
-"Last-Translator: José Manuel Delicado <jmdaweb@hotmail.com>\n"
+"PO-Revision-Date: 2025-06-13 20:17+0200\n"
+"Last-Translator: José Manuel Delicado <jm.delicado@nvda.es>\n"
 "Language-Team: NVDA add-ons translation Team <LL@li.org>\n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -97,14 +97,15 @@ msgstr "Informa sobre el cuarto objeto de la barra de estado."
 #. Translators: Message resented in input help mode.
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
+"Activa o desactiva el uso de un enfoque alternativo para leer deslizadores"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Usar enfoque alternativo para leer deslizadores activado"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Usar enfoque alternativo para leer deslizadores desactivado"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -123,26 +124,3 @@ msgstr ""
 "eMule es un programa P2P para buscar y compartir ficheros.\n"
 "Puedes obtener más información acerca de eMule en\n"
 "https://www.emule-project.net"
-
-#~ msgid "text \"%s\" not found"
-#~ msgstr "texto \"%s\" no encontrado"
-
-#~ msgid "Find Error"
-#~ msgstr "Error de Búsqeda"
-
-#~ msgid "Search for:"
-#~ msgstr "Buscar:"
-
-#~ msgid "eMule search"
-#~ msgstr "Búsqueda de eMule"
-
-#~ msgid "Opens the find dialog when in read only edit boxes."
-#~ msgstr ""
-#~ "Abre el diálogo de búsqueda, cuando se está en cuadros de edición de sólo "
-#~ "lectura."
-
-#~ msgid "Find next occurence."
-#~ msgstr "Buscar la siguiente aparición."
-
-#~ msgid "Find previous occurrence."
-#~ msgstr "Buscar la aparición anterior."

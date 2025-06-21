@@ -36,8 +36,10 @@ Tested on [eMule][1] 0.50a and 70b.
   della barra di stato.
 *	control+shift+e: Legge velocità di Download e Upload in eMule, terzo
   elemento della barra di stato.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Esplorazione degli elenchi. ##
 

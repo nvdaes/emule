@@ -34,8 +34,10 @@ Tested on [eMule][1] 0.50a and 70b.
   oplysning om filer og brugere på den aktuelle server.
 *	Control+Shift+e: Læser tredje objekt på statuslinjen;
   Upload/download-hastighed.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Styring af kolonner. ##
 

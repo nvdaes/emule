@@ -37,8 +37,10 @@ Tested on [eMule][1] 0.50a and 70b.
   thông tin về những tập tin và người dùng trên máy chủ hiện tại.
 *	control+shift+e: Thông báo đối tượng thứ ba của thanh trạng thái; hữu ích
   khi muốn biết tốc độ tải lên / tải xuống.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Quản lý các cột. ##
 

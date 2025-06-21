@@ -35,8 +35,10 @@ Tested on [eMule][1] 0.50a and 70b.
   عن الملفات والمستخدمين الحاليين على الخادم الحالي. 
 *	control+shift+e: لقراءة الكائن الثالث في شريط الحالة. مفيد في معرفة سرعة
   الرفع والتنزيل. 
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## إدارة العماويد ##
 

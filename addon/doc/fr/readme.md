@@ -10,7 +10,7 @@ Elle est basée sur l'extension eMuleNVDASupport, développé par le même
 auteur. Vous devez désinstaller cette ancienne extension pour utiliser
 celle-ci, car les deux ont des touches et des fonctionnalités communes.
 
-Tested on [eMule][1] 0.50a and 70b.
+Testé avec [eMule][1] 0.50a et 70b.
 
 ## Touches de raccourcis : ##
 
@@ -35,12 +35,14 @@ Tested on [eMule][1] 0.50a and 70b.
   de la liste actuelle.
 *	Ctrl + Maj + Q : Lit le premier objet dans la barre d'état, fournit des
   informations sur l'activité récente.
-*	Ctrl + Maj + W : Lit le second objet de la barre d'état, contient des
+*	Ctrl + Maj + W : Lit le deuxième objet de la barre d'état, contient des
   informations sur les fichiers et les utilisateurs sur le serveur actuel.
-*	Ctrl + Maj + E: Lit le troisième objet de la barre d'état; utile pour
+*	Ctrl + Maj + E : Lit le troisième objet de la barre d'état; utile pour
   connaître la vitesse d'Envoi / Téléchargement.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	Ctrl + Maj + R : Lit le quatrième objet de la barre d'état, les rapports
+  sur la connexion de réseau eD2K et Kad.
+*	Non attribuée : Basculer entre activer ou désactiver l'utilisation d'une
+  focalisation alternative pour lire les curseurs.
 
 ## Gestion des colonnes. ##
 
@@ -48,19 +50,19 @@ Lorsque vous êtes dans une liste, vous pouvez déplacer le curseur entre les
 lignes et les colonnes en utilisant Alt + Ctrl + Flèches. Dans ce module les
 touches de raccourci suivantes sont également disponibles :
 
-*	NVDA + control +1-0 : Lit les 10 premières colonnes.
-*	NVDA + maj +1-0 : Lit colonnes 11 à 20.
+*	NVDA + Ctrl +1-0 : Lit les 10 premières colonnes.
+*	NVDA + Maj +1-0 : Lit les colonnes 11 à 20.
 *	NVDA + Maj + C : Copie le contenu de la dernière colonne lue dans le
   presse-papiers.
 
 
-## Changes for 20.0.0
-* Some edit boxes and sliders are labelled, thanks to the
-  [labelAutofinderCore
-  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
-  Alberto Buffolino, one of the authors of this add-on.
-* A command (not assigned) has been added to toggle the usage of an
-  alternative approach to read sliders (off by default).
+## Changements pour la version 20.0.0
+* Certaines zones d'édition et curseurs sont étiquetées, merci au [projet
+  labelAutofinderCore](https://github.com/ABuffEr/labelAutofinderCore)
+  développé par Alberto Buffolino, l'un des auteurs de cette extension.
+* Une commande (non attribuée) a été ajoutée pour basculer l'utilisation
+  d'une focalisation alternative pour lire les curseurs (désactivé par
+  défaut).
 
 ## Changements pour la version 7.0
 * Compatible avec NVDA 2023.1.

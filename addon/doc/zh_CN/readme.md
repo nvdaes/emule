@@ -21,8 +21,10 @@ Tested on [eMule][1] 0.50a and 70b.
 *	control+shift+q： 朗读状态栏的第一个对象，提供最近一次活动的信息。
 *	control+shift+w: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
 *	control+shift+e： 查看第三个状态栏的对象，常用来了解上传和下载速度。
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## 管理列。 ##
 

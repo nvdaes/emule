@@ -35,8 +35,10 @@ Tested on [eMule][1] 0.50a and 70b.
   datotekama i korisnicima na trenutačnom poslužitelju.
 *	kontrol+šift+e: Čita treći objekt statusne trake; korisno, kad se želi
   doznati brzina slanja/preuzimanja.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Upravljanje stupcima. ##
 

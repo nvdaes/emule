@@ -8,15 +8,15 @@ msgstr ""
 "Project-Id-Version: eMule\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2018-09-28 07:46+0200\n"
-"Last-Translator: Jani Kinnunen <jani.kinnunen@wippies.fi>\n"
+"PO-Revision-Date: 2025-06-13 17:15+0300\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
 "Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.11\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -66,8 +66,8 @@ msgid ""
 "Moves the system focus to read-only edit boxes in the current window. For "
 "example the IRC received messages."
 msgstr ""
-"Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku -"
-"muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
+"Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku "
+"-muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
 
 #. Translators: Message presented in input help mode.
 msgid "Moves the navigator object and mouse to the current list headers."
@@ -92,14 +92,16 @@ msgstr "Lukee tilarivin neljännen objektin."
 #. Translators: Message resented in input help mode.
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
+"Ottaa käyttöön vaihtoehtoisen liukusäädinten lukutavan tai poistaa sen "
+"käytöstä"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Vaihtoehtoinen liukusäädinten lukutapa käytössä"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Vaihtoehtoinen liukusäädinten lukutapa ei käytössä"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.

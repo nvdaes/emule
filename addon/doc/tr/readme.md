@@ -35,8 +35,10 @@ kaldırmalısınız.
   hakkında bilgi içeren durum çubuğunun ikinci nesnesini okur.
 *	kontrol + shift + e: yükleme ve indirme hızıyla ilgili bilgi veren durum
   çubuğunun üçüncü nesnesini okur.
-*\ tKontrol+Shift+R: Durum çubuğunun dördüncü nesnesini okur; ED2K ve KAD Network'ün bağlanmasına ilişkin raporlar.
-* Atanmamış: Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını değiştirir.
+*	kontrol+Shift+R: Durum çubuğunun dördüncü nesnesini okur; eD2K ve KAD
+  Network'ün bağlanmasına ilişkin raporlar.
+*	Atanmadı: Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını
+  açıp kapatır.
 
 ## Sütunların yönetimi. ##
 

@@ -36,8 +36,10 @@ Tested on [eMule][1] 0.50a and 70b.
   informații despre fișiere și utilizatori pe serverul curent.
 *	control+shift+e: Citește al treilea obiect al barei de stare; util pentru
   a ști viteza de încărcare/descărcare.
-*	control+shift+r: Reads The fourth object of the status bar; reports on connecting of eD2K and Kad network.
-* Not assigned: Toggles the usage of an alternative approach to read sliders.
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## Gestionare coloane ##
 
