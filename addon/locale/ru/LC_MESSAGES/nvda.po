@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: eMule 1.0-dev\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2013-08-04 11:33+0200\n"
-"PO-Revision-Date: 2024-05-03 15:30+0500\n"
-"Last-Translator: Ruslan <eye0@rambler.ru>\n"
+"PO-Revision-Date: 2025-07-01 10:38+0300\n"
+"Last-Translator: Ruslan Kolodyazhni <rupelodn@gmail.com>\n"
 "Language-Team: \n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4.2\n"
+"X-Generator: Poedit 3.5\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -92,15 +92,15 @@ msgstr "Объявляет четвёртый объект в строке со�
 
 #. Translators: Message resented in input help mode.
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
-msgstr ""
+msgstr "Переключает использование альтернативного подхода для чтения ползунков"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Альтернативный подход для чтения ползунков выключен"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Альтернативный подход для чтения ползунков включён"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
@@ -119,26 +119,3 @@ msgstr ""
 "eMule это P2P программа для поиска и обмена файлами.\n"
 "Вы можете получить более подробную информацию об eMule на \n"
 "https://www.emule-project.net"
-
-#~ msgid "text \"%s\" not found"
-#~ msgstr "текст \"%s\" не найден"
-
-#~ msgid "Find Error"
-#~ msgstr "Ошибка Поиска"
-
-#~ msgid "Search for:"
-#~ msgstr "Найти:"
-
-#~ msgid "eMule search"
-#~ msgstr "поиск eMule"
-
-#~ msgid "Opens the find dialog when in read only edit boxes."
-#~ msgstr ""
-#~ "Открывает диалог поиска, когда находится в полях редактирования только "
-#~ "для чтения."
-
-#~ msgid "Find next occurence."
-#~ msgstr "Найти следующее вхождение."
-
-#~ msgid "Find previous occurrence."
-#~ msgstr "Найти предыдущее вхождение."
