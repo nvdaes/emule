@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: eMule 2.0\n"
 "Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
 "POT-Creation-Date: 2014-10-17 05:05+1000\n"
-"PO-Revision-Date: 2021-11-18 23:10+0000\n"
+"PO-Revision-Date: 2025-07-06 19:21+0100\n"
 "Last-Translator: Ângelo Abrantes <ampa4374@gmail.com>\n"
 "Language-Team: Equipa Portuguesa do NVDA <angelomiguelabrantes@gmail.com; "
 "rui.fontes@tiflotecnia.com>\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Poedit-SourceCharset: UTF-8\n"
-"X-Generator: Poedit 3.0\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: Message presented in input help mode.
 msgid "Reads the specified column for the current list item."
@@ -95,14 +95,16 @@ msgstr "Anuncia o quarto objecto da barra de estado."
 #. Translators: Message resented in input help mode.
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
+"Ativa e desactiva a utilização de uma abordagem alternativa para ler os "
+"cursores"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Utilizar uma abordagem alternativa para ler os diapositivos"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Utilizar uma abordagem alternativa para ler os diapositivos"
 
 #. Add-on summary, usually the user visible name of the addon.
 #. Translators: Summary for this add-on to be shown on installation and add-on information.
