@@ -21,7 +21,7 @@ Tested on [eMule][1] 0.50a and 70b.
 *	control+shift+p: In het Zoekscherm, verplaatst focus en muis naar de lijst
   met zoekopties, of opties voor het invoerveld.
 *	control+shift+b: Verplaatst de focus naar de lijst in het huidige
-  venster. Bijvoorbeeld: 
+  venster. Bijvoorbeeld:
 *	control+shift+o: Verplaatst de focus naar alleen-lezen invoervelden in het
   huidige venster. Bijvoorbeeld: via IRC ontvangen berichten, beschikbare
   servers, etc.
