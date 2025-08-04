@@ -15,11 +15,11 @@ Tested on [eMule][1] 0.50a and 70b.
 ## الأوامر والمفاتيح المختصرة ##
 
 *	control+shift+h: تحريك مؤشر الفأرة ومؤشر النظام تجاه شريط الأدوات
-  الرئيسي. 
+  الرئيسي.
 *	control+shift+t: لقراءة النافذة الحالية
 *	control+shift+n: لتحريك مؤشر النظام إلى حقل الاسم في نافذة البحث.
 *	control+shift+p: في نافذة البحث يحرك مؤشر الفأرة ومؤشر النظام تجاه قائمة
-  معطيات البحث أو خيارات حقول التحرير. 
+  معطيات البحث أو خيارات حقول التحرير.
 *	control+shift+b: لتحريك مؤشر النظام تجاه القائمة الموجودة بالنافذة
   الحالية. كالانتقال إلى قوائم نتائج البحث, أو التحميلات بنافذة نقل الملفات,
   وهكذا.
@@ -28,13 +28,13 @@ Tested on [eMule][1] 0.50a and 70b.
   الخوادم المتاحة, وهكذا.
 *	control+NVDA+f: If the caret is located in a read only edit box, opens a
   find dialog to use the commands for searching text available in NVDA.
-*	control+shift+l: لتحريك مؤشر NVDA ومؤشر الفأرة تجاه رأس القائمة الحالية. 
+*	control+shift+l: لتحريك مؤشر NVDA ومؤشر الفأرة تجاه رأس القائمة الحالية.
 *	control+shift+q: لقراءة أول كائن في شريط الحالة. يعطي معلومات عن أحدث أمر
-  تم تنفيذه. 
+  تم تنفيذه.
 *	control+shift+w: لقراءة الكائن الثاني في شريط الحالة. ويحتوي على معلومات
-  عن الملفات والمستخدمين الحاليين على الخادم الحالي. 
+  عن الملفات والمستخدمين الحاليين على الخادم الحالي.
 *	control+shift+e: لقراءة الكائن الثالث في شريط الحالة. مفيد في معرفة سرعة
-  الرفع والتنزيل. 
+  الرفع والتنزيل.
 *	control+shift+r: Reads The fourth object of the status bar; reports on
   connecting of eD2K and Kad network.
 *	Not assigned: Toggles the usage of an alternative approach to read
@@ -45,7 +45,7 @@ Tested on [eMule][1] 0.50a and 70b.
 إذا كنت داخل القائمة يمكنك التنقل بين الصفوف والأعمدة باستخدام alt+control
 مع الأسهم.  وفي هذه الإضافة تتوفر أيضا مفاتيح الاختصار التالية:
 
-*	nvda+control+1-0: لقراءة الأعمدة العشر الأولى. 
+*	nvda+control+1-0: لقراءة الأعمدة العشر الأولى.
 *	nvda+shift+1-0: لقراءة الأعمدة من 11-20.
 *	nvda+shift+C: لنسخ محتوى آخر عمود تمت قراءته إلى الحافظة.
 
