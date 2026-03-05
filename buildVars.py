@@ -60,7 +60,7 @@ addon_info = AddonInfo(
 pythonSources: list[str] = ["addon/**/*.*"]
 
 # Files that contain strings for translation. Usually your python sources
-i18nSources: list[str] = pythonSources + ["buildVars.py"]
+i18nSources: list[str] = ["addon/appModules/eMule.py", "buildVars.py"]
 
 # Files that will be ignored when building the nvda-addon file
 # Paths are relative to the addon directory, not to the root directory of your addon sources.
