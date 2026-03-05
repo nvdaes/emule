@@ -23,7 +23,7 @@ addon_info = AddonInfo(
 	# Translators: Long description to be shown for this add-on on add-on information from add-on store
 	addon_description="""Improves eMule's accessibility with NVDA.\neMule is a P2P program to search and share files.\nYou can get more information about eMule at\nhttp://www.emule-project.net""",
 	# version
-	addon_version="24.2.0",
+	addon_version="24.1.0",
 	# Brief changelog for this version
 	# Translators: what's new content for the add-on version to be shown in the add-on store
 	addon_changelog=_("* Compatible with NVDA 2026.1."),
