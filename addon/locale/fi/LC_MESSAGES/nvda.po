@@ -1,131 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
 msgid ""
 msgstr ""
-"Project-Id-Version: nvdaaddons\n"
-"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
-"POT-Creation-Date: 2026-07-21 04:06+0000\n"
-"PO-Revision-Date: 2026-07-31 15:50\n"
-"Last-Translator: \n"
-"Language-Team: Finnish\n"
-"Language: fi_FI\n"
+"Project-Id-Version: eMule\n"
+"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
+"POT-Creation-Date: 2013-08-04 11:33+0200\n"
+"PO-Revision-Date: 2025-06-13 17:15+0300\n"
+"Last-Translator: Jani Kinnunen <janikinnunen340@gmail.com>\n"
+"Language-Team: Finnish <jani.kinnunen@wippies.fi>\n"
+"Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: nvdaaddons\n"
-"X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: fi\n"
-"X-Crowdin-File: eMule.pot\n"
-"X-Crowdin-File-ID: 194\n"
+"X-Generator: Poedit 3.6\n"
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:49
 msgid "Reads the specified column for the current list item."
 msgstr "Lukee määrätyn sarakkeen nykyiselle listakohteelle."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:61
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr "Kopioi valitun listakohteen viimeksi luetun sarakkeen leikepöydälle."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
-#: addon\appModules\eMule.py:76
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s kopioitu leikepöydälle"
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:177
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "Siirtää järjestelmäkohdistuksen ja hiiren päätyökaluriville."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
-#: addon\appModules\eMule.py:193
 msgid "Reports the current window."
 msgstr "Lukee nykyisen ikkunan."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:205
 msgid "Moves the system focus to the Name field of the Search window."
 msgstr "Siirtää järjestelmäkohdistuksen Haku-ikkunan Nimi-kenttään."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:229
-msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
-msgstr "Siirtää järjestelmäkohdistuksen ja hiiren Haku-ikkunassa hakuparametrien listaan tai jokaisen vaihtoehdon muokkauskenttään."
+msgid ""
+"Moves the system focus and mouse to the search parameters list or Edit field "
+"for each option, in the Search window."
+msgstr ""
+"Siirtää järjestelmäkohdistuksen ja hiiren Haku-ikkunassa hakuparametrien "
+"listaan tai jokaisen vaihtoehdon muokkauskenttään."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:257
-msgid "Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc."
-msgstr "Siirtää järjestelmäkohdistuksen nykyisen ikkunan ensimmäiseen listaan. Esimerkiksi Haku-ikkunan hakutulosten listaan, Siirrot-ikkunan Lataukset-listaan jne."
+msgid ""
+"Moves the system focus to the first list in the current window. For example "
+"the results list in the Search window, downloads in Transfer, etc."
+msgstr ""
+"Siirtää järjestelmäkohdistuksen nykyisen ikkunan ensimmäiseen listaan. "
+"Esimerkiksi Haku-ikkunan hakutulosten listaan, Siirrot-ikkunan Lataukset-"
+"listaan jne."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:283
-msgid "Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages."
-msgstr "Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku -muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
+msgid ""
+"Moves the system focus to read-only edit boxes in the current window. For "
+"example the IRC received messages."
+msgstr ""
+"Siirtää järjestelmäkohdistuksen nykyisen ikkunan vain luku "
+"-muokkausruutuihin. Esimerkiksi vastaanotettuihin IRC-viesteihin."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:314
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr "Siirtää navigointiobjektin ja hiiren nykyisen listan otsikoihin."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:328
 msgid "Reports first object of the Status Bar."
 msgstr "Lukee tilarivin ensimmäisen objektin."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:338
 msgid "Reports second object of the Status Bar."
 msgstr "Lukee tilarivin toisen objektin."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:348
 msgid "Reports third object of the Status Bar."
 msgstr "Lukee tilarivin kolmannen objektin."
 
 #. Translators: Message presented in input help mode.
-#: addon\appModules\eMule.py:358
 msgid "Reports fourth object of the Status Bar."
 msgstr "Lukee tilarivin neljännen objektin."
 
 #. Translators: Message resented in input help mode.
-#: addon\appModules\eMule.py:368
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
+"Ottaa käyttöön vaihtoehtoisen liukusäädinten lukutavan tai poistaa sen "
+"käytöstä"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
-#: addon\appModules\eMule.py:376
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Vaihtoehtoinen liukusäädinten lukutapa käytössä"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
-#: addon\appModules\eMule.py:378
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Vaihtoehtoinen liukusäädinten lukutapa ei käytössä"
 
-#. Add-on summary/title, usually the user visible name of the add-on
-#. Translators: Summary/title for this add-on
-#. to be shown on installation and add-on information found in add-on store
-#: buildVars.py:20
+#. Add-on summary, usually the user visible name of the addon.
+#. Translators: Summary for this add-on to be shown on installation and add-on information.
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-on store
-#: buildVars.py:23
-msgid "Improves eMule's accessibility with NVDA.\n"
+#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
+msgid ""
+"Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
 "You can get more information about eMule at\n"
 "http://www.emule-project.net"
-msgstr "Parantaa eMulen saavutettavuutta NVDA:n kanssa.\n"
+msgstr ""
+"Parantaa eMulen saavutettavuutta NVDA:n kanssa.\n"
 "eMule on P2P-asiakasohjelma tiedostojen etsimiseen ja jakamiseen.\n"
 "Saat lisätietoja osoitteesta\n"
 "http://www.emule-project.net"
 
-#. Brief changelog for this version
-#. Translators: what's new content for the add-on version to be shown in the add-on store
-#: buildVars.py:28
-msgid "* Compatible with NVDA 2026.1."
-msgstr ""
+#~ msgid "text \"%s\" not found"
+#~ msgstr "Tekstiä \"%s\" ei löydy"
 
+#~ msgid "Find Error"
+#~ msgstr "Hakuvirhe"
+
+#~ msgid "Search for:"
+#~ msgstr "Etsittävä:"
+
+#~ msgid "eMule search"
+#~ msgstr "eMulen haku"
+
+#~ msgid "Opens the find dialog when in read only edit boxes."
+#~ msgstr "Avaa etsintävalintaikkunan vain luku -muokkausruuduissa oltaessa."
+
+#~ msgid "Find next occurence."
+#~ msgstr "Etsi seuraava esiintymä."
+
+#~ msgid "Find previous occurrence."
+#~ msgstr "Etsi edellinen esiintymä."
