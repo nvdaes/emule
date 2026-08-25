@@ -1,114 +1,128 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: eMule 2.7\n"
-"Report-Msgid-Bugs-To: nvda-translations@groups.io\n"
-"POT-Creation-Date: 2015-10-23 05:05+1000\n"
-"PO-Revision-Date: 2019-03-12 15:36+0200\n"
-"Last-Translator: shmuel naaman <shmuel_naaman@yahoo.com>\n"
-"Language-Team: \n"
-"Language: he\n"
+"Project-Id-Version: nvdaaddons\n"
+"Report-Msgid-Bugs-To: 'nvda-translations@groups.io'\n"
+"POT-Creation-Date: 2026-08-18 03:18+0000\n"
+"PO-Revision-Date: 2026-08-18 03:20\n"
+"Last-Translator: \n"
+"Language-Team: Hebrew\n"
+"Language: he_IL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 1.6.10\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || n%100==4 ? 2 : 3;\n"
+"X-Crowdin-Project: nvdaaddons\n"
+"X-Crowdin-Project-ID: 780748\n"
+"X-Crowdin-Language: he\n"
+"X-Crowdin-File: eMule.pot\n"
+"X-Crowdin-File-ID: 194\n"
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:49
 msgid "Reads the specified column for the current list item."
 msgstr "הקראת העמודה שצויינה עבור הפריט הנוכחי ברשימה."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:61
 msgid "Copies the last read column of the selected list item to clipboard."
 msgstr "העתקת העמודה האחרונה שנקראה עבור הפריט הנוכחי לזכרון."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
+#: addon\appModules\eMule.py:76
 #, python-format
 msgid "%s copied to clipboard"
 msgstr "%s הועתק לזכרון"
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:177
 msgid "Moves the system focus and mouse to the main Tool Bar."
 msgstr "העברת הפוקוס והעכבר לסרגל הכלים הראשי."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
+#: addon\appModules\eMule.py:193
 msgid "Reports the current window."
 msgstr "הקראת החלון שבפוקוס."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:205
 msgid "Moves the system focus to the Name field of the Search window."
 msgstr "העברת הסמן לתיבת העריכה של חלונית החיפוש."
 
 #. Translators: Message presented in input help mode.
-msgid ""
-"Moves the system focus and mouse to the search parameters list or Edit field "
-"for each option, in the Search window."
-msgstr ""
-"העברת הפוקוס והעכבר לרשימת הפרמטרים של החיפוש או לתיבת העריכה עבור כל "
-"אופציה, בחלונית החיפוש."
+#: addon\appModules\eMule.py:229
+msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
+msgstr "העברת הפוקוס והעכבר לרשימת הפרמטרים של החיפוש או לתיבת העריכה עבור כל אופציה, בחלונית החיפוש."
 
 #. Translators: Message presented in input help mode.
-msgid ""
-"Moves the system focus to the first list in the current window. For example "
-"the results list in the Search window, downloads in Transfer, etc."
-msgstr ""
-"העברת הפוקוס לפריט הראשון בחלון שבפוקוס , לדוגמה : לרשימת תוצאות החיפוש, "
-"ההורדות וההעברות, וכו'."
+#: addon\appModules\eMule.py:257
+msgid "Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc."
+msgstr "העברת הפוקוס לפריט הראשון בחלון שבפוקוס , לדוגמה : לרשימת תוצאות החיפוש, ההורדות וההעברות, וכו'."
 
 #. Translators: Message presented in input help mode.
-msgid ""
-"Moves the system focus to read-only edit boxes in the current window. For "
-"example the IRC received messages."
-msgstr ""
-"העברת הפוקוס לתיבת עריכה לקריאה בלבד בחלון שבפוקוס , לדוגמה : הודעות שנתקבלו."
+#: addon\appModules\eMule.py:283
+msgid "Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages."
+msgstr "העברת הפוקוס לתיבת עריכה לקריאה בלבד בחלון שבפוקוס , לדוגמה : הודעות שנתקבלו."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:314
 msgid "Moves the navigator object and mouse to the current list headers."
 msgstr "העברת הפוקוס והעכבר לכותרת הרשימה שבפוקוס."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:328
 msgid "Reports first object of the Status Bar."
 msgstr "הקראת הפריט הראשון של שורת המצב."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:338
 msgid "Reports second object of the Status Bar."
 msgstr "הקראת הפריט השני של שורת המצב."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:348
 msgid "Reports third object of the Status Bar."
 msgstr "הקראת הפריט השלישי של שורת המצב."
 
 #. Translators: Message presented in input help mode.
+#: addon\appModules\eMule.py:358
 msgid "Reports fourth object of the Status Bar."
 msgstr "הקראת הפריט הרביעי של שורת המצב."
 
 #. Translators: Message resented in input help mode.
+#: addon\appModules\eMule.py:368
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
 msgstr ""
 
 #. Translators: Reported when usage of alternative approach for slides is on.
+#: addon\appModules\eMule.py:376
 msgid "Use alternative approach to read slides on"
 msgstr ""
 
 #. Translators: Reported when usage of alternative approach for slides is off.
+#: addon\appModules\eMule.py:378
 msgid "Use alternative approach to read slides off"
 msgstr ""
 
-#. Add-on summary, usually the user visible name of the addon.
-#. Translators: Summary for this add-on to be shown on installation and add-on information.
+#. Add-on summary/title, usually the user visible name of the add-on
+#. Translators: Summary/title for this add-on
+#. to be shown on installation and add-on information found in add-on store
+#: buildVars.py:20
 msgid "eMule"
 msgstr "eMule"
 
 #. Add-on description
-#. Translators: Long description to be shown for this add-on on add-on information from add-ons manager
-msgid ""
-"Improves eMule's accessibility with NVDA.\n"
+#. Translators: Long description to be shown for this add-on on add-on information from add-on store
+#: buildVars.py:23
+msgid "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
 "You can get more information about eMule at\n"
 "http://www.emule-project.net"
 msgstr "משפר את הנגישות של Emule תחת Nvd."
+
+#. Brief changelog for this version
+#. Translators: what's new content for the add-on version to be shown in the add-on store
+#: buildVars.py:28
+msgid "* Updates to translations."
+msgstr ""
+
