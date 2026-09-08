@@ -5,111 +5,111 @@ msgstr ""
 "POT-Creation-Date: 2026-09-01 03:04+0000\n"
 "PO-Revision-Date: 2026-09-01 03:05\n"
 "Last-Translator: \n"
-"Language-Team: Serbian (Latin)\n"
-"Language: sr_CS\n"
+"Language-Team: Kurmanji (Kurdish)\n"
+"Language: kmr_TR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: nvdaaddons\n"
 "X-Crowdin-Project-ID: 780748\n"
-"X-Crowdin-Language: sr-CS\n"
+"X-Crowdin-Language: kmr\n"
 "X-Crowdin-File: eMule.pot\n"
 "X-Crowdin-File-ID: 194\n"
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:49
 msgid "Reads the specified column for the current list item."
-msgstr "Čita izabranu kolonu za trenutnu stavku liste."
+msgstr "Stûna diyarkirî ji bo hêmana navnîşa heyî dixwîne."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:61
 msgid "Copies the last read column of the selected list item to clipboard."
-msgstr "Kopira poslednju pročitanu kolonu u privremenu memoriju."
+msgstr "Stûna dawîn a xwendî ya babetê navnîşê yê bijartî li ser panoyê kopî dike."
 
 #. Translators: Message presented when the current column of the list item is copied to clipboard.
 #: addon\appModules\eMule.py:76
 #, python-format
 msgid "%s copied to clipboard"
-msgstr "%s kopirano u privremenu memoriju"
+msgstr "%s li panoyê hat kopîkirin"
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:177
 msgid "Moves the system focus and mouse to the main Tool Bar."
-msgstr "Premešta fokus sistema i miš u traku sa alatkama"
+msgstr "Fokusa sîstemê û mişkê vediguhezîne Barika Amûrên sereke."
 
 #. Translators: Message presented in input help mode.
 #. For instance: reads the search window, Statistics, IRC, etc.
 #: addon\appModules\eMule.py:193
 msgid "Reports the current window."
-msgstr "Prijavljuje trenutni prozor."
+msgstr "Paceya heyî rapor dike."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:205
 msgid "Moves the system focus to the Name field of the Search window."
-msgstr "Pomera sistemski fokus u polje za unos imena prozora za pretragu."
+msgstr "Fokusa sîstemê vediguhezîne zeviya Nav a pencereya Lêgerînê."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:229
 msgid "Moves the system focus and mouse to the search parameters list or Edit field for each option, in the Search window."
-msgstr "Premešta sistemski fokus i miš na listu parametara za pretragu ili na polje za izmenu za svaku opciju, u prozoru za pretragu."
+msgstr "Fokusa sîstemê û mişkê vediguhezîne navnîşa parametreyên lêgerînê an jî zeviya Biguherîne ji bo her vebijarkê, di pencereya Lêgerînê de."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:257
 msgid "Moves the system focus to the first list in the current window. For example the results list in the Search window, downloads in Transfer, etc."
-msgstr "Pomera sistemski fokus na prvu listu u trenutnom prozoru. Na primer na listu rezultata u prozoru za pretragu, listu svih preuzimanja, itd."
+msgstr "Fokusa pergalê vediguhezîne lîsteya yekem a di pencereya heyî de. Mînakî lîsteya encaman di pencereya Lêgerînê de, dakêşan di Veguhastinê de, û hwd."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:283
 msgid "Moves the system focus to read-only edit boxes in the current window. For example the IRC received messages."
-msgstr "Pomera sistemski fokus na polja samo za čitanje u trenutno aktivnom prozoru. Na primer primljene IRC poruke u čet prozoru."
+msgstr "Di pencereya heyî de balê dikişîne ser qutiyên guherandinê yên tenê-xwendinê. Bo nimûne, IRC peyam wergirtiye."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:314
 msgid "Moves the navigator object and mouse to the current list headers."
-msgstr "Pomera objekat navigatora i miš na trenutna zaglavlja liste."
+msgstr "Objeya navîgator û mişkê vediguhezîne sernivîsên lîsteya heyî."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:328
 msgid "Reports first object of the Status Bar."
-msgstr "Prijavljuje prvi objekat statusne trake."
+msgstr "Hêmana yekem a Barika Rewşê radigihîne."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:338
 msgid "Reports second object of the Status Bar."
-msgstr "Prijavljuje drugi objekat statusne trake."
+msgstr "Duyemîn tiştê Barê Rewşê radigihîne."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:348
 msgid "Reports third object of the Status Bar."
-msgstr "Prijavljuje treći objekat statusne trake."
+msgstr "Tişta sêyemîn a Barika Rewşê radigihîne."
 
 #. Translators: Message presented in input help mode.
 #: addon\appModules\eMule.py:358
 msgid "Reports fourth object of the Status Bar."
-msgstr "Prijavljuje četvrti objekat statusne trake."
+msgstr "Çêweya çaremîn a Barê Rewşê radigihîne."
 
 #. Translators: Message resented in input help mode.
 #: addon\appModules\eMule.py:368
 msgid "Toggles on and off the usage of an alternative approach to read sliders"
-msgstr ""
+msgstr "Bikaranîna rêbazek alternatîf ji bo xwendina slayderan vedike û vedimirîne"
 
 #. Translators: Reported when usage of alternative approach for slides is on.
 #: addon\appModules\eMule.py:376
 msgid "Use alternative approach to read slides on"
-msgstr ""
+msgstr "Ji bo xwendina slaytan rêbazek alternatîf bikar bînin"
 
 #. Translators: Reported when usage of alternative approach for slides is off.
 #: addon\appModules\eMule.py:378
 msgid "Use alternative approach to read slides off"
-msgstr ""
+msgstr "Ji bo xwendina slaytan rêbazek alternatîf bikar bînin"
 
 #. Add-on summary/title, usually the user visible name of the add-on
 #. Translators: Summary/title for this add-on
 #. to be shown on installation and add-on information found in add-on store
 #: buildVars.py:20
 msgid "eMule"
-msgstr "eMule"
+msgstr ""
 
 #. Add-on description
 #. Translators: Long description to be shown for this add-on on add-on information from add-on store
@@ -118,14 +118,14 @@ msgid "Improves eMule's accessibility with NVDA.\n"
 "eMule is a P2P program to search and share files.\n"
 "You can get more information about eMule at\n"
 "http://www.emule-project.net"
-msgstr "Poboljšava pristupačnost eMule programa sa NVDA.\n"
-"eMule je P2P program za pretragu i deljenje datoteka.\n"
-"Više informacija o eMule možete naći na\n"
-"http://www.emule-project.net"
+msgstr "Gihîştina eMule bi NVDA baştir dike.\n"
+"eMule bernameyeke P2P ye ji bo lêgerîn û parvekirina pelan.\n"
+"Hûn dikarin bêtir agahdarî li ser eMule li\n"
+"http://www.emule-project.net bistînin."
 
 #. Brief changelog for this version
 #. Translators: what's new content for the add-on version to be shown in the add-on store
 #: buildVars.py:28
 msgid "* Updates to translations."
-msgstr ""
+msgstr "* Nûvekirinên wergeran."
 
