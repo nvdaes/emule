@@ -1,13 +1,12 @@
-# eMule 支持 #
+# eMule - 电骡支持插件 #
 
-*	作者： Noelia、Chris、Alberto。
+*	作者： Noelia, Chris, Alberto.
 
-此插件有助于提高 eMule 与 NVDA 的可访问性。
-它还提供了用于在不同窗口中移动的其他键盘命令，并提供了有关eMule的有用信息。
+此插件有助于提高eMule与nVDA的可访问性。它还提供了用于在不同窗口中移动的其他键盘命令，并提供了有关eMule的有用信息。
 
 当前插件基于同一作者开发的eMuleNVDASupport插件。您应该卸载该旧插件以使用此插件，因为两者都有共同的按键和功能。
 
-已在[eMule][1] 0.50a 和 70b 上测试。
+Tested on [eMule][1] 0.50a and 70b.
 
 ## 快捷键: ##
 
@@ -20,54 +19,64 @@
 *	control + NVDA + f：如果插入符号位于只读编辑框中，则打开查找对话框以使用命令搜索NVDA中可用的文本。
 *	control+shift+l： 移动鼠标和浏览对象到当前列表的表头。
 *	control+shift+q： 朗读状态栏的第一个对象，提供最近一次活动的信息。
-*	control+shift+w： 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
-*	control+shift+e： 朗读状态栏的第三个对象，常用来了解上传和下载速度。
-*	control+shift+r： 朗读状态栏的第四个对象，关于 eD2K 和 Kad 网络连接的信息。
-* 未分配： 启用或禁用滑块控件的备选朗读方案。
+*	control+shift+w: 朗读状态栏的第二个对象，提供当前服务器的用户和文件的数目信息。
+*	control+shift+e： 查看第三个状态栏的对象，常用来了解上传和下载速度。
+*	control+shift+r: Reads The fourth object of the status bar; reports on
+  connecting of eD2K and Kad network.
+*	Not assigned: Toggles the usage of an alternative approach to read
+  sliders.
 
 ## 管理列。 ##
 
-在一个列表内，您可以使用 CTRL加ALT家光标键 在列表的行列之间进行浏览。
-在此插件，下面的按键也是可用的：
+在一个列表内，您可以使用 CTRL加ALT家光标键 在列表的行列之间进行浏览。在此插件，下面的按键也是可用的：
 
 *	nvda+control+1到0： 朗读前十列。
 *	nvda+shift+1到0： 朗读第11到20列。
 *	nvda+shift+C： 拷贝最后一次朗读的那一列的内容到剪贴板。
 
 
-## 版本 20.0.0
-* 部分编辑框与滑块控件现已获得标签标注，这得益于本插件开发者之一 Alberto Buffolino 开发的[labelAutofinderCore 项目](https://github.com/ABuffEr/labelAutofinderCore)。
-* 新增一个未分配命令，用于切换是否启用滑块控件的备选朗读方案（默认关闭）。
+## Changes for 20.0.0
+* Some edit boxes and sliders are labelled, thanks to the
+  [labelAutofinderCore
+  project](https://github.com/ABuffEr/labelAutofinderCore) developed by
+  Alberto Buffolino, one of the authors of this add-on.
+* A command (not assigned) has been added to toggle the usage of an
+  alternative approach to read sliders (off by default).
 
-## 版本 7.0
-* 兼容 NVDA 2023.1。
+## Changes for 7.0
+* Compatible with NVDA 2023.1.
 
-## 版本 6.0
+## 版本6.0
 *	需要 NVDA 2022.1 或更高版本。
 
-## 版本 5.0
+## 版本5.0
 *	兼容 NVDA 2021.1。
 
-## 版本 4.0 ##
+## 版本4.0 ##
 *	需要NVDA 2019.3或更高版本。
 
-## 版本 3.0 ##
-*	 要在只读编辑框中搜索文本，可使用查找对话框，例如 NVDA+control+f 来激活查找对话框。
+## 版本3.0 ##
+*	 To search text in the readonly edit boxes,  the find dialog  can be used,
+   such as nvda+control+f to activate the find dialog.
 
-## 版本 2.0 ##
+## 版本2.0 ##
 *	 插件管理器现在已提供了插件的帮助。
 
-## 版本 1.2 ##
+## 版本1.2 ##
 *	 当移动到 IRC 消息时，选择的文本内容已可正确的朗读。
 *	 用于移动到搜索结果列表的快捷键已被推广，以便能够将焦点移动到当前窗口中的任何可用列表。
 *	 用于聚焦IRC消息的快捷键已被推广到移动到任何只读编辑框，从而可以在“服务器”窗口中查看连接信息。
 *	 当移动鼠标并将焦点移动到工具栏时，在某些情况下它会被朗读两次。这已得到修复。
 
-## 版本 1.1 ##
+## 版本1.1 ##
 *	 修复在用户配置文件夹名称包含非拉丁字符时 NVDA 帮助菜单下的 eMule 项目，发生的错误。
 *	 现在，可使用“创建手势”对快捷键进行更改。
 
-## 版本 1.0 ##
+## 版本1.0 ##
 *	 初始版本。
 
-[1]: http://www.emule-project.net
+
+
+[[!tag dev stable]]
+
+[1]: https://www.emule-project.net
