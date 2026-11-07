@@ -2,72 +2,104 @@
 
 *	Yazarlar: Noelia, Chris, Alberto.
 
-Bu eklenti eMule'un nVDA ile erişilebilirliğini artırmaya yardımcı olur.
-Ayrıca farklı pencerelerde hareket etmek için ek klavye komutları sağlar ve eMule hakkında Faydalı bilgiler verir.
+Bu eklenti NVDA ile eMule erişilebilirliğinin geliştirilmesine yardımcı
+olur. Ayrıca farklı pencerelerde hareket için ek klavye komutları sağlar ve
+eMule ile ilgili faydalı bilgi verir.
 
-Aynı yazar tarafından geliştirilen eMuleNVDASupport eklentisine dayanmaktadır. Her ikisinin de ortak tuş vuruşları ve özellikleri olduğundan, bunu kullanmak için eski eklentiyi kaldırmalısınız.
+Bu eklenti aynı yazar tarafından geliştirilen eMuleNVDASupport adlı
+eklentiye dayanılarak geliştirildi. Her ikisin ortak tuş komutlarına ve
+benzer özelliklere sahip olduğu için bunu kurmadan önce eskisini
+kaldırmalısınız.
 
-[eMule][1] 0.50a ve 70b'de test edilmiştir.
+[eMule][1] 0.50a ve 70b test edilmiştir.
 
-## Tuş Komutları: ##
+## Tuş komutları: ##
 
-*	kontrol+shift+h: Odağı ve fareyi ana araç çubuğuna taşır.
-*	kontrol+shift+t: Geçerli pencereyi okur.
-*	kontrol+shift+n: Odağı Bul penceresindeki Ad alanına taşır.
-*	kontrol+shift+p: Arama penceresinde odağı ve fareyi arama parametreleri listesine veya alan seçeneklerini düzenlemeye taşır.
-*	kontrol+shift+b: Odağı geçerli penceredeki listeye taşır. Örneğin Arama penceresinde, Aktarım penceresindeki indirmelerde vb. kullanılabilir.
-*	kontrol+shift+o: Odağı geçerli penceredeki salt okunur düzenleme kutularına taşır. Örneğin IRC'nin aldığı mesajlar, mevcut Sunucular vb.
-*	kontrol+NVDA+f: İmleç salt okunur bir düzenleme kutusunda bulunuyorsa, NVDA'da mevcut olan metni aramak için komutları kullanmak üzere bir bulma iletişim kutusu açar.
-*	kontrol+shift+l: Gezgin nesnesini ve fareyi geçerli listenin başlıklarına taşır.
-*	kontrol+shift+q: Durum çubuğundaki ilk nesneyi okur; son etkinlikler hakkında bilgi sağlar.
-*	kontrol+shift+w: Durum çubuğunun ikinci nesnesini okur; Geçerli sunucudaki dosyalar ve kullanıcılar hakkında bilgi içerir.
-*	kontrol+shift+e: Durum çubuğunun üçüncü nesnesini okur; Yükleme/İndirme hızını bilmek faydalıdır.
-*	kontrol+shift+r: Durum çubuğunun dördüncü nesnesini okur; eD2K ve Kad ağının bağlanmasına ilişkin raporlar.
-* Atanmamış: Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını açıp kapatır.
+*	control+shift+h: odak ve fareyi Ana araç çubuğuna  taşır.
+*	kontrol + shift + t: Geçerli pencereyi okur.
+*	kontrol + shift + n: Bul penceresinde odağı Ad alanınna taşır.
+*	kontrol + shift + p: Arama penceresinde, odağı ve fareyi arama
+  parametreleri listesine  veya alan düzenleme seçeneklerine taşır.
+*	control+shift+b: Odağı geçerli penceredeki listeye taşır. Örneğin, Arama
+  penceresinde kullanılabilir, transfer penceresinde indirilenler vb.
+*	control+shift+o: Odağı geçerli penceredeki salt okunur düzenleme
+  kutularına taşır. Örneğin, IRC alınan mesajlar, mevcut Sunucular vb.
+*	control+NVDA+f: İmleç salt okunur bir düzenleme kutusunda bulunuyorsa,
+  NVDA'da bulunan metin arama komutlarını kullanmak için bir bul iletişim
+  kutusu açar.
+*	kontrol + shift + l: Fare ve nesne sunucusunu Mevcut listenin başlıkları
+  üzerine taşır.
+*	kontrol + shift + q: durum çubuğunda ilk nesneyi okur; son etkinlik
+  hakkında bilgi verir.
+*	kontrol + shift + w: geçerli sunucu üzerinde dosya ve kullanıcılar
+  hakkında bilgi içeren durum çubuğunun ikinci nesnesini okur.
+*	kontrol + shift + e: yükleme ve indirme hızıyla ilgili bilgi veren durum
+  çubuğunun üçüncü nesnesini okur.
+*	kontrol+Shift+R: Durum çubuğunun dördüncü nesnesini okur; eD2K ve KAD
+  Network'ün bağlanmasına ilişkin raporlar.
+*	Atanmadı: Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını
+  açıp kapatır.
 
-## Sütunları yönetme. ##
+## Sütunların yönetimi. ##
 
-Liste içindeyken, Alt+Kontrol+Ok tuşlarını kullanarak imleci satırlar ve sütunlar arasında hareket ettirebilirsiniz.
-Bu Eklentide aşağıdaki tuş komutları da mevcuttur:
+Bir liste içindeyken, alt + kontrol + yön tuşlarıyla satır ve sütunlar
+arasında dolaşabilirsiniz. Eklenti aşağıdaki tuş komutlarını da sağlar:
 
-*	nvda+Kontrol+1-0: İlk 10 sütunu okur.
-*	nvda+shift+1-0: 11'den 20'ye kadar olan sütunları okur.
-*	nvda+shift+C: Son okunan sütunun içeriğini panoya kopyalar.
+*	nvda + kontrol 1-0: ilk 10 sütunu okur.
+*	nvda + shift 1-0: 11-20 sütunları okur.
+*	nvda + shift + C: son okunan sütunun içeriğini panoya kopyalar .
 
 
 ## 20.0.0 için değişiklikler
-* Bu eklentinin yazarlarından biri olan Alberto Buffolino tarafından geliştirilen [labelAutofinderCore projesi](https://github.com/ABuffEr/labelAutofinderCore) sayesinde bazı düzenleme kutuları ve kaydırıcılar etiketlenmiştir.
-* Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını (varsayılan olarak kapalı) değiştirmek için bir komut (atanmamış) eklenmiştir.
+* Bu eklentinin yazarlarından Alberto Buffolino tarafından geliştirilen
+  [LabelautofinderCore Projesi]
+  (https://github.com/abuffer/labelautofindercore) sayesinde bazı düzenleme
+  kutuları ve kaydırıcılar etiketlenmiştir.
+* Kaydırıcıları okumak için alternatif bir yaklaşımın kullanımını
+  değiştirmek için bir komut (atanmamış) eklendi (varsayılan olarak kapalı).
 
 ## 7.0 için değişiklikler
-* NVDA 2023.1 ile uyumludur.
+* NVDA 2023.1 ile uyumlu.
 
-## 6.0 Sürümü İçin Değişiklikler
-*	NVDA 2022.1 veya üzerini gerektirir.
+## 6.0 için değişiklikler
+*	NVDA 2022.1 veya sonraki sürümünü gerektirir.
 
-## 5.0 Sürümü İçin Değişiklikler
-*	NVDA 2021.1 ile uyumludur.
+## 5.0 için değişiklikler
+*	NVDA 2021.1 ile uyumlu.
 
-## 4.0 Sürümü İçin Değişiklikler ##
-*	NVDA 2019.3 veya üzerini gerektirir.
+## 4.0 için değişiklikler ##
+*	NVDA 2019.3 veya sonraki sürümünü gerektirir.
 
-## 3.0 Sürümü İçin Değişiklikler ##
-*	 Salt okunur düzenleme kutularında metin aramak için bulma iletişim kutusunu etkinleştirmek amacıyla nvda+Kontrol+f gibi bulma iletişim kutusu kullanılabilir.
+## 3.0 için değişiklikler ##
+*	 Salt okunur düzenleme kutularında metin aramak için bulma iletişim
+   kutusunu etkinleştirmek amacıyla nvda+control+f gibi bulma iletişim
+   kutusu kullanılabilir.
 
-## 2.0 Sürümü İçin Değişiklikler ##
-*	 Eklenti yardımına Eklenti Mağazası'ndan ulaşılabilir.
+## 2.0 için değişiklikler ##
+*	 Eklenti yardımı, Eklenti Yöneticisinden edinilebilir.
 
-## 1.2 Sürümü İçin Değişiklikler ##
-*	 IRC mesajlarına geçerken seçilen metin düzgün şekilde seslendirilir.
-*	 Arama sonuçları listesine gitmek için kullanılan tuş vuruşu, odağı geçerli penceredeki mevcut herhangi bir listeye taşıyabilecek şekilde genelleştirildi.
-*	 IRC mesajlarına odaklanmak için kullanılan komut, herhangi bir salt okunur düzenleme kutusuna taşınacak şekilde genelleştirildi ve Sunucular penceresinde bağlantı bilgilerinin gözden geçirilmesini mümkün kılındı.
-*	 Fareyi hareket ettirip araç çubuğuna odakladığınızda bazı durumlarda iki kez duyuruluyordu. Bu düzeltildi.
+## 1.2 için Değişiklikler ##
+*	 IRC mesajları arasında dolaşılırken, seçilen metin düzgün bildiriliyor.
+*	 Arama sonuçları listesine gitmek için kullanılan Kısayol tuşu, odağı
+   geçerli pencerede mevcut herhangi bir listeye taşıyabilecek şekilde
+   genelleştirilmiştir.
+*	 IRC mesajlarına odaklanmak için kullanılan komut, herhangi bir salt
+   okunur düzenleme kutusuna taşınacak şekilde genelleştirildi, bu da
+   Sunucular penceresinde bağlantı bilgilerinin gözden geçirilmesini mümkün
+   kıldı.
+*	 Fare ve odak araç çubuğuna taşınırken, bazı durumlarda iki kez anons
+   ediliyordu. Bu düzeltildi.
 
-## 1.1 Sürümü İçin Değişiklikler ##
-*	 NVDA'nın yardım menüsündeki eMule öğesinde, kullanıcı yapılandırma klasörünün adında Latin olmayan karakterler bulunduğunda ortaya çıkan hata düzeltildi.
-*	 Artık kısayollar, NVDA Girdi Hareketleri iletişim kutusu kullanılarak yeniden atanabiliyor.
+## 1.1 Değişiklikler ##
+*	 NVDA yardım menüsü altındaki EMule ögesiyle ilgili sorun giderildi.
+*	 Kısayollar şimdi NVDA girdi hareketleri iletişim kutusu kullanılarak
+   yeniden atanabilir.
 
-## 1.0 Sürümü İçin Değişiklikler ##
-*	 İlk sürüm.
+## 1.0 Değişiklikler ##
+*	 İlk versiyon.
 
-[1]: http://www.emule-project.net
+
+
+[[!tag dev stable]]
+
+[1]: https://www.emule-project.net
